@@ -1,0 +1,109 @@
+2018-12-02 19:22:11,776 INFO  DownloadService - Downloading "https://github.com/kevalpatel2106/android-ringtone-picker/archive/master.zip", attempt 3
+2018-12-02 19:22:13,759 INFO  DownloadService - Downloaded https://github.com/kevalpatel2106/android-ringtone-picker/archive/master.zip, attempt 3
+2018-12-02 19:22:13,759 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/master.zip": 1 MB
+2018-12-02 19:22:13,759 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 19:22:13,765 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/master.zip: true
+2018-12-02 19:22:13,766 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src'.
+2018-12-02 19:22:13,815 INFO  FullProcessService - Size of directory with sources: 2 MB
+2018-12-02 19:22:13,815 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src]
+2018-12-02 19:22:13,832 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/.git/
+
+2018-12-02 19:22:13,836 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/gradlew
+2018-12-02 19:22:13,840 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/build.gradle
+2018-12-02 19:22:13,844 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/settings.gradle
+2018-12-02 19:22:13,844 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 19:22:13,844 INFO  ProjectFixService - Fixing project...
+2018-12-02 19:22:13,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/local.properties
+2018-12-02 19:22:13,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-02 19:22:13,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/sample/local.properties
+2018-12-02 19:22:13,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/sample/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-02 19:22:13,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/local.properties
+2018-12-02 19:22:13,857 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-02 19:22:13,857 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-02 19:22:13,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-02 19:22:13,859 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 19:22:13,859 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 19:22:13,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 19:22:20,559 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-12-02 19:22:20,560 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-02 19:22:20,560 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-02 19:22:37,438 INFO  SysUtils - Configuration on demand is an incubating feature.
+:ringtonepicker:preBuild UP-TO-DATE
+:ringtonepicker:preDebugBuild UP-TO-DATE
+:ringtonepicker:compileDebugAidl
+:ringtonepicker:compileDebugRenderscript
+:ringtonepicker:checkDebugManifest
+:ringtonepicker:generateDebugBuildConfig
+:ringtonepicker:generateDebugResValues
+:ringtonepicker:generateDebugResources
+:ringtonepicker:packageDebugResources
+:ringtonepicker:platformAttrExtractor
+:ringtonepicker:processDebugManifest
+:ringtonepicker:prepareLintJar
+:ringtonepicker:javaPreCompileDebug
+:ringtonepicker:mergeDebugConsumerProguardFiles
+:ringtonepicker:mergeDebugShaders
+:ringtonepicker:compileDebugShaders
+:ringtonepicker:generateDebugAssets
+:ringtonepicker:packageDebugAssets
+:ringtonepicker:packageDebugRenderscript NO-SOURCE
+:ringtonepicker:processDebugJavaRes NO-SOURCE
+:ringtonepicker:compileDebugNdk NO-SOURCE
+:ringtonepicker:mergeDebugJniLibFolders
+:ringtonepicker:transformNativeLibsWithMergeJniLibsForDebug
+:ringtonepicker:transformNativeLibsWithStripDebugSymbolForDebug
+:ringtonepicker:transformNativeLibsWithSyncJniLibsForDebug
+:ringtonepicker:preReleaseBuild UP-TO-DATE
+:ringtonepicker:compileReleaseAidl
+:ringtonepicker:compileReleaseRenderscript
+:ringtonepicker:checkReleaseManifest
+:ringtonepicker:generateReleaseBuildConfig
+:ringtonepicker:generateReleaseResValues
+:ringtonepicker:generateReleaseResources
+:ringtonepicker:packageReleaseResources
+:ringtonepicker:processReleaseManifest
+:ringtonepicker:javaPreCompileRelease
+:ringtonepicker:mergeReleaseConsumerProguardFiles
+:ringtonepicker:mergeReleaseShaders
+:ringtonepicker:compileReleaseShaders
+:ringtonepicker:generateReleaseAssets
+:ringtonepicker:packageReleaseAssets
+:ringtonepicker:packageReleaseRenderscript NO-SOURCE
+:ringtonepicker:processReleaseJavaRes NO-SOURCE
+:ringtonepicker:compileReleaseNdk NO-SOURCE
+:ringtonepicker:mergeReleaseJniLibFolders
+:ringtonepicker:transformNativeLibsWithMergeJniLibsForRelease
+:ringtonepicker:transformNativeLibsWithStripDebugSymbolForRelease
+:ringtonepicker:transformNativeLibsWithSyncJniLibsForRelease
+:ringtonepicker:mergeReleaseResources
+:ringtonepicker:verifyReleaseResources
+:ringtonepicker:sourcesJar
+:ringtonepicker:generateDebugRFile
+:ringtonepicker:generateDebugSources
+:ringtonepicker:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/src/main/java/com/kevalpatel/ringtonepicker/RingtonePickerDialog.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:ringtonepicker:extractDebugAnnotations
+:ringtonepicker:transformResourcesWithMergeJavaResForDebug
+:ringtonepicker:transformClassesAndResourcesWithSyncLibJarsForDebug
+:ringtonepicker:bundleDebug
+:ringtonepicker:compileDebugSources
+:ringtonepicker:assembleDebug
+:ringtonepicker:generateReleaseRFile
+:ringtonepicker:generateReleaseSources
+:ringtonepicker:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/ringtonepicker/src/main/java/com/kevalpatel/ringtonepicker/RingtonePickerDialog.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:ringtonepicker:extractReleaseAnnotations
+:ringtonepicker:transformResourcesWithMergeJavaResForRelease
+:ringtonepicker:transformClassesAndResourcesWithSyncLibJarsForRelease
+:ringtonepicker:bundleRelease
+:ringtonepicker:compileReleaseSources
+:ringtonepicker:assembleRelease
+:ringtonepicker:assemble
+:ringtonepicker:build
+
+BUILD SUCCESSFUL in 16s
+49 actionable tasks: 49 executed
+
+2018-12-02 19:22:37,488 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753331766-0/src/android-ringtone-picker-master/app/sample.apk

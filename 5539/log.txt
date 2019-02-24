@@ -1,0 +1,248 @@
+2018-10-25 18:27:58,209 INFO  DownloadService - Downloading "https://github.com/hzw1199/AndroidGpsStatus/archive/master.zip", attempt 3
+2018-10-25 18:28:00,904 INFO  DownloadService - Downloaded https://github.com/hzw1199/AndroidGpsStatus/archive/master.zip, attempt 3
+2018-10-25 18:28:00,904 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/master.zip": 1 MB
+2018-10-25 18:28:00,904 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-25 18:28:00,905 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/master.zip: true
+2018-10-25 18:28:00,905 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src'.
+2018-10-25 18:28:00,949 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-10-25 18:28:00,949 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src]
+2018-10-25 18:28:00,968 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/.git/
+
+2018-10-25 18:28:00,972 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew
+2018-10-25 18:28:00,975 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/build.gradle
+2018-10-25 18:28:00,978 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/settings.gradle
+2018-10-25 18:28:00,979 INFO  ProjectBuildService - Remote scripts: none
+2018-10-25 18:28:00,979 INFO  ProjectFixService - Fixing project...
+2018-10-25 18:28:00,987 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/local.properties
+2018-10-25 18:28:00,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-10-25 18:28:00,988 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-10-25 18:28:00,988 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/local.properties
+2018-10-25 18:28:00,989 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-10-25 18:28:00,989 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-10-25 18:28:00,990 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/local.properties
+2018-10-25 18:28:00,990 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-10-25 18:28:00,991 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-10-25 18:28:00,991 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-10-25 18:28:00,992 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2018-10-25 18:28:00,992 INFO  ProjectFixService - Project was maybe fixed
+2018-10-25 18:28:00,992 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-25 18:28:00,992 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-25 18:28:13,842 INFO  ProjectTaskService - Detected possible tasks: 64
+2018-10-25 18:28:13,842 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-10-25 18:28:13,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-10-25 18:28:39,002 INFO  SysUtils - Configuration on demand is an incubating feature.
+:GpsStatusLibrary:preBuild UP-TO-DATE
+:GpsStatusLibrary:preDebugBuild UP-TO-DATE
+:GpsStatusLibrary:compileDebugAidl
+:GpsStatusLibrary:compileDebugRenderscript
+:GpsStatusLibrary:checkDebugManifest
+:GpsStatusLibrary:generateDebugBuildConfig
+:GpsStatusLibrary:generateDebugResValues
+:GpsStatusLibrary:generateDebugResources
+:GpsStatusLibrary:packageDebugResources
+:GpsStatusLibrary:platformAttrExtractor
+:GpsStatusLibrary:processDebugManifest
+:GpsStatusLibrary:prepareLintJar
+:GpsStatusLibrary:javaPreCompileDebug
+:GpsStatusLibrary:mergeDebugConsumerProguardFiles
+:GpsStatusLibrary:mergeDebugShaders
+:GpsStatusLibrary:compileDebugShaders
+:GpsStatusLibrary:generateDebugAssets
+:GpsStatusLibrary:packageDebugAssets
+:GpsStatusLibrary:packageDebugRenderscript NO-SOURCE
+:GpsStatusLibrary:processDebugJavaRes NO-SOURCE
+:GpsStatusLibrary:compileDebugNdk NO-SOURCE
+:GpsStatusLibrary:mergeDebugJniLibFolders
+:GpsStatusLibrary:transformNativeLibsWithMergeJniLibsForDebug
+:GpsStatusLibrary:transformNativeLibsWithStripDebugSymbolForDebug
+:GpsStatusLibrary:transformNativeLibsWithSyncJniLibsForDebug
+:GpsStatusLibrary:preReleaseBuild UP-TO-DATE
+:GpsStatusLibrary:compileReleaseAidl
+:GpsStatusLibrary:compileReleaseRenderscript
+:GpsStatusLibrary:checkReleaseManifest
+:GpsStatusLibrary:generateReleaseBuildConfig
+:GpsStatusLibrary:generateReleaseResValues
+:GpsStatusLibrary:generateReleaseResources
+:GpsStatusLibrary:packageReleaseResources
+:GpsStatusLibrary:processReleaseManifest
+:GpsStatusLibrary:javaPreCompileRelease
+:GpsStatusLibrary:mergeReleaseConsumerProguardFiles
+:GpsStatusLibrary:mergeReleaseShaders
+:GpsStatusLibrary:compileReleaseShaders
+:GpsStatusLibrary:generateReleaseAssets
+:GpsStatusLibrary:packageReleaseAssets
+:GpsStatusLibrary:packageReleaseRenderscript NO-SOURCE
+:GpsStatusLibrary:processReleaseJavaRes NO-SOURCE
+:GpsStatusLibrary:compileReleaseNdk NO-SOURCE
+:GpsStatusLibrary:mergeReleaseJniLibFolders
+:GpsStatusLibrary:transformNativeLibsWithMergeJniLibsForRelease
+:GpsStatusLibrary:transformNativeLibsWithStripDebugSymbolForRelease
+:GpsStatusLibrary:transformNativeLibsWithSyncJniLibsForRelease
+:GpsStatusLibrary:mergeReleaseResources
+:GpsStatusLibrary:verifyReleaseResources
+:GpsStatusLibrary:generateDebugRFile
+:GpsStatusLibrary:generateDebugSources
+:GpsStatusLibrary:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/src/main/java/com/adam/gpsstatus/GpsStatusProxy.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:GpsStatusLibrary:extractDebugAnnotations
+:GpsStatusLibrary:transformResourcesWithMergeJavaResForDebug
+:GpsStatusLibrary:transformClassesAndResourcesWithSyncLibJarsForDebug
+:GpsStatusLibrary:bundleDebug
+:GpsStatusLibrary:compileDebugSources
+:GpsStatusLibrary:assembleDebug
+:GpsStatusLibrary:generateReleaseRFile
+:GpsStatusLibrary:generateReleaseSources
+:GpsStatusLibrary:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/src/main/java/com/adam/gpsstatus/GpsStatusProxy.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:GpsStatusLibrary:extractReleaseAnnotations
+:GpsStatusLibrary:transformResourcesWithMergeJavaResForRelease
+:GpsStatusLibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
+:GpsStatusLibrary:bundleRelease
+:GpsStatusLibrary:compileReleaseSources
+:GpsStatusLibrary:assembleRelease
+:GpsStatusLibrary:assemble
+:GpsStatusLibrary:build
+
+BUILD SUCCESSFUL in 24s
+48 actionable tasks: 48 executed
+
+2018-10-25 18:28:39,052 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-25 18:28:39,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-25 18:28:50,191 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-10-25 18:28:50,192 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-25 18:28:50,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-25 18:29:28,843 INFO  SysUtils - Configuration on demand is an incubating feature.
+:GpsStatusLibrary:preBuild UP-TO-DATE
+:GpsStatusLibrary:preDebugBuild UP-TO-DATE
+:GpsStatusLibrary:compileDebugAidl UP-TO-DATE
+:GpsStatusLibrary:compileDebugRenderscript UP-TO-DATE
+:GpsStatusLibrary:checkDebugManifest UP-TO-DATE
+:GpsStatusLibrary:generateDebugBuildConfig UP-TO-DATE
+:GpsStatusLibrary:generateDebugResValues UP-TO-DATE
+:GpsStatusLibrary:generateDebugResources UP-TO-DATE
+:GpsStatusLibrary:packageDebugResources UP-TO-DATE
+:GpsStatusLibrary:platformAttrExtractor UP-TO-DATE
+:GpsStatusLibrary:processDebugManifest UP-TO-DATE
+:GpsStatusLibrary:generateDebugRFile UP-TO-DATE
+:GpsStatusLibrary:prepareLintJar UP-TO-DATE
+:GpsStatusLibrary:generateDebugSources UP-TO-DATE
+:GpsStatusLibrary:javaPreCompileDebug UP-TO-DATE
+:GpsStatusLibrary:compileDebugJavaWithJavac UP-TO-DATE
+:GpsStatusLibrary:processDebugJavaRes NO-SOURCE
+:GpsStatusLibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl
+:GpsStatusLibrary:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:GpsStatusLibrary:mergeDebugShaders UP-TO-DATE
+:GpsStatusLibrary:compileDebugShaders UP-TO-DATE
+:GpsStatusLibrary:generateDebugAssets UP-TO-DATE
+:GpsStatusLibrary:packageDebugAssets UP-TO-DATE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:GpsStatusLibrary:compileDebugNdk NO-SOURCE
+:GpsStatusLibrary:mergeDebugJniLibFolders UP-TO-DATE
+:GpsStatusLibrary:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:GpsStatusLibrary:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:GpsStatusLibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:GpsStatusLibrary:preReleaseBuild UP-TO-DATE
+:GpsStatusLibrary:compileReleaseAidl UP-TO-DATE
+:GpsStatusLibrary:compileReleaseRenderscript UP-TO-DATE
+:GpsStatusLibrary:checkReleaseManifest UP-TO-DATE
+:GpsStatusLibrary:generateReleaseBuildConfig UP-TO-DATE
+:GpsStatusLibrary:generateReleaseResValues UP-TO-DATE
+:GpsStatusLibrary:generateReleaseResources UP-TO-DATE
+:GpsStatusLibrary:packageReleaseResources UP-TO-DATE
+:GpsStatusLibrary:processReleaseManifest UP-TO-DATE
+:GpsStatusLibrary:generateReleaseRFile UP-TO-DATE
+:GpsStatusLibrary:generateReleaseSources UP-TO-DATE
+:GpsStatusLibrary:javaPreCompileRelease UP-TO-DATE
+:GpsStatusLibrary:compileReleaseJavaWithJavac UP-TO-DATE
+:GpsStatusLibrary:processReleaseJavaRes NO-SOURCE
+:GpsStatusLibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:preReleaseBuild
+:app:compileReleaseAidl
+:GpsStatusLibrary:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+:GpsStatusLibrary:mergeReleaseShaders UP-TO-DATE
+:GpsStatusLibrary:compileReleaseShaders UP-TO-DATE
+:GpsStatusLibrary:generateReleaseAssets UP-TO-DATE
+:GpsStatusLibrary:packageReleaseAssets UP-TO-DATE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:GpsStatusLibrary:compileReleaseNdk NO-SOURCE
+:GpsStatusLibrary:mergeReleaseJniLibFolders UP-TO-DATE
+:GpsStatusLibrary:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:GpsStatusLibrary:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:GpsStatusLibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 38s
+91 actionable tasks: 57 executed, 34 up-to-date
+
+2018-10-25 18:29:28,960 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build/outputs/apk/debug/app-debug.apk

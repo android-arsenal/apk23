@@ -1,0 +1,29 @@
+{
+  "meta" : {
+    "packageName" : "com.tmall.ultraviewpager.sample",
+    "label" : "UltraViewPager",
+    "icon" : null,
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : null,
+  "dexClasses" : 1240,
+  "locales" : [ "" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.tmall.ultraviewpager.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2704002\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<application android:label=\"UltraViewPager\">\n\t\t<activity android:theme=\"@android:style/Theme.Holo.Light\" android:label=\"UltraViewPager\" android:name=\"com.tmall.ultraviewpager.sample.UPVDemoActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<action android:name=\"com.tmall.ultraviewpager\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"@android:style/Theme.Holo.Light\" android:name=\"com.tmall.ultraviewpager.sample.PagerActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 631249,
+  "crc32" : 2075939960,
+  "sha256" : "e1f9c6b79372e4475c4ddc9413cf08eb5a8791731c21b3ac641a0c246c3200b0",
+  "buildTime" : 1525952350000
+}

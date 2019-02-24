@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.russelarms.pageranimatorex",
+    "label" : "OffsetAnimator",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAItUlEQVRo3u2ZaWxc1RXHf/fe994sHtvxRnacBWcpJCEYAl1QUWkLoqJqq1ZAqyIV0UKlSi1Uaqt+oJvU9ktVFfULoRuiH6AqCmVJiVAlChRCKXsIJjiBOJvjeGLHnhnPvOWefnjjiZcZeyY45UNzpZmn99595/3/55z7v+feB+faufb/3VSd99UHhE9mHOsjcP09j6aXfXTzzyNlviqK9mkWpLrlmW+QSj+pjUhmPyvTzgWEk45E95/aveeHj952fWEmVqcKft257cJf59HfEJGyjbMAfl57lf920N9O9G5IA7cDdhrYKgQSoWNunDd2/+NcCY1zA5CY5e0qfT2rdMssY1JnUjaIuF47ZUxePQT0fOCrea7h9DmzpushUBX8WQBTf1rN8SJn3qerqMRMd8sMYXt/g7cx1zhnCl5E8GyBq80uCpLiqF3GIekmTwaURimI/85uc+oIQFXwYi2LowGuSTxR6eGLw4Dt5tnwSl6y20Cb2STqHLz1pE9NAlIPERFOlDIcVm0YIoq+oBSsyhzggkQ/uVHoS2xDmZiE1C2fcvYjMNlyup2fDH6T0vAJBIWI5c6eXVzS9h7Lo35eH+3B6+jkDLGdOYF5wSsFWqM8F6/zPEw6Q2kkiw0CAuXx8t4ukosLhIU8ynFwWxdNS6X5Bm+96dNQBKhCQhkHow3a9VBeguKJQZRSdHVMcLxsIypOAAqntRWFWvAg6EbBi0x6Rp2OhNaYVAqvtQ2tLPsHWggiU5HVqFQkGDuFiMyb+7W8Lw3PAzXAnzYolYsCEFm+mH2EFf4xmpsLvJRtwXFDpFy+2FKJgDGc5pYFlVddL3Ap17+TEiqRhShERz4mLJIsjnD5yedpyuWxw8LWbB8biv2x18sqFPlFgtxYlQmw8dyffwzMqCdEQGxEF0NcbF5ljX6XLn2CNAWMskRJSPZ6SNESFYRoTGixOSSKQGvQClBYv0SQG8fJNNcdCWlYhabPWohY0naMz7sPc6nzMhrLRNEgAulUhFICBkgBKQVtCpYLX5On2FYc4Mnxy+nzVyPaVEiEOTCZ5gqHM/H+HDJ6eroUsXTYQb6VuIdOk+Xg0TSP/2Mlz73cTueigBVL8lxz1RE2rTs1y2eOsmxJvcPm5DvsLa3mzyPXcVy6UEphfR/yOZymJqTMQqRxNdRz575gwiK3en+k02Q5cjzFb36/kVePbOSiz17J8k98ikPhZu7+00be7G+pOY8rJVyYPMCPlmxnq/cmYuNFlfV9gny+ptvl/QzieLBGXKZfYIVzDIAdu1Zim87j47d+ktW9a1i5pZsrvnIVqZVr2PHESkSEoZMJHtp1PjufWoof6GkwEsrn9o6/0pt4HRGLADbwCQv5aRK7MCokgkQRvc4rgBCGcGwwSdu6dTieU4GltGL1pT28tb+V4dEEdz94OceW38arcjMP7FwDwPBIgu0P9nDvX9YxNJTglvZHWKaOxCQEIt8nzOfiyFQt0c9oIosJpGX8dERk5q7BlHWoaxke8XCXrKeju4tVvWvoH1qBtfDbBzYTbb0NLrudex++hAQ+N7c9RpM/wpXFp/n64HbufObH9AzsxkbRNCLvq5QQYChs53xvCMcRWjMFju/rI7yiB8eLHxUr9O9+m41rx1izYhx/5x6OvrWMiZOnWH/euxRLioJeSuuSRYAwJiuwAj2JQ/zU/Ao3X8S3mlLRsvngvziQ2UST08xoJkQbM6/UzlvMPZ+/kN50HwrFDZ95j19sb+Hf9/2dpVs/hHYcDr/yDiZ7gGtvGiDhWb775d08+5/9pNMBH786i3GEVak32PdUN9ooelpfQev4DamMJcyDKudBOsgzkR/F6iKh9nCbMnE5fmYRUGAMe6KL2Jd/lvVNg6zq9vneLa9x/44xDj55HG1gZdco133pMJvW5wBob4+4/tOD02zdeuMBXt/7B5RWbNo4Xt5NE5SnQEDZmFAJQ2AEm7BoG+HlI/wmUFrXjETNJaVSKmafSPG77Of4vrmPzmSBtWt97rqjj4mcRVCkM6CNqiF98ZnrQe+W8VnXw1wsp1GoUGIZdZtRxqC0ASvYXI7QeDipNKoGAT3XtqjSGu15jKbP55fHbuJQvjV+yCiaWjWZVlUBLzXATymkKr1EIDuawJ4M4vkgH98/nFpKUiVYLB24OExkFFhLVCrWlFk91wCu1PyJJKcya/nZ0Zt5eGADpcjU2MuccUVmT2rZUop79n+EO96+gX8W1hFZRTgCJRz2Nl+ACSEhLsqPKuU6IkSlYt2bu21feG3g5OkN2Lj6tGGI9YsE42Oksv1c3fEGH1t8kK5kPq7TZorrFPC+1fSPtfNMtofnxi8iTLaC0kjgs2FsD9cO7ub5ti282H1VnO9+iG5KY5LJOJ1UnNI7P7yxHRhpbEmpyqnkuiitUcal5HrsGFnCQ8N5unSW1ekTLE2O0uYWcHWEFU0hdDgRtHC42M7B0mIKZlEMqNXDcd24Hooi9qW20dd2MSaZwHhJlNGQLI8/rSvgG9/YmkpExasvpRRaa1zHQSeS+KMjjESLyNpVkI+rVmRKf23A1aikiZ8xDso4lZ0KJRbtJSBtQRu0Y8qaqirAK+AbUaG5viaocm3vOBmU6xKMj6HLM6fMWvgrlIqXnLEU6gq5uAxxUGaKaFTATpqYG/w8EZA5PonEIEwyiTKGIJebtapCKdSkJ1GVkpkZx9PpMQ/4hmS0imRJNcVRCuV6OJnMtDRTWk8J/wKBlwaKuSjwx6QW6CnSPslTux5OU2Y6uMktlAXyvITBaL0EwvyxI48xD+hZhlwPp6m5jGRhwSsU+SOHHgeCme+tVinJ0Reefq1j8yVLtJfoljD0rO9jg7l/UeAj5VI4mihgwwAbBPH8MeUok+fB5PVg+vUZx2iilBvfv+9vL/7gO3dFYyPDM7+R1RreKaADWFQe6B/kZ9YQGAWywERdn1mnRMcpp9kHScCWSUSca+fawrf/AkHVVaF8yUOKAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1780,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.russelarms.pageranimatorex\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"OffsetAnimator\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-mdpi-v4/ic_launcher_round.png\">\n\t\t<activity android:name=\"com.russelarms.offsetanimatorsample.MainActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1703474,
+  "crc32" : 2678758217,
+  "sha256" : "cafca2bd6dc5211146d00e08390e9c0b611523edba41f94e8edf98ecdc0a25af",
+  "buildTime" : 1521759675000
+}

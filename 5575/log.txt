@@ -1,0 +1,158 @@
+2018-12-02 01:07:21,531 INFO  DownloadService - Downloading "https://github.com/martinwithaar/PinchToZoom/archive/master.zip", attempt 3
+2018-12-02 01:07:22,875 INFO  DownloadService - Downloaded https://github.com/martinwithaar/PinchToZoom/archive/master.zip, attempt 3
+2018-12-02 01:07:22,875 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/master.zip": 1012 KB
+2018-12-02 01:07:22,875 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 01:07:22,881 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/master.zip: true
+2018-12-02 01:07:22,881 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src'.
+2018-12-02 01:07:22,936 INFO  FullProcessService - Size of directory with sources: 3 MB
+2018-12-02 01:07:22,936 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src]
+2018-12-02 01:07:22,953 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/.git/
+
+2018-12-02 01:07:22,958 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/gradlew
+2018-12-02 01:07:22,963 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/pinchtozoom/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/build.gradle
+2018-12-02 01:07:22,968 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/pinchtozoom/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/pinchtozoom/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/settings.gradle
+2018-12-02 01:07:22,969 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 01:07:22,969 INFO  ProjectFixService - Fixing project...
+2018-12-02 01:07:22,982 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/app/local.properties
+2018-12-02 01:07:22,982 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-02 01:07:22,983 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/pinchtozoom/local.properties
+2018-12-02 01:07:22,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/pinchtozoom/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-02 01:07:22,985 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/local.properties
+2018-12-02 01:07:22,986 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-02 01:07:22,986 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-02 01:07:22,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-02 01:07:22,987 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 01:07:22,987 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 01:07:22,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 01:07:30,427 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-12-02 01:07:30,427 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-02 01:07:30,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-02 01:07:51,885 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:pinchtozoom:preBuild UP-TO-DATE
+:pinchtozoom:preDebugBuild UP-TO-DATE
+:pinchtozoom:checkDebugManifest
+:pinchtozoom:processDebugManifest
+:app:preDebugBuild
+:pinchtozoom:compileDebugAidl
+:app:compileDebugAidl
+:pinchtozoom:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:pinchtozoom:compileDebugRenderscript
+:pinchtozoom:generateDebugResValues
+:pinchtozoom:generateDebugResources
+:pinchtozoom:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:pinchtozoom:platformAttrExtractor
+:pinchtozoom:generateDebugBuildConfig
+:pinchtozoom:prepareLintJar
+:pinchtozoom:javaPreCompileDebug
+:pinchtozoom:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:pinchtozoom:mergeDebugShaders
+:pinchtozoom:compileDebugShaders
+:pinchtozoom:generateDebugAssets
+:pinchtozoom:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:pinchtozoom:compileDebugNdk NO-SOURCE
+:pinchtozoom:mergeDebugJniLibFolders
+:pinchtozoom:transformNativeLibsWithMergeJniLibsForDebug
+:pinchtozoom:transformNativeLibsWithStripDebugSymbolForDebug
+:pinchtozoom:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:pinchtozoom:preReleaseBuild UP-TO-DATE
+:pinchtozoom:checkReleaseManifest
+:pinchtozoom:processReleaseManifest
+:app:preReleaseBuild
+:pinchtozoom:compileReleaseAidl
+:app:compileReleaseAidl
+:pinchtozoom:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:pinchtozoom:compileReleaseRenderscript
+:pinchtozoom:generateReleaseResValues
+:pinchtozoom:generateReleaseResources
+:pinchtozoom:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:pinchtozoom:generateReleaseBuildConfig
+:pinchtozoom:javaPreCompileRelease
+:pinchtozoom:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:pinchtozoom:mergeReleaseShaders
+:pinchtozoom:compileReleaseShaders
+:pinchtozoom:generateReleaseAssets
+:pinchtozoom:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:pinchtozoom:compileReleaseNdk NO-SOURCE
+:pinchtozoom:mergeReleaseJniLibFolders
+:pinchtozoom:transformNativeLibsWithMergeJniLibsForRelease
+:pinchtozoom:transformNativeLibsWithStripDebugSymbolForRelease
+:pinchtozoom:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:pinchtozoom:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:pinchtozoom:generateDebugSources
+:pinchtozoom:compileDebugJavaWithJavac
+:pinchtozoom:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:pinchtozoom:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:pinchtozoom:generateReleaseSources
+:pinchtozoom:compileReleaseJavaWithJavac
+:pinchtozoom:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 21s
+91 actionable tasks: 91 executed
+
+2018-12-02 01:07:51,961 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543687641527-0/src/PinchToZoom-master/app/build/outputs/apk/debug/app-debug.apk

@@ -1,0 +1,107 @@
+2018-09-14 12:55:32,751 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 3
+2018-09-14 12:55:38,251 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 2
+2018-09-14 12:55:44,407 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 1
+2018-09-14 12:56:44,664 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-14 12:56:46,126 INFO  GithubDownloadService - Default branch of this repository: Version2.x
+2018-09-14 12:56:46,127 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/Version2.x.zip", attempt 3
+2018-09-14 12:57:47,900 DEBUG FullProcessService - Repository https://github.com/Ludy87/Session_Cookie_Reader available: true
+2018-09-14 12:57:47,900 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-14 12:57:47,901 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Ludy87/Session_Cookie_Reader, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src]
+2018-09-14 12:57:49,342 INFO  SysUtils - 
+2018-09-14 12:57:49,374 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/.git": true
+2018-09-14 12:57:49,376 INFO  FullProcessService - Size of directory with sources: 50 KB
+2018-09-14 12:57:49,376 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src]
+2018-09-14 12:57:49,403 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/.git/
+
+2018-09-14 12:57:49,405 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/gradlew
+2018-09-14 12:57:49,408 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/session_cookie_reader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/build.gradle
+2018-09-14 12:57:49,410 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/session_cookie_reader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/settings.gradle
+2018-09-14 12:57:49,420 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2018-09-14 12:57:50,111 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2018-09-14 12:57:50,111 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle", attempt 3
+2018-09-14 12:57:50,340 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle, attempt 3
+2018-09-14 12:57:50,340 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2018-09-14 12:57:50,437 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2018-09-14 12:57:50,437 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle", attempt 3
+2018-09-14 12:57:50,661 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle, attempt 3
+2018-09-14 12:57:50,661 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle
+2018-09-14 12:57:50,661 INFO  ProjectFixService - Fixing project...
+2018-09-14 12:57:50,669 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/session_cookie_reader/local.properties
+2018-09-14 12:57:50,670 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/session_cookie_reader/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-14 12:57:50,671 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/local.properties
+2018-09-14 12:57:50,673 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-14 12:57:50,673 INFO  ProjectFixService - Project was maybe fixed
+2018-09-14 12:57:50,673 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 12:57:50,673 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/session_cookie_reader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 12:57:51,076 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-09-14 12:57:51,078 INFO  ProjectTaskService - Detected possible tasks: 3
+2018-09-14 12:57:51,078 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2018-09-14 12:57:51,079 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/session_cookie_reader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2018-09-14 12:57:51,450 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-09-14 12:57:51,451 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+Caused by: java.lang.ClassNotFoundException: org.gradle.wrapper.GradleWrapperMain
+
+2018-09-14 12:57:51,453 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 12:57:51,453 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 12:57:51,818 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2018-09-14 12:57:51,818 INFO  ProjectTaskService - Detected possible tasks: 3
+2018-09-14 12:57:51,818 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2018-09-14 12:57:51,818 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904532749-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2018-09-14 12:57:52,193 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-09-14 12:57:52,193 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+Caused by: java.lang.ClassNotFoundException: org.gradle.wrapper.GradleWrapperMain
+
+2018-09-14 12:57:52,195 ERROR FullProcessService - Project build has not produced APK file
+2018-09-14 12:57:52,197 ERROR FullProcessService - Could not find generated or existed APK file

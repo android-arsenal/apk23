@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.yarolegovich.slidingrootnav.sample",
+    "label" : "SlidingRootSample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "21",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2153,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.yarolegovich.slidingrootnav.sample\" platformBuildVersionCode=\"26\" platformBuildVersionName=\"8.0.0\">\n\t<uses-sdk android:minSdkVersion=\"21\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f0900b1\" android:label=\"SlidingRootSample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.yarolegovich.slidingrootnav.sample.SampleActivity\" android:screenOrientation=\"portrait\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.0\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1967982,
+  "crc32" : 3546681745,
+  "sha256" : "caa0832f94534bf3a3a17423193ffde55f362a66f7869c39e5711c8f43112eb3",
+  "buildTime" : 1521827541000
+}

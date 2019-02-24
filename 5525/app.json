@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.carouseleffect",
+    "label" : "CarouselEffect",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABaFBMVEUAAAAAAAAAAAAAAAAAAABFHJ9IHbNJHrJJHbGBaLqnmsd/aLdHHa2nmsWglb09GJgAAABHHa9GHKhFHKemmcOflLszFXo9F5YAAABGHaxEHKREHKOjlsGek7oyFXg7F5MAAACkmMOkl8KilsFdQKRTPIyek7immcZtW5o7F45vXJwwE3OflLxvXZ4zFXswE3MwE3VvXZ8AAAAAAAAzFXuCbLU6F4+1qdS3qtk9GZiEbryCbLc5F463qtW4q9eEbr46GI+5rNqFb7o8GZK5rNe7rtw/G5qGcMA8GZS5rNmJccKFb7s+G5W6rdpBG5y8rtyFb7y8r9y7rttmSatBG51pSrC+sN6/seA+Gpk/G5dCG55DHKFEHKRAHJo9GZdFHaZAGZs/G5g+G5ZCHKBDHKJBG6IAAAA0EYs9GJk/G5qHcb+8r929r92KcsQ3EpIAAAAAAADi4uLh4eHj4+P+/v79/f38/Pz///+JiJc3AAAAcXRSTlMAAQIDBSVygYKmx6eFx8yNB4KHiMjNm48IhIqLys6dkgrIycqfqs/GuJO2oM21nJ+ftQQJm6+SycePrK6TycisksetkcjGjquRyKqtkMeNxqzFxp6Nm8TDjI6MioeLjoaEjY+LiXkGLH2NqsXFqCoMDfibqnEAAAG6SURBVEjH3dZXT8JQHIZxOsCqqJU6CghunKgUFyri3oBgRQUXirhQbD1tv77HBMpIT5smxhifC7gov7w3kD8Wy38JwwnSIALHqj5utTVQFNXYhKgZPmywWVWCkTbKDmsRELW2waeUjSwDnG63OxiG6UCBzq5uxmFvp/ESIFinw+V2u3tERB6vt9flcLJECZB9TsZtALy9jLOPVEH/wODgkB4Y9nkGRqqAIIji6JgOGBdFQagHE5No4NcEPiSY0lyY1gGmF/w/smAazPy9hR8FgRrABT/hlx4C1O/BMxuAr59BTgVAkuW5+QUZ0WJoSZYlUAEsAJK0vBKWEK2GIpIEAFsBigLA8loYIFoPRQBQlBqgKBubWwqi7Z3d77d6sGcWbO6bXdABBxrgcM/kwuGR6YUoEsS0F5AgHtNaONZb0ARmFhLJ6P6JDuBP4/HUWRU4vziC6SzwfDpzWQWurvUBD6sFBgt8Gi7cqIBgb7N3Bgvp+9wDXT4oeP7xKZvNPr8kk4lkAvZaqvBaKKQKqdRbJpPJPbznyycL4+hg8cOgYpDm1CuKc3nWKDrPVS41Bg87ZxA87Njv/Mv4AtwqYFxbMN4pAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2030,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.carouseleffect\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"25\" />\n\t<application android:theme=\"resourceId:0x7f08009c\" android:label=\"CarouselEffect\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.carouseleffect.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2955308,
+  "crc32" : 2310351607,
+  "sha256" : "11e74163a1973e9ef6d8db21d5055059d2f6fbe88fd258c6f58bf5c33564ac53",
+  "buildTime" : 1509680150000
+}

@@ -1,0 +1,764 @@
+2018-09-14 11:16:21,140 INFO  DownloadService - Downloading "https://github.com/chuross/recyclerview-adapters/archive/master.zip", attempt 3
+2018-09-14 11:16:21,788 INFO  DownloadService - Downloaded https://github.com/chuross/recyclerview-adapters/archive/master.zip, attempt 3
+2018-09-14 11:16:21,788 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/master.zip": 150 KB
+2018-09-14 11:16:21,788 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-14 11:16:21,794 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/master.zip: true
+2018-09-14 11:16:21,794 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src'.
+2018-09-14 11:16:21,862 INFO  FullProcessService - Size of directory with sources: 190 KB
+2018-09-14 11:16:21,863 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src]
+2018-09-14 11:16:21,896 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/.git/
+
+2018-09-14 11:16:21,906 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew
+2018-09-14 11:16:21,917 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/build.gradle
+2018-09-14 11:16:21,927 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-databinding/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/settings.gradle
+2018-09-14 11:16:21,928 INFO  ProjectBuildService - Remote scripts: none
+2018-09-14 11:16:21,928 INFO  ProjectFixService - Fixing project...
+2018-09-14 11:16:21,949 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/app/local.properties
+2018-09-14 11:16:21,950 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-09-14 11:16:21,952 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-databinding/local.properties
+2018-09-14 11:16:21,953 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-databinding/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-09-14 11:16:21,955 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-rx/local.properties
+2018-09-14 11:16:21,957 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-rx/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-09-14 11:16:21,958 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters/local.properties
+2018-09-14 11:16:21,959 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-09-14 11:16:21,960 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/local.properties
+2018-09-14 11:16:21,961 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-09-14 11:16:21,962 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-09-14 11:16:21,965 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2018-09-14 11:16:21,965 INFO  ProjectFixService - Project was maybe fixed
+2018-09-14 11:16:21,965 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 11:16:21,966 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 11:16:42,820 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-09-14 11:16:42,820 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-14 11:16:42,820 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-14 11:17:27,048 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-09-14 11:17:27,048 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:app:checkDebugClasspath
+:app:preBuild UP-TO-DATE
+:recyclerview-adapters:preBuild UP-TO-DATE
+:recyclerview-adapters:preDebugBuild UP-TO-DATE
+:recyclerview-adapters:checkDebugManifest
+:recyclerview-adapters:processDebugManifest
+:recyclerview-adapters-databinding:preBuild UP-TO-DATE
+:recyclerview-adapters-databinding:preDebugBuild UP-TO-DATE
+:recyclerview-adapters-databinding:checkDebugManifest
+:recyclerview-adapters-databinding:processDebugManifest
+:recyclerview-adapters-rx:preBuild UP-TO-DATE
+:recyclerview-adapters-rx:preDebugBuild UP-TO-DATE
+:recyclerview-adapters-rx:checkDebugManifest
+:recyclerview-adapters-rx:processDebugManifest
+:app:preDebugBuild
+:recyclerview-adapters:compileDebugAidl NO-SOURCE
+:recyclerview-adapters-databinding:compileDebugAidl NO-SOURCE
+:recyclerview-adapters-rx:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:recyclerview-adapters:packageDebugRenderscript NO-SOURCE
+:recyclerview-adapters-databinding:packageDebugRenderscript NO-SOURCE
+:recyclerview-adapters-rx:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:recyclerview-adapters:compileDebugRenderscript
+:recyclerview-adapters:generateDebugResValues
+:recyclerview-adapters:generateDebugResources
+:recyclerview-adapters:packageDebugResources
+:recyclerview-adapters-databinding:compileDebugRenderscript
+:recyclerview-adapters-databinding:generateDebugResValues
+:recyclerview-adapters-databinding:generateDebugResources
+:recyclerview-adapters-databinding:packageDebugResources
+:recyclerview-adapters-rx:compileDebugRenderscript
+:recyclerview-adapters-rx:generateDebugResValues
+:recyclerview-adapters-rx:generateDebugResources
+:recyclerview-adapters-rx:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:recyclerview-adapters:generateDebugRFile
+:recyclerview-adapters-databinding:generateDebugRFile
+:recyclerview-adapters-rx:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:app:dataBindingExportBuildInfoDebug
+:recyclerview-adapters:generateDebugBuildConfig
+:recyclerview-adapters:prepareLintJar
+:recyclerview-adapters:generateDebugSources
+:recyclerview-adapters:javaPreCompileDebug
+:recyclerview-adapters:compileDebugJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:recyclerview-adapters:processDebugJavaRes NO-SOURCE
+:recyclerview-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:recyclerview-adapters-databinding:generateDebugBuildConfig
+:recyclerview-adapters-databinding:prepareLintJar
+:recyclerview-adapters-databinding:generateDebugSources
+:recyclerview-adapters-databinding:dataBindingExportBuildInfoDebug
+:recyclerview-adapters-databinding:dataBindingMergeDependencyArtifactsDebug
+:recyclerview-adapters-databinding:mergeDebugResources
+:recyclerview-adapters-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug
+:recyclerview-adapters-databinding:dataBindingGenBaseClassesDebug
+:recyclerview-adapters-databinding:javaPreCompileDebug
+ERROR: [TAG] Failed to resolve variable '${project.version}'
+ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
+:recyclerview-adapters-databinding:compileDebugJavaWithJavacerror: Bad service configuration file, or exception thrown while constructing Processor object: javax.annotation.processing.Processor: android.databinding.annotationprocessor.ProcessDataBinding Unable to get public no-arg constructor
+1 error
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':recyclerview-adapters-databinding:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':recyclerview-adapters-databinding:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:37)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:98)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:51)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:37)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:35)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:156)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:141)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:114)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile.compile(AndroidJavaCompile.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 43s
+46 actionable tasks: 46 executed
+
+2018-09-14 11:17:27,126 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 11:17:27,126 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 11:17:33,659 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-14 11:17:33,659 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-14 11:17:33,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-databinding/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-14 11:17:42,782 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-09-14 11:17:42,782 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:recyclerview-adapters:preBuild UP-TO-DATE
+:recyclerview-adapters:preDebugBuild UP-TO-DATE
+:recyclerview-adapters:compileDebugAidl NO-SOURCE
+:recyclerview-adapters-databinding:preBuild UP-TO-DATE
+:recyclerview-adapters-databinding:preDebugBuild UP-TO-DATE
+:recyclerview-adapters-databinding:compileDebugAidl NO-SOURCE
+:recyclerview-adapters:compileDebugRenderscript UP-TO-DATE
+:recyclerview-adapters:checkDebugManifest UP-TO-DATE
+:recyclerview-adapters:generateDebugBuildConfig UP-TO-DATE
+:recyclerview-adapters:generateDebugResValues UP-TO-DATE
+:recyclerview-adapters:generateDebugResources UP-TO-DATE
+:recyclerview-adapters:packageDebugResources UP-TO-DATE
+:recyclerview-adapters:processDebugManifest UP-TO-DATE
+:recyclerview-adapters:generateDebugRFile UP-TO-DATE
+:recyclerview-adapters:prepareLintJar UP-TO-DATE
+:recyclerview-adapters:generateDebugSources UP-TO-DATE
+:recyclerview-adapters:javaPreCompileDebug UP-TO-DATE
+:recyclerview-adapters:compileDebugJavaWithJavac UP-TO-DATE
+:recyclerview-adapters:processDebugJavaRes NO-SOURCE
+:recyclerview-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:recyclerview-adapters:packageDebugRenderscript NO-SOURCE
+:recyclerview-adapters-databinding:compileDebugRenderscript UP-TO-DATE
+:recyclerview-adapters-databinding:checkDebugManifest UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugBuildConfig UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugResValues UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugResources UP-TO-DATE
+:recyclerview-adapters-databinding:packageDebugResources UP-TO-DATE
+:recyclerview-adapters-databinding:processDebugManifest UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugRFile UP-TO-DATE
+:recyclerview-adapters-databinding:prepareLintJar UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugSources UP-TO-DATE
+:recyclerview-adapters-databinding:dataBindingExportBuildInfoDebug UP-TO-DATE
+:recyclerview-adapters-databinding:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+:recyclerview-adapters-databinding:mergeDebugResources UP-TO-DATE
+:recyclerview-adapters-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+:recyclerview-adapters-databinding:dataBindingGenBaseClassesDebug UP-TO-DATE
+:recyclerview-adapters-databinding:javaPreCompileDebug UP-TO-DATE
+:recyclerview-adapters-databinding:compileDebugJavaWithJavacerror: Bad service configuration file, or exception thrown while constructing Processor object: javax.annotation.processing.Processor: android.databinding.annotationprocessor.ProcessDataBinding Unable to get public no-arg constructor
+1 error
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':recyclerview-adapters-databinding:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':recyclerview-adapters-databinding:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:37)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:98)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:51)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:37)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:35)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:156)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:141)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:114)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile.compile(AndroidJavaCompile.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s
+26 actionable tasks: 1 executed, 25 up-to-date
+
+2018-09-14 11:17:42,863 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 11:17:42,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 11:17:50,219 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-14 11:17:50,219 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-14 11:17:50,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-14 11:18:03,855 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:recyclerview-adapters:preBuild UP-TO-DATE
+:recyclerview-adapters:preDebugBuild UP-TO-DATE
+:recyclerview-adapters:compileDebugAidl NO-SOURCE
+:recyclerview-adapters-rx:preBuild UP-TO-DATE
+:recyclerview-adapters-rx:preDebugBuild UP-TO-DATE
+:recyclerview-adapters-rx:compileDebugAidl NO-SOURCE
+:recyclerview-adapters:compileDebugRenderscript UP-TO-DATE
+:recyclerview-adapters:checkDebugManifest UP-TO-DATE
+:recyclerview-adapters:generateDebugBuildConfig UP-TO-DATE
+:recyclerview-adapters:generateDebugResValues UP-TO-DATE
+:recyclerview-adapters:generateDebugResources UP-TO-DATE
+:recyclerview-adapters:packageDebugResources UP-TO-DATE
+:recyclerview-adapters:processDebugManifest UP-TO-DATE
+:recyclerview-adapters:generateDebugRFile UP-TO-DATE
+:recyclerview-adapters:prepareLintJar UP-TO-DATE
+:recyclerview-adapters:generateDebugSources UP-TO-DATE
+:recyclerview-adapters:javaPreCompileDebug UP-TO-DATE
+:recyclerview-adapters:compileDebugJavaWithJavac UP-TO-DATE
+:recyclerview-adapters:processDebugJavaRes NO-SOURCE
+:recyclerview-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:recyclerview-adapters:packageDebugRenderscript NO-SOURCE
+:recyclerview-adapters-rx:compileDebugRenderscript UP-TO-DATE
+:recyclerview-adapters-rx:checkDebugManifest UP-TO-DATE
+:recyclerview-adapters-rx:generateDebugBuildConfig
+:recyclerview-adapters-rx:generateDebugResValues UP-TO-DATE
+:recyclerview-adapters-rx:generateDebugResources UP-TO-DATE
+:recyclerview-adapters-rx:packageDebugResources UP-TO-DATE
+:recyclerview-adapters-rx:processDebugManifest UP-TO-DATE
+:recyclerview-adapters-rx:generateDebugRFile UP-TO-DATE
+:recyclerview-adapters-rx:prepareLintJar
+:recyclerview-adapters-rx:generateDebugSources
+:recyclerview-adapters-rx:javaPreCompileDebug
+:recyclerview-adapters-rx:compileDebugJavaWithJavac
+:recyclerview-adapters-rx:extractDebugAnnotations
+:recyclerview-adapters-rx:mergeDebugConsumerProguardFiles
+:recyclerview-adapters-rx:mergeDebugShaders
+:recyclerview-adapters-rx:compileDebugShaders
+:recyclerview-adapters-rx:generateDebugAssets
+:recyclerview-adapters-rx:packageDebugAssets
+:recyclerview-adapters-rx:packageDebugRenderscript NO-SOURCE
+:recyclerview-adapters-rx:processDebugJavaRes NO-SOURCE
+:recyclerview-adapters-rx:transformResourcesWithMergeJavaResForDebug
+:recyclerview-adapters-rx:transformClassesAndResourcesWithSyncLibJarsForDebug
+:recyclerview-adapters-rx:compileDebugNdk NO-SOURCE
+:recyclerview-adapters-rx:mergeDebugJniLibFolders
+:recyclerview-adapters-rx:transformNativeLibsWithMergeJniLibsForDebug
+:recyclerview-adapters-rx:transformNativeLibsWithStripDebugSymbolForDebug
+:recyclerview-adapters-rx:transformNativeLibsWithSyncJniLibsForDebug
+:recyclerview-adapters-rx:bundleDebugAar
+:recyclerview-adapters-rx:compileDebugSources
+:recyclerview-adapters-rx:assembleDebug
+:recyclerview-adapters:preReleaseBuild UP-TO-DATE
+:recyclerview-adapters:compileReleaseAidl NO-SOURCE
+:recyclerview-adapters-rx:preReleaseBuild UP-TO-DATE
+:recyclerview-adapters-rx:compileReleaseAidl NO-SOURCE
+:recyclerview-adapters:compileReleaseRenderscript
+:recyclerview-adapters:checkReleaseManifest
+:recyclerview-adapters:generateReleaseBuildConfig
+:recyclerview-adapters:generateReleaseResValues
+:recyclerview-adapters:generateReleaseResources
+:recyclerview-adapters:packageReleaseResources
+:recyclerview-adapters:processReleaseManifest
+:recyclerview-adapters:generateReleaseRFile
+:recyclerview-adapters:generateReleaseSources
+:recyclerview-adapters:javaPreCompileRelease
+:recyclerview-adapters:compileReleaseJavaWithJavacNote: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:recyclerview-adapters:processReleaseJavaRes NO-SOURCE
+:recyclerview-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:recyclerview-adapters:packageReleaseRenderscript NO-SOURCE
+:recyclerview-adapters-rx:compileReleaseRenderscript
+:recyclerview-adapters-rx:checkReleaseManifest
+:recyclerview-adapters-rx:generateReleaseBuildConfig
+:recyclerview-adapters-rx:generateReleaseResValues
+:recyclerview-adapters-rx:generateReleaseResources
+:recyclerview-adapters-rx:packageReleaseResources
+:recyclerview-adapters-rx:processReleaseManifest
+:recyclerview-adapters-rx:generateReleaseRFile
+:recyclerview-adapters-rx:generateReleaseSources
+:recyclerview-adapters-rx:javaPreCompileRelease
+:recyclerview-adapters-rx:compileReleaseJavaWithJavac
+:recyclerview-adapters-rx:extractReleaseAnnotations
+:recyclerview-adapters-rx:mergeReleaseConsumerProguardFiles
+:recyclerview-adapters-rx:mergeReleaseShaders
+:recyclerview-adapters-rx:compileReleaseShaders
+:recyclerview-adapters-rx:generateReleaseAssets
+:recyclerview-adapters-rx:packageReleaseAssets
+:recyclerview-adapters-rx:packageReleaseRenderscript NO-SOURCE
+:recyclerview-adapters-rx:processReleaseJavaRes NO-SOURCE
+:recyclerview-adapters-rx:transformResourcesWithMergeJavaResForRelease
+:recyclerview-adapters-rx:transformClassesAndResourcesWithSyncLibJarsForRelease
+:recyclerview-adapters-rx:compileReleaseNdk NO-SOURCE
+:recyclerview-adapters-rx:mergeReleaseJniLibFolders
+:recyclerview-adapters-rx:transformNativeLibsWithMergeJniLibsForRelease
+:recyclerview-adapters-rx:transformNativeLibsWithStripDebugSymbolForRelease
+:recyclerview-adapters-rx:transformNativeLibsWithSyncJniLibsForRelease
+:recyclerview-adapters-rx:bundleReleaseAar
+:recyclerview-adapters-rx:compileReleaseSources
+:recyclerview-adapters-rx:mergeReleaseResources
+:recyclerview-adapters-rx:verifyReleaseResources
+:recyclerview-adapters-rx:assembleRelease
+:recyclerview-adapters-rx:assemble
+:recyclerview-adapters-rx:build
+
+BUILD SUCCESSFUL in 13s
+66 actionable tasks: 49 executed, 17 up-to-date
+
+2018-09-14 11:18:03,989 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 11:18:03,989 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 11:18:10,264 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-14 11:18:10,264 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-14 11:18:10,264 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/recyclerview-adapters/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-14 11:18:19,014 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:recyclerview-adapters:preBuild UP-TO-DATE
+:recyclerview-adapters:preDebugBuild UP-TO-DATE
+:recyclerview-adapters:compileDebugAidl NO-SOURCE
+:recyclerview-adapters:compileDebugRenderscript UP-TO-DATE
+:recyclerview-adapters:checkDebugManifest UP-TO-DATE
+:recyclerview-adapters:generateDebugBuildConfig UP-TO-DATE
+:recyclerview-adapters:generateDebugResValues UP-TO-DATE
+:recyclerview-adapters:generateDebugResources UP-TO-DATE
+:recyclerview-adapters:packageDebugResources UP-TO-DATE
+:recyclerview-adapters:processDebugManifest UP-TO-DATE
+:recyclerview-adapters:generateDebugRFile UP-TO-DATE
+:recyclerview-adapters:prepareLintJar UP-TO-DATE
+:recyclerview-adapters:generateDebugSources UP-TO-DATE
+:recyclerview-adapters:javaPreCompileDebug UP-TO-DATE
+:recyclerview-adapters:compileDebugJavaWithJavac UP-TO-DATE
+:recyclerview-adapters:extractDebugAnnotations
+:recyclerview-adapters:mergeDebugConsumerProguardFiles
+:recyclerview-adapters:mergeDebugShaders
+:recyclerview-adapters:compileDebugShaders
+:recyclerview-adapters:generateDebugAssets
+:recyclerview-adapters:packageDebugAssets
+:recyclerview-adapters:packageDebugRenderscript NO-SOURCE
+:recyclerview-adapters:processDebugJavaRes NO-SOURCE
+:recyclerview-adapters:transformResourcesWithMergeJavaResForDebug
+:recyclerview-adapters:transformClassesAndResourcesWithSyncLibJarsForDebug
+:recyclerview-adapters:compileDebugNdk NO-SOURCE
+:recyclerview-adapters:mergeDebugJniLibFolders
+:recyclerview-adapters:transformNativeLibsWithMergeJniLibsForDebug
+:recyclerview-adapters:transformNativeLibsWithStripDebugSymbolForDebug
+:recyclerview-adapters:transformNativeLibsWithSyncJniLibsForDebug
+:recyclerview-adapters:bundleDebugAar
+:recyclerview-adapters:compileDebugSources UP-TO-DATE
+:recyclerview-adapters:assembleDebug
+:recyclerview-adapters:preReleaseBuild UP-TO-DATE
+:recyclerview-adapters:compileReleaseAidl NO-SOURCE
+:recyclerview-adapters:compileReleaseRenderscript UP-TO-DATE
+:recyclerview-adapters:checkReleaseManifest UP-TO-DATE
+:recyclerview-adapters:generateReleaseBuildConfig UP-TO-DATE
+:recyclerview-adapters:generateReleaseResValues UP-TO-DATE
+:recyclerview-adapters:generateReleaseResources UP-TO-DATE
+:recyclerview-adapters:packageReleaseResources UP-TO-DATE
+:recyclerview-adapters:processReleaseManifest UP-TO-DATE
+:recyclerview-adapters:generateReleaseRFile UP-TO-DATE
+:recyclerview-adapters:generateReleaseSources UP-TO-DATE
+:recyclerview-adapters:javaPreCompileRelease UP-TO-DATE
+:recyclerview-adapters:compileReleaseJavaWithJavac UP-TO-DATE
+:recyclerview-adapters:extractReleaseAnnotations
+:recyclerview-adapters:mergeReleaseConsumerProguardFiles
+:recyclerview-adapters:mergeReleaseShaders
+:recyclerview-adapters:compileReleaseShaders
+:recyclerview-adapters:generateReleaseAssets
+:recyclerview-adapters:packageReleaseAssets
+:recyclerview-adapters:packageReleaseRenderscript NO-SOURCE
+:recyclerview-adapters:processReleaseJavaRes NO-SOURCE
+:recyclerview-adapters:transformResourcesWithMergeJavaResForRelease
+:recyclerview-adapters:transformClassesAndResourcesWithSyncLibJarsForRelease
+:recyclerview-adapters:compileReleaseNdk NO-SOURCE
+:recyclerview-adapters:mergeReleaseJniLibFolders
+:recyclerview-adapters:transformNativeLibsWithMergeJniLibsForRelease
+:recyclerview-adapters:transformNativeLibsWithStripDebugSymbolForRelease
+:recyclerview-adapters:transformNativeLibsWithSyncJniLibsForRelease
+:recyclerview-adapters:bundleReleaseAar
+:recyclerview-adapters:compileReleaseSources UP-TO-DATE
+:recyclerview-adapters:mergeReleaseResources
+:recyclerview-adapters:verifyReleaseResources
+:recyclerview-adapters:assembleRelease
+:recyclerview-adapters:assemble
+:recyclerview-adapters:build
+
+BUILD SUCCESSFUL in 8s
+45 actionable tasks: 26 executed, 19 up-to-date
+
+2018-09-14 11:18:19,173 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 11:18:19,173 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 11:18:26,565 INFO  ProjectTaskService - Detected possible tasks: 72
+2018-09-14 11:18:26,566 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-14 11:18:26,566 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536898581135-0/src/recyclerview-adapters-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-14 11:18:35,725 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.base/java.lang.Thread.run(Thread.java:844)
+2018-09-14 11:18:35,725 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.6-bin/4jp4stjndanmxuerzfseyb6wo/gradle-4.6/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:app:checkDebugClasspath UP-TO-DATE
+:app:preBuild UP-TO-DATE
+:recyclerview-adapters:preBuild UP-TO-DATE
+:recyclerview-adapters:preDebugBuild UP-TO-DATE
+:recyclerview-adapters:checkDebugManifest UP-TO-DATE
+:recyclerview-adapters:processDebugManifest UP-TO-DATE
+:recyclerview-adapters-databinding:preBuild UP-TO-DATE
+:recyclerview-adapters-databinding:preDebugBuild UP-TO-DATE
+:recyclerview-adapters-databinding:checkDebugManifest UP-TO-DATE
+:recyclerview-adapters-databinding:processDebugManifest UP-TO-DATE
+:recyclerview-adapters-rx:preBuild UP-TO-DATE
+:recyclerview-adapters-rx:preDebugBuild UP-TO-DATE
+:recyclerview-adapters-rx:checkDebugManifest UP-TO-DATE
+:recyclerview-adapters-rx:processDebugManifest UP-TO-DATE
+:app:preDebugBuild UP-TO-DATE
+:recyclerview-adapters:compileDebugAidl NO-SOURCE
+:recyclerview-adapters-databinding:compileDebugAidl NO-SOURCE
+:recyclerview-adapters-rx:compileDebugAidl NO-SOURCE
+:app:compileDebugAidl NO-SOURCE
+:recyclerview-adapters:packageDebugRenderscript NO-SOURCE
+:recyclerview-adapters-databinding:packageDebugRenderscript NO-SOURCE
+:recyclerview-adapters-rx:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript UP-TO-DATE
+:app:checkDebugManifest UP-TO-DATE
+:app:generateDebugBuildConfig UP-TO-DATE
+:app:prepareLintJar UP-TO-DATE
+:app:mainApkListPersistenceDebug UP-TO-DATE
+:app:generateDebugResValues UP-TO-DATE
+:app:generateDebugResources UP-TO-DATE
+:recyclerview-adapters:compileDebugRenderscript UP-TO-DATE
+:recyclerview-adapters:generateDebugResValues UP-TO-DATE
+:recyclerview-adapters:generateDebugResources UP-TO-DATE
+:recyclerview-adapters:packageDebugResources UP-TO-DATE
+:recyclerview-adapters-databinding:compileDebugRenderscript UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugResValues UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugResources UP-TO-DATE
+:recyclerview-adapters-databinding:packageDebugResources UP-TO-DATE
+:recyclerview-adapters-rx:compileDebugRenderscript UP-TO-DATE
+:recyclerview-adapters-rx:generateDebugResValues UP-TO-DATE
+:recyclerview-adapters-rx:generateDebugResources UP-TO-DATE
+:recyclerview-adapters-rx:packageDebugResources UP-TO-DATE
+:app:mergeDebugResources UP-TO-DATE
+:app:createDebugCompatibleScreenManifests UP-TO-DATE
+:app:processDebugManifest UP-TO-DATE
+:app:splitsDiscoveryTaskDebug UP-TO-DATE
+:recyclerview-adapters:generateDebugRFile UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugRFile UP-TO-DATE
+:recyclerview-adapters-rx:generateDebugRFile UP-TO-DATE
+:app:processDebugResources UP-TO-DATE
+:app:generateDebugSources UP-TO-DATE
+:app:dataBindingExportBuildInfoDebug UP-TO-DATE
+:recyclerview-adapters:generateDebugBuildConfig UP-TO-DATE
+:recyclerview-adapters:prepareLintJar UP-TO-DATE
+:recyclerview-adapters:generateDebugSources UP-TO-DATE
+:recyclerview-adapters:javaPreCompileDebug UP-TO-DATE
+:recyclerview-adapters:compileDebugJavaWithJavac UP-TO-DATE
+:recyclerview-adapters:processDebugJavaRes NO-SOURCE
+:recyclerview-adapters:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugBuildConfig UP-TO-DATE
+:recyclerview-adapters-databinding:prepareLintJar UP-TO-DATE
+:recyclerview-adapters-databinding:generateDebugSources UP-TO-DATE
+:recyclerview-adapters-databinding:dataBindingExportBuildInfoDebug UP-TO-DATE
+:recyclerview-adapters-databinding:dataBindingMergeDependencyArtifactsDebug UP-TO-DATE
+:recyclerview-adapters-databinding:mergeDebugResources UP-TO-DATE
+:recyclerview-adapters-databinding:transformDataBindingBaseClassLogWithDataBindingMergeGenClassesForDebug UP-TO-DATE
+:recyclerview-adapters-databinding:dataBindingGenBaseClassesDebug UP-TO-DATE
+:recyclerview-adapters-databinding:javaPreCompileDebug UP-TO-DATE
+:recyclerview-adapters-databinding:compileDebugJavaWithJavacerror: Bad service configuration file, or exception thrown while constructing Processor object: javax.annotation.processing.Processor: android.databinding.annotationprocessor.ProcessDataBinding Unable to get public no-arg constructor
+1 error
+ FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Execution failed for task ':recyclerview-adapters-databinding:compileDebugJavaWithJavac'.
+> Compilation failed; see the compiler error output for details.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':recyclerview-adapters-databinding:compileDebugJavaWithJavac'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:103)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.OutputDirectoryCreatingTaskExecuter.execute(OutputDirectoryCreatingTaskExecuter.java:51)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:101)
+	at org.gradle.api.internal.tasks.execution.FinalizeInputFilePropertiesTaskExecuter.execute(FinalizeInputFilePropertiesTaskExecuter.java:44)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:91)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:59)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:256)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:249)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:238)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:663)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:597)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Compilation failed; see the compiler error output for details.
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:52)
+	at org.gradle.api.internal.tasks.compile.JdkJavaCompiler.execute(JdkJavaCompiler.java:37)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.delegateAndHandleErrors(NormalizingJavaCompiler.java:98)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:51)
+	at org.gradle.api.internal.tasks.compile.NormalizingJavaCompiler.execute(NormalizingJavaCompiler.java:37)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:35)
+	at org.gradle.api.internal.tasks.compile.CleaningJavaCompilerSupport.execute(CleaningJavaCompilerSupport.java:25)
+	at org.gradle.api.tasks.compile.JavaCompile.performCompilation(JavaCompile.java:156)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:141)
+	at org.gradle.api.tasks.compile.JavaCompile.compile(JavaCompile.java:114)
+	at com.android.build.gradle.tasks.factory.AndroidJavaCompile.compile(AndroidJavaCompile.java:92)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:73)
+	at org.gradle.api.internal.project.taskfactory.IncrementalTaskAction.doExecute(IncrementalTaskAction.java:50)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:39)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:26)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$1.run(ExecuteActionsTaskExecuter.java:124)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:113)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:95)
+	... 30 more
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 8s
+46 actionable tasks: 1 executed, 45 up-to-date
+
+2018-09-14 11:18:35,902 ERROR FullProcessService - Project build has not produced APK file
+2018-09-14 11:18:36,060 ERROR FullProcessService - Could not find generated or existed APK file

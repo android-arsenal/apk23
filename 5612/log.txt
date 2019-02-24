@@ -1,0 +1,9 @@
+2018-12-11 14:00:03,119 INFO  DownloadService - Downloading "https://github.com/adib2149/FormMaster/archive/master.zip", attempt 3
+2018-12-11 14:00:03,119 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-12-11 14:00:04,777 INFO  GithubDownloadService - Default branch of this repository: master
+2018-12-11 14:00:04,778 INFO  DownloadService - Downloading "https://github.com/adib2149/FormMaster/archive/master.zip", attempt 3
+2018-12-11 14:00:04,778 DEBUG FullProcessService - Repository https://github.com/adib2149/FormMaster available: false
+2018-12-11 14:00:04,778 ERROR FullProcessService - Could not find directory with sources
+2018-12-11 14:00:04,778 ERROR FullProcessService - Project will not be processed
+2018-12-11 14:00:04,778 ERROR FullProcessService - Project build has not produced APK file
+2018-12-11 14:00:04,778 ERROR FullProcessService - Could not find generated or existed APK file

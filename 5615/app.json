@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.wealthfront.magellan.sample",
+    "label" : "Magellan Advanced Sample",
+    "icon" : "res/mipmap-mdpi-v4/magellan_icon.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "27",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : null,
+    "compileSdkVersionCodename" : null,
+    "platformBuildVersionCode" : null,
+    "platformBuildVersionName" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/magellan_icon.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 3556,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.wealthfront.magellan.sample\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"27\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0c0005\" android:label=\"Magellan Advanced Sample\" android:icon=\"res/mipmap-xxxhdpi-v4/magellan_icon.png\" android:name=\"com.wealthfront.magellan.sample.advanced.SampleApplication\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/magellan_icon.png\">\n\t\t<activity android:name=\"com.wealthfront.magellan.sample.advanced.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 3555218,
+  "crc32" : 653972428,
+  "sha256" : "1b4a3ce6b28dffe0c8f570cfd6a0efc9bf85d057d022992c5d138d77834fc378",
+  "buildTime" : 1544363731000
+}

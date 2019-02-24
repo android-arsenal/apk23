@@ -1,0 +1,258 @@
+2018-09-14 12:53:33,332 INFO  DownloadService - Downloading "https://github.com/kevalpatel2106/PasscodeView/archive/master.zip", attempt 3
+2018-09-14 12:53:34,934 INFO  DownloadService - Downloaded https://github.com/kevalpatel2106/PasscodeView/archive/master.zip, attempt 3
+2018-09-14 12:53:34,934 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/master.zip": 2 MB
+2018-09-14 12:53:34,934 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-14 12:53:34,935 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/master.zip: true
+2018-09-14 12:53:34,936 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src'.
+2018-09-14 12:53:35,083 INFO  FullProcessService - Size of directory with sources: 7 MB
+2018-09-14 12:53:35,083 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src]
+2018-09-14 12:53:35,109 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/.git/
+
+2018-09-14 12:53:35,117 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/gradlew
+2018-09-14 12:53:35,127 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/passcodeview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/build.gradle
+2018-09-14 12:53:35,137 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/passcodeview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/settings.gradle
+2018-09-14 12:53:35,138 INFO  ProjectBuildService - Remote scripts: none
+2018-09-14 12:53:35,138 INFO  ProjectFixService - Fixing project...
+2018-09-14 12:53:35,160 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/local.properties
+2018-09-14 12:53:35,161 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-14 12:53:35,162 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/passcodeview/local.properties
+2018-09-14 12:53:35,163 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/passcodeview/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-14 12:53:35,163 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/local.properties
+2018-09-14 12:53:35,164 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-14 12:53:35,164 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-14 12:53:35,165 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=27,minSdkVersion=16,targetSdkVersion=27]
+2018-09-14 12:53:35,166 INFO  ProjectFixService - Project was maybe fixed
+2018-09-14 12:53:35,166 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 12:53:35,166 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 12:53:44,537 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-09-14 12:53:44,537 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-14 12:53:44,538 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-14 12:54:20,750 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:passcodeview:preBuild UP-TO-DATE
+:passcodeview:preDebugBuild UP-TO-DATE
+:passcodeview:checkDebugManifest
+:passcodeview:processDebugManifest
+:app:preDebugBuild
+:passcodeview:compileDebugAidl
+:app:compileDebugAidl
+:passcodeview:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:passcodeview:compileDebugRenderscript
+:passcodeview:generateDebugResValues
+:passcodeview:generateDebugResources
+:passcodeview:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:passcodeview:platformAttrExtractor
+:passcodeview:generateDebugBuildConfig
+:passcodeview:prepareLintJar
+:passcodeview:javaPreCompileDebug
+:passcodeview:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:passcodeview:mergeDebugShaders
+:passcodeview:compileDebugShaders
+:passcodeview:generateDebugAssets
+:passcodeview:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:passcodeview:compileDebugNdk NO-SOURCE
+:passcodeview:mergeDebugJniLibFolders
+:passcodeview:transformNativeLibsWithMergeJniLibsForDebug
+:passcodeview:transformNativeLibsWithStripDebugSymbolForDebug
+:passcodeview:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:app:extractProguardFiles
+:passcodeview:preReleaseBuild UP-TO-DATE
+:passcodeview:checkReleaseManifest
+:passcodeview:processReleaseManifest
+:app:preReleaseBuild
+:passcodeview:compileReleaseAidl
+:app:compileReleaseAidl
+:passcodeview:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:passcodeview:compileReleaseRenderscript
+:passcodeview:generateReleaseResValues
+:passcodeview:generateReleaseResources
+:passcodeview:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:passcodeview:generateReleaseBuildConfig
+:passcodeview:javaPreCompileRelease
+:passcodeview:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:passcodeview:mergeReleaseShaders
+:passcodeview:compileReleaseShaders
+:passcodeview:generateReleaseAssets
+:passcodeview:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:processReleaseJavaRes NO-SOURCE
+:passcodeview:mergeReleaseConsumerProguardFiles
+:app:mergeReleaseJniLibFolders
+:passcodeview:compileReleaseNdk NO-SOURCE
+:passcodeview:mergeReleaseJniLibFolders
+:passcodeview:transformNativeLibsWithMergeJniLibsForRelease
+:passcodeview:transformNativeLibsWithStripDebugSymbolForRelease
+:passcodeview:transformNativeLibsWithIntermediateJniLibsForRelease
+:passcodeview:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:passcodeview:generateDebugSources
+:passcodeview:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:passcodeview:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:passcodeview:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:passcodeview:generateReleaseSources
+:passcodeview:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:passcodeview:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseSources
+:app:lintVitalRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:transformClassesAndResourcesWithProguardForRelease
+Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
+thread-pool size=4
+ProGuard, version 5.3.3
+Reading input...
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1f9e7c0060b209d9c420bf83fa717968/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/659a03f39b2513e2b446b40d6ee0c481/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a4cdecae9b75c53354b612897a0e7335/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9dc5c7e22182a08c3de2d294f2f7a39c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/47647f916f8643ebaa81171b31ad6d30/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/efc558687ff1f5a150d421bc7124d8d2/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/02a71f35561120de60115e81c1f0b183/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/786ba8642063d7eb423a3e930c654753/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+Reading program jar [/Users/vbauer/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/128e925a10c52c555026039b3efcc16b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d6f69cf7b993c500d6922f4274dacbfd/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/054ae679a4d5cfdd65bc0e372a8a01b6/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e365307fcd9c318c86f0444dfd097a64/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/passcodeview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/intermediates/classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar]
+Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-27/optional/org.apache.http.legacy.jar]
+Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
+Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
+Note: duplicate definition of library class [org.apache.http.params.HttpParams]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
+Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
+Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
+Note: duplicate definition of library class [android.net.http.SslCertificate]
+Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
+Note: duplicate definition of library class [android.net.http.SslError]
+Note: duplicate definition of library class [android.net.http.HttpResponseCache]
+Note: there were 11 duplicate class definitions.
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
+Initializing...
+Note: the configuration keeps the entry point 'com.kevalpatel.passcodeview.PatternView { void setAuthenticator(com.kevalpatel.passcodeview.authenticator.PatternAuthenticator); }', but not the descriptor class 'com.kevalpatel.passcodeview.authenticator.PatternAuthenticator'
+Note: the configuration keeps the entry point 'com.kevalpatel.passcodeview.PatternView { void setPatternCell(com.kevalpatel.passcodeview.patternCells.PatternCell$Builder); }', but not the descriptor class 'com.kevalpatel.passcodeview.patternCells.PatternCell$Builder'
+Note: the configuration keeps the entry point 'com.kevalpatel.passcodeview.PinView { void setPinAuthenticator(com.kevalpatel.passcodeview.authenticator.PinAuthenticator); }', but not the descriptor class 'com.kevalpatel.passcodeview.authenticator.PinAuthenticator'
+Note: the configuration keeps the entry point 'com.kevalpatel.passcodeview.PinView { void setKey(com.kevalpatel.passcodeview.keys.Key$Builder); }', but not the descriptor class 'com.kevalpatel.passcodeview.keys.Key$Builder'
+Note: the configuration keeps the entry point 'com.kevalpatel.passcodeview.PinView { void setKeyNames(com.kevalpatel.passcodeview.keys.KeyNamesBuilder); }', but not the descriptor class 'com.kevalpatel.passcodeview.keys.KeyNamesBuilder'
+Note: the configuration keeps the entry point 'com.kevalpatel.passcodeview.PinView { void setIndicator(com.kevalpatel.passcodeview.indicators.Indicator$Builder); }', but not the descriptor class 'com.kevalpatel.passcodeview.indicators.Indicator$Builder'
+Note: the configuration keeps the entry point 'com.kevalpatel.passcodeview.internal.BasePasscodeView { void setAuthenticationListener(com.kevalpatel.passcodeview.interfaces.AuthenticationListener); }', but not the descriptor class 'com.kevalpatel.passcodeview.interfaces.AuthenticationListener'
+Note: there were 7 unkept descriptor classes in kept class members.
+      You should consider explicitly keeping the mentioned classes
+      (using '-keep').
+      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
+Ignoring unused library classes...
+  Original number of library classes: 4610
+  Final number of library classes:    1069
+Printing kept classes, fields, and methods...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/outputs/mapping/release/usage.txt]...
+Removing unused program classes and class elements...
+  Original number of program classes: 1400
+  Final number of program classes:    684
+Inlining subroutines...
+Obfuscating...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/outputs/mapping/release/mapping.txt]...
+Preverifying...
+Writing output...
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-27.1.1.aar/1f9e7c0060b209d9c420bf83fa717968/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/659a03f39b2513e2b446b40d6ee0c481/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-27.1.1.aar/a4cdecae9b75c53354b612897a0e7335/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-27.1.1.aar/9dc5c7e22182a08c3de2d294f2f7a39c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-27.1.1.aar/47647f916f8643ebaa81171b31ad6d30/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-27.1.1.aar/efc558687ff1f5a150d421bc7124d8d2/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-27.1.1.aar/02a71f35561120de60115e81c1f0b183/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-27.1.1.aar/786ba8642063d7eb423a3e930c654753/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/27.1.1/39ded76b5e1ce1c5b2688e1d25cdc20ecee32007/support-annotations-27.1.1.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.0.aar/128e925a10c52c555026039b3efcc16b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.0.aar/d6f69cf7b993c500d6922f4274dacbfd/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/054ae679a4d5cfdd65bc0e372a8a01b6/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.0/edf3f7bfb84a7521d0599efa3b0113a0ee90f85/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.0.aar/e365307fcd9c318c86f0444dfd097a64/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.0/8007981f7d7540d89cd18471b8e5dcd2b4f99167/common-1.1.0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/passcodeview/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/outputs/mapping/release/dump.txt]...
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 35s
+93 actionable tasks: 93 executed
+
+2018-09-14 12:54:20,836 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536904413326-0/src/PasscodeView-master/app/build/outputs/apk/debug/app-debug.apk

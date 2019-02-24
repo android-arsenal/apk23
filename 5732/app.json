@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.marcoscg.shortcuthelpersample",
+    "label" : "ShortcutHelper Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.3",
+    "versionCode" : 103,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 1678,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"103\" android:versionName=\"1.0.3\" package=\"com.marcoscg.shortcuthelpersample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"ShortcutHelper Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.marcoscg.shortcuthelpersample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.marcoscg.shortcuthelpersample.ShortcutActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1460324,
+  "crc32" : 1548373751,
+  "sha256" : "2ac2ba7422af49108006bb59ad4ffd2d9aa47211bd3fd262eed8e14f16a98350",
+  "buildTime" : 1521759258000
+}

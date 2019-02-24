@@ -1,0 +1,42 @@
+{
+  "meta" : {
+    "packageName" : "com.github.bkhezry.demoextramaputils",
+    "label" : "ExtraMapUtils",
+    "icon" : "res/mipmap-mdpi-v4/ic_map_utils.png",
+    "versionName" : "1.2.2",
+    "versionCode" : 122,
+    "installLocation" : null,
+    "minSdkVersion" : "17",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "122",
+    "platformBuildVersionName" : "1.2.2",
+    "glEsVersion" : {
+      "major" : 2,
+      "minor" : 0,
+      "required" : true
+    },
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_COARSE_LOCATION", "android.permission.ACCESS_FINE_LOCATION", "android.permission.INTERNET", "android.permission.ACCESS_NETWORK_STATE", "android.permission.ACCESS_WIFI_STATE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_map_utils.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 3654,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"122\" android:versionName=\"1.2.2\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.github.bkhezry.demoextramaputils\" platformBuildVersionCode=\"122\" platformBuildVersionName=\"1.2.2\">\n\t<uses-sdk android:minSdkVersion=\"17\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_COARSE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_NETWORK_STATE\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_WIFI_STATE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<uses-feature android:glEsVersion=\"0x20000\" android:required=\"true\" />\n\t<application android:theme=\"resourceId:0x7f100006\" android:label=\"ExtraMapUtils\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_map_utils.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<meta-data android:name=\"com.google.android.geo.API_KEY\" android:value=\"AIzaSyAX5_tPCb4QVqDOe1BUtA2CuYvQ1_qewGM\" />\n\t\t<activity android:label=\"ExtraMapUtils\" android:name=\"com.github.bkhezry.demoextramaputils.ui.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.github.bkhezry.demoextramaputils.ui.activity.MapsActivity\" />\n\t\t<activity android:name=\"com.github.bkhezry.demoextramaputils.ui.activity.DataLoaderActivity\" />\n\t\t<meta-data android:name=\"com.google.android.gms.version\" android:value=\"12451000\" />\n\t\t<activity android:theme=\"@android:style/Theme.Translucent.NoTitleBar\" android:name=\"com.google.android.gms.common.api.GoogleApiActivity\" android:exported=\"false\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3127341,
+  "crc32" : 2424773932,
+  "sha256" : "76b29a8d8124c958b42490257dbb2324072e73c9258f2b05bea45c0ba1c20b7e",
+  "buildTime" : 1541860899000
+}

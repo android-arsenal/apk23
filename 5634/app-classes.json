@@ -1,0 +1,18 @@
+{
+  "com.vladium.emma.rt" : [ "RT" ],
+  "daryl.appprova.com.darylandroidtracker" : [ "BuildConfig", "R", "R$color", "R$dimen", "R$mipmap", "R$string" ],
+  "org.jacoco.agent.rt" : [ "IAgent", "RT" ],
+  "org.jacoco.agent.rt.internal_8ff85ea" : [ "Agent", "Agent$1", "Agent$2", "ClassFileDumper", "ConfigLoader", "CoverageTransformer", "IExceptionLogger", "IExceptionLogger$1", "JmxRegistration", "Offline", "PreMain" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.asm" : [ "AnnotationVisitor", "AnnotationWriter", "Attribute", "ByteVector", "ClassReader", "ClassVisitor", "ClassWriter", "Context", "CurrentFrame", "Edge", "FieldVisitor", "FieldWriter", "Frame", "Handle", "Handler", "Item", "Label", "MethodVisitor", "MethodWriter", "Opcodes", "Type", "TypePath" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.asm.commons" : [ "AnalyzerAdapter", "JSRInlinerAdapter", "JSRInlinerAdapter$Instantiation" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.asm.tree" : [ "AbstractInsnNode", "AnnotationNode", "FieldInsnNode", "FrameNode", "IincInsnNode", "InsnList", "InsnList$InsnListIterator", "InsnNode", "IntInsnNode", "InvokeDynamicInsnNode", "JumpInsnNode", "LabelNode", "LdcInsnNode", "LineNumberNode", "LocalVariableAnnotationNode", "LocalVariableNode", "LookupSwitchInsnNode", "MethodInsnNode", "MethodNode", "MethodNode$1", "MultiANewArrayInsnNode", "ParameterNode", "TableSwitchInsnNode", "TryCatchBlockNode", "TypeAnnotationNode", "TypeInsnNode", "VarInsnNode" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.core" : [ "JaCoCo" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.core.data" : [ "ExecutionData", "ExecutionDataReader", "ExecutionDataStore", "ExecutionDataWriter", "IExecutionDataVisitor", "ISessionInfoVisitor", "IncompatibleExecDataVersionException", "SessionInfo" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.core.instr" : [ "Instrumenter", "Instrumenter$1" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.core.internal" : [ "ContentTypeDetector", "Java9Support", "Pack200Streams", "Pack200Streams$NoCloseInput" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.core.internal.data" : [ "CRC64", "CompactDataInput", "CompactDataOutput" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.core.internal.flow" : [ "ClassProbesAdapter", "ClassProbesAdapter$1", "ClassProbesAdapter$2", "ClassProbesVisitor", "FrameSnapshot", "IFrame", "IProbeIdGenerator", "Instruction", "LabelFlowAnalyzer", "LabelInfo", "MethodProbesAdapter", "MethodProbesVisitor", "MethodSanitizer" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.core.internal.instr" : [ "ClassFieldProbeArrayStrategy", "ClassInstrumenter", "DuplicateFrameEliminator", "IProbeArrayStrategy", "IProbeInserter", "InstrSupport", "InterfaceFieldProbeArrayStrategy", "LocalProbeArrayStrategy", "MethodInstrumenter", "NoneProbeArrayStrategy", "ProbeArrayStrategyFactory", "ProbeCounter", "ProbeInserter", "SignatureRemover" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.core.runtime" : [ "AbstractRuntime", "AgentOptions", "AgentOptions$OutputMode", "CommandLineSupport", "IExecutionDataAccessorGenerator", "IRemoteCommandVisitor", "IRuntime", "ModifiedSystemClassRuntime", "ModifiedSystemClassRuntime$1", "ModifiedSystemClassRuntime$2", "RemoteControlReader", "RemoteControlWriter", "RuntimeData", "WildcardMatcher" ],
+  "org.jacoco.agent.rt.internal_8ff85ea.output" : [ "FileOutput", "IAgentOutput", "NoneOutput", "TcpClientOutput", "TcpClientOutput$1", "TcpConnection", "TcpServerOutput", "TcpServerOutput$1" ]
+}

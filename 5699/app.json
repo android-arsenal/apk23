@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "ak.sh.ay.samplemusicwave",
+    "label" : "SampleMusicWave",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.RECORD_AUDIO" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2228,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"ak.sh.ay.samplemusicwave\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.RECORD_AUDIO\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.0\" />\n\t<application android:theme=\"resourceId:0x7f0a00a7\" android:label=\"SampleMusicWave\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:theme=\"resourceId:0x7f0a0040\" android:label=\"SampleMusicWave\" android:name=\"ak.sh.ay.samplemusicwave.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 4502787,
+  "crc32" : 1513526662,
+  "sha256" : "543b330bf486b857a166100048fb88661a7e5d90b69655a03997b59ae854cd98",
+  "buildTime" : 1521764579000
+}

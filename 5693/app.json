@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "co.zsmb.materialdrawerktexample",
+    "label" : "MaterialDrawerKtExample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "2.0.0",
+    "versionCode" : 4,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "4",
+    "platformBuildVersionName" : "2.0.0",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAETUlEQVR42u2ZXUwUVxTHqVBQKGXvzMAqERIpFsoWrJpmTdVgWmTLx6ZpGkvS59Y20YcGIlCQZWG/WHZmSY2K1EZZbLAlLRXLhwhIQZSPkkJZ0GffTNuhzEMffJj8e2ehFQ2UZUndJZ2T/HLnZbLnd8+9J5k9YWFqhHK0ITzMPBjxzDiyAsfawtefuBlbfIRKmM1bfPid/FLEnr3Pks/nkhnBm7RhrBPLGEpiKhV6H1N8LYl552oSk3vpH4ixJTn2XQ/7hIg/ySc2TUZzDffOUx5ywpwYMPwsZUZkXdMiWzchstZRkakdEZnqYcqASKpuiqSyRySlXSIp/l4k+R6R5DU/QVx+y0NS0Hw+0dgUvbbEkgAneC9w7nvg3HMbQ5gFFQBb/zNYxwRY2ygYywgY8xAY0y2Q030gFTdAyjpBiq+BFLSA5HlWRGNovEhTe251AeXCKseGn+Ro8r8qCTDC7CP6LNPdDAx+VuZcXpl1Tsms/SeZtY7JTO0dmVZAZkz9MjndK5OKbpmUXZdJcbtMCptlkn95Gc2yJt/ziFYGcUebfos+XLHDl+uKF1vpAjRePPXDblqBPxZ3kCYR7Ar4RGgFcr9YeEFfkuHL9chirisKxJ7wvMzy3vmQFNhzQueXQMhWIOuTV1UBVSDYAgluL/YJ/Tgg9KwN340Drk7onR3QO9qht30LveVr7K1pQ4KpLzgCKe5xTNbp8aeDCxivPQsZ1d+pAv9fgbG6N7Dg2B4wU/a9eCVYAlr3DLKFDhiEb9aGp7iuwuD8CgaHBwbbZeRav0R2bTO0pptqGw1IYLv7FxTwrSjiL/pHfROKnI0ocpxFkf0M3rc2oLD2HHaYetVLrAps6jYq0XYYGFraRl8LXhuNd88i1T2KdGHED24j3TWENOctpDn6kGa7gTRLF16q6QJnGlDbaEACie5pfMQ3oNxl9oNqlNdXocxZiTJHBcrs5Si1leJjixk7Td3qJVYFNqXALvcEBpw5eODYvU5S8cC+yLDtINKq24PXhZTPSq0/CDPQ8lNIqJ9EgmMMCbY7iLcMI948qH7UqwKqwH8psLn/3D3Zmh6qFYjZfzxzdYGlAce2D8/sZF3e35UJTegMOFoQd7RR3Jr5QcqigDni30ZMW0lFTxvHe8E13Idv1KSsgaC8S6vAuqbB1k2CtY+Dsd4FU3MbTPUgSFU/SCX9Ni7vAinpACm8AiXZx3gW17cvIfZQTbuyv/7MyMIjU/foNJ+2dTCWu/OsbVxi7OMLyrpurGMSaxmV6LGRGPOPEmMakOiuS+SzbomUd0qaUx2SpqRdor8laU62ShrDBUlztPFvFpQ1LufcfOxB0/VIkqIcn3B/J5XbKLsiMg6/FfX6e8aofYUbJytvGbnGKJ3Cm8vINkYlHzJGJS4jOdsYoc3MUXJZe/efltAdi6RPMcrYLMjEhOl0kf4n/3RnOt70/DNj/wqsemHVCI34C3InXfpQetXTAAAAAElFTkSuQmCC",
+    "file" : true
+  },
+  "dexClasses" : 3684,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"4\" android:versionName=\"2.0.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"co.zsmb.materialdrawerktexample\" platformBuildVersionCode=\"4\" platformBuildVersionName=\"2.0.0\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"MaterialDrawerKtExample\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"co.zsmb.materialdrawerktexample.DrawerApplication\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:fullBackupContent=\"false\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:name=\"co.zsmb.materialdrawerktexample.DrawerActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0f00c8\" android:label=\"CompactHeader Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.CompactHeaderDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00d9\" android:label=\"ActionBar Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.ActionBarActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00e3\" android:label=\"Multi Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.MultiDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00d8\" android:label=\"NonTranslucentStatus Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.NonTranslucentDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00e3\" android:label=\"Advanced Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.AdvancedDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00d8\" android:label=\"Embedded Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.EmbeddedDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00c9\" android:label=\"FullScreen Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.FullscreenDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:label=\"CustomContainer Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.CustomContainerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:label=\"Menu Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.MenuDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:label=\"Fragment Drawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.FragmentDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00d8\" android:label=\"MiniDrawer\" android:name=\"co.zsmb.materialdrawerktexample.originalactivities.MiniDrawerActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:label=\"Drawer item types\" android:name=\"co.zsmb.materialdrawerktexample.newactivities.DrawerItemTypesActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:label=\"Account header options\" android:name=\"co.zsmb.materialdrawerktexample.newactivities.AccountHeaderActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:label=\"Listeners\" android:name=\"co.zsmb.materialdrawerktexample.newactivities.ListenersActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:label=\"Badges\" android:name=\"co.zsmb.materialdrawerktexample.newactivities.BadgesActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f00de\" android:label=\"Header and footer\" android:name=\"co.zsmb.materialdrawerktexample.newactivities.HeaderFooterActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 3884712,
+  "crc32" : 3325286462,
+  "sha256" : "6ebce4359b507d90826dbb60e571be229d63992d24de30472c94b709e4047933",
+  "buildTime" : 1546775299000
+}

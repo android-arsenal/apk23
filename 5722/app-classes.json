@@ -1,0 +1,4 @@
+{
+  "com.comix.demo" : [ "BuildConfig", "MainActivity", "R", "R$attr", "R$color", "R$id", "R$layout", "R$mipmap", "R$string", "R$styleable" ],
+  "com.comix.overwatch" : [ "BuildConfig", "HiveProgressView", "HiveProgressView$1", "HiveProgressView$2", "R", "R$attr", "R$string", "R$styleable" ]
+}

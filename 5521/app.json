@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "jesusm.com.fingerprintmanager.sample",
+    "label" : "FingerPrintManager sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "23",
+    "targetSdkVersion" : "26",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.USE_FINGERPRINT" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAQAAAD9CzEMAAAFZ0lEQVRYw92YbWyW1RnHf/fT52mhglALrMLSsBIwKYzgEmWQAZ11TrawECKbcxLR7MUtzG3ih5nohlnCRjaQzJmIzrmINcYXIJoAbjLI1CUjOKatJZYQhl2hQ2xLW/r23Of57QN9e/Bp7UP9sp3z6T537vO7zvU/5zrXdcP/eouyHy24dCTvZhRGepMw8UnYnD1PNDQcZcBSrsBxeeRC9OHAbMMAJqKMxfzGNabG6fO0uxL3RV1DiH4AxI9lDJ9Ib3uCaMBN0UVpo9A+rbg+mm5flByfh4wThZ3n/rlw+RkLogDJAcy/S+amIkiS+Og2auF13qKBZjqRSXyKeVzHMq7KxUgCqZYSzlw0Pjkw/mE0N4fp3bzIH3mDmIhplDGJiHYa2E2GJCtYzxom5KB0ZVtpEl6fl24NxmG4L3c4UyzzbnfbZN/geJ+n3e13nSF+2sey/B+HjO1tTy+4OOuogNgKF1pj17DP06aHPV3waT/rHONRAMnRBHuHIhJAE/s5TD2n6SBiEjOpZDFfZhbf4pv0jHr4k6PtiYmk2cNveZMMxcyhkilIO6eo4fck+AI/ZBXFo+6rUQGvcS/vMoMfsYrrmThcRP7OK9SwlgVso/pjo0cODbrdYMIyH7V9UNom66z19KAO533EGSa8x+58RW6zWrzVDwwGm33EaqdKf7/KlT5ui8HgWdeK1bblA+i0yoS/Mjb4gRstFq92tQ/4sNu9369ZKpb4kB0GY39hZJWdYwXE3mHkVoPBv1hu5I2+ak/Wbu9yl0vFSo8aDP5SXG88NsARI79vMPicRZb5cv+kvdb6J/9sXf+RS/uUVzrFAwZj7zKybmyAHl+wy+A+k873fYPB97zLaYMaTPfbHjcYfNtZTvYtgxfcazqfk9zoNMttMph2s4WmXOk2X/Ilt3mzKYvcYtpgrVOda0f+oeIOC/yrwdjviNW+m6VBnVXiD4wNPiM+mC/gmAWuMxjcLt5pr8HYwz7hk9YaDPa4TvydwdjlTrE1P8DPxHcMnvZKl9hj8D2XDmqw0iaD3V7nVJsN7hGfHAEwQh5xkHlUAjtpZwspznIjtWzmHxzmpxzgZrooZAtt1AA3MZn9+YSKPqf7DYPBZVaYNvhjCzww6Oed4laDactdYTC4wnn5rKCHdmYCcpIFJIB9LKEK2Mkh4FY+w14gwXwaECjnLHFO43MCMgRSQEwHJYC0UQbAJrYBCSpoBGAxM4f8MHZAiiI6gSQT6AAipnAOgKs5BcAiTlAPPMDfiOjmEJWkxg4oopRGIGIW7wMwl2ME4PMc41/A3RRyGw1EJGlhHY38ZAR9E7kvy2uoQ2AB9XQDy/kPR4HbybAVqOAZTrCQpdxABXt4kDX5AGAJJzkFVNHFIeAWCtgBLOIWHmcfsJqjfI+YVlZxkE353mhvig8bPOtEVxsMrrXQowabnWOxNVmZxGhpywgruJ7P0QqUchuvcATYTCHr6WA6rzKb2/kKL9JIL+c5/vHpeK5gN2DhSa9wsb0GnzLyBs8bPO9GJw0GDtx7eYnXQN8i3t9/b0Uu6g92re5ykxvc6KPDgvVlAXq9ycgdBoN/sNgJbrB+zBoMB7TkBgTPea0F1hsM1vtVIxNee8kNkQ14dv5HRC5IjJwBlrCfXzMbgGt4mbe5j0J6RlE1k8jO7IQznYYIY3IWIKXcMyzaVLJ5hOgTQRwVxqHxAhzKrgyZ0PB8n5pxPC2j9npkFxMHSqghIdJ3PrS9aPayZIFGl1kraxSFcPyNe39OX64ytoiyL1WUF/eNo0Yr5FT3aydotveSMvYi4uvJF1IUjLMOD2vTz8dDJewlzjiYnDzOXwkdfjHm/6r9F8Ipa0o65dqRAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 2799,
+  "locales" : [ "", "sl", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "is", "si", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"jesusm.com.fingerprintmanager.sample\">\n\t<uses-sdk android:minSdkVersion=\"23\" android:targetSdkVersion=\"26\" />\n\t<uses-permission android:name=\"android.permission.USE_FINGERPRINT\" />\n\t<application android:theme=\"resourceId:0x7f0d0006\" android:label=\"FingerPrintManager sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"jesusm.com.fingerprintmanager.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<meta-data android:name=\"android.support.VERSION\" android:value=\"26.0.2\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2113837,
+  "crc32" : 1743047070,
+  "sha256" : "3e1c439a793479b94d886e5583b8dac848cc9f91ad044ac830a85933277bc2bd",
+  "buildTime" : 1521857578000
+}

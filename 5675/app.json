@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.fondesa.lyra.sample",
+    "label" : "Lyra sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : null,
+    "versionCode" : null,
+    "installLocation" : null,
+    "minSdkVersion" : "9",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAYAAABXAvmHAAAF+ElEQVR42u1ZfUxTVxR/U9CJgGMifkDD6Pd7pR/vPcD5CW6gxKgTFlSgQC2ltq/tdH4shBgHcTojm7j4sSF+xJllxo+qKG5TAYdOVLapbKKbSxazbIkkc27LEgfI2X1dYYpteaUXNBknOX/0vfvO/Z17z/2dc08JYlAGZVBwyzNy1hypoh1akrZNVyZak5WMlSVZ83iCKB3yVCLWaEwxFGt1kKztOMXa7iAFL/ob0lqKsZUgJ5VPHDjFWKdRCbZqBKrdB2hv2on0PMnYMgZ8Z+SJVrF7tQGTXlLpuMQBiW+KthnRhH9iBN+l7VQCV0oQWUP7BXlKSkoQxXLv4QQ9NbUYZs5b8+jzBK5apeJCMcPPGqpirB/iBG9fXgl/t7UDL5U7a4BkuIfecw0KhTEMW9iQjLUCd8hcuHgDuuT+/TaQqfN6jOFqWJYNDhg9SVvy+iHewVnd2O3AteZbIFXlPj6Otq7nFzAA8IWxKtZ2Dzf4JY5t8Pm5K7B+4z7Ysv0AJE0zoRCyPDYOzd1BMaZpAYSO7QBu8PYVlVBX3wTxrEHgN9arRF9CSa4tTHInG2zglxfvgs9OX0ShUeDXdyS9JN9f/EPQwd2PC3iu8V2o2HIMTpw8D6SuoA820C4QhPD8EBefPRZ9eB8H+NkZZdDe3gEdHQ8Q+Nw+25HSxknCY59eUtjXifjEVFK6D5zHGuHylzfhdO0laG29C+/vOOSZaYQqbXlHKCOh8LF8LMTo0lVVcPunVthY4YTjJy8jwDfg4OEzsLJ4MySncSChssHi2AzrNuwGha4ooJ0kWe4KwhYkxIFgiuFuCTHqWLED7t79HV5ftQkmp5hdgOWaxYgSrd1j9h9sgFlzluI4S20R4tRRvaKPjJwSxg8WYjTbUA4fVB0GhbbQ65imr26CRJWNhQwk6hy2VwckVJZUqMFtlTWQnb+aT/ueD3BmGew/cMq1KzgcUGgK5vXqgJRaRAuvZ1pAqfV+MNeXHwSrY8MjIRWQA2pjbu8OkAsZIcYmv/wGfHqqERVh3nm9vqEZtEkF2BKhQrtY36sD0coMuRBjK0t2w+o3t6MsafH4np68DM6dvwrSeD02ByRq/fxeHQgPVz0v5BAfQdVkcirn9X2RfSuUb9oHSp0ZmwMvkJkvCqHREBSzP/gypEqww6WmFsQuOV7H7P2oDuZmrsRZCLaFjtVECXFguFJbdMiXsVdz3oY9e6t90iefhaWY6NOVyBhLM8I2UogDQXK13u7LGF+YGUxlXukzbe4acB6tw0afvCq1xq0I2zBBpUSUiJX4KubOXbiOapM8r7XQndZ78N33t0E3yYHNgThZRpo/FelIUld01JOhpOQVUIsuJDJ1vuu3ZuJrsDB/I5RvdsKZ+qvwbcuPrmtiZ2cnTE+14wqf6wjTc/5cL4NF0jkze15ozIhZTnzSBIectSiMnHC24Rv4orEZKnc6wWheC7qkfJDF50DpW3tcCUxC5eChTyrHzp9Nv66TSEcpdKaaLiMvzV7tqul5+fmXVtAb1oCKyQUxtQjFuqFHPuBASeOhT2S3hQgN5dnH7/Zj8HjRlAQExtWFS0kv6e7j8DW+LwbCqA9E8rnz/V39h3chVEwuXNZlcEHeWihbVwW6RD22+saXyuMN2/yN/Z7Cn/rRMrVhVzedoYvJQIBH89SHhIRMEHqJ8RlKBDKk0BqPDEDI/AueNjeFh4tlfQ0dTzKMGDEiBiWmvf0NXkGbasPCxHI054iAunIenSCIcWJlVjE62H/hBs534aQq/Ra0UCI0z7O4wf8XTuhMRI6blKzQFtVhDJlrMbFpGch2lHuh+gX8wweb799Hi8Tp2YhO6109zD78xYRK7a9j5Rk2tOCxfCXvV/Mq0Ja7ezf4SaMjxminSqgF6xQa01mStv7qFTTD/YHY5SKqUivGxExNR9+K3DTZ76vuy5Egd5k7GmkM3xcIHy2bOEE045WYuHR9dNysvPGxMzIjolRTEKnI3KDHuHcx+EkB91jFup3hqS/EDTDcraHuZ8PdY4Y8TcAH5X8t/wD0FMqwcR/BFAAAAABJRU5ErkJggg=="
+  },
+  "dexClasses" : 2525,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" package=\"com.fondesa.lyra.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"9\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800a3\" android:label=\"Lyra sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:name=\"com.fondesa.lyra.sample.App\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.fondesa.lyra.sample.activity.BaseMainActivity\" />\n\t\t<activity android:name=\"com.fondesa.lyra.sample.activity.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1781872,
+  "crc32" : 256999519,
+  "sha256" : "93ffba2aff9ef19bd60494307a7397412f14b384cbd1714f3b2cfe89fde4b85e",
+  "buildTime" : 1526831801000
+}

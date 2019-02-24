@@ -1,0 +1,118 @@
+2018-09-14 13:18:04,941 INFO  DownloadService - Downloading "https://github.com/mightyfrog/marqueetoolbar/archive/master.zip", attempt 3
+2018-09-14 13:19:05,735 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-14 13:19:07,392 INFO  GithubDownloadService - Default branch of this repository: master
+2018-09-14 13:19:07,392 INFO  DownloadService - Downloading "https://github.com/mightyfrog/marqueetoolbar/archive/master.zip", attempt 3
+2018-09-14 13:20:09,091 DEBUG FullProcessService - Repository https://github.com/mightyfrog/marqueetoolbar available: true
+2018-09-14 13:20:09,091 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-14 13:20:09,091 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/mightyfrog/marqueetoolbar, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src]
+2018-09-14 13:20:11,406 INFO  SysUtils - 
+2018-09-14 13:20:11,433 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/.git": true
+2018-09-14 13:20:11,435 INFO  FullProcessService - Size of directory with sources: 745 KB
+2018-09-14 13:20:11,435 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src]
+2018-09-14 13:20:11,451 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/.git/
+
+2018-09-14 13:20:11,453 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/gradlew
+2018-09-14 13:20:11,456 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/marqueetoolbar/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/build.gradle
+2018-09-14 13:20:11,458 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/marqueetoolbar/build.gradle
+2018-09-14 13:20:11,458 INFO  ProjectBuildService - Remote scripts: none
+2018-09-14 13:20:11,458 INFO  ProjectFixService - Fixing project...
+2018-09-14 13:20:11,463 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/demo/local.properties
+2018-09-14 13:20:11,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/demo/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-14 13:20:11,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/marqueetoolbar/local.properties
+2018-09-14 13:20:11,464 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/marqueetoolbar/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-14 13:20:11,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/local.properties
+2018-09-14 13:20:11,465 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.9-all.zip
+2018-09-14 13:20:11,465 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.9-bin.zip)
+2018-09-14 13:20:11,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/build.gradle": [buildToolsVersion=28.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-14 13:20:11,466 INFO  ProjectFixService - Project was maybe fixed
+2018-09-14 13:20:11,466 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 13:20:11,467 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 13:20:30,745 INFO  ProjectTaskService - Detected possible tasks: 70
+2018-09-14 13:20:30,745 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-14 13:20:30,746 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-14 13:21:09,037 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.gradle.internal.reflect.JavaMethod (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.9-bin/e9cinqnqvph59rr7g70qubb4t/gradle-4.9/lib/gradle-base-services-4.9.jar) to method java.lang.ClassLoader.getPackages()
+WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+Download https://jcenter.bintray.com/org/mightyfrog/marqueetoolbar/marqueetoolbar/1.0.2/marqueetoolbar-1.0.2.pom
+Download https://jcenter.bintray.com/org/mightyfrog/marqueetoolbar/marqueetoolbar/1.0.2/marqueetoolbar-1.0.2.aar
+> Task :demo:checkDebugClasspath
+> Task :demo:preBuild UP-TO-DATE
+> Task :demo:preDebugBuild
+> Task :demo:compileDebugAidl NO-SOURCE
+> Task :demo:compileDebugRenderscript
+> Task :demo:checkDebugManifest
+> Task :demo:generateDebugBuildConfig
+> Task :demo:prepareLintJar
+> Task :demo:mainApkListPersistenceDebug
+> Task :demo:generateDebugResValues
+> Task :demo:generateDebugResources
+> Task :demo:mergeDebugResources
+> Task :demo:createDebugCompatibleScreenManifests
+> Task :demo:processDebugManifest
+> Task :demo:processDebugResources
+> Task :demo:generateDebugSources
+> Task :demo:javaPreCompileDebug
+> Task :demo:compileDebugJavaWithJavac
+> Task :demo:compileDebugNdk NO-SOURCE
+> Task :demo:compileDebugSources
+> Task :demo:mergeDebugShaders
+> Task :demo:compileDebugShaders
+> Task :demo:generateDebugAssets
+> Task :demo:mergeDebugAssets
+> Task :demo:transformClassesWithDexBuilderForDebug
+> Task :demo:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :demo:transformDexArchiveWithDexMergerForDebug
+> Task :demo:mergeDebugJniLibFolders
+> Task :demo:transformNativeLibsWithMergeJniLibsForDebug
+> Task :demo:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :demo:processDebugJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForDebug
+> Task :demo:validateSigningDebug
+> Task :demo:packageDebug
+> Task :demo:assembleDebug
+> Task :demo:checkReleaseClasspath
+> Task :demo:preReleaseBuild
+> Task :demo:compileReleaseAidl NO-SOURCE
+> Task :demo:compileReleaseRenderscript
+> Task :demo:checkReleaseManifest
+> Task :demo:generateReleaseBuildConfig
+> Task :demo:mainApkListPersistenceRelease
+> Task :demo:generateReleaseResValues
+> Task :demo:generateReleaseResources
+> Task :demo:mergeReleaseResources
+> Task :demo:createReleaseCompatibleScreenManifests
+> Task :demo:processReleaseManifest
+> Task :demo:processReleaseResources
+> Task :demo:generateReleaseSources
+> Task :demo:javaPreCompileRelease
+> Task :demo:compileReleaseJavaWithJavac
+> Task :demo:compileReleaseNdk NO-SOURCE
+> Task :demo:compileReleaseSources
+
+> Task :demo:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/8c9acec27370a0ca5662dea4e3d4477f/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :demo:mergeReleaseShaders
+> Task :demo:compileReleaseShaders
+> Task :demo:generateReleaseAssets
+> Task :demo:mergeReleaseAssets
+> Task :demo:transformClassesWithDexBuilderForRelease
+> Task :demo:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :demo:transformDexArchiveWithDexMergerForRelease
+> Task :demo:mergeReleaseJniLibFolders
+> Task :demo:transformNativeLibsWithMergeJniLibsForRelease
+> Task :demo:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :demo:processReleaseJavaRes NO-SOURCE
+> Task :demo:transformResourcesWithMergeJavaResForRelease
+> Task :demo:packageRelease
+> Task :demo:assembleRelease
+> Task :demo:assemble
+> Task :demo:build
+
+BUILD SUCCESSFUL in 37s
+51 actionable tasks: 51 executed
+
+2018-09-14 13:21:09,116 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536905884938-0/src/demo/build/outputs/apk/release/demo-release-unsigned.apk

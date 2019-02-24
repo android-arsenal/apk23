@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.newtronlabs.easypermissions.sample",
+    "label" : "Easy Permissions Sample",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "19",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.ACCESS_FINE_LOCATION", "android.permission.CAMERA", "android.permission.CALL_PHONE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAABklBMVEXwXz/xYEHwX0DxYEDwX0DxY0XwY0XwYkPwX0DxYEDwYEDwX0DwYEH5w7f83db83tf////4r6D0iXL1kX31k3/zfGLyeV/3qJf+8u/5wLXyeF3yemDydVr82tP3q5vzgmrycFXyb1PzfWT3qpn4t6nxZEbwY0X0jXf//PzydFj839nwYkPycFTyclbwYULwYUP4saL83NXwYkT1loL+8/H+9vT2novyeF7++PfzgGf//v7zfmbxY0X829TzfGP1mYX1mIT97On2mYX4vK/2opD3qZn2oY/1l4P2n4z4tKbzg2z0j3n71c31mof84dv++fjxZkf4tab72NHxb1PycVb+8e/xZUjwZkjxaEvzhGz0i3T2mobxak3+9PL1kXz1lYD0hm/xZUf0h3D+8O796OP718/+9vX//f33rJz83df72ND70sn6zML85uH5uazxbVHyb1T+9/b2nYr0hm75vrL//Pv+9fP/+/r6z8X4sqP1k3771871loH97Oj2mYb70sr0iHH97uv94973o5L82tL/+vkO5FYmAAAAC3RSTlP5+Pj6+vz8/f74+KhH2ukAAAFmSURBVEjHY2BgJAkwMTBzkwRYQBp4iAYQDTy8fMQCVogGfgFiAduohpGoQVAICQgToUEEORWL0kqDGKlOEsdUIyFBrAZJKWkZWTl5BUUlZeI0qAD58qogD6mpa+DSoCkNATJaEA3aPDq6etzc+gYEQ8kQosHI2MTUDGiLuQWRGiytBASsrLm5bWxxaLCzhwAHR4gGY5CEE5DhTKSnXUAMVyDDjUgN7iCGB5DhSaQGLxDDm5tbzweHBl8/GPAHawgIFBAICubmDgnFoUE1DArCDcEauCMio3SAVDTBeDCCaIiB8MxjsWmIQ9agD9EQn2DDzZ2YlIw1LaWkIoM0sAaPdFvxjEwr4vI0WAMphQAFGqyyBLJzcnIJacjLLygAJ43CIgeBDPHiEkIaSsvKyspBjIrKKgGB6hor4guyWqCGunoBkjT4N5BSVDYWCTQ107cwbmklFkA0cLMTDTggGkhrnHAykQS4AEnhucv++IKBAAAAAElFTkSuQmCC"
+  },
+  "dexClasses" : 1705,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.newtronlabs.easypermissions.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"19\" android:targetSdkVersion=\"25\" />\n\t<uses-permission android:name=\"android.permission.ACCESS_FINE_LOCATION\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<uses-permission android:name=\"android.permission.CALL_PHONE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0800cf\" android:label=\"Easy Permissions Sample\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.newtronlabs.easypermissions.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<service android:name=\"com.newtronlabs.easypermissions.sample.ExampleService\" />\n\t\t<activity android:theme=\"resourceId:0x7f0800a3\" android:name=\"com.newtronlabs.easypermissions.provider.Provider\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 1432069,
+  "crc32" : 2669124624,
+  "sha256" : "be521ca12332c9ea2e4edaae850416a5b6c461fb2a2a52c679f6e0709bf57d3c",
+  "buildTime" : 1521761218000
+}

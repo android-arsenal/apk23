@@ -1,0 +1,774 @@
+2018-12-09 20:53:37,673 INFO  DownloadService - Downloading "https://github.com/wealthfront/magellan/archive/master.zip", attempt 3
+2018-12-09 20:53:42,285 INFO  DownloadService - Downloaded https://github.com/wealthfront/magellan/archive/master.zip, attempt 3
+2018-12-09 20:53:42,286 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/master.zip": 6 MB
+2018-12-09 20:53:42,286 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-09 20:53:42,288 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/master.zip: true
+2018-12-09 20:53:42,289 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src'.
+2018-12-09 20:53:42,377 INFO  FullProcessService - Size of directory with sources: 6 MB
+2018-12-09 20:53:42,377 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src]
+2018-12-09 20:53:42,397 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/.git/
+
+2018-12-09 20:53:42,404 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew
+2018-12-09 20:53:42,412 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/build.gradle
+2018-12-09 20:53:42,418 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/checkstyle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle
+2018-12-09 20:53:42,419 INFO  ProjectBuildService - Remote scripts: none
+2018-12-09 20:53:42,419 INFO  ProjectFixService - Fixing project...
+2018-12-09 20:53:42,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/local.properties
+2018-12-09 20:53:42,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/local.properties
+2018-12-09 20:53:42,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,446 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/local.properties
+2018-12-09 20:53:42,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/local.properties
+2018-12-09 20:53:42,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,451 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/local.properties
+2018-12-09 20:53:42,453 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,453 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/local.properties
+2018-12-09 20:53:42,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,456 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/local.properties
+2018-12-09 20:53:42,457 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-12-09 20:53:42,457 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-12-09 20:53:42,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,459 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2018-12-09 20:53:42,460 INFO  ProjectFixService - Project was maybe fixed
+2018-12-09 20:53:42,460 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-09 20:53:42,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-09 20:53:58,091 INFO  ProjectTaskService - Detected possible tasks: 68
+2018-12-09 20:53:58,091 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-09 20:53:58,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-09 20:54:15,357 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-library:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:8: error: package android.support.annotation does not exist
+import android.support.annotation.ColorRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:9: error: package android.support.annotation does not exist
+import android.support.annotation.StringRes;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:10: error: package android.support.annotation does not exist
+import android.support.annotation.VisibleForTesting;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:15: error: cannot find symbol
+  @ColorRes private final int colorRes;
+   ^
+  symbol:   class ColorRes
+  location: class ActionBarConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:23: error: cannot find symbol
+  @ColorRes
+   ^
+  symbol:   class ColorRes
+  location: class ActionBarConfig
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:44: error: cannot find symbol
+    @ColorRes private int colorRes;
+     ^
+  symbol:   class ColorRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:58: error: cannot find symbol
+    public Builder colorRes(@ColorRes int colorRes) {
+                             ^
+  symbol:   class ColorRes
+  location: class Builder
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:183: error: cannot find symbol
+  @ColorRes
+   ^
+  symbol:   class ColorRes
+  location: class Screen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class Screen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:233: error: cannot find symbol
+  protected final void setTitle(@StringRes int titleResId) {
+                                 ^
+  symbol:   class StringRes
+  location: class Screen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class Screen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:270: error: cannot find symbol
+  @VisibleForTesting
+   ^
+  symbol:   class VisibleForTesting
+  location: class Screen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class Screen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:275: error: cannot find symbol
+  @VisibleForTesting
+   ^
+  symbol:   class VisibleForTesting
+  location: class Screen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class Screen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:280: error: cannot find symbol
+  @VisibleForTesting
+   ^
+  symbol:   class VisibleForTesting
+  location: class Screen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class Screen
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/HistoryRewriter.java:13: warning: no @param for history
+  void rewriteHistory(Deque<Screen> history);
+       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:194: warning: no @param for context
+  protected abstract V createView(Context context);
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:194: warning: no @return
+  protected abstract V createView(Context context);
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:199: warning: no @param for menu
+  protected void onUpdateMenu(Menu menu) {}
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:204: warning: no @param for context
+  protected void onResume(Context context) {}
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:209: warning: no @param for context
+  protected void onShow(Context context) {}
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:216: warning: no @param for context
+  protected void onPause(Context context) {}
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:221: warning: no @param for context
+  protected void onHide(Context context) {}
+                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:226: warning: no @return
+  protected final boolean quit() {
+                          ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:245: warning: no @param for dialogCreator
+  protected final void showDialog(DialogCreator dialogCreator) {
+                       ^
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class StringRes not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class ColorRes not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+javadoc: warning - Class VisibleForTesting not found.
+
+55 warnings
+:magellan-library:androidJavadocsJar
+:magellan-library:androidSourcesJar
+:magellan-library:preBuild UP-TO-DATE
+:magellan-library:preDebugBuild UP-TO-DATE
+:magellan-library:compileDebugAidl
+:magellan-library:compileDebugRenderscript
+:magellan-library:checkDebugManifest
+:magellan-library:generateDebugBuildConfig
+:magellan-library:generateDebugResValues
+:magellan-library:generateDebugResources
+:magellan-library:packageDebugResources
+:magellan-library:platformAttrExtractor
+:magellan-library:processDebugManifest
+:magellan-library:prepareLintJar
+:magellan-library:javaPreCompileDebug
+:magellan-library:mergeDebugConsumerProguardFiles
+:magellan-library:mergeDebugShaders
+:magellan-library:compileDebugShaders
+:magellan-library:generateDebugAssets
+:magellan-library:packageDebugAssets
+:magellan-library:packageDebugRenderscript NO-SOURCE
+:magellan-library:processDebugJavaRes NO-SOURCE
+:magellan-library:compileDebugNdk NO-SOURCE
+:magellan-library:mergeDebugJniLibFolders
+:magellan-library:transformNativeLibsWithMergeJniLibsForDebug
+:magellan-library:transformNativeLibsWithStripDebugSymbolForDebug
+:magellan-library:transformNativeLibsWithSyncJniLibsForDebug
+:magellan-library:preReleaseBuild UP-TO-DATE
+:magellan-library:compileReleaseAidl
+:magellan-library:compileReleaseRenderscript
+:magellan-library:checkReleaseManifest
+:magellan-library:generateReleaseBuildConfig
+:magellan-library:generateReleaseResValues
+:magellan-library:generateReleaseResources
+:magellan-library:packageReleaseResources
+:magellan-library:processReleaseManifest
+:magellan-library:javaPreCompileRelease
+:magellan-library:mergeReleaseConsumerProguardFiles
+:magellan-library:mergeReleaseShaders
+:magellan-library:compileReleaseShaders
+:magellan-library:generateReleaseAssets
+:magellan-library:packageReleaseAssets
+:magellan-library:packageReleaseRenderscript NO-SOURCE
+:magellan-library:processReleaseJavaRes NO-SOURCE
+:magellan-library:compileReleaseNdk NO-SOURCE
+:magellan-library:mergeReleaseJniLibFolders
+:magellan-library:transformNativeLibsWithMergeJniLibsForRelease
+:magellan-library:transformNativeLibsWithStripDebugSymbolForRelease
+:magellan-library:transformNativeLibsWithSyncJniLibsForRelease
+:magellan-library:mergeReleaseResources
+:magellan-library:verifyReleaseResources
+:magellan-library:generateDebugRFile
+:magellan-library:generateDebugSources
+:magellan-library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:magellan-library:extractDebugAnnotations
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
+:magellan-library:transformResourcesWithMergeJavaResForDebug
+:magellan-library:transformClassesAndResourcesWithSyncLibJarsForDebug
+:magellan-library:bundleDebug
+:magellan-library:compileDebugSources
+:magellan-library:assembleDebug
+:magellan-library:generateReleaseRFile
+:magellan-library:generateReleaseSources
+:magellan-library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+:magellan-library:extractReleaseAnnotations
+:magellan-library:transformResourcesWithMergeJavaResForRelease
+:magellan-library:transformClassesAndResourcesWithSyncLibJarsForRelease
+:magellan-library:bundleRelease
+:magellan-library:compileReleaseSources
+:magellan-library:assembleRelease
+:magellan-library:signArchives SKIPPED
+:magellan-library:assemble
+:magellan-library:build
+
+BUILD SUCCESSFUL in 16s
+51 actionable tasks: 51 executed
+
+2018-12-09 20:54:15,380 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-09 20:54:15,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-09 20:54:21,500 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-12-09 20:54:21,500 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-09 20:54:21,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-09 20:54:30,528 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-rx:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:6: error: cannot find symbol
+import com.wealthfront.magellan.Screen;
+                               ^
+  symbol:   class Screen
+  location: package com.wealthfront.magellan
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:7: error: cannot find symbol
+import com.wealthfront.magellan.ScreenView;
+                               ^
+  symbol:   class ScreenView
+  location: package com.wealthfront.magellan
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:9: error: package rx does not exist
+import rx.Subscription;
+         ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:10: error: package rx.subscriptions does not exist
+import rx.subscriptions.CompositeSubscription;
+                       ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:12: error: cannot find symbol
+public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<V> {
+                                                                         ^
+  symbol: class Screen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:12: error: cannot find symbol
+public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<V> {
+                                                     ^
+  symbol: class ScreenView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:14: error: cannot find symbol
+  private CompositeSubscription subscriptions = new CompositeSubscription();
+          ^
+  symbol:   class CompositeSubscription
+  location: class RxScreen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class RxScreen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:24: error: cannot find symbol
+  protected final void autoUnsubscribe(Subscription subscription) {
+                                       ^
+  symbol:   class Subscription
+  location: class RxScreen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class RxScreen
+
+8 warnings
+:magellan-rx:androidJavadocsJar
+:magellan-rx:androidSourcesJar
+:magellan-library:preBuild UP-TO-DATE
+:magellan-library:preDebugBuild UP-TO-DATE
+:magellan-library:compileDebugAidl UP-TO-DATE
+:magellan-rx:preBuild UP-TO-DATE
+:magellan-rx:preDebugBuild UP-TO-DATE
+:magellan-rx:compileDebugAidl
+:magellan-library:compileDebugRenderscript UP-TO-DATE
+:magellan-library:checkDebugManifest UP-TO-DATE
+:magellan-library:generateDebugBuildConfig UP-TO-DATE
+:magellan-library:generateDebugResValues UP-TO-DATE
+:magellan-library:generateDebugResources UP-TO-DATE
+:magellan-library:packageDebugResources UP-TO-DATE
+:magellan-library:platformAttrExtractor UP-TO-DATE
+:magellan-library:processDebugManifest UP-TO-DATE
+:magellan-library:generateDebugRFile UP-TO-DATE
+:magellan-library:prepareLintJar UP-TO-DATE
+:magellan-library:generateDebugSources UP-TO-DATE
+:magellan-library:javaPreCompileDebug UP-TO-DATE
+:magellan-library:compileDebugJavaWithJavac UP-TO-DATE
+:magellan-library:processDebugJavaRes NO-SOURCE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:magellan-library:packageDebugRenderscript NO-SOURCE
+:magellan-rx:compileDebugRenderscript
+:magellan-rx:checkDebugManifest
+:magellan-rx:generateDebugBuildConfig
+:magellan-rx:generateDebugResValues
+:magellan-rx:generateDebugResources
+:magellan-rx:packageDebugResources
+:magellan-rx:platformAttrExtractor
+:magellan-rx:processDebugManifest
+:magellan-rx:prepareLintJar
+:magellan-rx:javaPreCompileDebug
+:magellan-rx:mergeDebugConsumerProguardFiles
+:magellan-rx:mergeDebugShaders
+:magellan-rx:compileDebugShaders
+:magellan-rx:generateDebugAssets
+:magellan-rx:packageDebugAssets
+:magellan-rx:packageDebugRenderscript NO-SOURCE
+:magellan-rx:processDebugJavaRes NO-SOURCE
+:magellan-rx:compileDebugNdk NO-SOURCE
+:magellan-rx:mergeDebugJniLibFolders
+:magellan-rx:transformNativeLibsWithMergeJniLibsForDebug
+:magellan-rx:transformNativeLibsWithStripDebugSymbolForDebug
+:magellan-rx:transformNativeLibsWithSyncJniLibsForDebug
+:magellan-library:preReleaseBuild UP-TO-DATE
+:magellan-library:compileReleaseAidl UP-TO-DATE
+:magellan-rx:preReleaseBuild UP-TO-DATE
+:magellan-rx:compileReleaseAidl
+:magellan-library:compileReleaseRenderscript UP-TO-DATE
+:magellan-library:checkReleaseManifest UP-TO-DATE
+:magellan-library:generateReleaseBuildConfig UP-TO-DATE
+:magellan-library:generateReleaseResValues UP-TO-DATE
+:magellan-library:generateReleaseResources UP-TO-DATE
+:magellan-library:packageReleaseResources UP-TO-DATE
+:magellan-library:processReleaseManifest UP-TO-DATE
+:magellan-library:generateReleaseRFile UP-TO-DATE
+:magellan-library:generateReleaseSources UP-TO-DATE
+:magellan-library:javaPreCompileRelease UP-TO-DATE
+:magellan-library:compileReleaseJavaWithJavac UP-TO-DATE
+:magellan-library:processReleaseJavaRes NO-SOURCE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:magellan-library:packageReleaseRenderscript NO-SOURCE
+:magellan-rx:compileReleaseRenderscript
+:magellan-rx:checkReleaseManifest
+:magellan-rx:generateReleaseBuildConfig
+:magellan-rx:generateReleaseResValues
+:magellan-rx:generateReleaseResources
+:magellan-rx:packageReleaseResources
+:magellan-rx:processReleaseManifest
+:magellan-rx:javaPreCompileRelease
+:magellan-rx:mergeReleaseConsumerProguardFiles
+:magellan-rx:mergeReleaseShaders
+:magellan-rx:compileReleaseShaders
+:magellan-rx:generateReleaseAssets
+:magellan-rx:packageReleaseAssets
+:magellan-rx:packageReleaseRenderscript NO-SOURCE
+:magellan-rx:processReleaseJavaRes NO-SOURCE
+:magellan-rx:compileReleaseNdk NO-SOURCE
+:magellan-rx:mergeReleaseJniLibFolders
+:magellan-rx:transformNativeLibsWithMergeJniLibsForRelease
+:magellan-rx:transformNativeLibsWithStripDebugSymbolForRelease
+:magellan-rx:transformNativeLibsWithSyncJniLibsForRelease
+:magellan-rx:mergeReleaseResources
+:magellan-rx:verifyReleaseResources
+:magellan-rx:generateDebugRFile
+:magellan-rx:generateDebugSources
+:magellan-rx:compileDebugJavaWithJavac
+:magellan-rx:extractDebugAnnotations
+:magellan-rx:transformResourcesWithMergeJavaResForDebug
+:magellan-rx:transformClassesAndResourcesWithSyncLibJarsForDebug
+:magellan-rx:bundleDebug
+:magellan-rx:compileDebugSources
+:magellan-rx:assembleDebug
+:magellan-rx:generateReleaseRFile
+:magellan-rx:generateReleaseSources
+:magellan-rx:compileReleaseJavaWithJavac
+:magellan-rx:extractReleaseAnnotations
+:magellan-rx:transformResourcesWithMergeJavaResForRelease
+:magellan-rx:transformClassesAndResourcesWithSyncLibJarsForRelease
+:magellan-rx:bundleRelease
+:magellan-rx:compileReleaseSources
+:magellan-rx:assembleRelease
+:magellan-rx:signArchives SKIPPED
+:magellan-rx:assemble
+:magellan-rx:build
+
+BUILD SUCCESSFUL in 8s
+75 actionable tasks: 53 executed, 22 up-to-date
+
+2018-12-09 20:54:30,557 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-09 20:54:30,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-09 20:54:37,456 INFO  ProjectTaskService - Detected possible tasks: 67
+2018-12-09 20:54:37,456 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-12-09 20:54:37,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-12-09 20:54:48,809 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-rx2:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:6: error: cannot find symbol
+import com.wealthfront.magellan.Screen;
+                               ^
+  symbol:   class Screen
+  location: package com.wealthfront.magellan
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:7: error: cannot find symbol
+import com.wealthfront.magellan.ScreenView;
+                               ^
+  symbol:   class ScreenView
+  location: package com.wealthfront.magellan
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:9: error: package io.reactivex.disposables does not exist
+import io.reactivex.disposables.CompositeDisposable;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:10: error: package io.reactivex.disposables does not exist
+import io.reactivex.disposables.Disposable;
+                               ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:12: error: cannot find symbol
+public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<V> {
+                                                                         ^
+  symbol: class Screen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:12: error: cannot find symbol
+public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<V> {
+                                                     ^
+  symbol: class ScreenView
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:14: error: cannot find symbol
+  private CompositeDisposable disposables = new CompositeDisposable();
+          ^
+  symbol:   class CompositeDisposable
+  location: class RxScreen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class RxScreen
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:24: error: cannot find symbol
+  protected final void autoDispose(Disposable disposable) {
+                                   ^
+  symbol:   class Disposable
+  location: class RxScreen<V>
+  where V is a type-variable:
+    V extends ViewGroup,ScreenView declared in class RxScreen
+
+8 warnings
+:magellan-rx2:androidJavadocsJar
+:magellan-rx2:androidSourcesJar
+:magellan-library:preBuild UP-TO-DATE
+:magellan-library:preDebugBuild UP-TO-DATE
+:magellan-library:compileDebugAidl UP-TO-DATE
+:magellan-rx2:preBuild UP-TO-DATE
+:magellan-rx2:preDebugBuild UP-TO-DATE
+:magellan-rx2:compileDebugAidl
+:magellan-library:compileDebugRenderscript UP-TO-DATE
+:magellan-library:checkDebugManifest UP-TO-DATE
+:magellan-library:generateDebugBuildConfig UP-TO-DATE
+:magellan-library:generateDebugResValues UP-TO-DATE
+:magellan-library:generateDebugResources UP-TO-DATE
+:magellan-library:packageDebugResources UP-TO-DATE
+:magellan-library:platformAttrExtractor UP-TO-DATE
+:magellan-library:processDebugManifest UP-TO-DATE
+:magellan-library:generateDebugRFile UP-TO-DATE
+:magellan-library:prepareLintJar UP-TO-DATE
+:magellan-library:generateDebugSources UP-TO-DATE
+:magellan-library:javaPreCompileDebug UP-TO-DATE
+:magellan-library:compileDebugJavaWithJavac UP-TO-DATE
+:magellan-library:processDebugJavaRes NO-SOURCE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:magellan-library:packageDebugRenderscript NO-SOURCE
+:magellan-rx2:compileDebugRenderscript
+:magellan-rx2:checkDebugManifest
+:magellan-rx2:generateDebugBuildConfig
+:magellan-rx2:generateDebugResValues
+:magellan-rx2:generateDebugResources
+:magellan-rx2:packageDebugResources
+:magellan-rx2:platformAttrExtractor
+:magellan-rx2:processDebugManifest
+:magellan-rx2:prepareLintJar
+:magellan-rx2:javaPreCompileDebug
+:magellan-rx2:mergeDebugConsumerProguardFiles
+:magellan-rx2:mergeDebugShaders
+:magellan-rx2:compileDebugShaders
+:magellan-rx2:generateDebugAssets
+:magellan-rx2:packageDebugAssets
+:magellan-rx2:packageDebugRenderscript NO-SOURCE
+:magellan-rx2:processDebugJavaRes NO-SOURCE
+:magellan-rx2:compileDebugNdk NO-SOURCE
+:magellan-rx2:mergeDebugJniLibFolders
+:magellan-rx2:transformNativeLibsWithMergeJniLibsForDebug
+:magellan-rx2:transformNativeLibsWithStripDebugSymbolForDebug
+:magellan-rx2:transformNativeLibsWithSyncJniLibsForDebug
+:magellan-library:preReleaseBuild UP-TO-DATE
+:magellan-library:compileReleaseAidl UP-TO-DATE
+:magellan-rx2:preReleaseBuild UP-TO-DATE
+:magellan-rx2:compileReleaseAidl
+:magellan-library:compileReleaseRenderscript UP-TO-DATE
+:magellan-library:checkReleaseManifest UP-TO-DATE
+:magellan-library:generateReleaseBuildConfig UP-TO-DATE
+:magellan-library:generateReleaseResValues UP-TO-DATE
+:magellan-library:generateReleaseResources UP-TO-DATE
+:magellan-library:packageReleaseResources UP-TO-DATE
+:magellan-library:processReleaseManifest UP-TO-DATE
+:magellan-library:generateReleaseRFile UP-TO-DATE
+:magellan-library:generateReleaseSources UP-TO-DATE
+:magellan-library:javaPreCompileRelease UP-TO-DATE
+:magellan-library:compileReleaseJavaWithJavac UP-TO-DATE
+:magellan-library:processReleaseJavaRes NO-SOURCE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:magellan-library:packageReleaseRenderscript NO-SOURCE
+:magellan-rx2:compileReleaseRenderscript
+:magellan-rx2:checkReleaseManifest
+:magellan-rx2:generateReleaseBuildConfig
+:magellan-rx2:generateReleaseResValues
+:magellan-rx2:generateReleaseResources
+:magellan-rx2:packageReleaseResources
+:magellan-rx2:processReleaseManifest
+:magellan-rx2:javaPreCompileRelease
+:magellan-rx2:mergeReleaseConsumerProguardFiles
+:magellan-rx2:mergeReleaseShaders
+:magellan-rx2:compileReleaseShaders
+:magellan-rx2:generateReleaseAssets
+:magellan-rx2:packageReleaseAssets
+:magellan-rx2:packageReleaseRenderscript NO-SOURCE
+:magellan-rx2:processReleaseJavaRes NO-SOURCE
+:magellan-rx2:compileReleaseNdk NO-SOURCE
+:magellan-rx2:mergeReleaseJniLibFolders
+:magellan-rx2:transformNativeLibsWithMergeJniLibsForRelease
+:magellan-rx2:transformNativeLibsWithStripDebugSymbolForRelease
+:magellan-rx2:transformNativeLibsWithSyncJniLibsForRelease
+:magellan-rx2:mergeReleaseResources
+:magellan-rx2:verifyReleaseResources
+:magellan-rx2:generateDebugRFile
+:magellan-rx2:generateDebugSources
+:magellan-rx2:compileDebugJavaWithJavac
+:magellan-rx2:extractDebugAnnotations
+:magellan-rx2:transformResourcesWithMergeJavaResForDebug
+:magellan-rx2:transformClassesAndResourcesWithSyncLibJarsForDebug
+:magellan-rx2:bundleDebug
+:magellan-rx2:compileDebugSources
+:magellan-rx2:assembleDebug
+:magellan-rx2:generateReleaseRFile
+:magellan-rx2:generateReleaseSources
+:magellan-rx2:compileReleaseJavaWithJavac
+:magellan-rx2:extractReleaseAnnotations
+:magellan-rx2:transformResourcesWithMergeJavaResForRelease
+:magellan-rx2:transformClassesAndResourcesWithSyncLibJarsForRelease
+:magellan-rx2:bundleRelease
+:magellan-rx2:compileReleaseSources
+:magellan-rx2:assembleRelease
+:magellan-rx2:signArchives SKIPPED
+:magellan-rx2:assemble
+:magellan-rx2:build
+
+BUILD SUCCESSFUL in 11s
+75 actionable tasks: 51 executed, 24 up-to-date
+
+2018-12-09 20:54:48,859 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-09 20:54:48,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-09 20:54:55,431 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-12-09 20:54:55,431 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-09 20:54:55,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-09 20:55:31,843 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-library:preBuild UP-TO-DATE
+:magellan-library:preDebugBuild UP-TO-DATE
+:magellan-library:compileDebugAidl UP-TO-DATE
+:magellan-library:compileDebugRenderscript UP-TO-DATE
+:magellan-library:checkDebugManifest UP-TO-DATE
+:magellan-library:generateDebugBuildConfig UP-TO-DATE
+:magellan-library:generateDebugResValues UP-TO-DATE
+:magellan-library:generateDebugResources UP-TO-DATE
+:magellan-library:packageDebugResources UP-TO-DATE
+:magellan-library:platformAttrExtractor UP-TO-DATE
+:magellan-library:processDebugManifest UP-TO-DATE
+:magellan-library:generateDebugRFile UP-TO-DATE
+:magellan-library:prepareLintJar UP-TO-DATE
+:magellan-library:generateDebugSources UP-TO-DATE
+:magellan-library:javaPreCompileDebug UP-TO-DATE
+:magellan-library:compileDebugJavaWithJavac UP-TO-DATE
+:magellan-library:processDebugJavaRes NO-SOURCE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:magellan-rx:preBuild UP-TO-DATE
+:magellan-rx:preDebugBuild UP-TO-DATE
+:magellan-rx:compileDebugAidl UP-TO-DATE
+:magellan-library:packageDebugRenderscript NO-SOURCE
+:magellan-rx:compileDebugRenderscript UP-TO-DATE
+:magellan-rx:checkDebugManifest UP-TO-DATE
+:magellan-rx:generateDebugBuildConfig UP-TO-DATE
+:magellan-rx:generateDebugResValues UP-TO-DATE
+:magellan-rx:generateDebugResources UP-TO-DATE
+:magellan-rx:packageDebugResources UP-TO-DATE
+:magellan-rx:platformAttrExtractor UP-TO-DATE
+:magellan-rx:processDebugManifest UP-TO-DATE
+:magellan-rx:generateDebugRFile UP-TO-DATE
+:magellan-rx:prepareLintJar UP-TO-DATE
+:magellan-rx:generateDebugSources UP-TO-DATE
+:magellan-rx:javaPreCompileDebug UP-TO-DATE
+:magellan-rx:compileDebugJavaWithJavac UP-TO-DATE
+:magellan-rx:processDebugJavaRes NO-SOURCE
+:magellan-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:magellan-sample-advanced:preBuild UP-TO-DATE
+:magellan-sample-advanced:preDebugBuild
+:magellan-sample-advanced:compileDebugAidl
+:magellan-rx:packageDebugRenderscript NO-SOURCE
+:magellan-sample-advanced:compileDebugRenderscript
+:magellan-sample-advanced:checkDebugManifest
+:magellan-sample-advanced:generateDebugBuildConfig
+:magellan-sample-advanced:prepareLintJar
+:magellan-sample-advanced:mainApkListPersistenceDebug
+:magellan-sample-advanced:generateDebugResValues
+:magellan-sample-advanced:generateDebugResources
+:magellan-sample-advanced:mergeDebugResources
+:magellan-sample-advanced:createDebugCompatibleScreenManifests
+:magellan-sample-advanced:processDebugManifest
+:magellan-sample-advanced:splitsDiscoveryTaskDebug
+:magellan-sample-advanced:processDebugResources
+:magellan-sample-advanced:generateDebugSources
+:magellan-sample-advanced:javaPreCompileDebug
+Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-jackson/2.3.0/converter-jackson-2.3.0.jar
+Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava/2.3.0/adapter-rxjava-2.3.0.jar
+Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.6.0/logging-interceptor-3.6.0.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.2/jackson-core-2.7.2.jar
+Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.2/jackson-databind-2.7.2.jar
+:magellan-sample-advanced:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/src/main/java/com/wealthfront/magellan/sample/advanced/tide/TideLocationsView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:magellan-sample-advanced:compileDebugNdk NO-SOURCE
+:magellan-sample-advanced:compileDebugSources
+:magellan-library:mergeDebugShaders UP-TO-DATE
+:magellan-library:compileDebugShaders UP-TO-DATE
+:magellan-library:generateDebugAssets UP-TO-DATE
+:magellan-library:packageDebugAssets UP-TO-DATE
+:magellan-rx:mergeDebugShaders UP-TO-DATE
+:magellan-rx:compileDebugShaders UP-TO-DATE
+:magellan-rx:generateDebugAssets UP-TO-DATE
+:magellan-rx:packageDebugAssets UP-TO-DATE
+:magellan-sample-advanced:mergeDebugShaders
+:magellan-sample-advanced:compileDebugShaders
+:magellan-sample-advanced:generateDebugAssets
+:magellan-sample-advanced:mergeDebugAssets
+:magellan-sample-advanced:transformClassesWithDexBuilderForDebug
+:magellan-sample-advanced:transformDexArchiveWithExternalLibsDexMergerForDebug
+:magellan-sample-advanced:transformDexArchiveWithDexMergerForDebug
+:magellan-library:compileDebugNdk NO-SOURCE
+:magellan-library:mergeDebugJniLibFolders UP-TO-DATE
+:magellan-library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:magellan-library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:magellan-library:transformNativeLibsWithIntermediateJniLibsForDebug
+:magellan-rx:compileDebugNdk NO-SOURCE
+:magellan-rx:mergeDebugJniLibFolders UP-TO-DATE
+:magellan-rx:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:magellan-rx:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:magellan-rx:transformNativeLibsWithIntermediateJniLibsForDebug
+:magellan-sample-advanced:mergeDebugJniLibFolders
+:magellan-sample-advanced:transformNativeLibsWithMergeJniLibsForDebug
+:magellan-sample-advanced:transformNativeLibsWithStripDebugSymbolForDebug
+:magellan-sample-advanced:processDebugJavaRes NO-SOURCE
+:magellan-sample-advanced:transformResourcesWithMergeJavaResForDebug
+:magellan-sample-advanced:validateSigningDebug
+:magellan-sample-advanced:packageDebug
+:magellan-sample-advanced:assembleDebug
+:magellan-library:preReleaseBuild UP-TO-DATE
+:magellan-library:compileReleaseAidl UP-TO-DATE
+:magellan-library:compileReleaseRenderscript UP-TO-DATE
+:magellan-library:checkReleaseManifest UP-TO-DATE
+:magellan-library:generateReleaseBuildConfig UP-TO-DATE
+:magellan-library:generateReleaseResValues UP-TO-DATE
+:magellan-library:generateReleaseResources UP-TO-DATE
+:magellan-library:packageReleaseResources UP-TO-DATE
+:magellan-library:processReleaseManifest UP-TO-DATE
+:magellan-library:generateReleaseRFile UP-TO-DATE
+:magellan-library:generateReleaseSources UP-TO-DATE
+:magellan-library:javaPreCompileRelease UP-TO-DATE
+:magellan-library:compileReleaseJavaWithJavac UP-TO-DATE
+:magellan-library:processReleaseJavaRes NO-SOURCE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:magellan-rx:preReleaseBuild UP-TO-DATE
+:magellan-rx:compileReleaseAidl UP-TO-DATE
+:magellan-library:packageReleaseRenderscript NO-SOURCE
+:magellan-rx:compileReleaseRenderscript UP-TO-DATE
+:magellan-rx:checkReleaseManifest UP-TO-DATE
+:magellan-rx:generateReleaseBuildConfig UP-TO-DATE
+:magellan-rx:generateReleaseResValues UP-TO-DATE
+:magellan-rx:generateReleaseResources UP-TO-DATE
+:magellan-rx:packageReleaseResources UP-TO-DATE
+:magellan-rx:processReleaseManifest UP-TO-DATE
+:magellan-rx:generateReleaseRFile UP-TO-DATE
+:magellan-rx:generateReleaseSources UP-TO-DATE
+:magellan-rx:javaPreCompileRelease UP-TO-DATE
+:magellan-rx:compileReleaseJavaWithJavac UP-TO-DATE
+:magellan-rx:processReleaseJavaRes NO-SOURCE
+:magellan-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:magellan-sample-advanced:preReleaseBuild
+:magellan-sample-advanced:compileReleaseAidl
+:magellan-rx:packageReleaseRenderscript NO-SOURCE
+:magellan-sample-advanced:compileReleaseRenderscript
+:magellan-sample-advanced:checkReleaseManifest
+:magellan-sample-advanced:generateReleaseBuildConfig
+:magellan-sample-advanced:mainApkListPersistenceRelease
+:magellan-sample-advanced:generateReleaseResValues
+:magellan-sample-advanced:generateReleaseResources
+:magellan-sample-advanced:mergeReleaseResources
+:magellan-sample-advanced:createReleaseCompatibleScreenManifests
+:magellan-sample-advanced:processReleaseManifest
+:magellan-sample-advanced:splitsDiscoveryTaskRelease
+:magellan-sample-advanced:processReleaseResources
+:magellan-sample-advanced:generateReleaseSources
+:magellan-sample-advanced:javaPreCompileRelease
+:magellan-sample-advanced:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/src/main/java/com/wealthfront/magellan/sample/advanced/tide/TideLocationsView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:magellan-sample-advanced:compileReleaseNdk NO-SOURCE
+:magellan-sample-advanced:compileReleaseSources
+:magellan-sample-advanced:lintVitalRelease
+:magellan-library:mergeReleaseShaders UP-TO-DATE
+:magellan-library:compileReleaseShaders UP-TO-DATE
+:magellan-library:generateReleaseAssets UP-TO-DATE
+:magellan-library:packageReleaseAssets UP-TO-DATE
+:magellan-rx:mergeReleaseShaders UP-TO-DATE
+:magellan-rx:compileReleaseShaders UP-TO-DATE
+:magellan-rx:generateReleaseAssets UP-TO-DATE
+:magellan-rx:packageReleaseAssets UP-TO-DATE
+:magellan-sample-advanced:mergeReleaseShaders
+:magellan-sample-advanced:compileReleaseShaders
+:magellan-sample-advanced:generateReleaseAssets
+:magellan-sample-advanced:mergeReleaseAssets
+:magellan-sample-advanced:transformClassesWithDexBuilderForRelease
+:magellan-sample-advanced:transformDexArchiveWithExternalLibsDexMergerForRelease
+:magellan-sample-advanced:transformDexArchiveWithDexMergerForRelease
+:magellan-library:compileReleaseNdk NO-SOURCE
+:magellan-library:mergeReleaseJniLibFolders UP-TO-DATE
+:magellan-library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:magellan-library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:magellan-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:magellan-rx:compileReleaseNdk NO-SOURCE
+:magellan-rx:mergeReleaseJniLibFolders UP-TO-DATE
+:magellan-rx:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:magellan-rx:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:magellan-rx:transformNativeLibsWithIntermediateJniLibsForRelease
+:magellan-sample-advanced:mergeReleaseJniLibFolders
+:magellan-sample-advanced:transformNativeLibsWithMergeJniLibsForRelease
+:magellan-sample-advanced:transformNativeLibsWithStripDebugSymbolForRelease
+:magellan-sample-advanced:processReleaseJavaRes NO-SOURCE
+:magellan-sample-advanced:transformResourcesWithMergeJavaResForRelease
+:magellan-sample-advanced:packageRelease
+:magellan-sample-advanced:assembleRelease
+:magellan-sample-advanced:assemble
+:magellan-sample-advanced:build
+
+BUILD SUCCESSFUL in 35s
+129 actionable tasks: 59 executed, 70 up-to-date
+
+2018-12-09 20:55:31,934 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build/outputs/apk/release/magellan-sample-advanced-release-unsigned.apk

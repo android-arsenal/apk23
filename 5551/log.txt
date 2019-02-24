@@ -1,0 +1,192 @@
+2018-09-14 21:41:53,893 INFO  DownloadService - Downloading "https://github.com/seventhmoon/VolleyEx/archive/master.zip", attempt 3
+2018-09-14 21:41:54,410 INFO  DownloadService - Downloaded https://github.com/seventhmoon/VolleyEx/archive/master.zip, attempt 3
+2018-09-14 21:41:54,411 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/master.zip": 81 KB
+2018-09-14 21:41:54,411 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-09-14 21:41:54,416 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/master.zip: true
+2018-09-14 21:41:54,416 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src'.
+2018-09-14 21:41:54,433 INFO  FullProcessService - Size of directory with sources: 110 KB
+2018-09-14 21:41:54,433 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src]
+2018-09-14 21:41:54,450 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/.git/
+
+2018-09-14 21:41:54,452 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/gradlew
+2018-09-14 21:41:54,455 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/build.gradle
+2018-09-14 21:41:54,458 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/settings.gradle
+2018-09-14 21:41:54,458 INFO  ProjectBuildService - Remote scripts: none
+2018-09-14 21:41:54,458 INFO  ProjectFixService - Fixing project...
+2018-09-14 21:41:54,465 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/library/local.properties
+2018-09-14 21:41:54,465 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/library/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-14 21:41:54,466 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/local.properties
+2018-09-14 21:41:54,466 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
+2018-09-14 21:41:54,467 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
+2018-09-14 21:41:54,468 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2018-09-14 21:41:54,468 INFO  ProjectFixService - Project was maybe fixed
+2018-09-14 21:41:54,468 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 21:41:54,468 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 21:42:02,817 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-14 21:42:02,817 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-14 21:42:02,817 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-14 21:42:24,699 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access using Lookup on org.gradle.internal.reflect.JavaMethod (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8/lib/gradle-base-services-4.8.jar) to class java.lang.ClassLoader
+WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript
+> Task :library:checkDebugManifest
+> Task :library:generateDebugBuildConfig
+> Task :library:generateDebugResValues
+> Task :library:generateDebugResources
+> Task :library:packageDebugResources
+> Task :library:processDebugManifest
+> Task :library:generateDebugRFile
+> Task :library:prepareLintJar
+> Task :library:generateDebugSources
+> Task :library:javaPreCompileDebug
+> Task :library:compileDebugJavaWithJavac
+Download https://maven.google.com/com/android/tools/external/com-intellij/intellij-core/26.2.0-alpha16/intellij-core-26.2.0-alpha16.jar
+Download https://maven.google.com/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-alpha16/kotlin-compiler-26.2.0-alpha16.jar
+> Task :library:extractDebugAnnotations
+> Task :library:mergeDebugConsumerProguardFiles
+> Task :library:mergeDebugShaders
+> Task :library:compileDebugShaders
+> Task :library:generateDebugAssets
+> Task :library:packageDebugAssets
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:transformResourcesWithMergeJavaResForDebug
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :library:compileDebugNdk NO-SOURCE
+> Task :library:mergeDebugJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug
+> Task :library:bundleDebug
+> Task :library:compileDebugSources
+> Task :library:assembleDebug
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript
+> Task :library:checkReleaseManifest
+> Task :library:generateReleaseBuildConfig
+> Task :library:generateReleaseResValues
+> Task :library:generateReleaseResources
+> Task :library:packageReleaseResources
+> Task :library:processReleaseManifest
+> Task :library:generateReleaseRFile
+> Task :library:generateReleaseSources
+> Task :library:javaPreCompileRelease
+> Task :library:compileReleaseJavaWithJavac
+> Task :library:extractReleaseAnnotations
+> Task :library:mergeReleaseConsumerProguardFiles
+> Task :library:mergeReleaseShaders
+> Task :library:compileReleaseShaders
+> Task :library:generateReleaseAssets
+> Task :library:packageReleaseAssets
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:transformResourcesWithMergeJavaResForRelease
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :library:compileReleaseNdk NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :library:transformNativeLibsWithSyncJniLibsForRelease
+> Task :library:bundleRelease
+> Task :library:compileReleaseSources
+> Task :library:mergeReleaseResources
+> Task :library:verifyReleaseResources
+> Task :library:assembleRelease
+> Task :library:assemble
+> Task :library:build
+
+BUILD SUCCESSFUL in 21s
+45 actionable tasks: 45 executed
+
+2018-09-14 21:42:24,721 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-14 21:42:24,722 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-14 21:42:31,973 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-14 21:42:31,973 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2018-09-14 21:42:31,973 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536936113884-0/src/VolleyEx-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2018-09-14 21:42:41,846 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access using Lookup on org.gradle.internal.reflect.JavaMethod (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.8-bin/divx0s2uj4thofgytb7gf9fsi/gradle-4.8/lib/gradle-base-services-4.8.jar) to class java.lang.ClassLoader
+WARNING: Please consider reporting this to the maintainers of org.gradle.internal.reflect.JavaMethod
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+Configuration on demand is an incubating feature.
+> Task :library:preBuild UP-TO-DATE
+> Task :library:preDebugBuild UP-TO-DATE
+> Task :library:compileDebugAidl NO-SOURCE
+> Task :library:compileDebugRenderscript UP-TO-DATE
+> Task :library:checkDebugManifest UP-TO-DATE
+> Task :library:generateDebugBuildConfig UP-TO-DATE
+> Task :library:generateDebugResValues UP-TO-DATE
+> Task :library:generateDebugResources UP-TO-DATE
+> Task :library:packageDebugResources UP-TO-DATE
+> Task :library:processDebugManifest UP-TO-DATE
+> Task :library:generateDebugRFile UP-TO-DATE
+> Task :library:prepareLintJar UP-TO-DATE
+> Task :library:generateDebugSources UP-TO-DATE
+> Task :library:javaPreCompileDebug UP-TO-DATE
+> Task :library:compileDebugJavaWithJavac UP-TO-DATE
+> Task :library:extractDebugAnnotations UP-TO-DATE
+> Task :library:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :library:mergeDebugShaders UP-TO-DATE
+> Task :library:compileDebugShaders UP-TO-DATE
+> Task :library:generateDebugAssets UP-TO-DATE
+> Task :library:packageDebugAssets UP-TO-DATE
+> Task :library:packageDebugRenderscript NO-SOURCE
+> Task :library:processDebugJavaRes NO-SOURCE
+> Task :library:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :library:compileDebugNdk NO-SOURCE
+> Task :library:mergeDebugJniLibFolders UP-TO-DATE
+> Task :library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :library:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :library:bundleDebug UP-TO-DATE
+> Task :library:compileDebugSources UP-TO-DATE
+> Task :library:assembleDebug UP-TO-DATE
+> Task :library:preReleaseBuild UP-TO-DATE
+> Task :library:compileReleaseAidl NO-SOURCE
+> Task :library:compileReleaseRenderscript UP-TO-DATE
+> Task :library:checkReleaseManifest UP-TO-DATE
+> Task :library:generateReleaseBuildConfig UP-TO-DATE
+> Task :library:generateReleaseResValues UP-TO-DATE
+> Task :library:generateReleaseResources UP-TO-DATE
+> Task :library:packageReleaseResources UP-TO-DATE
+> Task :library:processReleaseManifest UP-TO-DATE
+> Task :library:generateReleaseRFile UP-TO-DATE
+> Task :library:generateReleaseSources UP-TO-DATE
+> Task :library:javaPreCompileRelease UP-TO-DATE
+> Task :library:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :library:extractReleaseAnnotations UP-TO-DATE
+> Task :library:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :library:mergeReleaseShaders UP-TO-DATE
+> Task :library:compileReleaseShaders UP-TO-DATE
+> Task :library:generateReleaseAssets UP-TO-DATE
+> Task :library:packageReleaseAssets UP-TO-DATE
+> Task :library:packageReleaseRenderscript NO-SOURCE
+> Task :library:processReleaseJavaRes NO-SOURCE
+> Task :library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :library:compileReleaseNdk NO-SOURCE
+> Task :library:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :library:bundleRelease UP-TO-DATE
+> Task :library:compileReleaseSources UP-TO-DATE
+> Task :library:mergeReleaseResources UP-TO-DATE
+> Task :library:verifyReleaseResources UP-TO-DATE
+> Task :library:assembleRelease UP-TO-DATE
+> Task :library:assemble UP-TO-DATE
+> Task :library:build
+
+BUILD SUCCESSFUL in 9s
+45 actionable tasks: 45 up-to-date
+
+2018-09-14 21:42:41,869 ERROR FullProcessService - Project build has not produced APK file
+2018-09-14 21:42:41,888 ERROR FullProcessService - Could not find generated or existed APK file

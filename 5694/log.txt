@@ -1,0 +1,165 @@
+2018-12-02 19:21:15,459 INFO  DownloadService - Downloading "https://github.com/Codewaves/Sticky-Header-Grid/archive/master.zip", attempt 3
+2018-12-02 19:21:18,656 INFO  DownloadService - Downloaded https://github.com/Codewaves/Sticky-Header-Grid/archive/master.zip, attempt 3
+2018-12-02 19:21:18,657 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/master.zip": 1 MB
+2018-12-02 19:21:18,657 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-02 19:21:18,662 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/master.zip: true
+2018-12-02 19:21:18,663 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src'.
+2018-12-02 19:21:18,692 INFO  FullProcessService - Size of directory with sources: 1 MB
+2018-12-02 19:21:18,692 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src]
+2018-12-02 19:21:18,710 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/.git/
+
+2018-12-02 19:21:18,713 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/gradlew
+2018-12-02 19:21:18,716 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/stickyheadergrid/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/build.gradle
+2018-12-02 19:21:18,718 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/stickyheadergrid/build.gradle
+2018-12-02 19:21:18,719 INFO  ProjectBuildService - Remote scripts: none
+2018-12-02 19:21:18,719 INFO  ProjectFixService - Fixing project...
+2018-12-02 19:21:18,726 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/sample/local.properties
+2018-12-02 19:21:18,728 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-02 19:21:18,728 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-02 19:21:18,729 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/stickyheadergrid/local.properties
+2018-12-02 19:21:18,732 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/stickyheadergrid/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-02 19:21:18,732 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/stickyheadergrid/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-02 19:21:18,733 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/local.properties
+2018-12-02 19:21:18,734 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-12-02 19:21:18,734 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-12-02 19:21:18,737 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-02 19:21:18,737 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-02 19:21:18,737 INFO  ProjectFixService - Project was maybe fixed
+2018-12-02 19:21:18,738 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-02 19:21:18,738 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-02 19:21:25,745 INFO  ProjectTaskService - Detected possible tasks: 69
+2018-12-02 19:21:25,745 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-12-02 19:21:25,745 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-12-02 19:22:01,462 INFO  SysUtils - Configuration on demand is an incubating feature.
+:sample:checkDebugClasspath
+:sample:preBuild UP-TO-DATE
+:stickyheadergrid:preBuild UP-TO-DATE
+:stickyheadergrid:preDebugBuild UP-TO-DATE
+:stickyheadergrid:checkDebugManifest
+:stickyheadergrid:processDebugManifest
+:sample:preDebugBuild
+:stickyheadergrid:compileDebugAidl NO-SOURCE
+:sample:compileDebugAidl NO-SOURCE
+:stickyheadergrid:packageDebugRenderscript NO-SOURCE
+:sample:compileDebugRenderscript
+:sample:checkDebugManifest
+:sample:generateDebugBuildConfig
+:sample:prepareLintJar
+:sample:mainApkListPersistenceDebug
+:sample:generateDebugResValues
+:sample:generateDebugResources
+:stickyheadergrid:compileDebugRenderscript
+:stickyheadergrid:generateDebugResValues
+:stickyheadergrid:generateDebugResources
+:stickyheadergrid:packageDebugResources
+:sample:mergeDebugResources
+:sample:createDebugCompatibleScreenManifests
+:sample:processDebugManifest
+:sample:splitsDiscoveryTaskDebug
+:stickyheadergrid:generateDebugRFile
+:sample:processDebugResources
+:sample:generateDebugSources
+:stickyheadergrid:generateDebugBuildConfig
+:stickyheadergrid:prepareLintJar
+:stickyheadergrid:generateDebugSources
+:stickyheadergrid:javaPreCompileDebug
+:stickyheadergrid:compileDebugJavaWithJavac
+:stickyheadergrid:processDebugJavaRes NO-SOURCE
+:stickyheadergrid:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:sample:javaPreCompileDebug
+:sample:compileDebugJavaWithJavac
+:sample:compileDebugNdk NO-SOURCE
+:sample:compileDebugSources
+:sample:mergeDebugShaders
+:sample:compileDebugShaders
+:sample:generateDebugAssets
+:stickyheadergrid:mergeDebugShaders
+:stickyheadergrid:compileDebugShaders
+:stickyheadergrid:generateDebugAssets
+:stickyheadergrid:packageDebugAssets
+:sample:mergeDebugAssets
+:sample:transformClassesWithDexBuilderForDebug
+:sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+:sample:transformDexArchiveWithDexMergerForDebug
+:sample:mergeDebugJniLibFolders
+:stickyheadergrid:compileDebugNdk NO-SOURCE
+:stickyheadergrid:mergeDebugJniLibFolders
+:stickyheadergrid:transformNativeLibsWithMergeJniLibsForDebug
+:stickyheadergrid:transformNativeLibsWithStripDebugSymbolForDebug
+:stickyheadergrid:transformNativeLibsWithIntermediateJniLibsForDebug
+:sample:transformNativeLibsWithMergeJniLibsForDebug
+:sample:transformNativeLibsWithStripDebugSymbolForDebug
+:sample:checkDebugLibraries
+:sample:processDebugJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForDebug
+:sample:validateSigningDebug
+:sample:packageDebug
+:sample:assembleDebug
+:sample:checkReleaseClasspath
+:stickyheadergrid:preReleaseBuild UP-TO-DATE
+:stickyheadergrid:checkReleaseManifest
+:stickyheadergrid:processReleaseManifest
+:sample:preReleaseBuild
+:stickyheadergrid:compileReleaseAidl NO-SOURCE
+:sample:compileReleaseAidl NO-SOURCE
+:stickyheadergrid:packageReleaseRenderscript NO-SOURCE
+:sample:compileReleaseRenderscript
+:sample:checkReleaseManifest
+:sample:generateReleaseBuildConfig
+:sample:mainApkListPersistenceRelease
+:sample:generateReleaseResValues
+:sample:generateReleaseResources
+:stickyheadergrid:compileReleaseRenderscript
+:stickyheadergrid:generateReleaseResValues
+:stickyheadergrid:generateReleaseResources
+:stickyheadergrid:packageReleaseResources
+:sample:mergeReleaseResources
+:sample:createReleaseCompatibleScreenManifests
+:sample:processReleaseManifest
+:sample:splitsDiscoveryTaskRelease
+:stickyheadergrid:generateReleaseRFile
+:sample:processReleaseResources
+:sample:generateReleaseSources
+:stickyheadergrid:generateReleaseBuildConfig
+:stickyheadergrid:generateReleaseSources
+:stickyheadergrid:javaPreCompileRelease
+:stickyheadergrid:compileReleaseJavaWithJavac
+:stickyheadergrid:processReleaseJavaRes NO-SOURCE
+:stickyheadergrid:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:sample:javaPreCompileRelease
+:sample:compileReleaseJavaWithJavac
+:sample:compileReleaseNdk NO-SOURCE
+:sample:compileReleaseSources
+:sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/80847e328f7af16fd4fa0c83b6137441/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:sample:mergeReleaseShaders
+:sample:compileReleaseShaders
+:sample:generateReleaseAssets
+:stickyheadergrid:mergeReleaseShaders
+:stickyheadergrid:compileReleaseShaders
+:stickyheadergrid:generateReleaseAssets
+:stickyheadergrid:packageReleaseAssets
+:sample:mergeReleaseAssets
+:sample:transformClassesWithDexBuilderForRelease
+:sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+:sample:transformDexArchiveWithDexMergerForRelease
+:sample:mergeReleaseJniLibFolders
+:stickyheadergrid:compileReleaseNdk NO-SOURCE
+:stickyheadergrid:mergeReleaseJniLibFolders
+:stickyheadergrid:transformNativeLibsWithMergeJniLibsForRelease
+:stickyheadergrid:transformNativeLibsWithStripDebugSymbolForRelease
+:stickyheadergrid:transformNativeLibsWithIntermediateJniLibsForRelease
+:sample:transformNativeLibsWithMergeJniLibsForRelease
+:sample:transformNativeLibsWithStripDebugSymbolForRelease
+:sample:checkReleaseLibraries
+:sample:processReleaseJavaRes NO-SOURCE
+:sample:transformResourcesWithMergeJavaResForRelease
+:sample:packageRelease
+:sample:assembleRelease
+:sample:assemble
+:sample:build
+
+BUILD SUCCESSFUL in 35s
+90 actionable tasks: 90 executed
+
+2018-12-02 19:22:01,573 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1543753275451-0/src/Sticky-Header-Grid-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

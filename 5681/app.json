@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "com.example.witch",
+    "label" : "Witch",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "15",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.INTERNET", "android.permission.READ_EXTERNAL_STORAGE", "android.permission.WRITE_EXTERNAL_STORAGE" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAuhJREFUSA21Vs9LG0EU/nYTiwmoh1CiQjxUJKIg1B6SQIsFA6IVD0Xwql7qzUMv/gftpQdPxpOFXizSHhJBRJFKW8mlXmzAEkEkYJRiQ/wVkZjtfFNm3TUb1IoPlp1573vfN/vmze5qEBaNRsOFQqG3VCo94Pyupuv6ucfjWVheXk5qJE+n018FqfuuxFfyiy0tLc90rvweyKnlJrd+m7KMjY2B102N3PpNwSRub2+X121EHOve0NCAzs5OU7u1tRX5fB6Li4vSNzIygqamJkxNTaGjo0P61tfXkc1mzRw1cAUCgejR0dFT5eC9q6sLg4ODEH709PRIkq2tLdTW1spre3tbYrxeL1wuF/r6+pDL5SCaxUqDmpqab45PQNTa2ppMpsjo6ChEPW3J09PTmJycxMnJCZLJpC1mnTjuwebmplwpaz4+Pl5GTgIKMkZMOBy2ctrGjgLDw8Po7u62kWsPvcCrxygOBWH4qiWJEvH7/QgGgzZiNSkTYIe0tbUhkUiYK5fkC0PQJiK4ePEIZ6+f2ETi8TgODw8dW9gmoFpxZmYGhmGoRcB4KVbn88AQZSn9OYVR7ULxeeAyLrB7e3uOLWwTMDMqDEq5ghC5FK4As7ltArFYDKlUCvX19dA0zQRqn38BBwWU8mfSp51dwP0lcxkXWJ4N5pLDajYBBgioq6vDwMAAxFtRYo3fp0DvR+gfUqj6nkX1ux/QDv6JEdPf34+NjY0yciaXCdDJNt3f35d9bhXR3/9E1ae0jZxnYWVlBbOzs0wtM0cBonh4+MgkUCLWbPoYI+b4+BjNzc3WsDmueJJDoRBWV1exs7OD+fl52baqs7g/LCGfkhaJRDA3N2eSWgeOAnxxKVtaWoLP5+NXD2xfGptAfK1kKTnPZDKw5tCnTBPqb3Z3dyeUo9JdnRHGnbrFKa+xsfFtxT24mqBa+KbkKt8tNutcTa67X+3x6/Dk1vn1F8DideD/iBfJLY/rff62/AWkXEDcVthWzwAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 2590,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"com.example.witch\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"15\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.INTERNET\" />\n\t<uses-permission android:name=\"android.permission.READ_EXTERNAL_STORAGE\" />\n\t<uses-permission android:name=\"android.permission.WRITE_EXTERNAL_STORAGE\" />\n\t<application android:theme=\"resourceId:0x7f0f0006\" android:label=\"Witch\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:name=\"com.example.witch.app.App\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"com.example.witch.app.login.LoginActivity\" android:windowSoftInputMode=\"0x20\" android:noHistory=\"true\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:name=\"com.example.witch.app.list.ListActivity\" />\n\t\t<service android:name=\"com.squareup.leakcanary.internal.HeapAnalyzerService\" android:enabled=\"false\" android:process=\":leakcanary\" />\n\t\t<service android:name=\"com.squareup.leakcanary.DisplayLeakService\" android:enabled=\"false\" />\n\t\t<activity android:theme=\"resourceId:0x7f0f01f0\" android:label=\"Leaks\" android:icon=\"res/drawable-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"com.squareup.leakcanary.internal.DisplayLeakActivity\" android:enabled=\"false\" android:taskAffinity=\"com.squareup.leakcanary\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f0f01f1\" android:label=\"Storage permission\" android:icon=\"res/drawable-xxxhdpi-v4/leak_canary_icon.png\" android:name=\"com.squareup.leakcanary.internal.RequestStoragePermissionActivity\" android:enabled=\"false\" android:taskAffinity=\"com.squareup.leakcanary\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 2467406,
+  "crc32" : 41655994,
+  "sha256" : "f37bfc9c3b7f88814bbafb659a88cda198633a45b9cf9f93405a6cc55b6527d4",
+  "buildTime" : 1547320503000
+}

@@ -1,0 +1,707 @@
+2018-09-10 17:05:58,931 INFO  DownloadService - Downloading "https://github.com/magnusja/libaums/archive/master.zip", attempt 3
+2018-09-10 17:07:00,059 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2018-09-10 17:07:01,118 INFO  GithubDownloadService - Default branch of this repository: develop
+2018-09-10 17:07:01,118 INFO  DownloadService - Downloading "https://github.com/magnusja/libaums/archive/develop.zip", attempt 3
+2018-09-10 17:08:02,812 DEBUG FullProcessService - Repository https://github.com/magnusja/libaums available: true
+2018-09-10 17:08:02,812 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2018-09-10 17:08:02,812 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/magnusja/libaums, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src]
+2018-09-10 17:08:06,836 INFO  SysUtils - 
+2018-09-10 17:08:06,846 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/.git": true
+2018-09-10 17:08:06,854 INFO  FullProcessService - Size of directory with sources: 487 KB
+2018-09-10 17:08:06,854 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src]
+2018-09-10 17:08:06,873 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/.git/
+
+2018-09-10 17:08:06,878 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/gradlew
+2018-09-10 17:08:06,884 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/build.gradle
+2018-09-10 17:08:06,890 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/settings.gradle
+2018-09-10 17:08:06,890 INFO  ProjectBuildService - Remote scripts: none
+2018-09-10 17:08:06,890 INFO  ProjectFixService - Fixing project...
+2018-09-10 17:08:06,905 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/app/local.properties
+2018-09-10 17:08:06,905 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-10 17:08:06,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/httpserver/local.properties
+2018-09-10 17:08:06,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/httpserver/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-10 17:08:06,907 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/javafs/local.properties
+2018-09-10 17:08:06,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/javafs/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-10 17:08:06,908 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/local.properties
+2018-09-10 17:08:06,909 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-10 17:08:06,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/storageprovider/local.properties
+2018-09-10 17:08:06,909 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/storageprovider/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-10 17:08:06,910 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/local.properties
+2018-09-10 17:08:06,910 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2018-09-10 17:08:06,910 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2018-09-10 17:08:06,912 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2018-09-10 17:08:06,912 INFO  ProjectFixService - Project was maybe fixed
+2018-09-10 17:08:06,912 INFO  ProjectTaskService - Detecting possible tasks...
+2018-09-10 17:08:06,912 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-09-10 17:08:36,404 INFO  ProjectTaskService - Detected possible tasks: 66
+2018-09-10 17:08:36,404 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-09-10 17:08:36,404 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-09-10 17:10:42,287 INFO  SysUtils - Configuration on demand is an incubating feature.
+:app:preBuild UP-TO-DATE
+:httpserver:preBuild UP-TO-DATE
+:httpserver:preDebugBuild UP-TO-DATE
+:httpserver:checkDebugManifest
+:httpserver:processDebugManifest
+:javafs:preBuild UP-TO-DATE
+:javafs:preDebugBuild UP-TO-DATE
+:javafs:checkDebugManifest
+:javafs:processDebugManifest
+:libaums:preBuild UP-TO-DATE
+:libaums:preDebugBuild UP-TO-DATE
+:libaums:checkDebugManifest
+:libaums:processDebugManifest
+:storageprovider:preBuild UP-TO-DATE
+:storageprovider:preDebugBuild UP-TO-DATE
+:storageprovider:checkDebugManifest
+:storageprovider:processDebugManifest
+:app:preDebugBuild
+Download https://jcenter.bintray.com/org/nanohttpd/nanohttpd/maven-metadata.xml
+Download https://jcenter.bintray.com/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.pom
+Download https://jcenter.bintray.com/org/nanohttpd/nanohttpd-project/2.3.1/nanohttpd-project-2.3.1.pom
+Download https://jcenter.bintray.com/com/koushikdutta/async/androidasync/maven-metadata.xml
+Download https://jcenter.bintray.com/de/mindpipe/android/android-logging-log4j/1.0.3/android-logging-log4j-1.0.3.pom
+Download https://dl.bintray.com/magnusja/maven/com/github/magnusja/java-fs/0.1.3/java-fs-0.1.3.pom
+Download https://jcenter.bintray.com/commons-io/commons-io/1.3.2/commons-io-1.3.2.pom
+Download https://jcenter.bintray.com/org/apache/commons/commons-parent/3/commons-parent-3.pom
+:libaums:compileDebugAidl
+:httpserver:compileDebugAidl
+:javafs:compileDebugAidl
+:storageprovider:compileDebugAidl
+:app:compileDebugAidl
+:httpserver:packageDebugRenderscript NO-SOURCE
+:javafs:packageDebugRenderscript NO-SOURCE
+:libaums:packageDebugRenderscript NO-SOURCE
+:storageprovider:packageDebugRenderscript NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:prepareLintJar
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:httpserver:compileDebugRenderscript
+:httpserver:generateDebugResValues
+:httpserver:generateDebugResources
+:httpserver:packageDebugResources
+:javafs:compileDebugRenderscript
+:javafs:generateDebugResValues
+:javafs:generateDebugResources
+:javafs:packageDebugResources
+:libaums:compileDebugRenderscript
+:libaums:generateDebugResValues
+:libaums:generateDebugResources
+:libaums:packageDebugResources
+:storageprovider:compileDebugRenderscript
+:storageprovider:generateDebugResValues
+:storageprovider:generateDebugResources
+:storageprovider:packageDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:httpserver:platformAttrExtractor
+:libaums:platformAttrExtractor
+:javafs:platformAttrExtractor
+:storageprovider:platformAttrExtractor
+:httpserver:generateDebugBuildConfig
+:httpserver:prepareLintJar
+:libaums:generateDebugBuildConfig
+:libaums:prepareLintJar
+:libaums:javaPreCompileDebug
+:libaums:processDebugJavaRes NO-SOURCE
+:httpserver:processDebugJavaRes NO-SOURCE
+:javafs:generateDebugBuildConfig
+:javafs:prepareLintJar
+:javafs:processDebugJavaRes NO-SOURCE
+:storageprovider:generateDebugBuildConfig
+:storageprovider:prepareLintJar
+:storageprovider:processDebugJavaRes NO-SOURCE
+:app:compileDebugNdk NO-SOURCE
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:httpserver:mergeDebugShaders
+:httpserver:compileDebugShaders
+:httpserver:generateDebugAssets
+:httpserver:packageDebugAssets
+:javafs:mergeDebugShaders
+:javafs:compileDebugShaders
+:javafs:generateDebugAssets
+:javafs:packageDebugAssets
+:libaums:mergeDebugShaders
+:libaums:compileDebugShaders
+:libaums:generateDebugAssets
+:libaums:packageDebugAssets
+:storageprovider:mergeDebugShaders
+:storageprovider:compileDebugShaders
+:storageprovider:generateDebugAssets
+:storageprovider:packageDebugAssets
+:app:mergeDebugAssets
+:app:mergeDebugJniLibFolders
+:httpserver:compileDebugNdk NO-SOURCE
+:httpserver:mergeDebugJniLibFolders
+:httpserver:transformNativeLibsWithMergeJniLibsForDebug
+:httpserver:transformNativeLibsWithStripDebugSymbolForDebug
+:httpserver:transformNativeLibsWithIntermediateJniLibsForDebug
+:javafs:compileDebugNdk NO-SOURCE
+:javafs:mergeDebugJniLibFolders
+:javafs:transformNativeLibsWithMergeJniLibsForDebug
+:javafs:transformNativeLibsWithStripDebugSymbolForDebug
+:javafs:transformNativeLibsWithIntermediateJniLibsForDebug
+:libaums:generateJsonModelDebug
+External native generate JSON debug: starting JSON generation
+External native generate JSON debug: using platform version 21 for ABI X86_64 and min SDK version 16
+External native generate JSON debug: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build.json due to:
+External native generate JSON debug: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64/cmake_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64'
+External native generate JSON debug: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64'
+External native generate JSON debug: executing cmake Executable : /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums
+-B/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build/intermediates/cmake/debug/obj/x86_64
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/vbauer/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/vbauer/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64
+External native generate JSON debug: done executing cmake
+External native generate JSON debug: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64/cmake_build_output.txt
+External native generate JSON debug: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64/cmake_build_command.txt
+External native generate JSON debug: using platform version 16 for ABI X86 and min SDK version 16
+External native generate JSON debug: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json due to:
+External native generate JSON debug: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86/cmake_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86'
+External native generate JSON debug: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86'
+External native generate JSON debug: executing cmake Executable : /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums
+-B/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build/intermediates/cmake/debug/obj/x86
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/vbauer/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/vbauer/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86
+External native generate JSON debug: done executing cmake
+External native generate JSON debug: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86/cmake_build_output.txt
+External native generate JSON debug: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/x86/cmake_build_command.txt
+External native generate JSON debug: using platform version 16 for ABI ARMEABI_V7A and min SDK version 16
+External native generate JSON debug: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json due to:
+External native generate JSON debug: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a'
+External native generate JSON debug: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a'
+External native generate JSON debug: executing cmake Executable : /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums
+-B/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build/intermediates/cmake/debug/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/vbauer/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/vbauer/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a
+External native generate JSON debug: done executing cmake
+External native generate JSON debug: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_output.txt
+External native generate JSON debug: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a/cmake_build_command.txt
+External native generate JSON debug: using platform version 21 for ABI ARM64_V8A and min SDK version 16
+External native generate JSON debug: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build.json due to:
+External native generate JSON debug: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON debug: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON debug: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a'
+External native generate JSON debug: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a'
+External native generate JSON debug: executing cmake Executable : /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums
+-B/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build/intermediates/cmake/debug/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Debug
+-DANDROID_NDK=/Users/vbauer/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/vbauer/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a
+External native generate JSON debug: done executing cmake
+External native generate JSON debug: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_output.txt
+External native generate JSON debug: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a/cmake_build_command.txt
+External native generate JSON debug: JSON generation completed without problems
+:libaums:externalNativeBuildDebug
+Build errno-lib arm64-v8a
+[1/2] Building C object CMakeFiles/errno-lib.dir/src/c/errno.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/arm64-v8a/liberrno-lib.so
+Build errno-lib armeabi-v7a
+[1/2] Building C object CMakeFiles/errno-lib.dir/src/c/errno.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/armeabi-v7a/liberrno-lib.so
+Build errno-lib x86
+[1/2] Building C object CMakeFiles/errno-lib.dir/src/c/errno.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86/liberrno-lib.so
+Build errno-lib x86_64
+[1/2] Building C object CMakeFiles/errno-lib.dir/src/c/errno.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/debug/obj/x86_64/liberrno-lib.so
+:libaums:mergeDebugJniLibFolders
+:libaums:transformNativeLibsWithMergeJniLibsForDebug
+:libaums:transformNativeLibsWithStripDebugSymbolForDebug
+:libaums:transformNativeLibsWithIntermediateJniLibsForDebug
+:storageprovider:compileDebugNdk NO-SOURCE
+:storageprovider:mergeDebugJniLibFolders
+:storageprovider:transformNativeLibsWithMergeJniLibsForDebug
+:storageprovider:transformNativeLibsWithStripDebugSymbolForDebug
+:storageprovider:transformNativeLibsWithIntermediateJniLibsForDebug
+:app:processDebugJavaRes NO-SOURCE
+:app:validateSigningDebug
+:httpserver:preReleaseBuild UP-TO-DATE
+:httpserver:checkReleaseManifest
+:httpserver:processReleaseManifest
+:javafs:preReleaseBuild UP-TO-DATE
+:javafs:checkReleaseManifest
+:javafs:processReleaseManifest
+:libaums:preReleaseBuild UP-TO-DATE
+:libaums:checkReleaseManifest
+:libaums:processReleaseManifest
+:storageprovider:preReleaseBuild UP-TO-DATE
+:storageprovider:checkReleaseManifest
+:storageprovider:processReleaseManifest
+:app:preReleaseBuild
+:libaums:compileReleaseAidl
+:httpserver:compileReleaseAidl
+:javafs:compileReleaseAidl
+:storageprovider:compileReleaseAidl
+:app:compileReleaseAidl
+:httpserver:packageReleaseRenderscript NO-SOURCE
+:javafs:packageReleaseRenderscript NO-SOURCE
+:libaums:packageReleaseRenderscript NO-SOURCE
+:storageprovider:packageReleaseRenderscript NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:httpserver:compileReleaseRenderscript
+:httpserver:generateReleaseResValues
+:httpserver:generateReleaseResources
+:httpserver:packageReleaseResources
+:javafs:compileReleaseRenderscript
+:javafs:generateReleaseResValues
+:javafs:generateReleaseResources
+:javafs:packageReleaseResources
+:libaums:compileReleaseRenderscript
+:libaums:generateReleaseResValues
+:libaums:generateReleaseResources
+:libaums:packageReleaseResources
+:storageprovider:compileReleaseRenderscript
+:storageprovider:generateReleaseResValues
+:storageprovider:generateReleaseResources
+:storageprovider:packageReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:httpserver:generateReleaseBuildConfig
+:libaums:generateReleaseBuildConfig
+:libaums:javaPreCompileRelease
+:libaums:processReleaseJavaRes NO-SOURCE
+:httpserver:processReleaseJavaRes NO-SOURCE
+:javafs:generateReleaseBuildConfig
+:javafs:processReleaseJavaRes NO-SOURCE
+:storageprovider:generateReleaseBuildConfig
+:storageprovider:processReleaseJavaRes NO-SOURCE
+:app:compileReleaseNdk NO-SOURCE
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:httpserver:mergeReleaseShaders
+:httpserver:compileReleaseShaders
+:httpserver:generateReleaseAssets
+:httpserver:packageReleaseAssets
+:javafs:mergeReleaseShaders
+:javafs:compileReleaseShaders
+:javafs:generateReleaseAssets
+:javafs:packageReleaseAssets
+:libaums:mergeReleaseShaders
+:libaums:compileReleaseShaders
+:libaums:generateReleaseAssets
+:libaums:packageReleaseAssets
+:storageprovider:mergeReleaseShaders
+:storageprovider:compileReleaseShaders
+:storageprovider:generateReleaseAssets
+:storageprovider:packageReleaseAssets
+:app:mergeReleaseAssets
+:app:mergeReleaseJniLibFolders
+:httpserver:compileReleaseNdk NO-SOURCE
+:httpserver:mergeReleaseJniLibFolders
+:httpserver:transformNativeLibsWithMergeJniLibsForRelease
+:httpserver:transformNativeLibsWithStripDebugSymbolForRelease
+:httpserver:transformNativeLibsWithIntermediateJniLibsForRelease
+:javafs:compileReleaseNdk NO-SOURCE
+:javafs:mergeReleaseJniLibFolders
+:javafs:transformNativeLibsWithMergeJniLibsForRelease
+:javafs:transformNativeLibsWithStripDebugSymbolForRelease
+:javafs:transformNativeLibsWithIntermediateJniLibsForRelease
+:libaums:generateJsonModelRelease
+External native generate JSON release: starting JSON generation
+External native generate JSON release: using platform version 21 for ABI X86_64 and min SDK version 16
+External native generate JSON release: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64/android_gradle_build.json due to:
+External native generate JSON release: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64/cmake_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64'
+External native generate JSON release: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64'
+External native generate JSON release: executing cmake Executable : /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums
+-B/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64
+-DANDROID_ABI=x86_64
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build/intermediates/cmake/release/obj/x86_64
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/vbauer/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/vbauer/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64
+External native generate JSON release: done executing cmake
+External native generate JSON release: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64/cmake_build_output.txt
+External native generate JSON release: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86_64/cmake_build_command.txt
+External native generate JSON release: using platform version 16 for ABI X86 and min SDK version 16
+External native generate JSON release: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86/android_gradle_build.json due to:
+External native generate JSON release: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86/cmake_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86'
+External native generate JSON release: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86'
+External native generate JSON release: executing cmake Executable : /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums
+-B/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86
+-DANDROID_ABI=x86
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build/intermediates/cmake/release/obj/x86
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/vbauer/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/vbauer/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86
+External native generate JSON release: done executing cmake
+External native generate JSON release: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86/cmake_build_output.txt
+External native generate JSON release: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/x86/cmake_build_command.txt
+External native generate JSON release: using platform version 16 for ABI ARMEABI_V7A and min SDK version 16
+External native generate JSON release: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json due to:
+External native generate JSON release: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a'
+External native generate JSON release: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a'
+External native generate JSON release: executing cmake Executable : /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums
+-B/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a
+-DANDROID_ABI=armeabi-v7a
+-DANDROID_PLATFORM=android-16
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build/intermediates/cmake/release/obj/armeabi-v7a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/vbauer/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/vbauer/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a
+External native generate JSON release: done executing cmake
+External native generate JSON release: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_output.txt
+External native generate JSON release: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a/cmake_build_command.txt
+External native generate JSON release: using platform version 21 for ABI ARM64_V8A and min SDK version 16
+External native generate JSON release: rebuilding JSON /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_build.json due to:
+External native generate JSON release: - expected json /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a/android_gradle_build.json file is not present, will remove stale json folder
+External native generate JSON release: - missing previous command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_command.txt, will remove stale json folder
+External native generate JSON release: removing stale contents from '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a'
+External native generate JSON release: created folder '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a'
+External native generate JSON release: executing cmake Executable : /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/cmake
+arguments : 
+-H/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums
+-B/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a
+-DANDROID_ABI=arm64-v8a
+-DANDROID_PLATFORM=android-21
+-DCMAKE_LIBRARY_OUTPUT_DIRECTORY=/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/build/intermediates/cmake/release/obj/arm64-v8a
+-DCMAKE_BUILD_TYPE=Release
+-DANDROID_NDK=/Users/vbauer/Library/Android/sdk/ndk-bundle
+-DCMAKE_TOOLCHAIN_FILE=/Users/vbauer/Library/Android/sdk/ndk-bundle/build/cmake/android.toolchain.cmake
+-DCMAKE_MAKE_PROGRAM=/Users/vbauer/Library/Android/sdk/cmake/3.6.4111459/bin/ninja
+-GAndroid Gradle - Ninja
+jvmArgs : 
+
+
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
+-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++
+-- Check for working CXX compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang++ -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a
+External native generate JSON release: done executing cmake
+External native generate JSON release: write build output /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_output.txt
+External native generate JSON release: write command file /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a/cmake_build_command.txt
+External native generate JSON release: JSON generation completed without problems
+:libaums:externalNativeBuildRelease
+Build errno-lib arm64-v8a
+[1/2] Building C object CMakeFiles/errno-lib.dir/src/c/errno.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/release/obj/arm64-v8a/liberrno-lib.so
+Build errno-lib armeabi-v7a
+[1/2] Building C object CMakeFiles/errno-lib.dir/src/c/errno.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/release/obj/armeabi-v7a/liberrno-lib.so
+Build errno-lib x86
+[1/2] Building C object CMakeFiles/errno-lib.dir/src/c/errno.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/release/obj/x86/liberrno-lib.so
+Build errno-lib x86_64
+[1/2] Building C object CMakeFiles/errno-lib.dir/src/c/errno.c.o
+[2/2] Linking C shared library ../../../../build/intermediates/cmake/release/obj/x86_64/liberrno-lib.so
+:libaums:mergeReleaseJniLibFolders
+:libaums:transformNativeLibsWithMergeJniLibsForRelease
+:libaums:transformNativeLibsWithStripDebugSymbolForRelease
+:libaums:transformNativeLibsWithIntermediateJniLibsForRelease
+:storageprovider:compileReleaseNdk NO-SOURCE
+:storageprovider:mergeReleaseJniLibFolders
+:storageprovider:transformNativeLibsWithMergeJniLibsForRelease
+:storageprovider:transformNativeLibsWithStripDebugSymbolForRelease
+:storageprovider:transformNativeLibsWithIntermediateJniLibsForRelease
+:app:processReleaseJavaRes NO-SOURCE
+:libaums:generateDebugRFile
+:storageprovider:generateDebugRFile
+:libaums:generateDebugSources
+:libaums:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:libaums:transformClassesWithJacocoForDebug
+:libaums:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:httpserver:javaPreCompileDebug
+Download https://jcenter.bintray.com/org/nanohttpd/nanohttpd/2.3.1/nanohttpd-2.3.1.jar
+:javafs:javaPreCompileDebug
+Download https://jcenter.bintray.com/de/mindpipe/android/android-logging-log4j/1.0.3/android-logging-log4j-1.0.3.jar
+Download https://dl.bintray.com/magnusja/maven/com/github/magnusja/java-fs/0.1.3/java-fs-0.1.3.jar
+:storageprovider:generateDebugSources
+:storageprovider:javaPreCompileDebug
+:storageprovider:compileDebugJavaWithJavac
+:storageprovider:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:libaums:generateReleaseRFile
+:storageprovider:generateReleaseRFile
+:libaums:generateReleaseSources
+:libaums:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:libaums:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:httpserver:javaPreCompileRelease
+:javafs:javaPreCompileRelease
+:storageprovider:generateReleaseSources
+:storageprovider:javaPreCompileRelease
+:storageprovider:compileReleaseJavaWithJavac
+:storageprovider:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:javafs:generateDebugRFile
+:javafs:generateDebugSources
+:javafs:compileDebugJavaWithJavac
+:javafs:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:javafs:generateReleaseRFile
+:javafs:generateReleaseSources
+:javafs:compileReleaseJavaWithJavac
+:javafs:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:httpserver:generateDebugRFile
+:app:processDebugResources
+:app:generateDebugSources
+:httpserver:generateDebugSources
+:httpserver:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/httpserver/src/main/java/com/github/mjdev/libaums/server/http/UsbFileHttpServerService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:httpserver:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileDebugSources
+:app:transformClassesWithDexBuilderForDebug
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:transformResourcesWithMergeJavaResForDebug
+:app:packageDebug
+:app:assembleDebug
+:httpserver:generateReleaseRFile
+:app:processReleaseResources
+:app:generateReleaseSources
+:httpserver:generateReleaseSources
+:httpserver:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/httpserver/src/main/java/com/github/mjdev/libaums/server/http/UsbFileHttpServerService.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:httpserver:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jcenter.bintray.com/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.pom
+Download https://jcenter.bintray.com/org/xenei/junit-contracts/0.1.7/junit-contracts-0.1.7.pom
+Download https://jcenter.bintray.com/org/xenei/contracts/0.1.7/contracts-0.1.7.pom
+Download https://jcenter.bintray.com/com/eclipsesource/minimal-json/minimal-json/0.9.4/minimal-json-0.9.4.jar
+Download https://jcenter.bintray.com/org/xenei/junit-contracts/0.1.7/junit-contracts-0.1.7.jar
+:app:transformClassesWithDexBuilderForRelease
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+D8: InnerClass annotations are missing corresponding EnclosingMember annotations. Such InnerClass annotations are ignored.
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 2m 5s
+210 actionable tasks: 210 executed
+
+2018-09-10 17:10:42,422 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536573958929-0/src/app/build/outputs/apk/debug/app-debug.apk

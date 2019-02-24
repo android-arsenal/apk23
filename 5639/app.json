@@ -1,0 +1,38 @@
+{
+  "meta" : {
+    "packageName" : "io.fotoapparat.sample",
+    "label" : "Fotoapparat",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "28",
+    "maxSdkVersion" : null,
+    "compileSdkVersion" : "28",
+    "compileSdkVersionCodename" : "9",
+    "platformBuildVersionCode" : "1",
+    "platformBuildVersionName" : "{4:1065353216}",
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ "android.permission.CAMERA" ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "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",
+    "file" : true
+  },
+  "dexClasses" : 2893,
+  "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"io.fotoapparat.sample\" platformBuildVersionCode=\"1\" platformBuildVersionName=\"{4:1065353216}\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"28\" />\n\t<uses-permission android:name=\"android.permission.CAMERA\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Fotoapparat\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher.png\" android:allowBackup=\"true\" android:supportsRtl=\"true\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"io.fotoapparat.sample.MainActivity\" android:screenOrientation=\"fullSensor\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 2254691,
+  "crc32" : 1734597505,
+  "sha256" : "fec0989bcf0ac12f9a896ad837a34fed9ed86b17a80e596c72a02c1e8ff9b99e",
+  "buildTime" : 1548148556000
+}

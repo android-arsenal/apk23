@@ -1,0 +1,52 @@
+2018-12-29 13:57:10,050 INFO  DownloadService - Downloading "https://github.com/jaredsburrows/retrofit2-synchronous-adapter/archive/master.zip", attempt 3
+2018-12-29 13:57:11,894 INFO  DownloadService - Downloaded https://github.com/jaredsburrows/retrofit2-synchronous-adapter/archive/master.zip, attempt 3
+2018-12-29 13:57:11,895 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/master.zip": 82 KB
+2018-12-29 13:57:11,895 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-12-29 13:57:11,900 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/master.zip: true
+2018-12-29 13:57:11,900 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src'.
+2018-12-29 13:57:11,912 INFO  FullProcessService - Size of directory with sources: 121 KB
+2018-12-29 13:57:11,912 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src]
+2018-12-29 13:57:11,932 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/.git/
+
+2018-12-29 13:57:11,934 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/gradlew
+2018-12-29 13:57:11,937 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/build.gradle
+2018-12-29 13:57:11,939 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/gradle/compile.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/gradle/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/gradle/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/gradle/scan.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/settings.gradle
+2018-12-29 13:57:11,939 INFO  ProjectBuildService - Remote scripts: none
+2018-12-29 13:57:11,940 INFO  ProjectFixService - Fixing project...
+2018-12-29 13:57:11,947 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/local.properties
+2018-12-29 13:57:11,948 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.2-bin.zip
+2018-12-29 13:57:11,951 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-12-29 13:57:11,951 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-12-29 13:57:11,952 INFO  ProjectFixService - Project was maybe fixed
+2018-12-29 13:57:11,952 INFO  ProjectTaskService - Detecting possible tasks...
+2018-12-29 13:57:11,952 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-12-29 13:57:18,493 INFO  ProjectTaskService - Detected possible tasks: 65
+2018-12-29 13:57:18,493 INFO  ProjectTaskService - Excluded tasks (5): javadocJar javadoc sourcesJar test check
+2018-12-29 13:57:18,493 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546066630042-0/src/retrofit2-synchronous-adapter-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadocJar, -x, javadoc, -x, sourcesJar, -x, test, -x, check, build]
+2018-12-29 13:57:26,120 INFO  SysUtils - Configuration on demand is an incubating feature.
+
+> Task :compileJava
+No dependency was configured in configuration errorproneJavac, compilation with Error Prone will likely fail as a result.
+Add a dependency to com.google.errorprone:javac with the appropriate version corresponding to the version of Error Prone you're using:
+
+    dependencies {
+        errorproneJavac("com.google.errorprone:javac:$errorproneJavacVersion")
+    }
+
+plug-in not found: ErrorProne
+
+> Task :processResources NO-SOURCE
+> Task :classes
+> Task :jar
+> Task :assemble
+> Task :build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.2/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 7s
+2 actionable tasks: 2 executed
+
+2018-12-29 13:57:26,125 ERROR FullProcessService - Project build has not produced APK file
+2018-12-29 13:57:26,129 ERROR FullProcessService - Could not find generated or existed APK file

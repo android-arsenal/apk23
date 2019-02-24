@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.yalantis.jellyanimation.demo",
+    "label" : "JellyToolbar",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0",
+    "versionCode" : 1,
+    "installLocation" : null,
+    "minSdkVersion" : "16",
+    "targetSdkVersion" : "24",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2155,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"1\" android:versionName=\"1.0\" package=\"com.yalantis.jellyanimation.demo\" platformBuildVersionCode=\"24\" platformBuildVersionName=\"7.0\">\n\t<uses-sdk android:minSdkVersion=\"16\" android:targetSdkVersion=\"24\" />\n\t<application android:theme=\"resourceId:0x7f08008e\" android:label=\"JellyToolbar\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:debuggable=\"true\" android:allowBackup=\"true\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.yalantis.jellyanimation.demo.MainActivity\" android:windowSoftInputMode=\"0x2\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1775144,
+  "crc32" : 3129147915,
+  "sha256" : "8eb928641b66cbb706582c1097d6ad5d936821c5f23fd0acddc6bf6768fe07ef",
+  "buildTime" : 1521759095000
+}

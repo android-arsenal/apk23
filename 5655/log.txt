@@ -1,0 +1,178 @@
+2019-01-07 22:33:33,447 INFO  DownloadService - Downloading "https://github.com/kirich1409/StrictModeCompat/archive/master.zip", attempt 3
+2019-01-07 22:33:34,348 INFO  DownloadService - Downloaded https://github.com/kirich1409/StrictModeCompat/archive/master.zip, attempt 3
+2019-01-07 22:33:34,349 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/master.zip": 150 KB
+2019-01-07 22:33:34,349 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-01-07 22:33:34,349 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/master.zip: true
+2019-01-07 22:33:34,349 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src'.
+2019-01-07 22:33:34,367 INFO  FullProcessService - Size of directory with sources: 196 KB
+2019-01-07 22:33:34,367 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src]
+2019-01-07 22:33:34,385 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/.git/
+
+2019-01-07 22:33:34,388 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/gradlew
+2019-01-07 22:33:34,391 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/build.gradle
+2019-01-07 22:33:34,393 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat-kotlin/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat/publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/settings.gradle
+2019-01-07 22:33:34,394 INFO  ProjectBuildService - Remote scripts: none
+2019-01-07 22:33:34,394 INFO  ProjectFixService - Fixing project...
+2019-01-07 22:33:34,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/sample/local.properties
+2019-01-07 22:33:34,404 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/sample/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-01-07 22:33:34,404 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat-kotlin/local.properties
+2019-01-07 22:33:34,406 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat-kotlin/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-01-07 22:33:34,407 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat/local.properties
+2019-01-07 22:33:34,409 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/strict-mode-compat/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-01-07 22:33:34,410 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/local.properties
+2019-01-07 22:33:34,410 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.8-all.zip
+2019-01-07 22:33:34,410 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.8-bin.zip)
+2019-01-07 22:33:34,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=27]
+2019-01-07 22:33:34,411 INFO  ProjectFixService - Project was maybe fixed
+2019-01-07 22:33:34,411 INFO  ProjectTaskService - Detecting possible tasks...
+2019-01-07 22:33:34,411 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-01-07 22:33:49,963 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-01-07 22:33:49,964 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-01-07 22:33:49,964 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-01-07 22:34:24,658 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :sample:checkDebugClasspath
+> Task :sample:preBuild UP-TO-DATE
+> Task :strict-mode-compat:preBuild UP-TO-DATE
+> Task :strict-mode-compat:preDebugBuild UP-TO-DATE
+> Task :strict-mode-compat:checkDebugManifest
+> Task :strict-mode-compat:processDebugManifest
+> Task :sample:preDebugBuild
+> Task :strict-mode-compat:compileDebugAidl NO-SOURCE
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :strict-mode-compat:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :strict-mode-compat:compileDebugRenderscript
+> Task :strict-mode-compat:generateDebugResValues
+> Task :strict-mode-compat:generateDebugResources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/build/aapt2/3.2.0-beta05-4818971/aapt2-3.2.0-beta05-4818971-osx.jar
+> Task :strict-mode-compat:packageDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:splitsDiscoveryTaskDebug
+> Task :strict-mode-compat:generateDebugRFile
+> Task :sample:processDebugResources
+> Task :sample:generateDebugSources
+> Task :strict-mode-compat:generateDebugBuildConfig
+> Task :strict-mode-compat:prepareLintJar
+> Task :strict-mode-compat:generateDebugSources
+> Task :strict-mode-compat:javaPreCompileDebug
+> Task :strict-mode-compat:compileDebugJavaWithJavac
+> Task :strict-mode-compat:processDebugJavaRes NO-SOURCE
+> Task :strict-mode-compat:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :sample:javaPreCompileDebug
+> Task :sample:compileDebugJavaWithJavac
+> Task :sample:compileDebugNdk NO-SOURCE
+> Task :sample:compileDebugSources
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :strict-mode-compat:mergeDebugShaders
+> Task :strict-mode-compat:compileDebugShaders
+> Task :strict-mode-compat:generateDebugAssets
+> Task :strict-mode-compat:packageDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForDebug
+> Task :sample:transformDexArchiveWithDexMergerForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :strict-mode-compat:compileDebugNdk NO-SOURCE
+> Task :strict-mode-compat:mergeDebugJniLibFolders
+> Task :strict-mode-compat:transformNativeLibsWithMergeJniLibsForDebug
+> Task :strict-mode-compat:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :strict-mode-compat:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:checkDebugLibraries
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:validateSigningDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :sample:checkReleaseClasspath
+> Task :strict-mode-compat:preReleaseBuild UP-TO-DATE
+> Task :strict-mode-compat:checkReleaseManifest
+> Task :strict-mode-compat:processReleaseManifest
+> Task :sample:preReleaseBuild
+> Task :strict-mode-compat:compileReleaseAidl NO-SOURCE
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :strict-mode-compat:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :strict-mode-compat:compileReleaseRenderscript
+> Task :strict-mode-compat:generateReleaseResValues
+> Task :strict-mode-compat:generateReleaseResources
+> Task :strict-mode-compat:packageReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:splitsDiscoveryTaskRelease
+> Task :strict-mode-compat:generateReleaseRFile
+> Task :sample:processReleaseResources
+> Task :sample:generateReleaseSources
+> Task :strict-mode-compat:generateReleaseBuildConfig
+> Task :strict-mode-compat:generateReleaseSources
+> Task :strict-mode-compat:javaPreCompileRelease
+> Task :strict-mode-compat:compileReleaseJavaWithJavac
+> Task :strict-mode-compat:processReleaseJavaRes NO-SOURCE
+> Task :strict-mode-compat:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :sample:javaPreCompileRelease
+> Task :sample:compileReleaseJavaWithJavac
+> Task :sample:compileReleaseNdk NO-SOURCE
+> Task :sample:compileReleaseSources
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.2.0-beta05/lint-api-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.2.0-beta05/lint-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.2.0-beta05/uast-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.2.0-beta05/lint-kotlin-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.2.0-beta05/lint-gradle-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.2.0-beta05/lint-checks-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.2.0-beta05/kotlin-compiler-26.2.0-beta05.jar
+Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.2.0-beta05/intellij-core-26.2.0-beta05.jar
+
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/3b9aa7afd538e220eec0b19afbdb426d/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :strict-mode-compat:mergeReleaseShaders
+> Task :strict-mode-compat:compileReleaseShaders
+> Task :strict-mode-compat:generateReleaseAssets
+> Task :strict-mode-compat:packageReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:transformClassesWithDexBuilderForRelease
+> Task :sample:transformDexArchiveWithExternalLibsDexMergerForRelease
+> Task :sample:transformDexArchiveWithDexMergerForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :strict-mode-compat:compileReleaseNdk NO-SOURCE
+> Task :strict-mode-compat:mergeReleaseJniLibFolders
+> Task :strict-mode-compat:transformNativeLibsWithMergeJniLibsForRelease
+> Task :strict-mode-compat:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :strict-mode-compat:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:checkReleaseLibraries
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+See https://docs.gradle.org/4.8/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 34s
+90 actionable tasks: 90 executed
+
+2019-01-07 22:34:24,741 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1546875213444-0/src/StrictModeCompat-master/sample/build/outputs/apk/release/sample-release-unsigned.apk

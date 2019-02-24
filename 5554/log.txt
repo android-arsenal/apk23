@@ -1,0 +1,226 @@
+2018-10-21 14:40:55,294 INFO  DownloadService - Downloading "https://github.com/VladimirWrites/KotlinSample/archive/master.zip", attempt 3
+2018-10-21 14:40:55,797 INFO  DownloadService - Downloaded https://github.com/VladimirWrites/KotlinSample/archive/master.zip, attempt 3
+2018-10-21 14:40:55,797 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/master.zip": 217 KB
+2018-10-21 14:40:55,797 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2018-10-21 14:40:55,803 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/master.zip: true
+2018-10-21 14:40:55,803 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src'.
+2018-10-21 14:40:55,832 INFO  FullProcessService - Size of directory with sources: 243 KB
+2018-10-21 14:40:55,832 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src]
+2018-10-21 14:40:55,849 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/.git/
+
+2018-10-21 14:40:55,853 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/gradlew
+2018-10-21 14:40:55,857 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/build.gradle
+2018-10-21 14:40:55,860 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/settings.gradle
+2018-10-21 14:40:55,861 INFO  ProjectBuildService - Remote scripts: none
+2018-10-21 14:40:55,861 INFO  ProjectFixService - Fixing project...
+2018-10-21 14:40:55,869 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/local.properties
+2018-10-21 14:40:55,870 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-21 14:40:55,870 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-21 14:40:55,872 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/local.properties
+2018-10-21 14:40:55,872 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2018-10-21 14:40:55,872 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2018-10-21 14:40:55,874 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2018-10-21 14:40:55,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2018-10-21 14:40:55,874 INFO  ProjectFixService - Project was maybe fixed
+2018-10-21 14:40:55,874 INFO  ProjectTaskService - Detecting possible tasks...
+2018-10-21 14:40:55,875 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2018-10-21 14:41:16,364 INFO  ProjectTaskService - Detected possible tasks: 85
+2018-10-21 14:41:16,364 INFO  ProjectTaskService - Excluded tasks (19): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2018-10-21 14:41:16,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2018-10-21 14:42:08,961 INFO  SysUtils - Configuration on demand is an incubating feature.
+:buildSrc:compileKotlin UP-TO-DATE
+:buildSrc:compileJava NO-SOURCE
+:buildSrc:compileGroovy NO-SOURCE
+:buildSrc:processResources NO-SOURCE
+:buildSrc:classes UP-TO-DATE
+:buildSrc:jar UP-TO-DATE
+:buildSrc:assemble UP-TO-DATE
+:buildSrc:compileTestKotlin NO-SOURCE
+:buildSrc:compileTestJava NO-SOURCE
+:buildSrc:compileTestGroovy NO-SOURCE
+:buildSrc:processTestResources NO-SOURCE
+:buildSrc:testClasses UP-TO-DATE
+:buildSrc:test NO-SOURCE
+:buildSrc:check UP-TO-DATE
+:buildSrc:build UP-TO-DATE
+:app:checkDebugClasspath
+Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-android/0.30.2/kotlinx-coroutines-android-0.30.2.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.9.0/logging-interceptor-3.9.0.pom
+Download https://jcenter.bintray.com/org/koin/koin-android/1.0.1/koin-android-1.0.1.pom
+Download https://jcenter.bintray.com/com/squareup/okhttp3/parent/3.9.0/parent-3.9.0.pom
+Download https://jcenter.bintray.com/org/koin/koin-core/1.0.1/koin-core-1.0.1.pom
+Download https://jcenter.bintray.com/org/koin/koin-android/1.0.1/koin-android-1.0.1.aar
+Download https://jcenter.bintray.com/org/jetbrains/kotlinx/kotlinx-coroutines-android/0.30.2/kotlinx-coroutines-android-0.30.2.jar
+Download https://jcenter.bintray.com/org/koin/koin-core/1.0.1/koin-core-1.0.1.jar
+:app:preBuild UP-TO-DATE
+:app:preDebugBuild
+:app:compileDebugAidl NO-SOURCE
+:app:compileDebugRenderscript
+:app:checkDebugManifest
+:app:generateDebugBuildConfig
+:app:mainApkListPersistenceDebug
+:app:generateDebugResValues
+:app:generateDebugResources
+:app:mergeDebugResources
+:app:createDebugCompatibleScreenManifests
+:app:processDebugManifest
+:app:splitsDiscoveryTaskDebug
+:app:processDebugResources
+:app:kaptGenerateStubsDebugKotlin
+:app:kaptDebugKotlin
+:app:compileDebugKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/src/main/java/com/vlad1m1r/kotlintest/domain/interactors/GetPhotos.kt: (32, 5): The feature "coroutines" is experimental (see: https://kotlinlang.org/docs/diagnostics/experimental-coroutines)
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/src/main/java/com/vlad1m1r/kotlintest/presentation/list/ListPresenter.kt: (50, 58): The feature "coroutines" is experimental (see: https://kotlinlang.org/docs/diagnostics/experimental-coroutines)
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/src/main/java/com/vlad1m1r/kotlintest/presentation/list/ListPresenter.kt: (52, 38): The feature "coroutines" is experimental (see: https://kotlinlang.org/docs/diagnostics/experimental-coroutines)
+:app:prepareLintJar
+:app:generateDebugSources
+:app:javaPreCompileDebug
+:app:compileDebugJavaWithJavac
+:app:compileDebugNdk NO-SOURCE
+:app:compileDebugSources
+:app:mergeDebugShaders
+:app:compileDebugShaders
+:app:generateDebugAssets
+:app:mergeDebugAssets
+:app:transformClassesWithJacocoForDebug
+:app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 5 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.BuildersKt__Builders_commonKt$run$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.BroadcastKt$broadcast$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__ChannelsKt$sendBlocking$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$filterIndexed$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$mapIndexed$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 2 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$filter$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$withIndex$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 6 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.JobSupport$children$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$asReceiveChannel$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$dropWhile$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$map$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$takeWhile$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$zip$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build/intermediates/transforms/jacoco/debug/1/com/vlad1m1r/kotlintest/presentation/list/ListPresenter$loadDataAsync$1.class: D8: Methods with invalid locals information:
+  java.lang.Object com.vlad1m1r.kotlintest.presentation.list.ListPresenter$loadDataAsync$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 1 method.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build/intermediates/transforms/jacoco/debug/1/com/vlad1m1r/kotlintest/presentation/list/ListPresenter$loadDataAsync$1$photoState$1.class: D8: Methods with invalid locals information:
+  java.lang.Object com.vlad1m1r.kotlintest.presentation.list.ListPresenter$loadDataAsync$1$photoState$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+D8: Stripped invalid locals information from 9 methods.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.BuildersKt__Builders_commonKt$run$4.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.BuildersKt__Builders_commonKt$withContext0$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$asReceiveChannel$2.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$distinctBy$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$drop$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$filterNot$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$flatMap$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.ChannelsKt__Channels_commonKt$take$1.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local this but no local information was associated with the value being read.
+/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlinx/kotlinx-coroutines-core/0.30.2/42b5b8c47b1f21c2435be73b50734338b10079e5/kotlinx-coroutines-core-0.30.2.jar: D8: Methods with invalid locals information:
+  java.lang.Object kotlinx.coroutines.experimental.channels.TickerChannelsKt$ticker$3.doResume(java.lang.Object, java.lang.Throwable)
+  Attempt to read local throwable but no local information was associated with the value being read.
+:app:transformDexArchiveWithExternalLibsDexMergerForDebug
+:app:transformDexArchiveWithDexMergerForDebug
+:app:mergeDebugJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForDebug
+:app:transformNativeLibsWithStripDebugSymbolForDebug
+:app:checkDebugLibraries
+:app:processDebugJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForDebug
+:app:validateSigningDebug
+:app:packageDebug
+:app:assembleDebug
+:app:checkReleaseClasspath
+:app:preReleaseBuild
+:app:compileReleaseAidl NO-SOURCE
+:app:compileReleaseRenderscript
+:app:checkReleaseManifest
+:app:generateReleaseBuildConfig
+:app:mainApkListPersistenceRelease
+:app:generateReleaseResValues
+:app:generateReleaseResources
+:app:mergeReleaseResources
+:app:createReleaseCompatibleScreenManifests
+:app:processReleaseManifest
+:app:splitsDiscoveryTaskRelease
+:app:processReleaseResources
+:app:kaptGenerateStubsReleaseKotlin
+:app:kaptReleaseKotlin
+:app:compileReleaseKotlin
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/src/main/java/com/vlad1m1r/kotlintest/domain/interactors/GetPhotos.kt: (32, 5): The feature "coroutines" is experimental (see: https://kotlinlang.org/docs/diagnostics/experimental-coroutines)
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/src/main/java/com/vlad1m1r/kotlintest/presentation/list/ListPresenter.kt: (50, 58): The feature "coroutines" is experimental (see: https://kotlinlang.org/docs/diagnostics/experimental-coroutines)
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/src/main/java/com/vlad1m1r/kotlintest/presentation/list/ListPresenter.kt: (52, 38): The feature "coroutines" is experimental (see: https://kotlinlang.org/docs/diagnostics/experimental-coroutines)
+:app:generateReleaseSources
+:app:javaPreCompileRelease
+:app:compileReleaseJavaWithJavac
+:app:compileReleaseNdk NO-SOURCE
+:app:compileReleaseSources
+:app:lintVitalRelease
+Download https://jcenter.bintray.com/com/nhaarman/mockitokotlin2/mockito-kotlin/2.0.0-RC3/mockito-kotlin-2.0.0-RC3.pom
+Download https://jcenter.bintray.com/com/nhaarman/mockitokotlin2/mockito-kotlin/2.0.0-RC3/mockito-kotlin-2.0.0-RC3.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/ab5a2433b4fecd83a847801022303808/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+:app:mergeReleaseShaders
+:app:compileReleaseShaders
+:app:generateReleaseAssets
+:app:mergeReleaseAssets
+:app:transformClassesWithDexBuilderForRelease
+:app:transformDexArchiveWithExternalLibsDexMergerForRelease
+:app:transformDexArchiveWithDexMergerForRelease
+:app:mergeReleaseJniLibFolders
+:app:transformNativeLibsWithMergeJniLibsForRelease
+:app:transformNativeLibsWithStripDebugSymbolForRelease
+:app:checkReleaseLibraries
+:app:processReleaseJavaRes NO-SOURCE
+:app:transformResourcesWithMergeJavaResForRelease
+:app:packageRelease
+:app:assembleRelease
+:app:assemble
+:app:build
+
+BUILD SUCCESSFUL in 51s
+62 actionable tasks: 62 executed
+
+2018-10-21 14:42:09,074 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540107655292-0/src/KotlinSample-master/app/build/outputs/apk/debug/app-debug.apk

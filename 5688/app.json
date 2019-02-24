@@ -1,0 +1,34 @@
+{
+  "meta" : {
+    "packageName" : "org.cryse.widget.persistentsearch.sample",
+    "label" : "Persistent SearchView",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.4",
+    "versionCode" : 7,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "23",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 160,
+    "data" : "iVBORw0KGgoAAAANSUhEUgAAADAAAAAwCAMAAABg3Am1AAAByFBMVEUAAAD////////////////////////////////+/v7+/v79/f38/Pz+/v79/f3w8PAAAAD8/Pz8/Pz9/f39/f3y8vLIyMjW1tb7+/vy8vKwsLDIyMj7+/uqqqr19/fS2t7M1djo7O7BzNFxipdfe4hffIlhfop+lJ6brbX5+fn8/P2JnqmDmKLh4+R5j5u0v8TT2NrY3N3Dy8+Qo6xgfYl+lJ/l5ueOoarl5ubp6enq6uq6xMlif4uisbjs7Ozr6+ujsrlngo/k5ebt7e3i5OVkf43Ayc58k56pt77u7u6Bl6KmtLvv7+/r6+xshZK2wce/yc1gfYra3uDw8PDc4OFwiZWLn6jx8fFog5DZ3d9mgY6EmqTM09fy8vJogo/z8/PN1Nj09PT09PTO1dn29vbQ1tr19fXr6+txipbf4+X19fXs7OykpKT39/f29vb4+Pj39/ft7e3Ly8umpqatra36+vr39/f39/f6+vrp6emHh4eqqqoAAADb29v////KysoAAAA3NzfLy8vr6+vv7+/u7u7p6enq6urq6urr6+vm5ubExMQ0NDQAAAAAAABGRkZgYGBcXFxbW1tdXV1mZmYAAAAAAAC/v7+tWRBhAAAAmHRSTlMAAwQCEx4dCpbo7JaY//+aAer5/fzqFyXv7yol7ir///////////////////////////////////////////////////////////////////////////////////////////z////87////+8q//z//O8nKxzs/fn/7CIDCKn/rQMqsO3w7/Dw7/DtsSwJIEJNS0xNBQsOBNxgb5EAAAJISURBVEjHzZZpV9NAFIZTWkTURoWquLFfoMq+KQVSIGyBymKEFulCS4haTRtcq0VAxV3AKsjfZZpMl3jKTP3C8f2Uc/I8k8zNzNwwzHHFVECJyYCbzfQhsxl0aSk8QUyhRcNSfNHJ4lOUFJ8uShtm5oyVpefsOSyYGMt5tqTURkxpifXCRUafeQFzqYy10ca3WS9fQaguXL2Wl3A9I5T970J5RWXVPwjVNbUAdfUN9vyEGzcBp7EpLwHxzS2tbe0dndDVnYdQDXDrdk+Pw+Ho7YN+ji7UQLPOO50DMDjE04TyWmjBvHN4BEZ5niJUALRinuPGYJwXBLJQCdCW4rkJmBQEwUUUquqgPcXfmYJpxLtcxEnXQwfm+RmYvZvkRZEkNEBnr87fm4N5nRfdBMHeCH0Dw+h9ZubAs4B5t5vwpZu6AEbGJqYAPPcXvZj3+QiLr7t/MLmSZucXFsHvxbwvQFit3NDo+OQ0mq/XD/4lzAcChP3A87yg1TNpeDEfDBE2EOZFcQkZyzofDEmELSqk6ome4VnR+KAsPSDs6XQ9lz0PH2l8WJYePyEcAul6rmA+LCtEgU3XE/PhCEVg/+IlqsAaeSkSpQmsgZdUg5D7MM7mFTW6mhGeHnFUZvGKal99hgUT8/yFNXdDCYVkWY5EIqr68lXs9RsmjlvW2tvYunU9VxRFiUajdpRYcGMt3eM2373/sPVxK1c+fdby5eu37z82M210e2f3ZyKR+HVE0K3fuzvb2Y16b/8PJft7xuYfP6Akfmx/MYeXbT7jHTZ/sAAAAABJRU5ErkJggg==",
+    "file" : true
+  },
+  "dexClasses" : 853,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"7\" android:versionName=\"1.0.4\" package=\"org.cryse.widget.persistentsearch.sample\" platformBuildVersionCode=\"23\" platformBuildVersionName=\"6.0-2438415\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"23\" />\n\t<application android:theme=\"resourceId:0x7f09008b\" android:label=\"Persistent SearchView\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:persistent=\"true\" android:allowBackup=\"true\">\n\t\t<activity android:label=\"Persistent SearchView\" android:name=\"org.cryse.widget.persistentsearch.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<activity android:theme=\"resourceId:0x7f09008b\" android:name=\"org.cryse.widget.persistentsearch.sample.MenuItemSampleActivity\" />\n\t\t<activity android:theme=\"resourceId:0x7f09008b\" android:name=\"org.cryse.widget.persistentsearch.sample.SearchActivity\" />\n\t</application>\n</manifest>\n",
+  "fileSize" : 857583,
+  "crc32" : 141545682,
+  "sha256" : "5cf0c70ac4dbc952893890c9e43d9c3f3f16914fecbbeac87f8d2e29ecb10885",
+  "buildTime" : 1536855406000
+}

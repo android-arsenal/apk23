@@ -1,0 +1,33 @@
+{
+  "meta" : {
+    "packageName" : "com.stylingandroid.viewpageranimator.sample",
+    "label" : "ViewPagerAnimator",
+    "icon" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "versionName" : "1.0.1",
+    "versionCode" : 10001,
+    "installLocation" : null,
+    "minSdkVersion" : "14",
+    "targetSdkVersion" : "25",
+    "maxSdkVersion" : null,
+    "glEsVersion" : null,
+    "anyDensity" : false,
+    "smallScreens" : false,
+    "normalScreens" : false,
+    "largeScreens" : false,
+    "usesPermissions" : [ ],
+    "usesFeatures" : [ ],
+    "permissions" : [ ]
+  },
+  "icon" : {
+    "path" : "res/mipmap-mdpi-v4/ic_launcher.png",
+    "density" : 0,
+    "data" : "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"
+  },
+  "dexClasses" : 2227,
+  "locales" : [ "", "az_AZ", "sl", "mr_IN", "kk_KZ", "bg", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "my_MM", "ur_PK", "mn_MN", "fi", "lv", "et_EE", "sw", "pt_PT", "tl", "th", "sq_AL", "uz_UZ", "pt", "ar", "ru", "eu_ES", "bs_BA", "bn_BD", "fa", "gu_IN", "sk", "kn_IN", "hi", "cs", "sv", "km_KH", "el", "nl", "hu", "pa_IN", "af", "en_AU", "in", "vi", "fr_CA", "sr", "pt_BR", "da", "si_LK", "ml_IN", "gl_ES", "es", "is_IS", "hy_AM", "tr", "ne_NP", "ro", "hr", "ms_MY", "am", "ka_GE", "lt", "pl", "zh_CN", "ta_IN", "fr", "ja", "lo_LA", "ky_KG", "iw", "de", "en_IN", "es_US", "mk_MK", "be_BY", "nb", "te_IN", "ca", "en_GB" ],
+  "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionCode=\"10001\" android:versionName=\"1.0.1\" package=\"com.stylingandroid.viewpageranimator.sample\" platformBuildVersionCode=\"25\" platformBuildVersionName=\"7.1.1\">\n\t<uses-sdk android:minSdkVersion=\"14\" android:targetSdkVersion=\"25\" />\n\t<meta-data android:name=\"android.support.VERSION\" android:value=\"25.3.1\" />\n\t<application android:theme=\"resourceId:0x7f0900a6\" android:label=\"ViewPagerAnimator\" android:icon=\"res/mipmap-mdpi-v4/ic_launcher.png\" android:allowBackup=\"false\" android:supportsRtl=\"true\">\n\t\t<activity android:name=\"com.stylingandroid.viewpageranimator.sample.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
+  "fileSize" : 1815695,
+  "crc32" : 765394087,
+  "sha256" : "9f2d9b73d5fcd0f5c9b2c9ddbfc165e97032c2e12904d15654e937be49e87754",
+  "buildTime" : 1521763562000
+}
