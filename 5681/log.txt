@@ -1,60 +1,57 @@
-2019-01-13 02:14:24,106 INFO  DownloadService - Downloading "https://github.com/sedstrom/Witch-Android/archive/master.zip", attempt 3
-2019-01-13 02:14:25,409 INFO  DownloadService - Downloaded https://github.com/sedstrom/Witch-Android/archive/master.zip, attempt 3
-2019-01-13 02:14:25,409 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/master.zip": 1 MB
-2019-01-13 02:14:25,409 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-13 02:14:25,411 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/master.zip: true
-2019-01-13 02:14:25,411 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src'.
-2019-01-13 02:14:25,487 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-01-13 02:14:25,488 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src]
-2019-01-13 02:14:25,509 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/.git/
+2019-03-17 00:56:40,147 INFO  DownloadService - Downloading "https://github.com/sedstrom/Witch-Android/archive/master.zip", attempt 3
+2019-03-17 00:56:44,579 INFO  DownloadService - Downloaded https://github.com/sedstrom/Witch-Android/archive/master.zip, attempt 3
+2019-03-17 00:56:44,579 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/master.zip": 1 MB
+2019-03-17 00:56:44,579 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 00:56:44,585 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/master.zip: true
+2019-03-17 00:56:44,585 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src'.
+2019-03-17 00:56:44,675 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-17 00:56:44,675 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src]
+2019-03-17 00:56:44,694 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/.git/
 
-2019-01-13 02:14:25,517 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/gradlew
-2019-01-13 02:14:25,526 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor/build.gradle
-2019-01-13 02:14:25,534 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/docs-version.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/docs/_includes/snippets/download-kotlin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/docs/_includes/snippets/download-java.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor/build.gradle
-2019-01-13 02:14:25,535 INFO  ProjectBuildService - Remote scripts: none
-2019-01-13 02:14:25,535 INFO  ProjectFixService - Fixing project...
-2019-01-13 02:14:25,558 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/local.properties
-2019-01-13 02:14:25,564 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,564 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,565 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor-test/local.properties
-2019-01-13 02:14:25,570 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,570 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,571 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch/local.properties
-2019-01-13 02:14:25,576 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,576 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,577 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/local.properties
-2019-01-13 02:14:25,577 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-01-13 02:14:25,577 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-01-13 02:14:25,580 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,580 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,582 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-annotations/local.properties
-2019-01-13 02:14:25,588 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,588 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,589 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-core/local.properties
-2019-01-13 02:14:25,596 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,596 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,597 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor/local.properties
-2019-01-13 02:14:25,602 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,602 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/witch-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2019-01-13 02:14:25,602 INFO  ProjectFixService - Project was maybe fixed
-2019-01-13 02:14:25,602 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-13 02:14:25,603 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-13 02:14:31,864 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-01-13 02:14:31,864 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-01-13 02:14:31,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-01-13 02:15:15,607 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-17 00:56:44,703 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/gradlew
+2019-03-17 00:56:44,713 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor/build.gradle
+2019-03-17 00:56:44,722 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/docs-version.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/docs/_includes/snippets/download-kotlin.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/docs/_includes/snippets/download-java.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor-test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-annotations/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor/build.gradle
+2019-03-17 00:56:44,723 INFO  ProjectBuildService - Remote scripts: none
+2019-03-17 00:56:44,723 INFO  ProjectFixService - Fixing project...
+2019-03-17 00:56:44,751 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/local.properties
+2019-03-17 00:56:44,757 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,757 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,758 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor-test/local.properties
+2019-03-17 00:56:44,764 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor-test/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,764 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor-test/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,765 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch/local.properties
+2019-03-17 00:56:44,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,771 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/local.properties
+2019-03-17 00:56:44,772 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-17 00:56:44,772 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-17 00:56:44,775 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,775 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,776 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-annotations/local.properties
+2019-03-17 00:56:44,781 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-annotations/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,781 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-annotations/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,782 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-core/local.properties
+2019-03-17 00:56:44,788 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,788 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,789 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor/local.properties
+2019-03-17 00:56:44,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,795 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/witch-processor/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 00:56:44,796 INFO  ProjectFixService - Project was maybe fixed
+2019-03-17 00:56:44,796 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 00:56:44,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 00:56:52,732 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-17 00:56:52,732 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-17 00:56:52,732 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-17 00:57:30,075 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.5/leakcanary-android-1.5.pom
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch/1.0-SNAPSHOT/maven-metadata.xml
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch/1.0-SNAPSHOT/witch-1.0-20190108.142627-16.pom
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch-annotations/1.0-SNAPSHOT/maven-metadata.xml
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch-annotations/1.0-SNAPSHOT/witch-annotations-1.0-20190108.142645-17.pom
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.5/leakcanary-analyzer-1.5.pom
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.5/leakcanary-watcher-1.5.pom
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.5/leakcanary-android-1.5.aar
-Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.5/leakcanary-analyzer-1.5.jar
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch/1.0-SNAPSHOT/witch-1.0-20190108.142627-16.aar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-android/1.5/leakcanary-android-1.5.aar
 Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-watcher/1.5/leakcanary-watcher-1.5.jar
+Download https://jcenter.bintray.com/com/squareup/leakcanary/leakcanary-analyzer/1.5/leakcanary-analyzer-1.5.jar
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch-annotations/1.0-SNAPSHOT/witch-annotations-1.0-20190108.142645-17.jar
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
@@ -76,9 +73,9 @@ Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch-
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch-processor/1.0-SNAPSHOT/maven-metadata.xml
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch-processor/1.0-SNAPSHOT/witch-processor-1.0-20190108.142702-17.pom
 Download https://oss.sonatype.org/content/repositories/snapshots/se/snylt/witch-processor/1.0-SNAPSHOT/witch-processor-1.0-20190108.142702-17.jar
-:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/src/main/java/com/example/witch/app/login/LoginActivity.java uses or overrides a deprecated API.
+:app:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/src/main/java/com/example/witch/app/login/LoginActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/src/main/java/com/example/witch/app/list/ListActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/src/main/java/com/example/witch/app/list/ListActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileDebugNdk NO-SOURCE
@@ -115,14 +112,15 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:processReleaseResources
 :app:generateReleaseSources
 :app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/src/main/java/com/example/witch/app/login/LoginActivity.java uses or overrides a deprecated API.
+:app:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/src/main/java/com/example/witch/app/login/LoginActivity.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/src/main/java/com/example/witch/app/list/ListActivity.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/src/main/java/com/example/witch/app/list/ListActivity.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :app:compileReleaseNdk NO-SOURCE
 :app:compileReleaseSources
 :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4c664dd8a93f97c8b454b4802926a61e/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 :app:mergeReleaseShaders
 :app:compileReleaseShaders
 :app:generateReleaseAssets
@@ -141,7 +139,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 43s
+BUILD SUCCESSFUL in 36s
 55 actionable tasks: 55 executed
 
-2019-01-13 02:15:15,695 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547320464104-0/src/Witch-Android-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-17 00:57:30,168 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759000145-0/src/Witch-Android-master/app/build/outputs/apk/debug/app-debug.apk

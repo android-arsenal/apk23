@@ -1,10 +1,10 @@
-2018-09-14 11:24:19,812 INFO  DownloadService - Downloading "https://github.com/PDDStudio/phrase-java/archive/master.zip", attempt 3
-2018-09-14 11:24:21,146 INFO  DownloadService - Downloaded https://github.com/PDDStudio/phrase-java/archive/master.zip, attempt 3
-2018-09-14 11:24:21,146 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899059809-0/master.zip": 33 KB
-2018-09-14 11:24:21,146 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-14 11:24:21,147 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899059809-0/master.zip: false
-2018-09-14 11:24:21,147 INFO  FullProcessService - Archive with sources does not contain any build script
-2018-09-14 11:24:21,147 ERROR FullProcessService - Could not find directory with sources
-2018-09-14 11:24:21,147 ERROR FullProcessService - Project will not be processed
-2018-09-14 11:24:21,147 ERROR FullProcessService - Project build has not produced APK file
-2018-09-14 11:24:21,147 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-17 01:05:04,484 INFO  DownloadService - Downloading "https://github.com/PDDStudio/phrase-java/archive/master.zip", attempt 3
+2019-03-17 01:05:06,406 INFO  DownloadService - Downloaded https://github.com/PDDStudio/phrase-java/archive/master.zip, attempt 3
+2019-03-17 01:05:06,407 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759504477-0/master.zip": 33 KB
+2019-03-17 01:05:06,407 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 01:05:06,412 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759504477-0/master.zip: false
+2019-03-17 01:05:06,412 INFO  FullProcessService - Archive with sources does not contain any build script
+2019-03-17 01:05:06,412 ERROR FullProcessService - Could not find directory with sources
+2019-03-17 01:05:06,412 ERROR FullProcessService - Project will not be processed
+2019-03-17 01:05:06,412 ERROR FullProcessService - Project build has not produced APK file
+2019-03-17 01:05:06,413 ERROR FullProcessService - Could not find generated or existed APK file

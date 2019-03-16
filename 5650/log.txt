@@ -1,40 +1,40 @@
-2018-10-25 22:44:08,067 INFO  DownloadService - Downloading "https://github.com/pavlospt/litho-glide/archive/master.zip", attempt 3
-2018-10-25 22:44:10,202 INFO  DownloadService - Downloaded https://github.com/pavlospt/litho-glide/archive/master.zip, attempt 3
-2018-10-25 22:44:10,202 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/master.zip": 151 KB
-2018-10-25 22:44:10,202 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-25 22:44:10,202 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/master.zip: true
-2018-10-25 22:44:10,203 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src'.
-2018-10-25 22:44:10,229 INFO  FullProcessService - Size of directory with sources: 168 KB
-2018-10-25 22:44:10,230 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src]
-2018-10-25 22:44:10,249 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/.git/
+2019-03-17 01:01:44,645 INFO  DownloadService - Downloading "https://github.com/pavlospt/litho-glide/archive/master.zip", attempt 3
+2019-03-17 01:01:46,467 INFO  DownloadService - Downloaded https://github.com/pavlospt/litho-glide/archive/master.zip, attempt 3
+2019-03-17 01:01:46,467 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/master.zip": 151 KB
+2019-03-17 01:01:46,467 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 01:01:46,467 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/master.zip: true
+2019-03-17 01:01:46,467 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src'.
+2019-03-17 01:01:46,493 INFO  FullProcessService - Size of directory with sources: 168 KB
+2019-03-17 01:01:46,493 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src]
+2019-03-17 01:01:46,513 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/.git/
 
-2018-10-25 22:44:10,252 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/gradlew
-2018-10-25 22:44:10,256 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/litho-glide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/build.gradle
-2018-10-25 22:44:10,259 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/litho-glide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/settings.gradle
-2018-10-25 22:44:10,268 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
-2018-10-25 22:44:11,584 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
-2018-10-25 22:44:11,585 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-10-25 22:44:11,806 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-10-25 22:44:11,806 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle
-2018-10-25 22:44:11,806 INFO  ProjectFixService - Fixing project...
-2018-10-25 22:44:11,819 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/local.properties
-2018-10-25 22:44:11,820 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 22:44:11,820 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 22:44:11,821 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/litho-glide/local.properties
-2018-10-25 22:44:11,825 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/litho-glide/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 22:44:11,825 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/litho-glide/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 22:44:11,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/local.properties
-2018-10-25 22:44:11,827 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-10-25 22:44:11,828 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-10-25 22:44:11,830 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 22:44:11,830 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-10-25 22:44:11,831 INFO  ProjectFixService - Project was maybe fixed
-2018-10-25 22:44:11,831 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 22:44:11,831 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 22:44:18,967 INFO  ProjectTaskService - Detected possible tasks: 74
-2018-10-25 22:44:18,967 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-25 22:44:18,968 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-25 22:44:25,424 ERROR SysUtils - Could not process external command
+2019-03-17 01:01:46,516 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/gradlew
+2019-03-17 01:01:46,518 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/litho-glide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/build.gradle
+2019-03-17 01:01:46,521 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/litho-glide/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/settings.gradle
+2019-03-17 01:01:46,522 INFO  DownloadService - Downloading "https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle", attempt 3
+2019-03-17 01:01:46,799 INFO  DownloadService - Downloaded https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle, attempt 3
+2019-03-17 01:01:46,799 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-03-17 01:01:47,341 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-03-17 01:01:47,342 INFO  ProjectBuildService - Remote scripts: https://raw.github.com/chrisbanes/gradle-mvn-push/master/gradle-mvn-push.gradle https://raw.githubusercontent.com/ArthurHub/release-android-library/master/android-release-aar.gradle
+2019-03-17 01:01:47,342 INFO  ProjectFixService - Fixing project...
+2019-03-17 01:01:47,350 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/local.properties
+2019-03-17 01:01:47,351 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 01:01:47,351 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 01:01:47,352 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/litho-glide/local.properties
+2019-03-17 01:01:47,352 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/litho-glide/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 01:01:47,352 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/litho-glide/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 01:01:47,354 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/local.properties
+2019-03-17 01:01:47,354 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-03-17 01:01:47,355 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-03-17 01:01:47,356 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 01:01:47,357 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-03-17 01:01:47,357 INFO  ProjectFixService - Project was maybe fixed
+2019-03-17 01:01:47,357 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 01:01:47,357 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 01:01:53,903 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-03-17 01:01:53,904 INFO  ProjectTaskService - Excluded tasks (21): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-17 01:01:53,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-17 01:02:00,195 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,8 +47,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -62,7 +61,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-25 22:44:25,424 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-17 01:02:00,195 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -140,11 +139,11 @@ org.gradle.execution.TaskSelectionException: Task 'androidJavadocs' not found in
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2018-10-25 22:44:25,424 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-10-25 22:44:25,425 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-25 22:45:20,001 ERROR SysUtils - Could not process external command
+2019-03-17 01:02:00,195 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-03-17 01:02:00,195 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-17 01:02:52,341 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -157,8 +156,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -172,23 +170,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-10-25 22:45:20,003 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-17 01:02:52,341 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:checkDebugClasspath
-Download https://jcenter.bintray.com/com/facebook/soloader/soloader/0.5.1/soloader-0.5.1.pom
-Download https://jcenter.bintray.com/com/facebook/litho/litho-core/0.20.0/litho-core-0.20.0.pom
-Download https://jcenter.bintray.com/com/facebook/litho/litho-annotations/0.20.0/litho-annotations-0.20.0.pom
-Download https://jcenter.bintray.com/com/facebook/litho/litho-widget/0.20.0/litho-widget-0.20.0.pom
-Download https://jcenter.bintray.com/com/facebook/fbui/textlayoutbuilder/textlayoutbuilder/1.4.0/textlayoutbuilder-1.4.0.pom
-Download https://jcenter.bintray.com/com/facebook/yoga/yoga/1.10.0/yoga-1.10.0.pom
-Download https://jcenter.bintray.com/com/facebook/fbui/textlayoutbuilder/staticlayout-proxy/1.4.0/staticlayout-proxy-1.4.0.pom
-Download https://jcenter.bintray.com/com/facebook/soloader/soloader/0.5.1/soloader-0.5.1.aar
-Download https://jcenter.bintray.com/com/facebook/litho/litho-widget/0.20.0/litho-widget-0.20.0.aar
+Download https://jcenter.bintray.com/com/facebook/fbui/textlayoutbuilder/textlayoutbuilder/1.4.0/textlayoutbuilder-1.4.0.aar
+Download https://jcenter.bintray.com/com/facebook/fbui/textlayoutbuilder/staticlayout-proxy/1.4.0/staticlayout-proxy-1.4.0.jar
+Download https://jcenter.bintray.com/com/facebook/infer/annotation/infer-annotation/0.11.2/infer-annotation-0.11.2.jar
+Download https://jcenter.bintray.com/com/facebook/litho/litho-annotations/0.20.0/litho-annotations-0.20.0.jar
 Download https://jcenter.bintray.com/com/facebook/yoga/yoga/1.10.0/yoga-1.10.0.aar
 Download https://jcenter.bintray.com/com/facebook/litho/litho-core/0.20.0/litho-core-0.20.0.aar
-Download https://jcenter.bintray.com/com/facebook/infer/annotation/infer-annotation/0.11.2/infer-annotation-0.11.2.jar
-Download https://jcenter.bintray.com/com/facebook/fbui/textlayoutbuilder/textlayoutbuilder/1.4.0/textlayoutbuilder-1.4.0.aar
-Download https://jcenter.bintray.com/com/facebook/litho/litho-annotations/0.20.0/litho-annotations-0.20.0.jar
-Download https://jcenter.bintray.com/com/facebook/fbui/textlayoutbuilder/staticlayout-proxy/1.4.0/staticlayout-proxy-1.4.0.jar
+Download https://jcenter.bintray.com/com/facebook/litho/litho-widget/0.20.0/litho-widget-0.20.0.aar
 :app:preBuild UP-TO-DATE
 :litho-glide:preBuild UP-TO-DATE
 :litho-glide:preDebugBuild UP-TO-DATE
@@ -220,9 +210,8 @@ Download https://jcenter.bintray.com/com/facebook/fbui/textlayoutbuilder/staticl
 :litho-glide:prepareLintJar
 :litho-glide:generateDebugSources
 :litho-glide:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/facebook/litho/litho-processor/0.20.0/litho-processor-0.20.0.pom
 Download https://jcenter.bintray.com/com/facebook/litho/litho-processor/0.20.0/litho-processor-0.20.0.jar
-:litho-glide:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/litho-glide/src/main/java/com/github/pavlospt/litho/glide/GlideImageSpec.java uses unchecked or unsafe operations.
+:litho-glide:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/litho-glide/src/main/java/com/github/pavlospt/litho/glide/GlideImageSpec.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :litho-glide:processDebugJavaRes NO-SOURCE
@@ -284,7 +273,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :litho-glide:generateReleaseBuildConfig
 :litho-glide:generateReleaseSources
 :litho-glide:javaPreCompileRelease
-:litho-glide:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/litho-glide/src/main/java/com/github/pavlospt/litho/glide/GlideImageSpec.java uses unchecked or unsafe operations.
+:litho-glide:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/litho-glide/src/main/java/com/github/pavlospt/litho/glide/GlideImageSpec.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :litho-glide:processReleaseJavaRes NO-SOURCE
@@ -321,10 +310,10 @@ Note: Recompile with -Xlint:unchecked for details.
 :app:assemble
 :app:lint
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/26d0d7b3fbfef90854ce41025c6d9020/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 3 issues found
 Ran lint on variant release: 3 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build/reports/lint-results.xml
+Ran lint on variant debug: 3 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build/reports/lint-results.xml
 :app:lint FAILED
 
 FAILURE: Build failed with an exception.
@@ -344,7 +333,7 @@ Execution failed for task ':app:lint'.
   
   Errors found:
   
-  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle: Error: All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 28.0.0, 27.1.1. Examples include com.android.support:animated-vector-drawable:28.0.0 and com.android.support:recyclerview-v7:27.1.1 [GradleCompatible]
+  /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle: Error: All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 28.0.0, 27.1.1. Examples include com.android.support:animated-vector-drawable:28.0.0 and com.android.support:recyclerview-v7:27.1.1 [GradleCompatible]
   
 
 
@@ -397,7 +386,7 @@ android {
 
 Errors found:
 
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build.gradle: Error: All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 28.0.0, 27.1.1. Examples include com.android.support:animated-vector-drawable:28.0.0 and com.android.support:recyclerview-v7:27.1.1 [GradleCompatible]
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build.gradle: Error: All com.android.support libraries must use the exact same version specification (mixing versions can lead to runtime crashes). Found versions 28.0.0, 27.1.1. Examples include com.android.support:animated-vector-drawable:28.0.0 and com.android.support:recyclerview-v7:27.1.1 [GradleCompatible]
 
 
 	at com.android.tools.lint.gradle.LintGradleExecution.abort(LintGradleExecution.java:206)
@@ -424,7 +413,7 @@ Errors found:
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 53s
+BUILD FAILED in 51s
 90 actionable tasks: 90 executed
 
-2018-10-25 22:45:20,107 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540482248063-0/src/litho-glide-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-17 01:02:52,442 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759304642-0/src/litho-glide-master/app/build/outputs/apk/debug/app-debug.apk

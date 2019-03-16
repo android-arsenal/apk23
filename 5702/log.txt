@@ -1,17 +1,17 @@
-2018-09-13 15:52:32,901 INFO  DownloadService - Downloading "https://github.com/Nirashu/CameraGalleryImagePickDemo/archive/master.zip", attempt 3
-2018-09-13 15:52:35,235 INFO  DownloadService - Downloaded https://github.com/Nirashu/CameraGalleryImagePickDemo/archive/master.zip, attempt 3
-2018-09-13 15:52:35,235 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828752898-0/master.zip": 2 MB
-2018-09-13 15:52:35,235 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-13 15:52:35,242 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828752898-0/master.zip: true
-2018-09-13 15:52:35,242 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828752898-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828752898-0/src'.
-2018-09-13 15:52:35,282 INFO  FullProcessService - Size of directory with sources: 2 MB
-2018-09-13 15:52:35,282 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828752898-0/src]
-2018-09-13 15:52:35,298 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828752898-0/src/.git/
+2019-03-17 00:51:50,850 INFO  DownloadService - Downloading "https://github.com/Nirashu/CameraGalleryImagePickDemo/archive/master.zip", attempt 3
+2019-03-17 00:52:17,542 INFO  DownloadService - Downloaded https://github.com/Nirashu/CameraGalleryImagePickDemo/archive/master.zip, attempt 3
+2019-03-17 00:52:17,542 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758710847-0/master.zip": 2 MB
+2019-03-17 00:52:17,543 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 00:52:17,543 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758710847-0/master.zip: true
+2019-03-17 00:52:17,544 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758710847-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758710847-0/src'.
+2019-03-17 00:52:17,581 INFO  FullProcessService - Size of directory with sources: 2 MB
+2019-03-17 00:52:17,581 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758710847-0/src]
+2019-03-17 00:52:17,599 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758710847-0/src/.git/
 
-2018-09-13 15:52:35,301 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828752898-0/src/CameraGalleryImagePickDemo-master/gradlew
-2018-09-13 15:52:35,303 INFO  ProjectBuildService - Build script(s): none
-2018-09-13 15:52:35,306 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828752898-0/src/CameraGalleryImagePickDemo-master/settings.gradle
-2018-09-13 15:52:35,306 INFO  ProjectBuildService - Remote scripts: none
-2018-09-13 15:52:35,306 ERROR FullProcessService - Project is not correct Gradle project
-2018-09-13 15:52:35,306 ERROR FullProcessService - Project build has not produced APK file
-2018-09-13 15:52:35,308 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-17 00:52:17,602 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758710847-0/src/CameraGalleryImagePickDemo-master/gradlew
+2019-03-17 00:52:17,605 INFO  ProjectBuildService - Build script(s): none
+2019-03-17 00:52:17,607 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758710847-0/src/CameraGalleryImagePickDemo-master/settings.gradle
+2019-03-17 00:52:17,607 INFO  ProjectBuildService - Remote scripts: none
+2019-03-17 00:52:17,607 ERROR FullProcessService - Project is not correct Gradle project
+2019-03-17 00:52:17,607 ERROR FullProcessService - Project build has not produced APK file
+2019-03-17 00:52:17,610 ERROR FullProcessService - Could not find generated or existed APK file

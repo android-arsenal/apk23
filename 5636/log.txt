@@ -1,168 +1,202 @@
-2018-09-14 11:31:53,180 INFO  DownloadService - Downloading "https://github.com/adityak368/Android-FileBrowser-FilePicker/archive/master.zip", attempt 3
-2018-09-14 11:31:54,405 INFO  DownloadService - Downloaded https://github.com/adityak368/Android-FileBrowser-FilePicker/archive/master.zip, attempt 3
-2018-09-14 11:31:54,406 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/master.zip": 347 KB
-2018-09-14 11:31:54,406 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-14 11:31:54,411 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/master.zip: true
-2018-09-14 11:31:54,411 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src'.
-2018-09-14 11:31:54,450 INFO  FullProcessService - Size of directory with sources: 442 KB
-2018-09-14 11:31:54,450 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src]
-2018-09-14 11:31:54,467 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/.git/
+2019-03-17 01:10:33,504 INFO  DownloadService - Downloading "https://github.com/adityak368/Android-FileBrowser-FilePicker/archive/master.zip", attempt 3
+2019-03-17 01:10:35,901 INFO  DownloadService - Downloaded https://github.com/adityak368/Android-FileBrowser-FilePicker/archive/master.zip, attempt 3
+2019-03-17 01:10:35,901 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/master.zip": 357 KB
+2019-03-17 01:10:35,901 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 01:10:35,903 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/master.zip: true
+2019-03-17 01:10:35,904 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src'.
+2019-03-17 01:10:35,940 INFO  FullProcessService - Size of directory with sources: 459 KB
+2019-03-17 01:10:35,940 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src]
+2019-03-17 01:10:35,966 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/.git/
 
-2018-09-14 11:31:54,472 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/gradlew
-2018-09-14 11:31:54,477 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/build.gradle
-2018-09-14 11:31:54,481 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/settings.gradle
-2018-09-14 11:31:54,486 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
-2018-09-14 11:31:55,200 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
-2018-09-14 11:31:55,201 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
-2018-09-14 11:31:55,201 INFO  ProjectFixService - Fixing project...
-2018-09-14 11:31:55,214 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/filebrowser/local.properties
-2018-09-14 11:31:55,215 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-14 11:31:55,216 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/local.properties
-2018-09-14 11:31:55,217 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-09-14 11:31:55,218 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-09-14 11:31:55,219 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-14 11:31:55,219 INFO  ProjectFixService - Project was maybe fixed
-2018-09-14 11:31:55,219 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 11:31:55,219 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 11:31:55,832 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-14 11:31:55,833 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-09-14 11:31:55,833 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-09-14 11:31:55,833 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-09-14 11:31:56,363 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-14 11:31:56,363 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-03-17 01:10:35,970 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/gradlew
+2019-03-17 01:10:35,974 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/build.gradle
+2019-03-17 01:10:35,978 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/settings.gradle
+2019-03-17 01:10:35,978 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle", attempt 3
+2019-03-17 01:10:36,156 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle, attempt 3
+2019-03-17 01:10:36,156 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/blundell/release-android-library/master/android-release-aar.gradle
+2019-03-17 01:10:36,157 INFO  ProjectFixService - Fixing project...
+2019-03-17 01:10:36,169 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/local.properties
+2019-03-17 01:10:36,170 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 01:10:36,170 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/local.properties
+2019-03-17 01:10:36,170 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-17 01:10:36,171 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-17 01:10:36,172 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 01:10:36,172 INFO  ProjectFixService - Project was maybe fixed
+2019-03-17 01:10:36,172 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 01:10:36,172 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 01:10:45,377 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-03-17 01:10:45,377 INFO  ProjectTaskService - Excluded tasks (18): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 01:10:45,377 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 01:11:03,940 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :filebrowser:preBuild UP-TO-DATE
+> Task :filebrowser:preDebugBuild UP-TO-DATE
+> Task :filebrowser:compileDebugAidl NO-SOURCE
+> Task :filebrowser:compileDebugRenderscript
+> Task :filebrowser:checkDebugManifest
+> Task :filebrowser:generateDebugBuildConfig
+> Task :filebrowser:generateDebugResValues
+> Task :filebrowser:generateDebugResources
+> Task :filebrowser:packageDebugResources
+> Task :filebrowser:processDebugManifest
+> Task :filebrowser:generateDebugRFile
+> Task :filebrowser:prepareLintJar
+> Task :filebrowser:generateDebugSources
+> Task :filebrowser:javaPreCompileDebug
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+> Task :filebrowser:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/src/main/java/com/aditya/filebrowser/adapters/CustomAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
-* Try:
-Run with --info or --debug option to get more log output.
+> Task :filebrowser:extractDebugAnnotations
+> Task :filebrowser:mergeDebugConsumerProguardFiles
+> Task :filebrowser:mergeDebugShaders
+> Task :filebrowser:compileDebugShaders
+> Task :filebrowser:generateDebugAssets
+> Task :filebrowser:packageDebugAssets
+> Task :filebrowser:packageDebugRenderscript NO-SOURCE
+> Task :filebrowser:processDebugJavaRes NO-SOURCE
+> Task :filebrowser:transformResourcesWithMergeJavaResForDebug
+> Task :filebrowser:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :filebrowser:compileDebugNdk NO-SOURCE
+> Task :filebrowser:mergeDebugJniLibFolders
+> Task :filebrowser:transformNativeLibsWithMergeJniLibsForDebug
+> Task :filebrowser:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :filebrowser:transformNativeLibsWithSyncJniLibsForDebug
+> Task :filebrowser:bundleDebugAar
+> Task :filebrowser:compileDebugSources
+> Task :filebrowser:assembleDebug
+> Task :filebrowser:preReleaseBuild UP-TO-DATE
+> Task :filebrowser:compileReleaseAidl NO-SOURCE
+> Task :filebrowser:compileReleaseRenderscript
+> Task :filebrowser:checkReleaseManifest
+> Task :filebrowser:generateReleaseBuildConfig
+> Task :filebrowser:generateReleaseResValues
+> Task :filebrowser:generateReleaseResources
+> Task :filebrowser:packageReleaseResources
+> Task :filebrowser:processReleaseManifest
+> Task :filebrowser:generateReleaseRFile
+> Task :filebrowser:generateReleaseSources
+> Task :filebrowser:javaPreCompileRelease
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:68)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:78)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :filebrowser:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/src/main/java/com/aditya/filebrowser/adapters/CustomAdapter.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
 
+> Task :filebrowser:extractReleaseAnnotations
+> Task :filebrowser:mergeReleaseConsumerProguardFiles
+> Task :filebrowser:mergeReleaseShaders
+> Task :filebrowser:compileReleaseShaders
+> Task :filebrowser:generateReleaseAssets
+> Task :filebrowser:packageReleaseAssets
+> Task :filebrowser:packageReleaseRenderscript NO-SOURCE
+> Task :filebrowser:processReleaseJavaRes NO-SOURCE
+> Task :filebrowser:transformResourcesWithMergeJavaResForRelease
+> Task :filebrowser:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :filebrowser:compileReleaseNdk NO-SOURCE
+> Task :filebrowser:mergeReleaseJniLibFolders
+> Task :filebrowser:transformNativeLibsWithMergeJniLibsForRelease
+> Task :filebrowser:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :filebrowser:transformNativeLibsWithSyncJniLibsForRelease
+> Task :filebrowser:bundleReleaseAar
+> Task :filebrowser:compileReleaseSources
+> Task :filebrowser:mergeReleaseResources
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build/intermediates/res/merged/release/values-de/values-de.xml:47: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-2018-09-14 11:31:56,368 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 11:31:56,368 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 11:31:56,897 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-14 11:31:56,898 INFO  ProjectTaskService - Detected possible tasks: 4
-2018-09-14 11:31:56,898 INFO  ProjectTaskService - Excluded tasks (3): androidJavadocsJar androidJavadocs androidSourcesJar
-2018-09-14 11:31:56,898 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899513175-0/src/Android-FileBrowser-FilePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, androidJavadocsJar, -x, androidJavadocs, -x, androidSourcesJar, build]
-2018-09-14 11:31:57,404 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-14 11:31:57,404 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build/intermediates/res/merged/release/values/values.xml:2437: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+> Task :filebrowser:verifyReleaseResources
+> Task :filebrowser:assembleRelease
+> Task :filebrowser:assemble
+> Task :filebrowser:build
 
-* Try:
-Run with --info or --debug option to get more log output.
+BUILD SUCCESSFUL in 17s
+45 actionable tasks: 45 executed
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:68)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:78)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+2019-03-17 01:11:04,009 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 01:11:04,009 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 01:11:11,593 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-03-17 01:11:11,593 INFO  ProjectTaskService - Excluded tasks (18): lintDebug androidJavadocs deviceCheck lint androidSourcesJar testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll androidJavadocsJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 01:11:11,594 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, androidJavadocs, -x, deviceCheck, -x, lint, -x, androidSourcesJar, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, androidJavadocsJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 01:11:20,450 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :filebrowser:preBuild UP-TO-DATE
+> Task :filebrowser:preDebugBuild UP-TO-DATE
+> Task :filebrowser:compileDebugAidl NO-SOURCE
+> Task :filebrowser:compileDebugRenderscript UP-TO-DATE
+> Task :filebrowser:checkDebugManifest UP-TO-DATE
+> Task :filebrowser:generateDebugBuildConfig UP-TO-DATE
+> Task :filebrowser:generateDebugResValues UP-TO-DATE
+> Task :filebrowser:generateDebugResources UP-TO-DATE
+> Task :filebrowser:packageDebugResources UP-TO-DATE
+> Task :filebrowser:processDebugManifest UP-TO-DATE
+> Task :filebrowser:generateDebugRFile UP-TO-DATE
+> Task :filebrowser:prepareLintJar UP-TO-DATE
+> Task :filebrowser:generateDebugSources UP-TO-DATE
+> Task :filebrowser:javaPreCompileDebug UP-TO-DATE
+> Task :filebrowser:compileDebugJavaWithJavac UP-TO-DATE
+> Task :filebrowser:extractDebugAnnotations UP-TO-DATE
+> Task :filebrowser:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :filebrowser:mergeDebugShaders UP-TO-DATE
+> Task :filebrowser:compileDebugShaders UP-TO-DATE
+> Task :filebrowser:generateDebugAssets UP-TO-DATE
+> Task :filebrowser:packageDebugAssets UP-TO-DATE
+> Task :filebrowser:packageDebugRenderscript NO-SOURCE
+> Task :filebrowser:processDebugJavaRes NO-SOURCE
+> Task :filebrowser:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :filebrowser:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :filebrowser:compileDebugNdk NO-SOURCE
+> Task :filebrowser:mergeDebugJniLibFolders UP-TO-DATE
+> Task :filebrowser:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :filebrowser:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :filebrowser:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :filebrowser:bundleDebugAar UP-TO-DATE
+> Task :filebrowser:compileDebugSources UP-TO-DATE
+> Task :filebrowser:assembleDebug UP-TO-DATE
+> Task :filebrowser:preReleaseBuild UP-TO-DATE
+> Task :filebrowser:compileReleaseAidl NO-SOURCE
+> Task :filebrowser:compileReleaseRenderscript UP-TO-DATE
+> Task :filebrowser:checkReleaseManifest UP-TO-DATE
+> Task :filebrowser:generateReleaseBuildConfig UP-TO-DATE
+> Task :filebrowser:generateReleaseResValues UP-TO-DATE
+> Task :filebrowser:generateReleaseResources UP-TO-DATE
+> Task :filebrowser:packageReleaseResources UP-TO-DATE
+> Task :filebrowser:processReleaseManifest UP-TO-DATE
+> Task :filebrowser:generateReleaseRFile UP-TO-DATE
+> Task :filebrowser:generateReleaseSources UP-TO-DATE
+> Task :filebrowser:javaPreCompileRelease UP-TO-DATE
+> Task :filebrowser:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :filebrowser:extractReleaseAnnotations UP-TO-DATE
+> Task :filebrowser:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :filebrowser:mergeReleaseShaders UP-TO-DATE
+> Task :filebrowser:compileReleaseShaders UP-TO-DATE
+> Task :filebrowser:generateReleaseAssets UP-TO-DATE
+> Task :filebrowser:packageReleaseAssets UP-TO-DATE
+> Task :filebrowser:packageReleaseRenderscript NO-SOURCE
+> Task :filebrowser:processReleaseJavaRes NO-SOURCE
+> Task :filebrowser:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :filebrowser:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :filebrowser:compileReleaseNdk NO-SOURCE
+> Task :filebrowser:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :filebrowser:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :filebrowser:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :filebrowser:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :filebrowser:bundleReleaseAar UP-TO-DATE
+> Task :filebrowser:compileReleaseSources UP-TO-DATE
+> Task :filebrowser:mergeReleaseResources UP-TO-DATE
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build/intermediates/res/merged/release/values-de/values-de.xml:47: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552759833501-0/src/Android-FileBrowser-FilePicker-master/filebrowser/build/intermediates/res/merged/release/values/values.xml:2437: warn: multiple substitutions specified in non-positional format; did you mean to add the formatted="false" attribute?.
 
-2018-09-14 11:31:57,409 ERROR FullProcessService - Project build has not produced APK file
-2018-09-14 11:31:57,414 ERROR FullProcessService - Could not find generated or existed APK file
+> Task :filebrowser:verifyReleaseResources
+> Task :filebrowser:assembleRelease
+> Task :filebrowser:assemble
+> Task :filebrowser:build
+
+BUILD SUCCESSFUL in 8s
+45 actionable tasks: 1 executed, 44 up-to-date
+
+2019-03-17 01:11:20,515 ERROR FullProcessService - Project build has not produced APK file
+2019-03-17 01:11:20,574 ERROR FullProcessService - Could not find generated or existed APK file
