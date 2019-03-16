@@ -1,53 +1,39 @@
-2018-12-10 15:08:27,151 INFO  DownloadService - Downloading "https://github.com/StephenVinouze/KinApp/archive/master.zip", attempt 3
-2018-12-10 15:08:29,718 INFO  DownloadService - Downloaded https://github.com/StephenVinouze/KinApp/archive/master.zip, attempt 3
-2018-12-10 15:08:29,718 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/master.zip": 161 KB
-2018-12-10 15:08:29,719 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-10 15:08:29,724 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/master.zip: true
-2018-12-10 15:08:29,724 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src'.
-2018-12-10 15:08:29,745 INFO  FullProcessService - Size of directory with sources: 212 KB
-2018-12-10 15:08:29,745 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src]
-2018-12-10 15:08:29,773 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/.git/
+2019-03-16 22:13:05,243 INFO  DownloadService - Downloading "https://github.com/StephenVinouze/KinApp/archive/master.zip", attempt 3
+2019-03-16 22:26:00,541 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-16 22:26:02,201 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-16 22:26:02,202 INFO  DownloadService - Downloading "https://github.com/StephenVinouze/KinApp/archive/master.zip", attempt 3
+2019-03-16 22:27:03,804 DEBUG FullProcessService - Repository https://github.com/StephenVinouze/KinApp available: true
+2019-03-16 22:27:03,804 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-16 22:27:03,805 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/StephenVinouze/KinApp, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src]
+2019-03-16 22:27:06,606 INFO  SysUtils - 
+2019-03-16 22:27:06,614 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/.git": true
+2019-03-16 22:27:06,617 INFO  FullProcessService - Size of directory with sources: 196 KB
+2019-03-16 22:27:06,618 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src]
+2019-03-16 22:27:06,634 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/.git/
 
-2018-12-10 15:08:29,776 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/gradlew
-2018-12-10 15:08:29,780 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/core/build.gradle
-2018-12-10 15:08:29,783 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/settings.gradle
-2018-12-10 15:08:29,784 INFO  ProjectBuildService - Remote scripts: none
-2018-12-10 15:08:29,784 INFO  ProjectFixService - Fixing project...
-2018-12-10 15:08:29,793 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/sample/local.properties
-2018-12-10 15:08:29,795 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-10 15:08:29,795 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-10 15:08:29,796 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/local.properties
-2018-12-10 15:08:29,796 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2018-12-10 15:08:29,797 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2018-12-10 15:08:29,799 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-10 15:08:29,799 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-10 15:08:29,800 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/core/local.properties
-2018-12-10 15:08:29,801 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
-2018-12-10 15:08:29,802 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2018-12-10 15:08:29,802 INFO  ProjectFixService - Project was maybe fixed
-2018-12-10 15:08:29,802 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-10 15:08:29,802 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-10 15:09:16,582 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-12-10 15:09:16,582 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-10 15:09:16,582 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-10 15:11:17,329 INFO  SysUtils - Configuration on demand is an incubating feature.
-
-> Configure project :sample
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-
-> Configure project :core
-WARNING: Configuration 'compile' is obsolete and has been replaced with 'implementation' and 'api'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'androidTestCompile' is obsolete and has been replaced with 'androidTestImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-WARNING: Configuration 'testCompile' is obsolete and has been replaced with 'testImplementation'.
-It will be removed at the end of 2018. For more information see: http://d.android.com/r/tools/update-dependency-configurations.html
-
+2019-03-16 22:27:06,637 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/gradlew
+2019-03-16 22:27:06,641 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/core/build.gradle
+2019-03-16 22:27:06,644 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/core/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/library.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/settings.gradle
+2019-03-16 22:27:06,644 INFO  ProjectBuildService - Remote scripts: none
+2019-03-16 22:27:06,644 INFO  ProjectFixService - Fixing project...
+2019-03-16 22:27:06,652 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/sample/local.properties
+2019-03-16 22:27:06,654 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 22:27:06,654 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 22:27:06,655 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/local.properties
+2019-03-16 22:27:06,655 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-16 22:27:06,655 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-16 22:27:06,657 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 22:27:06,657 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 22:27:06,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/core/local.properties
+2019-03-16 22:27:06,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/core/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=14,targetSdkVersion=<null>]
+2019-03-16 22:27:06,659 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/core/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-16 22:27:06,660 INFO  ProjectFixService - Project was maybe fixed
+2019-03-16 22:27:06,660 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-16 22:27:06,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-16 22:27:15,314 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-16 22:27:15,314 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-16 22:27:15,314 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-16 22:28:09,309 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :core:preBuild UP-TO-DATE
 > Task :core:preDebugBuild UP-TO-DATE
 > Task :core:compileDebugAidl
@@ -59,11 +45,8 @@ It will be removed at the end of 2018. For more information see: http://d.androi
 > Task :core:packageDebugResources
 > Task :core:processDebugManifest
 > Task :core:generateDebugRFile
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :core:kaptGenerateStubsDebugKotlin
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :core:kaptDebugKotlin
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :core:compileDebugKotlin
 > Task :core:prepareLintJar
 > Task :core:generateDebugSources
@@ -85,11 +68,8 @@ w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
 > Task :sample:processDebugResources
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :sample:kaptGenerateStubsDebugKotlin
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :sample:kaptDebugKotlin
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :sample:compileDebugKotlin
 > Task :sample:prepareLintJar
 > Task :sample:generateDebugSources
@@ -135,11 +115,8 @@ w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :core:packageReleaseResources
 > Task :core:processReleaseManifest
 > Task :core:generateReleaseRFile
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :core:kaptGenerateStubsReleaseKotlin
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :core:kaptReleaseKotlin
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :core:compileReleaseKotlin
 > Task :core:generateReleaseSources
 > Task :core:javaPreCompileRelease
@@ -159,19 +136,17 @@ w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
 > Task :sample:processReleaseResources
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :sample:kaptGenerateStubsReleaseKotlin
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :sample:kaptReleaseKotlin
-w: -Xcoroutines has no effect: coroutines are enabled anyway in 1.3 and beyond
 > Task :sample:compileReleaseKotlin
 > Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseNdk NO-SOURCE
 > Task :sample:compileReleaseSources
+
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/4863854d46cae0771056be5b28044a04/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/3407efdef852f93f7907e01ca7473cc7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :core:createFullJarRelease
 > Transform full.jar (project :core) with IdentityTransform
@@ -203,7 +178,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:assemble
 > Task :sample:build
 
-BUILD SUCCESSFUL in 2m 0s
+BUILD SUCCESSFUL in 53s
 102 actionable tasks: 102 executed
 
-2018-12-10 15:11:17,440 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544429307143-0/src/KinApp-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-03-16 22:28:09,406 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552749185241-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk
