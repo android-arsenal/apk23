@@ -1,109 +1,109 @@
-2018-12-09 20:53:37,673 INFO  DownloadService - Downloading "https://github.com/wealthfront/magellan/archive/master.zip", attempt 3
-2018-12-09 20:53:42,285 INFO  DownloadService - Downloaded https://github.com/wealthfront/magellan/archive/master.zip, attempt 3
-2018-12-09 20:53:42,286 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/master.zip": 6 MB
-2018-12-09 20:53:42,286 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-09 20:53:42,288 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/master.zip: true
-2018-12-09 20:53:42,289 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src'.
-2018-12-09 20:53:42,377 INFO  FullProcessService - Size of directory with sources: 6 MB
-2018-12-09 20:53:42,377 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src]
-2018-12-09 20:53:42,397 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/.git/
+2019-03-17 15:07:56,347 INFO  DownloadService - Downloading "https://github.com/wealthfront/magellan/archive/master.zip", attempt 3
+2019-03-17 15:08:01,734 INFO  DownloadService - Downloaded https://github.com/wealthfront/magellan/archive/master.zip, attempt 3
+2019-03-17 15:08:01,734 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/master.zip": 6 MB
+2019-03-17 15:08:01,734 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 15:08:01,742 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/master.zip: true
+2019-03-17 15:08:01,743 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src'.
+2019-03-17 15:08:01,829 INFO  FullProcessService - Size of directory with sources: 6 MB
+2019-03-17 15:08:01,829 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src]
+2019-03-17 15:08:01,847 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/.git/
 
-2018-12-09 20:53:42,404 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew
-2018-12-09 20:53:42,412 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/build.gradle
-2018-12-09 20:53:42,418 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/checkstyle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle
-2018-12-09 20:53:42,419 INFO  ProjectBuildService - Remote scripts: none
-2018-12-09 20:53:42,419 INFO  ProjectFixService - Fixing project...
-2018-12-09 20:53:42,442 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/local.properties
-2018-12-09 20:53:42,444 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,444 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,444 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/local.properties
-2018-12-09 20:53:42,446 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,446 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,447 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/local.properties
-2018-12-09 20:53:42,449 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,449 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,450 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/local.properties
-2018-12-09 20:53:42,451 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,451 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,452 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/local.properties
-2018-12-09 20:53:42,453 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,453 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,454 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/local.properties
-2018-12-09 20:53:42,456 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,456 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,457 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/local.properties
-2018-12-09 20:53:42,457 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-12-09 20:53:42,457 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-12-09 20:53:42,459 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,459 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
-2018-12-09 20:53:42,460 INFO  ProjectFixService - Project was maybe fixed
-2018-12-09 20:53:42,460 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-09 20:53:42,460 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-09 20:53:58,091 INFO  ProjectTaskService - Detected possible tasks: 68
-2018-12-09 20:53:58,091 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-09 20:53:58,091 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-09 20:54:15,357 INFO  SysUtils - Configuration on demand is an incubating feature.
-:magellan-library:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:4: error: package android.support.annotation does not exist
+2019-03-17 15:08:01,854 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew
+2019-03-17 15:08:01,861 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample-advanced/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/build.gradle
+2019-03-17 15:08:01,868 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/checkstyle/checkstyle.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample-advanced/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradle/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/build.gradle
+2019-03-17 15:08:01,868 INFO  ProjectBuildService - Remote scripts: none
+2019-03-17 15:08:01,868 INFO  ProjectFixService - Fixing project...
+2019-03-17 15:08:01,889 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/local.properties
+2019-03-17 15:08:01,891 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,891 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,892 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/local.properties
+2019-03-17 15:08:01,893 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,894 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,894 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/local.properties
+2019-03-17 15:08:01,896 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,896 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,897 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample-advanced/local.properties
+2019-03-17 15:08:01,898 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample-advanced/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,898 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample-advanced/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,899 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample/local.properties
+2019-03-17 15:08:01,901 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,901 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,902 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/local.properties
+2019-03-17 15:08:01,903 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,904 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,904 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/local.properties
+2019-03-17 15:08:01,905 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-17 15:08:01,905 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-17 15:08:01,907 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,907 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-03-17 15:08:01,907 INFO  ProjectFixService - Project was maybe fixed
+2019-03-17 15:08:01,907 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:08:01,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:08:09,168 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-17 15:08:09,168 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 15:08:09,168 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 15:08:19,858 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-library:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:4: error: package android.support.annotation does not exist
 import android.support.annotation.ColorRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:8: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:8: error: package android.support.annotation does not exist
 import android.support.annotation.ColorRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:9: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:9: error: package android.support.annotation does not exist
 import android.support.annotation.StringRes;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:10: error: package android.support.annotation does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:10: error: package android.support.annotation does not exist
 import android.support.annotation.VisibleForTesting;
                                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:15: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:15: error: cannot find symbol
   @ColorRes private final int colorRes;
    ^
   symbol:   class ColorRes
   location: class ActionBarConfig
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:23: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:23: error: cannot find symbol
   @ColorRes
    ^
   symbol:   class ColorRes
   location: class ActionBarConfig
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:44: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:44: error: cannot find symbol
     @ColorRes private int colorRes;
      ^
   symbol:   class ColorRes
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:58: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/ActionBarConfig.java:58: error: cannot find symbol
     public Builder colorRes(@ColorRes int colorRes) {
                              ^
   symbol:   class ColorRes
   location: class Builder
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:183: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:183: error: cannot find symbol
   @ColorRes
    ^
   symbol:   class ColorRes
   location: class Screen<V>
   where V is a type-variable:
     V extends ViewGroup,ScreenView declared in class Screen
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:233: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:233: error: cannot find symbol
   protected final void setTitle(@StringRes int titleResId) {
                                  ^
   symbol:   class StringRes
   location: class Screen<V>
   where V is a type-variable:
     V extends ViewGroup,ScreenView declared in class Screen
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:270: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:270: error: cannot find symbol
   @VisibleForTesting
    ^
   symbol:   class VisibleForTesting
   location: class Screen<V>
   where V is a type-variable:
     V extends ViewGroup,ScreenView declared in class Screen
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:275: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:275: error: cannot find symbol
   @VisibleForTesting
    ^
   symbol:   class VisibleForTesting
   location: class Screen<V>
   where V is a type-variable:
     V extends ViewGroup,ScreenView declared in class Screen
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:280: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:280: error: cannot find symbol
   @VisibleForTesting
    ^
   symbol:   class VisibleForTesting
@@ -115,34 +115,34 @@ javadoc: warning - Class ColorRes not found.
 javadoc: warning - Class ColorRes not found.
 javadoc: warning - Class ColorRes not found.
 javadoc: warning - Class ColorRes not found.
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/HistoryRewriter.java:13: warning: no @param for history
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/HistoryRewriter.java:13: warning: no @param for history
   void rewriteHistory(Deque<Screen> history);
        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:194: warning: no @param for context
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:194: warning: no @param for context
   protected abstract V createView(Context context);
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:194: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:194: warning: no @return
   protected abstract V createView(Context context);
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:199: warning: no @param for menu
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:199: warning: no @param for menu
   protected void onUpdateMenu(Menu menu) {}
                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:204: warning: no @param for context
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:204: warning: no @param for context
   protected void onResume(Context context) {}
                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:209: warning: no @param for context
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:209: warning: no @param for context
   protected void onShow(Context context) {}
                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:216: warning: no @param for context
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:216: warning: no @param for context
   protected void onPause(Context context) {}
                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:221: warning: no @param for context
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:221: warning: no @param for context
   protected void onHide(Context context) {}
                  ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:226: warning: no @return
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:226: warning: no @return
   protected final boolean quit() {
                           ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:245: warning: no @param for dialogCreator
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java:245: warning: no @param for dialogCreator
   protected final void showDialog(DialogCreator dialogCreator) {
                        ^
 javadoc: warning - Class ColorRes not found.
@@ -227,18 +227,10 @@ javadoc: warning - Class VisibleForTesting not found.
 :magellan-library:verifyReleaseResources
 :magellan-library:generateDebugRFile
 :magellan-library:generateDebugSources
-:magellan-library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java uses unchecked or unsafe operations.
+:magellan-library:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :magellan-library:extractDebugAnnotations
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-kotlin/26.1.2/lint-kotlin-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-checks/26.1.2/lint-checks-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-gradle/26.1.2/lint-gradle-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint/26.1.2/lint-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/lint/lint-api/26.1.2/lint-api-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/intellij-core/26.1.2/intellij-core-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/org-jetbrains/uast/26.1.2/uast-26.1.2.jar
-Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-intellij/kotlin-compiler/26.1.2/kotlin-compiler-26.1.2.jar
 :magellan-library:transformResourcesWithMergeJavaResForDebug
 :magellan-library:transformClassesAndResourcesWithSyncLibJarsForDebug
 :magellan-library:bundleDebug
@@ -246,7 +238,7 @@ Download https://dl.google.com/dl/android/maven2/com/android/tools/external/com-
 :magellan-library:assembleDebug
 :magellan-library:generateReleaseRFile
 :magellan-library:generateReleaseSources
-:magellan-library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java uses unchecked or unsafe operations.
+:magellan-library:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-library/src/main/java/com/wealthfront/magellan/Screen.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :magellan-library:extractReleaseAnnotations
@@ -259,47 +251,47 @@ Note: Recompile with -Xlint:unchecked for details.
 :magellan-library:assemble
 :magellan-library:build
 
-BUILD SUCCESSFUL in 16s
+BUILD SUCCESSFUL in 10s
 51 actionable tasks: 51 executed
 
-2018-12-09 20:54:15,380 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-09 20:54:15,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-09 20:54:21,500 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-12-09 20:54:21,500 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-09 20:54:21,501 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-09 20:54:30,528 INFO  SysUtils - Configuration on demand is an incubating feature.
-:magellan-rx:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:6: error: cannot find symbol
+2019-03-17 15:08:19,878 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:08:19,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:08:25,573 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-17 15:08:25,574 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 15:08:25,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 15:08:34,078 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-rx:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:6: error: cannot find symbol
 import com.wealthfront.magellan.Screen;
                                ^
   symbol:   class Screen
   location: package com.wealthfront.magellan
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:7: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:7: error: cannot find symbol
 import com.wealthfront.magellan.ScreenView;
                                ^
   symbol:   class ScreenView
   location: package com.wealthfront.magellan
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:9: error: package rx does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:9: error: package rx does not exist
 import rx.Subscription;
          ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:10: error: package rx.subscriptions does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:10: error: package rx.subscriptions does not exist
 import rx.subscriptions.CompositeSubscription;
                        ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:12: error: cannot find symbol
 public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<V> {
                                                                          ^
   symbol: class Screen
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:12: error: cannot find symbol
 public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<V> {
                                                      ^
   symbol: class ScreenView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:14: error: cannot find symbol
   private CompositeSubscription subscriptions = new CompositeSubscription();
           ^
   symbol:   class CompositeSubscription
   location: class RxScreen<V>
   where V is a type-variable:
     V extends ViewGroup,ScreenView declared in class RxScreen
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx/src/main/java/com/wealthfront/magellan/rx/RxScreen.java:24: error: cannot find symbol
   protected final void autoUnsubscribe(Subscription subscription) {
                                        ^
   symbol:   class Subscription
@@ -419,44 +411,44 @@ public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<
 BUILD SUCCESSFUL in 8s
 75 actionable tasks: 53 executed, 22 up-to-date
 
-2018-12-09 20:54:30,557 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-09 20:54:30,558 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-09 20:54:37,456 INFO  ProjectTaskService - Detected possible tasks: 67
-2018-12-09 20:54:37,456 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-12-09 20:54:37,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-12-09 20:54:48,809 INFO  SysUtils - Configuration on demand is an incubating feature.
-:magellan-rx2:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:6: error: cannot find symbol
+2019-03-17 15:08:34,105 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:08:34,105 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:08:39,818 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-17 15:08:39,818 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 15:08:39,819 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 15:08:48,866 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-rx2:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:6: error: cannot find symbol
 import com.wealthfront.magellan.Screen;
                                ^
   symbol:   class Screen
   location: package com.wealthfront.magellan
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:7: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:7: error: cannot find symbol
 import com.wealthfront.magellan.ScreenView;
                                ^
   symbol:   class ScreenView
   location: package com.wealthfront.magellan
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:9: error: package io.reactivex.disposables does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:9: error: package io.reactivex.disposables does not exist
 import io.reactivex.disposables.CompositeDisposable;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:10: error: package io.reactivex.disposables does not exist
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:10: error: package io.reactivex.disposables does not exist
 import io.reactivex.disposables.Disposable;
                                ^
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:12: error: cannot find symbol
 public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<V> {
                                                                          ^
   symbol: class Screen
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:12: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:12: error: cannot find symbol
 public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<V> {
                                                      ^
   symbol: class ScreenView
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:14: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:14: error: cannot find symbol
   private CompositeDisposable disposables = new CompositeDisposable();
           ^
   symbol:   class CompositeDisposable
   location: class RxScreen<V>
   where V is a type-variable:
     V extends ViewGroup,ScreenView declared in class RxScreen
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:24: error: cannot find symbol
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-rx2/src/main/java/com/wealthfront/magellan/rx2/RxScreen.java:24: error: cannot find symbol
   protected final void autoDispose(Disposable disposable) {
                                    ^
   symbol:   class Disposable
@@ -573,15 +565,43 @@ public abstract class RxScreen<V extends ViewGroup & ScreenView> extends Screen<
 :magellan-rx2:assemble
 :magellan-rx2:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 8s
 75 actionable tasks: 51 executed, 24 up-to-date
 
-2018-12-09 20:54:48,859 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-09 20:54:48,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-09 20:54:55,431 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-12-09 20:54:55,431 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-09 20:54:55,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-09 20:55:31,843 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-17 15:08:48,902 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:08:48,902 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample-advanced/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:08:54,384 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-17 15:08:54,384 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-17 15:08:54,384 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample-advanced/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-17 15:09:01,359 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-17 15:09:01,359 INFO  SysUtils - Configuration on demand is an incubating feature.
 :magellan-library:preBuild UP-TO-DATE
 :magellan-library:preDebugBuild UP-TO-DATE
 :magellan-library:compileDebugAidl UP-TO-DATE
@@ -620,66 +640,709 @@ BUILD SUCCESSFUL in 11s
 :magellan-rx:processDebugJavaRes NO-SOURCE
 :magellan-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :magellan-sample-advanced:preBuild UP-TO-DATE
-:magellan-sample-advanced:preDebugBuild
-:magellan-sample-advanced:compileDebugAidl
-:magellan-rx:packageDebugRenderscript NO-SOURCE
-:magellan-sample-advanced:compileDebugRenderscript
-:magellan-sample-advanced:checkDebugManifest
-:magellan-sample-advanced:generateDebugBuildConfig
-:magellan-sample-advanced:prepareLintJar
-:magellan-sample-advanced:mainApkListPersistenceDebug
-:magellan-sample-advanced:generateDebugResValues
-:magellan-sample-advanced:generateDebugResources
-:magellan-sample-advanced:mergeDebugResources
-:magellan-sample-advanced:createDebugCompatibleScreenManifests
-:magellan-sample-advanced:processDebugManifest
-:magellan-sample-advanced:splitsDiscoveryTaskDebug
-:magellan-sample-advanced:processDebugResources
-:magellan-sample-advanced:generateDebugSources
-:magellan-sample-advanced:javaPreCompileDebug
-Download https://jcenter.bintray.com/com/squareup/retrofit2/converter-jackson/2.3.0/converter-jackson-2.3.0.jar
-Download https://jcenter.bintray.com/com/squareup/retrofit2/adapter-rxjava/2.3.0/adapter-rxjava-2.3.0.jar
-Download https://jcenter.bintray.com/com/squareup/okhttp3/logging-interceptor/3.6.0/logging-interceptor-3.6.0.jar
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-core/2.7.2/jackson-core-2.7.2.jar
-Download https://jcenter.bintray.com/com/fasterxml/jackson/core/jackson-databind/2.7.2/jackson-databind-2.7.2.jar
-:magellan-sample-advanced:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/src/main/java/com/wealthfront/magellan/sample/advanced/tide/TideLocationsView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
+:magellan-sample-advanced:preDebugBuild FAILED
 
-:magellan-sample-advanced:compileDebugNdk NO-SOURCE
-:magellan-sample-advanced:compileDebugSources
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':magellan-sample-advanced:debugCompileClasspath'.
+> Could not find support-core-utils.aar (com.android.support:support-core-utils:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+> Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+> Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':magellan-sample-advanced:debugCompileClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter$FileCollectionVisitorImpl.visitCollection(AbstractFileCollectionSnapshotter.java:70)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:234)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:185)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter.snapshot(AbstractFileCollectionSnapshotter.java:53)
+	at org.gradle.api.internal.changedetection.state.DefaultGenericFileCollectionSnapshotter.snapshot(DefaultGenericFileCollectionSnapshotter.java:38)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.snapshotTaskFiles(CacheBackedTaskHistoryRepository.java:331)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:154)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:61)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:114)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:201)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:86)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:60)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:97)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:87)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:626)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:581)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor.process(DefaultTaskPlanExecutor.java:59)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter.execute(DefaultTaskGraphExecuter.java:128)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:23)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:43)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:46)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:37)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:30)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:314)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:204)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:134)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
+	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
+	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
+	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
+	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Cause 1: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-core-utils.aar (com.android.support:support-core-utils:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Cause 2: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+Cause 3: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+27 actionable tasks: 2 executed, 25 up-to-date
+
+2019-03-17 15:09:01,398 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:09:01,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:09:07,193 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-17 15:09:07,193 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-17 15:09:07,193 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-17 15:09:13,819 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-17 15:09:13,820 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-library:preBuild UP-TO-DATE
+:magellan-library:preDebugBuild UP-TO-DATE
+:magellan-library:compileDebugAidl UP-TO-DATE
+:magellan-library:compileDebugRenderscript UP-TO-DATE
+:magellan-library:checkDebugManifest UP-TO-DATE
+:magellan-library:generateDebugBuildConfig UP-TO-DATE
+:magellan-library:generateDebugResValues UP-TO-DATE
+:magellan-library:generateDebugResources UP-TO-DATE
+:magellan-library:packageDebugResources UP-TO-DATE
+:magellan-library:platformAttrExtractor UP-TO-DATE
+:magellan-library:processDebugManifest UP-TO-DATE
+:magellan-library:generateDebugRFile UP-TO-DATE
+:magellan-library:prepareLintJar UP-TO-DATE
+:magellan-library:generateDebugSources UP-TO-DATE
+:magellan-library:javaPreCompileDebug UP-TO-DATE
+:magellan-library:compileDebugJavaWithJavac UP-TO-DATE
+:magellan-library:processDebugJavaRes NO-SOURCE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:magellan-sample:preBuild UP-TO-DATE
+:magellan-support:preBuild UP-TO-DATE
+:magellan-support:preDebugBuild UP-TO-DATE
+:magellan-support:checkDebugManifest
+:magellan-support:processDebugManifest
+:magellan-sample:preDebugBuild FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':magellan-sample:debugCompileClasspath'.
+> Could not find support-core-utils.aar (com.android.support:support-core-utils:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+> Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':magellan-sample:debugCompileClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter$FileCollectionVisitorImpl.visitCollection(AbstractFileCollectionSnapshotter.java:70)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:234)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:185)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter.snapshot(AbstractFileCollectionSnapshotter.java:53)
+	at org.gradle.api.internal.changedetection.state.DefaultGenericFileCollectionSnapshotter.snapshot(DefaultGenericFileCollectionSnapshotter.java:38)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.snapshotTaskFiles(CacheBackedTaskHistoryRepository.java:331)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:154)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:61)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:114)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:201)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:86)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:60)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:97)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:87)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:626)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:581)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Cause 1: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-core-utils.aar (com.android.support:support-core-utils:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Cause 2: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+16 actionable tasks: 3 executed, 13 up-to-date
+
+2019-03-17 15:09:13,856 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:09:13,856 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:09:19,785 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-03-17 15:09:19,785 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 15:09:19,785 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 15:09:26,543 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-17 15:09:26,543 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-support:androidJavadocs/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/src/main/java/com/wealthfront/magellan/support/SingleActivity.java:4: error: package android.support.annotation does not exist
+import android.support.annotation.Nullable;
+                                 ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/src/main/java/com/wealthfront/magellan/support/SingleActivity.java:5: error: package android.support.v7.app does not exist
+import android.support.v7.app.AppCompatActivity;
+                             ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/src/main/java/com/wealthfront/magellan/support/SingleActivity.java:8: error: cannot find symbol
+import com.wealthfront.magellan.Navigator;
+                               ^
+  symbol:   class Navigator
+  location: package com.wealthfront.magellan
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/src/main/java/com/wealthfront/magellan/support/SingleActivity.java:10: error: cannot find symbol
+public abstract class SingleActivity extends AppCompatActivity {
+                                             ^
+  symbol: class AppCompatActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/src/main/java/com/wealthfront/magellan/support/SingleActivity.java:12: error: cannot find symbol
+  private static Navigator navigator;
+                 ^
+  symbol:   class Navigator
+  location: class SingleActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/src/main/java/com/wealthfront/magellan/support/SingleActivity.java:14: error: cannot find symbol
+  protected abstract Navigator createNavigator();
+                     ^
+  symbol:   class Navigator
+  location: class SingleActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/src/main/java/com/wealthfront/magellan/support/SingleActivity.java:16: error: cannot find symbol
+  public static Navigator getNavigator() {
+                ^
+  symbol:   class Navigator
+  location: class SingleActivity
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/magellan-support/src/main/java/com/wealthfront/magellan/support/SingleActivity.java:29: error: cannot find symbol
+  protected void onPostCreate(@Nullable Bundle savedInstanceState) {
+                               ^
+  symbol:   class Nullable
+  location: class SingleActivity
+javadoc: warning - Class Nullable not found.
+
+9 warnings
+:magellan-support:androidJavadocsJar
+:magellan-support:androidSourcesJar
+:magellan-library:preBuild UP-TO-DATE
+:magellan-library:preDebugBuild UP-TO-DATE
+:magellan-library:compileDebugAidl UP-TO-DATE
+:magellan-support:preBuild UP-TO-DATE
+:magellan-support:preDebugBuild UP-TO-DATE
+:magellan-support:compileDebugAidl FAILED
+
+FAILURE: Build failed with an exception.
+
+* What went wrong:
+Could not resolve all files for configuration ':magellan-support:debugCompileClasspath'.
+> Could not find support-core-utils.aar (com.android.support:support-core-utils:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+> Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':magellan-support:debugCompileClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter$FileCollectionVisitorImpl.visitCollection(AbstractFileCollectionSnapshotter.java:70)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:234)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:185)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter.snapshot(AbstractFileCollectionSnapshotter.java:53)
+	at org.gradle.api.internal.changedetection.state.DefaultGenericFileCollectionSnapshotter.snapshot(DefaultGenericFileCollectionSnapshotter.java:38)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.snapshotTaskFiles(CacheBackedTaskHistoryRepository.java:331)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:154)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:61)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:114)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:201)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:86)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:60)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:97)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:87)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:626)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:581)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Cause 1: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-core-utils.aar (com.android.support:support-core-utils:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Cause 2: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 6s
+5 actionable tasks: 4 executed, 1 up-to-date
+
+2019-03-17 15:09:26,581 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:09:26,581 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:09:32,924 INFO  ProjectTaskService - Detected possible tasks: 71
+2019-03-17 15:09:32,925 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-17 15:09:32,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810076344-0/src/magellan-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-17 15:09:40,237 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-03-17 15:09:40,238 INFO  SysUtils - Configuration on demand is an incubating feature.
+:magellan-library:androidJavadocs UP-TO-DATE
+:magellan-library:androidJavadocsJar UP-TO-DATE
+:magellan-library:androidSourcesJar UP-TO-DATE
+:magellan-library:preBuild UP-TO-DATE
+:magellan-library:preDebugBuild UP-TO-DATE
+:magellan-library:compileDebugAidl UP-TO-DATE
+:magellan-library:compileDebugRenderscript UP-TO-DATE
+:magellan-library:checkDebugManifest UP-TO-DATE
+:magellan-library:generateDebugBuildConfig UP-TO-DATE
+:magellan-library:generateDebugResValues UP-TO-DATE
+:magellan-library:generateDebugResources UP-TO-DATE
+:magellan-library:packageDebugResources UP-TO-DATE
+:magellan-library:platformAttrExtractor UP-TO-DATE
+:magellan-library:processDebugManifest UP-TO-DATE
+:magellan-library:generateDebugRFile UP-TO-DATE
+:magellan-library:prepareLintJar UP-TO-DATE
+:magellan-library:generateDebugSources UP-TO-DATE
+:magellan-library:javaPreCompileDebug UP-TO-DATE
+:magellan-library:compileDebugJavaWithJavac UP-TO-DATE
+:magellan-library:extractDebugAnnotations UP-TO-DATE
+:magellan-library:mergeDebugConsumerProguardFiles UP-TO-DATE
 :magellan-library:mergeDebugShaders UP-TO-DATE
 :magellan-library:compileDebugShaders UP-TO-DATE
 :magellan-library:generateDebugAssets UP-TO-DATE
 :magellan-library:packageDebugAssets UP-TO-DATE
-:magellan-rx:mergeDebugShaders UP-TO-DATE
-:magellan-rx:compileDebugShaders UP-TO-DATE
-:magellan-rx:generateDebugAssets UP-TO-DATE
-:magellan-rx:packageDebugAssets UP-TO-DATE
-:magellan-sample-advanced:mergeDebugShaders
-:magellan-sample-advanced:compileDebugShaders
-:magellan-sample-advanced:generateDebugAssets
-:magellan-sample-advanced:mergeDebugAssets
-:magellan-sample-advanced:transformClassesWithDexBuilderForDebug
-:magellan-sample-advanced:transformDexArchiveWithExternalLibsDexMergerForDebug
-:magellan-sample-advanced:transformDexArchiveWithDexMergerForDebug
+:magellan-library:packageDebugRenderscript NO-SOURCE
+:magellan-library:processDebugJavaRes NO-SOURCE
+:magellan-library:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:magellan-library:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
 :magellan-library:compileDebugNdk NO-SOURCE
 :magellan-library:mergeDebugJniLibFolders UP-TO-DATE
 :magellan-library:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
 :magellan-library:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:magellan-library:transformNativeLibsWithIntermediateJniLibsForDebug
-:magellan-rx:compileDebugNdk NO-SOURCE
-:magellan-rx:mergeDebugJniLibFolders UP-TO-DATE
-:magellan-rx:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-:magellan-rx:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
-:magellan-rx:transformNativeLibsWithIntermediateJniLibsForDebug
-:magellan-sample-advanced:mergeDebugJniLibFolders
-:magellan-sample-advanced:transformNativeLibsWithMergeJniLibsForDebug
-:magellan-sample-advanced:transformNativeLibsWithStripDebugSymbolForDebug
-:magellan-sample-advanced:processDebugJavaRes NO-SOURCE
-:magellan-sample-advanced:transformResourcesWithMergeJavaResForDebug
-:magellan-sample-advanced:validateSigningDebug
-:magellan-sample-advanced:packageDebug
-:magellan-sample-advanced:assembleDebug
+:magellan-library:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:magellan-library:bundleDebug UP-TO-DATE
+:magellan-library:compileDebugSources UP-TO-DATE
+:magellan-library:assembleDebug UP-TO-DATE
 :magellan-library:preReleaseBuild UP-TO-DATE
 :magellan-library:compileReleaseAidl UP-TO-DATE
 :magellan-library:compileReleaseRenderscript UP-TO-DATE
@@ -693,11 +1356,70 @@ Note: Recompile with -Xlint:deprecation for details.
 :magellan-library:generateReleaseSources UP-TO-DATE
 :magellan-library:javaPreCompileRelease UP-TO-DATE
 :magellan-library:compileReleaseJavaWithJavac UP-TO-DATE
+:magellan-library:extractReleaseAnnotations UP-TO-DATE
+:magellan-library:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:magellan-library:mergeReleaseShaders UP-TO-DATE
+:magellan-library:compileReleaseShaders UP-TO-DATE
+:magellan-library:generateReleaseAssets UP-TO-DATE
+:magellan-library:packageReleaseAssets UP-TO-DATE
+:magellan-library:packageReleaseRenderscript NO-SOURCE
 :magellan-library:processReleaseJavaRes NO-SOURCE
-:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+:magellan-library:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:magellan-library:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:magellan-library:compileReleaseNdk NO-SOURCE
+:magellan-library:mergeReleaseJniLibFolders UP-TO-DATE
+:magellan-library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:magellan-library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:magellan-library:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:magellan-library:bundleRelease UP-TO-DATE
+:magellan-library:compileReleaseSources UP-TO-DATE
+:magellan-library:mergeReleaseResources UP-TO-DATE
+:magellan-library:verifyReleaseResources UP-TO-DATE
+:magellan-library:assembleRelease UP-TO-DATE
+:magellan-library:signArchives SKIPPED
+:magellan-library:assemble UP-TO-DATE
+:magellan-library:build
+:magellan-rx:androidJavadocs UP-TO-DATE
+:magellan-rx:androidJavadocsJar UP-TO-DATE
+:magellan-rx:androidSourcesJar UP-TO-DATE
+:magellan-rx:preBuild UP-TO-DATE
+:magellan-rx:preDebugBuild UP-TO-DATE
+:magellan-rx:compileDebugAidl UP-TO-DATE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+:magellan-rx:compileDebugRenderscript UP-TO-DATE
+:magellan-rx:checkDebugManifest UP-TO-DATE
+:magellan-rx:generateDebugBuildConfig UP-TO-DATE
+:magellan-rx:generateDebugResValues UP-TO-DATE
+:magellan-rx:generateDebugResources UP-TO-DATE
+:magellan-rx:packageDebugResources UP-TO-DATE
+:magellan-rx:platformAttrExtractor UP-TO-DATE
+:magellan-rx:processDebugManifest UP-TO-DATE
+:magellan-rx:generateDebugRFile UP-TO-DATE
+:magellan-rx:prepareLintJar UP-TO-DATE
+:magellan-rx:generateDebugSources UP-TO-DATE
+:magellan-rx:javaPreCompileDebug UP-TO-DATE
+:magellan-rx:compileDebugJavaWithJavac UP-TO-DATE
+:magellan-rx:extractDebugAnnotations UP-TO-DATE
+:magellan-rx:mergeDebugConsumerProguardFiles UP-TO-DATE
+:magellan-rx:mergeDebugShaders UP-TO-DATE
+:magellan-rx:compileDebugShaders UP-TO-DATE
+:magellan-rx:generateDebugAssets UP-TO-DATE
+:magellan-rx:packageDebugAssets UP-TO-DATE
+:magellan-rx:packageDebugRenderscript NO-SOURCE
+:magellan-rx:processDebugJavaRes NO-SOURCE
+:magellan-rx:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:magellan-rx:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:magellan-rx:compileDebugNdk NO-SOURCE
+:magellan-rx:mergeDebugJniLibFolders UP-TO-DATE
+:magellan-rx:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:magellan-rx:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:magellan-rx:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:magellan-rx:bundleDebug UP-TO-DATE
+:magellan-rx:compileDebugSources UP-TO-DATE
+:magellan-rx:assembleDebug UP-TO-DATE
 :magellan-rx:preReleaseBuild UP-TO-DATE
 :magellan-rx:compileReleaseAidl UP-TO-DATE
-:magellan-library:packageReleaseRenderscript NO-SOURCE
+:magellan-library:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
 :magellan-rx:compileReleaseRenderscript UP-TO-DATE
 :magellan-rx:checkReleaseManifest UP-TO-DATE
 :magellan-rx:generateReleaseBuildConfig UP-TO-DATE
@@ -709,66 +1431,238 @@ Note: Recompile with -Xlint:deprecation for details.
 :magellan-rx:generateReleaseSources UP-TO-DATE
 :magellan-rx:javaPreCompileRelease UP-TO-DATE
 :magellan-rx:compileReleaseJavaWithJavac UP-TO-DATE
-:magellan-rx:processReleaseJavaRes NO-SOURCE
-:magellan-rx:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:magellan-sample-advanced:preReleaseBuild
-:magellan-sample-advanced:compileReleaseAidl
-:magellan-rx:packageReleaseRenderscript NO-SOURCE
-:magellan-sample-advanced:compileReleaseRenderscript
-:magellan-sample-advanced:checkReleaseManifest
-:magellan-sample-advanced:generateReleaseBuildConfig
-:magellan-sample-advanced:mainApkListPersistenceRelease
-:magellan-sample-advanced:generateReleaseResValues
-:magellan-sample-advanced:generateReleaseResources
-:magellan-sample-advanced:mergeReleaseResources
-:magellan-sample-advanced:createReleaseCompatibleScreenManifests
-:magellan-sample-advanced:processReleaseManifest
-:magellan-sample-advanced:splitsDiscoveryTaskRelease
-:magellan-sample-advanced:processReleaseResources
-:magellan-sample-advanced:generateReleaseSources
-:magellan-sample-advanced:javaPreCompileRelease
-:magellan-sample-advanced:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/src/main/java/com/wealthfront/magellan/sample/advanced/tide/TideLocationsView.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-:magellan-sample-advanced:compileReleaseNdk NO-SOURCE
-:magellan-sample-advanced:compileReleaseSources
-:magellan-sample-advanced:lintVitalRelease
-:magellan-library:mergeReleaseShaders UP-TO-DATE
-:magellan-library:compileReleaseShaders UP-TO-DATE
-:magellan-library:generateReleaseAssets UP-TO-DATE
-:magellan-library:packageReleaseAssets UP-TO-DATE
+:magellan-rx:extractReleaseAnnotations UP-TO-DATE
+:magellan-rx:mergeReleaseConsumerProguardFiles UP-TO-DATE
 :magellan-rx:mergeReleaseShaders UP-TO-DATE
 :magellan-rx:compileReleaseShaders UP-TO-DATE
 :magellan-rx:generateReleaseAssets UP-TO-DATE
 :magellan-rx:packageReleaseAssets UP-TO-DATE
-:magellan-sample-advanced:mergeReleaseShaders
-:magellan-sample-advanced:compileReleaseShaders
-:magellan-sample-advanced:generateReleaseAssets
-:magellan-sample-advanced:mergeReleaseAssets
-:magellan-sample-advanced:transformClassesWithDexBuilderForRelease
-:magellan-sample-advanced:transformDexArchiveWithExternalLibsDexMergerForRelease
-:magellan-sample-advanced:transformDexArchiveWithDexMergerForRelease
-:magellan-library:compileReleaseNdk NO-SOURCE
-:magellan-library:mergeReleaseJniLibFolders UP-TO-DATE
-:magellan-library:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-:magellan-library:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:magellan-library:transformNativeLibsWithIntermediateJniLibsForRelease
+:magellan-rx:packageReleaseRenderscript NO-SOURCE
+:magellan-rx:processReleaseJavaRes NO-SOURCE
+:magellan-rx:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:magellan-rx:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
 :magellan-rx:compileReleaseNdk NO-SOURCE
 :magellan-rx:mergeReleaseJniLibFolders UP-TO-DATE
 :magellan-rx:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
 :magellan-rx:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
-:magellan-rx:transformNativeLibsWithIntermediateJniLibsForRelease
-:magellan-sample-advanced:mergeReleaseJniLibFolders
-:magellan-sample-advanced:transformNativeLibsWithMergeJniLibsForRelease
-:magellan-sample-advanced:transformNativeLibsWithStripDebugSymbolForRelease
-:magellan-sample-advanced:processReleaseJavaRes NO-SOURCE
-:magellan-sample-advanced:transformResourcesWithMergeJavaResForRelease
-:magellan-sample-advanced:packageRelease
-:magellan-sample-advanced:assembleRelease
-:magellan-sample-advanced:assemble
-:magellan-sample-advanced:build
+:magellan-rx:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:magellan-rx:bundleRelease UP-TO-DATE
+:magellan-rx:compileReleaseSources UP-TO-DATE
+:magellan-rx:mergeReleaseResources UP-TO-DATE
+:magellan-rx:verifyReleaseResources UP-TO-DATE
+:magellan-rx:assembleRelease UP-TO-DATE
+:magellan-rx:signArchives SKIPPED
+:magellan-rx:assemble UP-TO-DATE
+:magellan-rx:build
+:magellan-rx2:androidJavadocs UP-TO-DATE
+:magellan-rx2:androidJavadocsJar UP-TO-DATE
+:magellan-rx2:androidSourcesJar UP-TO-DATE
+:magellan-rx2:preBuild UP-TO-DATE
+:magellan-rx2:preDebugBuild UP-TO-DATE
+:magellan-rx2:compileDebugAidl UP-TO-DATE
+:magellan-rx2:compileDebugRenderscript UP-TO-DATE
+:magellan-rx2:checkDebugManifest UP-TO-DATE
+:magellan-rx2:generateDebugBuildConfig UP-TO-DATE
+:magellan-rx2:generateDebugResValues UP-TO-DATE
+:magellan-rx2:generateDebugResources UP-TO-DATE
+:magellan-rx2:packageDebugResources UP-TO-DATE
+:magellan-rx2:platformAttrExtractor UP-TO-DATE
+:magellan-rx2:processDebugManifest UP-TO-DATE
+:magellan-rx2:generateDebugRFile UP-TO-DATE
+:magellan-rx2:prepareLintJar UP-TO-DATE
+:magellan-rx2:generateDebugSources UP-TO-DATE
+:magellan-rx2:javaPreCompileDebug UP-TO-DATE
+:magellan-rx2:compileDebugJavaWithJavac UP-TO-DATE
+:magellan-rx2:extractDebugAnnotations UP-TO-DATE
+:magellan-rx2:mergeDebugConsumerProguardFiles UP-TO-DATE
+:magellan-rx2:mergeDebugShaders UP-TO-DATE
+:magellan-rx2:compileDebugShaders UP-TO-DATE
+:magellan-rx2:generateDebugAssets UP-TO-DATE
+:magellan-rx2:packageDebugAssets UP-TO-DATE
+:magellan-rx2:packageDebugRenderscript NO-SOURCE
+:magellan-rx2:processDebugJavaRes NO-SOURCE
+:magellan-rx2:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:magellan-rx2:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:magellan-rx2:compileDebugNdk NO-SOURCE
+:magellan-rx2:mergeDebugJniLibFolders UP-TO-DATE
+:magellan-rx2:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+:magellan-rx2:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+:magellan-rx2:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+:magellan-rx2:bundleDebug UP-TO-DATE
+:magellan-rx2:compileDebugSources UP-TO-DATE
+:magellan-rx2:assembleDebug UP-TO-DATE
+:magellan-rx2:preReleaseBuild UP-TO-DATE
+:magellan-rx2:compileReleaseAidl UP-TO-DATE
+:magellan-rx2:compileReleaseRenderscript UP-TO-DATE
+:magellan-rx2:checkReleaseManifest UP-TO-DATE
+:magellan-rx2:generateReleaseBuildConfig UP-TO-DATE
+:magellan-rx2:generateReleaseResValues UP-TO-DATE
+:magellan-rx2:generateReleaseResources UP-TO-DATE
+:magellan-rx2:packageReleaseResources UP-TO-DATE
+:magellan-rx2:processReleaseManifest UP-TO-DATE
+:magellan-rx2:generateReleaseRFile UP-TO-DATE
+:magellan-rx2:generateReleaseSources UP-TO-DATE
+:magellan-rx2:javaPreCompileRelease UP-TO-DATE
+:magellan-rx2:compileReleaseJavaWithJavac UP-TO-DATE
+:magellan-rx2:extractReleaseAnnotations UP-TO-DATE
+:magellan-rx2:mergeReleaseConsumerProguardFiles UP-TO-DATE
+:magellan-rx2:mergeReleaseShaders UP-TO-DATE
+:magellan-rx2:compileReleaseShaders UP-TO-DATE
+:magellan-rx2:generateReleaseAssets UP-TO-DATE
+:magellan-rx2:packageReleaseAssets UP-TO-DATE
+:magellan-rx2:packageReleaseRenderscript NO-SOURCE
+:magellan-rx2:processReleaseJavaRes NO-SOURCE
+:magellan-rx2:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:magellan-rx2:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:magellan-rx2:compileReleaseNdk NO-SOURCE
+:magellan-rx2:mergeReleaseJniLibFolders UP-TO-DATE
+:magellan-rx2:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+:magellan-rx2:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+:magellan-rx2:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+:magellan-rx2:bundleRelease UP-TO-DATE
+:magellan-rx2:compileReleaseSources UP-TO-DATE
+:magellan-rx2:mergeReleaseResources UP-TO-DATE
+:magellan-rx2:verifyReleaseResources UP-TO-DATE
+:magellan-rx2:assembleRelease UP-TO-DATE
+:magellan-rx2:signArchives SKIPPED
+:magellan-rx2:assemble UP-TO-DATE
+:magellan-rx2:build
+:magellan-sample:preBuild UP-TO-DATE
+:magellan-support:preBuild UP-TO-DATE
+:magellan-support:preDebugBuild UP-TO-DATE
+:magellan-support:checkDebugManifest UP-TO-DATE
+:magellan-support:processDebugManifest UP-TO-DATE
+:magellan-sample:preDebugBuild FAILED
 
-BUILD SUCCESSFUL in 35s
-129 actionable tasks: 59 executed, 70 up-to-date
+FAILURE: Build failed with an exception.
 
-2018-12-09 20:55:31,934 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1544363617665-0/src/magellan-master/magellan-sample-advanced/build/outputs/apk/release/magellan-sample-advanced-release-unsigned.apk
+* What went wrong:
+Could not resolve all files for configuration ':magellan-sample:debugCompileClasspath'.
+> Could not find support-core-utils.aar (com.android.support:support-core-utils:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+> Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+  Searched in the following locations:
+      https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.internal.artifacts.ivyservice.DefaultLenientConfiguration$ArtifactResolveException: Could not resolve all files for configuration ':magellan-sample:debugCompileClasspath'.
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.rethrowFailure(DefaultConfiguration.java:918)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration.access$1600(DefaultConfiguration.java:116)
+	at org.gradle.api.internal.artifacts.configurations.DefaultConfiguration$ConfigurationFileCollection.getFiles(DefaultConfiguration.java:892)
+	at org.gradle.api.internal.file.AbstractFileCollection.iterator(AbstractFileCollection.java:68)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter$FileCollectionVisitorImpl.visitCollection(AbstractFileCollectionSnapshotter.java:70)
+	at org.gradle.api.internal.file.AbstractFileCollection.visitRootElements(AbstractFileCollection.java:234)
+	at org.gradle.api.internal.file.CompositeFileCollection.visitRootElements(CompositeFileCollection.java:185)
+	at org.gradle.api.internal.changedetection.state.AbstractFileCollectionSnapshotter.snapshot(AbstractFileCollectionSnapshotter.java:53)
+	at org.gradle.api.internal.changedetection.state.DefaultGenericFileCollectionSnapshotter.snapshot(DefaultGenericFileCollectionSnapshotter.java:38)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.snapshotTaskFiles(CacheBackedTaskHistoryRepository.java:331)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.createExecution(CacheBackedTaskHistoryRepository.java:154)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository.access$100(CacheBackedTaskHistoryRepository.java:61)
+	at org.gradle.api.internal.changedetection.state.CacheBackedTaskHistoryRepository$1.getCurrentExecution(CacheBackedTaskHistoryRepository.java:114)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.getStates(DefaultTaskArtifactStateRepository.java:201)
+	at org.gradle.api.internal.changedetection.changes.DefaultTaskArtifactStateRepository$TaskArtifactStateImpl.isUpToDate(DefaultTaskArtifactStateRepository.java:86)
+	at org.gradle.api.internal.tasks.execution.SkipUpToDateTaskExecuter.execute(SkipUpToDateTaskExecuter.java:53)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskOutputCachingStateExecuter.execute(ResolveTaskOutputCachingStateExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:60)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:97)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:87)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskArtifactStateTaskExecuter.execute(ResolveTaskArtifactStateTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:54)
+	at org.gradle.api.internal.tasks.execution.ExecuteAtMostOnceTaskExecuter.execute(ExecuteAtMostOnceTaskExecuter.java:43)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:34)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker$1.run(DefaultTaskGraphExecuter.java:248)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:241)
+	at org.gradle.execution.taskgraph.DefaultTaskGraphExecuter$EventFiringTaskWorker.execute(DefaultTaskGraphExecuter.java:230)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.processTask(DefaultTaskPlanExecutor.java:123)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.access$200(DefaultTaskPlanExecutor.java:79)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:104)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker$1.execute(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.execute(DefaultTaskExecutionPlan.java:626)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionPlan.executeWithTask(DefaultTaskExecutionPlan.java:581)
+	at org.gradle.execution.taskgraph.DefaultTaskPlanExecutor$TaskExecutorWorker.run(DefaultTaskPlanExecutor.java:98)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Cause 1: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-core-utils.aar (com.android.support:support-core-utils:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-core-utils/27.1.1/support-core-utils-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+Cause 2: org.gradle.internal.resolve.ArtifactNotFoundException: Could not find support-compat.aar (com.android.support:support-compat:27.1.1).
+Searched in the following locations:
+    https://jcenter.bintray.com/com/android/support/support-compat/27.1.1/support-compat-27.1.1.aar
+	at org.gradle.internal.resolve.result.DefaultBuildableArtifactResolveResult.notFound(DefaultBuildableArtifactResolveResult.java:27)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifactFromCache(CachingModuleComponentRepository.java:324)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.CachingModuleComponentRepository$LocateInCacheRepositoryAccess.resolveArtifact(CachingModuleComponentRepository.java:274)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.BaseModuleComponentRepositoryAccess.resolveArtifact(BaseModuleComponentRepositoryAccess.java:65)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.memcache.InMemoryCachedModuleComponentRepository$CachedAccess.resolveArtifact(InMemoryCachedModuleComponentRepository.java:124)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingModuleComponentRepository$ErrorHandlingModuleComponentRepositoryAccess.resolveArtifact(ErrorHandlingModuleComponentRepository.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.RepositoryChainArtifactResolver.resolveArtifact(RepositoryChainArtifactResolver.java:78)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.ComponentResolversChain$ArtifactResolverChain.resolveArtifact(ComponentResolversChain.java:121)
+	at org.gradle.api.internal.artifacts.ivyservice.ivyresolve.ErrorHandlingArtifactResolver.resolveArtifact(ErrorHandlingArtifactResolver.java:46)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:171)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.DefaultArtifactSet$LazyArtifactSource.create(DefaultArtifactSet.java:158)
+	at org.gradle.api.internal.artifacts.DefaultResolvedArtifact.getFile(DefaultResolvedArtifact.java:135)
+	at org.gradle.api.internal.artifacts.ivyservice.resolveengine.artifact.ArtifactBackedResolvedVariant$DownloadArtifactFile.run(ArtifactBackedResolvedVariant.java:146)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor.access$900(DefaultBuildOperationExecutor.java:63)
+	at org.gradle.internal.progress.DefaultBuildOperationExecutor$ParentPreservingQueueWorker.execute(DefaultBuildOperationExecutor.java:378)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runOperation(DefaultBuildOperationQueue.java:230)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.access$600(DefaultBuildOperationQueue.java:172)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:209)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable$1.call(DefaultBuildOperationQueue.java:203)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.runBatch(DefaultBuildOperationQueue.java:202)
+	at org.gradle.internal.operations.DefaultBuildOperationQueue$WorkerRunnable.run(DefaultBuildOperationQueue.java:177)
+	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
+	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+* Get more help at https://help.gradle.org
+
+BUILD FAILED in 7s
+158 actionable tasks: 1 executed, 157 up-to-date
+
+2019-03-17 15:09:40,276 ERROR FullProcessService - Project build has not produced APK file
+2019-03-17 15:09:40,311 ERROR FullProcessService - Could not find generated or existed APK file

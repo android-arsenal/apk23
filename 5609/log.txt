@@ -1,34 +1,34 @@
-2019-01-20 19:50:21,668 INFO  DownloadService - Downloading "https://github.com/Pes8/android-material-color-picker-dialog/archive/master.zip", attempt 3
-2019-01-20 19:50:22,786 INFO  DownloadService - Downloaded https://github.com/Pes8/android-material-color-picker-dialog/archive/master.zip, attempt 3
-2019-01-20 19:50:22,786 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/master.zip": 261 KB
-2019-01-20 19:50:22,786 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-01-20 19:50:22,792 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/master.zip: true
-2019-01-20 19:50:22,792 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src'.
-2019-01-20 19:50:22,844 INFO  FullProcessService - Size of directory with sources: 283 KB
-2019-01-20 19:50:22,845 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src]
-2019-01-20 19:50:22,867 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/.git/
+2019-03-17 15:11:30,845 INFO  DownloadService - Downloading "https://github.com/Pes8/android-material-color-picker-dialog/archive/master.zip", attempt 3
+2019-03-17 15:11:32,904 INFO  DownloadService - Downloaded https://github.com/Pes8/android-material-color-picker-dialog/archive/master.zip, attempt 3
+2019-03-17 15:11:32,904 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/master.zip": 261 KB
+2019-03-17 15:11:32,904 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 15:11:32,910 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/master.zip: true
+2019-03-17 15:11:32,910 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src'.
+2019-03-17 15:11:32,952 INFO  FullProcessService - Size of directory with sources: 283 KB
+2019-03-17 15:11:32,952 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src]
+2019-03-17 15:11:32,973 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/.git/
 
-2019-01-20 19:50:22,874 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/gradlew
-2019-01-20 19:50:22,882 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/build.gradle
-2019-01-20 19:50:22,888 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/settings.gradle
-2019-01-20 19:50:22,889 INFO  ProjectBuildService - Remote scripts: none
-2019-01-20 19:50:22,889 INFO  ProjectFixService - Fixing project...
-2019-01-20 19:50:22,903 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/library/local.properties
-2019-01-20 19:50:22,904 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/library/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-20 19:50:22,905 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/test/local.properties
-2019-01-20 19:50:22,905 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/test/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-20 19:50:22,906 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/local.properties
-2019-01-20 19:50:22,906 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-01-20 19:50:22,907 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-01-20 19:50:22,908 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-01-20 19:50:22,908 INFO  ProjectFixService - Project was maybe fixed
-2019-01-20 19:50:22,908 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-20 19:50:22,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-20 19:50:30,813 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-20 19:50:30,813 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-20 19:50:30,813 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-20 19:50:30,813 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-20 19:50:37,950 ERROR SysUtils - Could not process external command
+2019-03-17 15:11:32,978 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/gradlew
+2019-03-17 15:11:32,983 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/build.gradle
+2019-03-17 15:11:32,988 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/test/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/settings.gradle
+2019-03-17 15:11:32,988 INFO  ProjectBuildService - Remote scripts: none
+2019-03-17 15:11:32,988 INFO  ProjectFixService - Fixing project...
+2019-03-17 15:11:33,000 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/library/local.properties
+2019-03-17 15:11:33,000 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/library/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 15:11:33,001 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/test/local.properties
+2019-03-17 15:11:33,001 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/test/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 15:11:33,001 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/local.properties
+2019-03-17 15:11:33,002 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-17 15:11:33,002 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-17 15:11:33,003 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 15:11:33,003 INFO  ProjectFixService - Project was maybe fixed
+2019-03-17 15:11:33,003 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:11:33,003 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:11:40,272 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-17 15:11:40,272 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-17 15:11:40,272 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-17 15:11:40,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-17 15:11:46,289 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -49,14 +49,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-20 19:50:37,950 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-17 15:11:46,289 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
 
@@ -187,22 +187,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-01-20 19:50:37,959 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-20 19:50:37,959 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-20 19:50:44,871 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-20 19:50:44,871 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-20 19:50:44,872 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-20 19:50:44,872 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-20 19:50:51,420 ERROR SysUtils - Could not process external command
+2019-03-17 15:11:46,296 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:11:46,296 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:11:51,508 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-17 15:11:51,508 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-17 15:11:51,508 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-17 15:11:51,508 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/test/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-17 15:11:56,662 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -223,14 +223,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-20 19:50:51,420 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-17 15:11:56,662 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':test' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':test' is deprecated. Use 'testImplementation' instead.
 
@@ -368,15 +368,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 4s
 
-2019-01-20 19:50:51,428 INFO  ProjectTaskService - Detecting possible tasks...
-2019-01-20 19:50:51,428 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-01-20 19:50:59,805 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-01-20 19:50:59,805 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-01-20 19:50:59,805 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-01-20 19:50:59,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1547988621664-0/src/android-material-color-picker-dialog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-01-20 19:51:09,708 ERROR SysUtils - Could not process external command
+2019-03-17 15:11:56,669 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:11:56,669 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:12:02,755 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-17 15:12:02,755 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-17 15:12:02,755 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-17 15:12:02,756 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810290836-0/src/android-material-color-picker-dialog-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-17 15:12:08,838 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -397,14 +397,14 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-01-20 19:51:09,708 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-17 15:12:08,839 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':library' is deprecated. Use 'implementation' instead.
 Configuration 'testCompile' in project ':library' is deprecated. Use 'testImplementation' instead.
 
@@ -542,7 +542,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 9s
+BUILD FAILED in 5s
 
-2019-01-20 19:51:09,716 ERROR FullProcessService - Project build has not produced APK file
-2019-01-20 19:51:09,723 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-17 15:12:08,845 ERROR FullProcessService - Project build has not produced APK file
+2019-03-17 15:12:08,851 ERROR FullProcessService - Could not find generated or existed APK file

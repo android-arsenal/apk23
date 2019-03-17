@@ -1,164 +1,309 @@
-2018-09-14 11:40:32,261 INFO  DownloadService - Downloading "https://github.com/hynra/GSON-SharedPreferences/archive/master.zip", attempt 3
-2018-09-14 11:40:34,147 INFO  DownloadService - Downloaded https://github.com/hynra/GSON-SharedPreferences/archive/master.zip, attempt 3
-2018-09-14 11:40:34,147 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/master.zip": 70 KB
-2018-09-14 11:40:34,147 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-14 11:40:34,153 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/master.zip: true
-2018-09-14 11:40:34,153 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src'.
-2018-09-14 11:40:34,165 INFO  FullProcessService - Size of directory with sources: 84 KB
-2018-09-14 11:40:34,165 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src]
-2018-09-14 11:40:34,184 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/.git/
+2019-03-17 15:09:40,484 INFO  DownloadService - Downloading "https://github.com/hynra/GSON-SharedPreferences/archive/master.zip", attempt 3
+2019-03-17 15:09:42,277 INFO  DownloadService - Downloaded https://github.com/hynra/GSON-SharedPreferences/archive/master.zip, attempt 3
+2019-03-17 15:09:42,278 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/master.zip": 70 KB
+2019-03-17 15:09:42,278 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-17 15:09:42,283 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/master.zip: true
+2019-03-17 15:09:42,284 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src'.
+2019-03-17 15:09:42,297 INFO  FullProcessService - Size of directory with sources: 84 KB
+2019-03-17 15:09:42,298 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src]
+2019-03-17 15:09:42,317 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/.git/
 
-2018-09-14 11:40:34,186 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gradlew
-2018-09-14 11:40:34,189 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/build.gradle
-2018-09-14 11:40:34,191 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/settings.gradle
-2018-09-14 11:40:34,191 INFO  ProjectBuildService - Remote scripts: none
-2018-09-14 11:40:34,191 INFO  ProjectFixService - Fixing project...
-2018-09-14 11:40:34,197 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/local.properties
-2018-09-14 11:40:34,197 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-14 11:40:34,198 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/local.properties
-2018-09-14 11:40:34,198 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-09-14 11:40:34,199 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-09-14 11:40:34,200 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-14 11:40:34,200 INFO  ProjectFixService - Project was maybe fixed
-2018-09-14 11:40:34,200 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 11:40:34,200 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 11:40:34,735 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-14 11:40:34,735 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-14 11:40:34,735 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-14 11:40:34,736 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-14 11:40:35,269 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-14 11:40:35,269 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-03-17 15:09:42,319 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gradlew
+2019-03-17 15:09:42,321 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/build.gradle
+2019-03-17 15:09:42,323 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/settings.gradle
+2019-03-17 15:09:42,324 INFO  ProjectBuildService - Remote scripts: none
+2019-03-17 15:09:42,324 INFO  ProjectFixService - Fixing project...
+2019-03-17 15:09:42,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/local.properties
+2019-03-17 15:09:42,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-03-17 15:09:42,330 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/local.properties
+2019-03-17 15:09:42,330 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-03-17 15:09:42,330 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-03-17 15:09:42,331 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-03-17 15:09:42,331 INFO  ProjectFixService - Project was maybe fixed
+2019-03-17 15:09:42,331 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:09:42,331 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:09:49,877 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-17 15:09:49,877 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 15:09:49,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 15:10:01,738 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:gsonsharedpreferences:preBuild UP-TO-DATE
+:gsonsharedpreferences:preDebugBuild UP-TO-DATE
+:gsonsharedpreferences:checkDebugManifest
+:gsonsharedpreferences:preDebugAndroidTestBuild UP-TO-DATE
+:gsonsharedpreferences:preDebugUnitTestBuild UP-TO-DATE
+:gsonsharedpreferences:preReleaseBuild UP-TO-DATE
+:gsonsharedpreferences:preReleaseUnitTestBuild UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportAnimatedVectorDrawable2531Library
+:gsonsharedpreferences:prepareComAndroidSupportAppcompatV72531Library
+:gsonsharedpreferences:prepareComAndroidSupportSupportCompat2531Library
+:gsonsharedpreferences:prepareComAndroidSupportSupportCoreUi2531Library
+:gsonsharedpreferences:prepareComAndroidSupportSupportCoreUtils2531Library
+:gsonsharedpreferences:prepareComAndroidSupportSupportFragment2531Library
+:gsonsharedpreferences:prepareComAndroidSupportSupportMediaCompat2531Library
+:gsonsharedpreferences:prepareComAndroidSupportSupportV42531Library
+:gsonsharedpreferences:prepareComAndroidSupportSupportVectorDrawable2531Library
+:gsonsharedpreferences:prepareDebugDependencies
+:gsonsharedpreferences:compileDebugAidl
+:gsonsharedpreferences:compileDebugNdk UP-TO-DATE
+:gsonsharedpreferences:compileLint
+:gsonsharedpreferences:copyDebugLint UP-TO-DATE
+:gsonsharedpreferences:compileDebugRenderscript
+:gsonsharedpreferences:generateDebugBuildConfig
+:gsonsharedpreferences:generateDebugResValues
+:gsonsharedpreferences:generateDebugResources
+:gsonsharedpreferences:mergeDebugResources
+:gsonsharedpreferences:processDebugManifest
+:gsonsharedpreferences:processDebugResources
+:gsonsharedpreferences:generateDebugSources
+:gsonsharedpreferences:incrementalDebugJavaCompilationSafeguard
+:gsonsharedpreferences:compileDebugJavaWithJavac
+:gsonsharedpreferences:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:gsonsharedpreferences:extractDebugAnnotations
+:gsonsharedpreferences:mergeDebugShaders
+:gsonsharedpreferences:compileDebugShaders
+:gsonsharedpreferences:generateDebugAssets
+:gsonsharedpreferences:mergeDebugAssets
+:gsonsharedpreferences:mergeDebugProguardFiles
+:gsonsharedpreferences:packageDebugRenderscript UP-TO-DATE
+:gsonsharedpreferences:packageDebugResources
+:gsonsharedpreferences:processDebugJavaRes UP-TO-DATE
+:gsonsharedpreferences:transformResourcesWithMergeJavaResForDebug
+:gsonsharedpreferences:transformClassesAndResourcesWithSyncLibJarsForDebug
+:gsonsharedpreferences:mergeDebugJniLibFolders
+:gsonsharedpreferences:transformNative_libsWithMergeJniLibsForDebug
+:gsonsharedpreferences:transformNative_libsWithSyncJniLibsForDebug
+:gsonsharedpreferences:bundleDebug
+:gsonsharedpreferences:compileDebugSources
+:gsonsharedpreferences:assembleDebug
+:gsonsharedpreferences:checkReleaseManifest
+:gsonsharedpreferences:prepareReleaseDependencies
+:gsonsharedpreferences:compileReleaseAidl
+:gsonsharedpreferences:compileReleaseNdk UP-TO-DATE
+:gsonsharedpreferences:copyReleaseLint UP-TO-DATE
+:gsonsharedpreferences:compileReleaseRenderscript
+:gsonsharedpreferences:generateReleaseBuildConfig
+:gsonsharedpreferences:generateReleaseResValues
+:gsonsharedpreferences:generateReleaseResources
+:gsonsharedpreferences:mergeReleaseResources
+:gsonsharedpreferences:processReleaseManifest
+:gsonsharedpreferences:processReleaseResources
+:gsonsharedpreferences:generateReleaseSources
+:gsonsharedpreferences:incrementalReleaseJavaCompilationSafeguard
+:gsonsharedpreferences:compileReleaseJavaWithJavac
+:gsonsharedpreferences:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java uses unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+:gsonsharedpreferences:extractReleaseAnnotations
+:gsonsharedpreferences:mergeReleaseShaders
+:gsonsharedpreferences:compileReleaseShaders
+:gsonsharedpreferences:generateReleaseAssets
+:gsonsharedpreferences:mergeReleaseAssets
+:gsonsharedpreferences:mergeReleaseProguardFiles
+:gsonsharedpreferences:packageReleaseRenderscript UP-TO-DATE
+:gsonsharedpreferences:packageReleaseResources
+:gsonsharedpreferences:processReleaseJavaRes UP-TO-DATE
+:gsonsharedpreferences:transformResourcesWithMergeJavaResForRelease
+:gsonsharedpreferences:transformClassesAndResourcesWithSyncLibJarsForRelease
+:gsonsharedpreferences:mergeReleaseJniLibFolders
+:gsonsharedpreferences:transformNative_libsWithMergeJniLibsForRelease
+:gsonsharedpreferences:transformNative_libsWithSyncJniLibsForRelease
+:gsonsharedpreferences:bundleRelease
+:gsonsharedpreferences:compileReleaseSources
+:gsonsharedpreferences:assembleRelease
+:gsonsharedpreferences:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:52: warning: no @param for objects
+    public void saveObjects(Object[] objects){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:64: warning: no @param for object
+    public void saveObjects(Object object, JSONArray array){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:64: warning: no @param for array
+    public void saveObjects(Object object, JSONArray array){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:81: warning: no @param for object
+    public void saveObjects(Object object, String jArrayString){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:81: warning: no @param for jArrayString
+    public void saveObjects(Object object, String jArrayString){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:99: warning: no @param for object
+    public void saveObject(Object object){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:106: warning: no @param for object
+    public void saveObject(Object object, String values){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:106: warning: no @param for values
+    public void saveObject(Object object, String values){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:112: warning: no @param for object
+    public void saveObject(Object object, JSONObject values){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:112: warning: no @param for values
+    public void saveObject(Object object, JSONObject values){
+                ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:128: warning: no @param for object
+    public Object getObject(Object object) throws ParsingException{
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:128: warning: no @return
+    public Object getObject(Object object) throws ParsingException{
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:128: warning: no @throws for com.github.hynra.gsonsharedpreferences.ParsingException
+    public Object getObject(Object object) throws ParsingException{
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:141: warning: no @param for object
+    public Object[] getObjects(Object object) throws ParsingException{
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:141: warning: no @return
+    public Object[] getObjects(Object object) throws ParsingException{
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:141: warning: no @throws for com.github.hynra.gsonsharedpreferences.ParsingException
+    public Object[] getObjects(Object object) throws ParsingException{
+                    ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:159: warning: no @param for object
+    public JSONObject getJsonObject(Object object) throws ParsingException{
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:159: warning: no @return
+    public JSONObject getJsonObject(Object object) throws ParsingException{
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:159: warning: no @throws for com.github.hynra.gsonsharedpreferences.ParsingException
+    public JSONObject getJsonObject(Object object) throws ParsingException{
+                      ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:174: warning: no @param for object
+    public String getJsonObjectString(Object object) throws ParsingException{
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:174: warning: no @return
+    public String getJsonObjectString(Object object) throws ParsingException{
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:174: warning: no @throws for com.github.hynra.gsonsharedpreferences.ParsingException
+    public String getJsonObjectString(Object object) throws ParsingException{
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:186: warning: no @param for object
+    public JSONArray getJsonArray(Object object) throws ParsingException{
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:186: warning: no @return
+    public JSONArray getJsonArray(Object object) throws ParsingException{
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:186: warning: no @throws for com.github.hynra.gsonsharedpreferences.ParsingException
+    public JSONArray getJsonArray(Object object) throws ParsingException{
+                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:203: warning: no @param for object
+    public String getJsonArrayString(Object object) throws ParsingException{
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:203: warning: no @return
+    public String getJsonArrayString(Object object) throws ParsingException{
+                  ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gsonsharedpreferences/src/main/java/com/github/hynra/gsonsharedpreferences/GSONSharedPreferences.java:203: warning: no @throws for com.github.hynra.gsonsharedpreferences.ParsingException
+    public String getJsonArrayString(Object object) throws ParsingException{
+                  ^
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+28 warnings
+:gsonsharedpreferences:javadocJar
+:gsonsharedpreferences:sourcesJar
+:gsonsharedpreferences:assemble
+:gsonsharedpreferences:build
 
-* Try:
-Run with --info or --debug option to get more log output.
+BUILD SUCCESSFUL
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:68)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:78)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Total time: 11.27 secs
 
+2019-03-17 15:10:01,809 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 15:10:01,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 15:10:07,925 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-17 15:10:07,925 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 15:10:07,925 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552810180476-0/src/GSON-SharedPreferences-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 15:10:14,313 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:gsonsharedpreferences:preBuild UP-TO-DATE
+:gsonsharedpreferences:preDebugBuild UP-TO-DATE
+:gsonsharedpreferences:checkDebugManifest
+:gsonsharedpreferences:preDebugAndroidTestBuild UP-TO-DATE
+:gsonsharedpreferences:preDebugUnitTestBuild UP-TO-DATE
+:gsonsharedpreferences:preReleaseBuild UP-TO-DATE
+:gsonsharedpreferences:preReleaseUnitTestBuild UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportAnimatedVectorDrawable2531Library UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportAppcompatV72531Library UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportSupportCompat2531Library UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportSupportCoreUi2531Library UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportSupportCoreUtils2531Library UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportSupportFragment2531Library UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportSupportMediaCompat2531Library UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportSupportV42531Library UP-TO-DATE
+:gsonsharedpreferences:prepareComAndroidSupportSupportVectorDrawable2531Library UP-TO-DATE
+:gsonsharedpreferences:prepareDebugDependencies
+:gsonsharedpreferences:compileDebugAidl UP-TO-DATE
+:gsonsharedpreferences:compileDebugNdk UP-TO-DATE
+:gsonsharedpreferences:compileLint UP-TO-DATE
+:gsonsharedpreferences:copyDebugLint UP-TO-DATE
+:gsonsharedpreferences:compileDebugRenderscript UP-TO-DATE
+:gsonsharedpreferences:generateDebugBuildConfig UP-TO-DATE
+:gsonsharedpreferences:generateDebugResValues UP-TO-DATE
+:gsonsharedpreferences:generateDebugResources UP-TO-DATE
+:gsonsharedpreferences:mergeDebugResources UP-TO-DATE
+:gsonsharedpreferences:processDebugManifest UP-TO-DATE
+:gsonsharedpreferences:processDebugResources UP-TO-DATE
+:gsonsharedpreferences:generateDebugSources UP-TO-DATE
+:gsonsharedpreferences:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:gsonsharedpreferences:compileDebugJavaWithJavac UP-TO-DATE
+:gsonsharedpreferences:extractDebugAnnotations UP-TO-DATE
+:gsonsharedpreferences:mergeDebugShaders UP-TO-DATE
+:gsonsharedpreferences:compileDebugShaders UP-TO-DATE
+:gsonsharedpreferences:generateDebugAssets UP-TO-DATE
+:gsonsharedpreferences:mergeDebugAssets UP-TO-DATE
+:gsonsharedpreferences:mergeDebugProguardFiles UP-TO-DATE
+:gsonsharedpreferences:packageDebugRenderscript UP-TO-DATE
+:gsonsharedpreferences:packageDebugResources UP-TO-DATE
+:gsonsharedpreferences:processDebugJavaRes UP-TO-DATE
+:gsonsharedpreferences:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:gsonsharedpreferences:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:gsonsharedpreferences:mergeDebugJniLibFolders UP-TO-DATE
+:gsonsharedpreferences:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:gsonsharedpreferences:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:gsonsharedpreferences:bundleDebug UP-TO-DATE
+:gsonsharedpreferences:compileDebugSources UP-TO-DATE
+:gsonsharedpreferences:assembleDebug UP-TO-DATE
+:gsonsharedpreferences:checkReleaseManifest
+:gsonsharedpreferences:prepareReleaseDependencies
+:gsonsharedpreferences:compileReleaseAidl UP-TO-DATE
+:gsonsharedpreferences:compileReleaseNdk UP-TO-DATE
+:gsonsharedpreferences:copyReleaseLint UP-TO-DATE
+:gsonsharedpreferences:compileReleaseRenderscript UP-TO-DATE
+:gsonsharedpreferences:generateReleaseBuildConfig UP-TO-DATE
+:gsonsharedpreferences:generateReleaseResValues UP-TO-DATE
+:gsonsharedpreferences:generateReleaseResources UP-TO-DATE
+:gsonsharedpreferences:mergeReleaseResources UP-TO-DATE
+:gsonsharedpreferences:processReleaseManifest UP-TO-DATE
+:gsonsharedpreferences:processReleaseResources UP-TO-DATE
+:gsonsharedpreferences:generateReleaseSources UP-TO-DATE
+:gsonsharedpreferences:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:gsonsharedpreferences:compileReleaseJavaWithJavac UP-TO-DATE
+:gsonsharedpreferences:extractReleaseAnnotations UP-TO-DATE
+:gsonsharedpreferences:mergeReleaseShaders UP-TO-DATE
+:gsonsharedpreferences:compileReleaseShaders UP-TO-DATE
+:gsonsharedpreferences:generateReleaseAssets UP-TO-DATE
+:gsonsharedpreferences:mergeReleaseAssets UP-TO-DATE
+:gsonsharedpreferences:mergeReleaseProguardFiles UP-TO-DATE
+:gsonsharedpreferences:packageReleaseRenderscript UP-TO-DATE
+:gsonsharedpreferences:packageReleaseResources UP-TO-DATE
+:gsonsharedpreferences:processReleaseJavaRes UP-TO-DATE
+:gsonsharedpreferences:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:gsonsharedpreferences:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:gsonsharedpreferences:mergeReleaseJniLibFolders UP-TO-DATE
+:gsonsharedpreferences:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:gsonsharedpreferences:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:gsonsharedpreferences:bundleRelease UP-TO-DATE
+:gsonsharedpreferences:compileReleaseSources UP-TO-DATE
+:gsonsharedpreferences:assembleRelease UP-TO-DATE
+:gsonsharedpreferences:javadoc UP-TO-DATE
+:gsonsharedpreferences:javadocJar UP-TO-DATE
+:gsonsharedpreferences:sourcesJar UP-TO-DATE
+:gsonsharedpreferences:assemble UP-TO-DATE
+:gsonsharedpreferences:build
 
-2018-09-14 11:40:35,272 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 11:40:35,272 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 11:40:35,877 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-14 11:40:35,877 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-14 11:40:35,877 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-14 11:40:35,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536900032257-0/src/GSON-SharedPreferences-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-14 11:40:36,473 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-14 11:40:36,473 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+BUILD SUCCESSFUL
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+Total time: 5.765 secs
 
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:68)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:78)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-2018-09-14 11:40:36,476 ERROR FullProcessService - Project build has not produced APK file
-2018-09-14 11:40:36,478 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-17 15:10:14,384 ERROR FullProcessService - Project build has not produced APK file
+2019-03-17 15:10:14,446 ERROR FullProcessService - Could not find generated or existed APK file
