@@ -1,37 +1,37 @@
-2019-03-17 23:51:21,701 INFO  DownloadService - Downloading "https://github.com/corcoran/okhttp-oauth2-client/archive/master.zip", attempt 3
-2019-03-17 23:52:22,877 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-17 23:52:24,667 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-17 23:52:24,668 INFO  DownloadService - Downloading "https://github.com/corcoran/okhttp-oauth2-client/archive/master.zip", attempt 3
-2019-03-17 23:53:26,912 DEBUG FullProcessService - Repository https://github.com/corcoran/okhttp-oauth2-client available: true
-2019-03-17 23:53:26,912 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-17 23:53:26,912 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/corcoran/okhttp-oauth2-client, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src]
-2019-03-17 23:53:29,004 INFO  SysUtils - 
-2019-03-17 23:53:29,025 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/.git": true
-2019-03-17 23:53:29,026 INFO  FullProcessService - Size of directory with sources: 99 KB
-2019-03-17 23:53:29,027 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src]
-2019-03-17 23:53:29,043 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/.git/
+2019-03-18 12:02:06,315 INFO  DownloadService - Downloading "https://github.com/corcoran/okhttp-oauth2-client/archive/master.zip", attempt 3
+2019-03-18 12:03:07,115 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-18 12:03:09,017 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-18 12:03:09,017 INFO  DownloadService - Downloading "https://github.com/corcoran/okhttp-oauth2-client/archive/master.zip", attempt 3
+2019-03-18 12:04:11,263 DEBUG FullProcessService - Repository https://github.com/corcoran/okhttp-oauth2-client available: true
+2019-03-18 12:04:11,269 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-18 12:04:11,269 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/corcoran/okhttp-oauth2-client, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src]
+2019-03-18 12:04:13,092 INFO  SysUtils - 
+2019-03-18 12:04:13,112 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/.git": true
+2019-03-18 12:04:13,114 INFO  FullProcessService - Size of directory with sources: 99 KB
+2019-03-18 12:04:13,114 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src]
+2019-03-18 12:04:13,133 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/.git/
 
-2019-03-17 23:53:29,046 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/gradlew
-2019-03-17 23:53:29,048 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/oauth2library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/build.gradle
-2019-03-17 23:53:29,050 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/oauth2library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/settings.gradle
-2019-03-17 23:53:29,050 INFO  ProjectBuildService - Remote scripts: none
-2019-03-17 23:53:29,050 INFO  ProjectFixService - Fixing project...
-2019-03-17 23:53:29,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/oauth2library/local.properties
-2019-03-17 23:53:29,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/oauth2library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2019-03-17 23:53:29,056 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/oauth2library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2019-03-17 23:53:29,057 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/local.properties
-2019-03-17 23:53:29,057 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
-2019-03-17 23:53:29,057 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
-2019-03-17 23:53:29,058 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2019-03-17 23:53:29,059 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2019-03-17 23:53:29,059 INFO  ProjectFixService - Project was maybe fixed
-2019-03-17 23:53:29,059 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 23:53:29,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/oauth2library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 23:54:04,408 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 23:54:04,408 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-17 23:54:04,409 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-17 23:54:04,409 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/oauth2library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-17 23:54:11,136 ERROR SysUtils - Could not process external command
+2019-03-18 12:04:13,135 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/gradlew
+2019-03-18 12:04:13,137 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/oauth2library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/build.gradle
+2019-03-18 12:04:13,139 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/oauth2library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/settings.gradle
+2019-03-18 12:04:13,139 INFO  ProjectBuildService - Remote scripts: none
+2019-03-18 12:04:13,139 INFO  ProjectFixService - Fixing project...
+2019-03-18 12:04:13,143 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/oauth2library/local.properties
+2019-03-18 12:04:13,144 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/oauth2library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-03-18 12:04:13,144 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/oauth2library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-03-18 12:04:13,145 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/local.properties
+2019-03-18 12:04:13,146 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.1-all.zip
+2019-03-18 12:04:13,146 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.1-bin.zip)
+2019-03-18 12:04:13,147 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-03-18 12:04:13,147 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
+2019-03-18 12:04:13,148 INFO  ProjectFixService - Project was maybe fixed
+2019-03-18 12:04:13,148 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 12:04:13,148 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/oauth2library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 12:04:20,795 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-18 12:04:20,796 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-18 12:04:20,796 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-18 12:04:20,796 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/oauth2library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-18 12:04:26,763 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -59,7 +59,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 23:54:11,136 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-18 12:04:26,763 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':oauth2library' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -189,22 +189,22 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-03-17 23:54:11,140 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 23:54:11,140 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 23:54:17,806 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 23:54:17,806 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-17 23:54:17,806 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-17 23:54:17,806 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841481697-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-17 23:54:26,681 ERROR SysUtils - Could not process external command
+2019-03-18 12:04:26,766 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 12:04:26,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 12:04:32,563 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-18 12:04:32,565 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-03-18 12:04:32,565 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-03-18 12:04:32,565 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885326311-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-03-18 12:04:38,470 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -232,7 +232,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 23:54:26,681 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-18 12:04:38,471 INFO  SysUtils - Configuration on demand is an incubating feature.
 Configuration 'compile' in project ':oauth2library' is deprecated. Use 'implementation' instead.
 
 FAILURE: Build failed with an exception.
@@ -362,14 +362,14 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
 	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
 	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy22.afterEvaluate(Unknown Source)
+	at com.sun.proxy.$Proxy23.afterEvaluate(Unknown Source)
 	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:75)
 	... 85 more
 
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 8s
+BUILD FAILED in 5s
 
-2019-03-17 23:54:26,686 ERROR FullProcessService - Project build has not produced APK file
-2019-03-17 23:54:26,689 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-18 12:04:38,474 ERROR FullProcessService - Project build has not produced APK file
+2019-03-18 12:04:38,476 ERROR FullProcessService - Could not find generated or existed APK file

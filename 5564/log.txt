@@ -1,34 +1,34 @@
-2019-03-17 23:54:26,724 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/ApiResponse/archive/master.zip", attempt 3
-2019-03-17 23:55:27,981 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-17 23:55:29,024 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-17 23:55:29,024 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/ApiResponse/archive/master.zip", attempt 3
-2019-03-17 23:56:30,520 DEBUG FullProcessService - Repository https://github.com/MarcinOrlowski/ApiResponse available: true
-2019-03-17 23:56:30,521 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-17 23:56:30,521 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MarcinOrlowski/ApiResponse, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src]
-2019-03-17 23:56:32,810 INFO  SysUtils - 
-2019-03-17 23:56:32,828 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/.git": true
-2019-03-17 23:56:32,829 INFO  FullProcessService - Size of directory with sources: 85 KB
-2019-03-17 23:56:32,830 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src]
-2019-03-17 23:56:32,847 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/.git/
+2019-03-18 12:04:38,498 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/ApiResponse/archive/master.zip", attempt 3
+2019-03-18 12:05:39,360 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-18 12:05:40,464 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-18 12:05:40,464 INFO  DownloadService - Downloading "https://github.com/MarcinOrlowski/ApiResponse/archive/master.zip", attempt 3
+2019-03-18 12:06:41,857 DEBUG FullProcessService - Repository https://github.com/MarcinOrlowski/ApiResponse available: true
+2019-03-18 12:06:41,857 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-18 12:06:41,857 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/MarcinOrlowski/ApiResponse, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src]
+2019-03-18 12:06:43,615 INFO  SysUtils - 
+2019-03-18 12:06:43,631 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/.git": true
+2019-03-18 12:06:43,633 INFO  FullProcessService - Size of directory with sources: 85 KB
+2019-03-18 12:06:43,633 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src]
+2019-03-18 12:06:43,649 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/.git/
 
-2019-03-17 23:56:32,848 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/gradlew
-2019-03-17 23:56:32,850 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/build.gradle
-2019-03-17 23:56:32,851 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/settings.gradle
-2019-03-17 23:56:32,852 INFO  ProjectBuildService - Remote scripts: none
-2019-03-17 23:56:32,852 INFO  ProjectFixService - Fixing project...
-2019-03-17 23:56:32,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/lib/local.properties
-2019-03-17 23:56:32,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 23:56:32,857 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/local.properties
-2019-03-17 23:56:32,858 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-03-17 23:56:32,858 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-03-17 23:56:32,859 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 23:56:32,859 INFO  ProjectFixService - Project was maybe fixed
-2019-03-17 23:56:32,860 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 23:56:32,860 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 23:56:40,918 INFO  ProjectTaskService - Detected possible tasks: 63
-2019-03-17 23:56:40,918 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-17 23:56:40,919 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-17 23:56:52,054 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-18 12:06:43,651 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/gradlew
+2019-03-18 12:06:43,652 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/build.gradle
+2019-03-18 12:06:43,654 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/settings.gradle
+2019-03-18 12:06:43,654 INFO  ProjectBuildService - Remote scripts: none
+2019-03-18 12:06:43,654 INFO  ProjectFixService - Fixing project...
+2019-03-18 12:06:43,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/lib/local.properties
+2019-03-18 12:06:43,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/lib/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-18 12:06:43,660 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/local.properties
+2019-03-18 12:06:43,660 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-03-18 12:06:43,660 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-03-18 12:06:43,661 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-18 12:06:43,661 INFO  ProjectFixService - Project was maybe fixed
+2019-03-18 12:06:43,661 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 12:06:43,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 12:06:51,629 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-03-18 12:06:51,631 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-18 12:06:51,632 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-18 12:07:01,756 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
 > Task :lib:compileDebugAidl NO-SOURCE
@@ -98,15 +98,15 @@
 > Task :lib:assemble
 > Task :lib:build
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 9s
 45 actionable tasks: 45 executed
 
-2019-03-17 23:56:52,094 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 23:56:52,094 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 23:56:58,419 INFO  ProjectTaskService - Detected possible tasks: 64
-2019-03-17 23:56:58,419 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-17 23:56:58,420 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841666719-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-17 23:57:05,856 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-18 12:07:01,794 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 12:07:01,794 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 12:07:07,463 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-18 12:07:07,463 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-18 12:07:07,464 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552885478494-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-18 12:07:14,136 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :lib:preBuild UP-TO-DATE
 > Task :lib:preDebugBuild UP-TO-DATE
 > Task :lib:compileDebugAidl NO-SOURCE
@@ -176,8 +176,8 @@ BUILD SUCCESSFUL in 10s
 > Task :lib:assemble
 > Task :lib:build
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 6s
 45 actionable tasks: 1 executed, 44 up-to-date
 
-2019-03-17 23:57:05,892 ERROR FullProcessService - Project build has not produced APK file
-2019-03-17 23:57:05,930 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-18 12:07:14,174 ERROR FullProcessService - Project build has not produced APK file
+2019-03-18 12:07:14,207 ERROR FullProcessService - Could not find generated or existed APK file

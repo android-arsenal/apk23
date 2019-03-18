@@ -1,43 +1,43 @@
-2019-03-17 23:41:26,228 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 3
-2019-03-17 23:41:32,186 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 2
-2019-03-17 23:41:38,154 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 1
-2019-03-17 23:42:38,422 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-17 23:42:39,679 INFO  GithubDownloadService - Default branch of this repository: Version2.x
-2019-03-17 23:42:39,680 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/Version2.x.zip", attempt 3
-2019-03-17 23:43:41,332 DEBUG FullProcessService - Repository https://github.com/Ludy87/Session_Cookie_Reader available: true
-2019-03-17 23:43:41,332 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-17 23:43:41,332 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Ludy87/Session_Cookie_Reader, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src]
-2019-03-17 23:43:43,191 INFO  SysUtils - 
-2019-03-17 23:43:43,206 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/.git": true
-2019-03-17 23:43:43,207 INFO  FullProcessService - Size of directory with sources: 50 KB
-2019-03-17 23:43:43,207 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src]
-2019-03-17 23:43:43,225 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/.git/
+2019-03-18 11:52:58,692 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 3
+2019-03-18 11:53:04,233 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 2
+2019-03-18 11:53:10,331 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/master.zip", attempt 1
+2019-03-18 11:54:10,601 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-18 11:54:11,881 INFO  GithubDownloadService - Default branch of this repository: Version2.x
+2019-03-18 11:54:11,882 INFO  DownloadService - Downloading "https://github.com/Ludy87/Session_Cookie_Reader/archive/Version2.x.zip", attempt 3
+2019-03-18 11:55:13,354 DEBUG FullProcessService - Repository https://github.com/Ludy87/Session_Cookie_Reader available: true
+2019-03-18 11:55:13,366 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-18 11:55:13,367 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Ludy87/Session_Cookie_Reader, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src]
+2019-03-18 11:55:15,172 INFO  SysUtils - 
+2019-03-18 11:55:15,187 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/.git": true
+2019-03-18 11:55:15,188 INFO  FullProcessService - Size of directory with sources: 50 KB
+2019-03-18 11:55:15,188 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src]
+2019-03-18 11:55:15,206 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/.git/
 
-2019-03-17 23:43:43,226 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/gradlew
-2019-03-17 23:43:43,228 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/session_cookie_reader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/build.gradle
-2019-03-17 23:43:43,229 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/session_cookie_reader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/settings.gradle
-2019-03-17 23:43:43,230 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
-2019-03-17 23:43:43,477 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
-2019-03-17 23:43:43,477 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle", attempt 3
-2019-03-17 23:43:43,727 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle, attempt 3
-2019-03-17 23:43:43,727 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
-2019-03-17 23:43:43,954 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
-2019-03-17 23:43:43,954 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle", attempt 3
-2019-03-17 23:43:44,179 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle, attempt 3
-2019-03-17 23:43:44,179 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle
-2019-03-17 23:43:44,179 INFO  ProjectFixService - Fixing project...
-2019-03-17 23:43:44,185 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/session_cookie_reader/local.properties
-2019-03-17 23:43:44,186 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/session_cookie_reader/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 23:43:44,186 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/local.properties
-2019-03-17 23:43:44,188 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 23:43:44,188 INFO  ProjectFixService - Project was maybe fixed
-2019-03-17 23:43:44,188 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 23:43:44,188 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/session_cookie_reader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 23:43:44,325 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 23:43:44,325 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-17 23:43:44,325 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-17 23:43:44,325 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/session_cookie_reader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-17 23:43:44,475 ERROR SysUtils - Could not process external command
+2019-03-18 11:55:15,207 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/gradlew
+2019-03-18 11:55:15,209 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/session_cookie_reader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/build.gradle
+2019-03-18 11:55:15,210 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/session_cookie_reader/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/settings.gradle
+2019-03-18 11:55:15,211 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle", attempt 3
+2019-03-18 11:55:15,433 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle, attempt 3
+2019-03-18 11:55:15,433 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle", attempt 3
+2019-03-18 11:55:15,696 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle, attempt 3
+2019-03-18 11:55:15,697 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle", attempt 3
+2019-03-18 11:55:15,939 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle, attempt 3
+2019-03-18 11:55:15,939 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle", attempt 3
+2019-03-18 11:55:16,176 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle, attempt 3
+2019-03-18 11:55:16,176 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/attwellBrian/JCenter/master/installv1.gradle https://raw.githubusercontent.com/Ludy87/gradle/master/bintray_v1.gradle https://raw.githubusercontent.com/attwellBrian/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/Ludy87/gradle/master/install_v1.gradle
+2019-03-18 11:55:16,176 INFO  ProjectFixService - Fixing project...
+2019-03-18 11:55:16,182 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/session_cookie_reader/local.properties
+2019-03-18 11:55:16,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/session_cookie_reader/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-18 11:55:16,184 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/local.properties
+2019-03-18 11:55:16,185 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/build.gradle": [buildToolsVersion=28.0.1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-03-18 11:55:16,185 INFO  ProjectFixService - Project was maybe fixed
+2019-03-18 11:55:16,185 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 11:55:16,185 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/session_cookie_reader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 11:55:16,312 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-18 11:55:16,312 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-18 11:55:16,312 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-18 11:55:16,312 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/session_cookie_reader/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-18 11:55:16,431 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -65,15 +65,15 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 23:43:44,475 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-18 11:55:16,431 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-03-17 23:43:44,477 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 23:43:44,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 23:43:44,620 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 23:43:44,620 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-17 23:43:44,620 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-17 23:43:44,620 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552840886224-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-17 23:43:44,749 ERROR SysUtils - Could not process external command
+2019-03-18 11:55:16,432 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 11:55:16,432 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 11:55:16,550 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-03-18 11:55:16,551 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-03-18 11:55:16,551 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-03-18 11:55:16,551 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884778689-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-03-18 11:55:16,671 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -101,7 +101,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 23:43:44,749 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
+2019-03-18 11:55:16,672 INFO  SysUtils - Error: Could not find or load main class org.gradle.wrapper.GradleWrapperMain
 
-2019-03-17 23:43:44,751 ERROR FullProcessService - Project build has not produced APK file
-2019-03-17 23:43:44,752 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-18 11:55:16,673 ERROR FullProcessService - Project build has not produced APK file
+2019-03-18 11:55:16,674 ERROR FullProcessService - Could not find generated or existed APK file
