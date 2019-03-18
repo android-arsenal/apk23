@@ -1,166 +1,217 @@
-2018-09-14 23:08:35,783 INFO  DownloadService - Downloading "https://github.com/flipboxstudio/sosoito/archive/master.zip", attempt 3
-2018-09-14 23:08:36,367 INFO  DownloadService - Downloaded https://github.com/flipboxstudio/sosoito/archive/master.zip, attempt 3
-2018-09-14 23:08:36,367 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/master.zip": 167 KB
-2018-09-14 23:08:36,367 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-14 23:08:36,372 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/master.zip: true
-2018-09-14 23:08:36,373 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src'.
-2018-09-14 23:08:36,394 INFO  FullProcessService - Size of directory with sources: 183 KB
-2018-09-14 23:08:36,394 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src]
-2018-09-14 23:08:36,411 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/.git/
+2019-03-18 00:38:08,314 INFO  DownloadService - Downloading "https://github.com/flipboxstudio/sosoito/archive/master.zip", attempt 3
+2019-03-18 00:39:08,869 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-18 00:39:09,975 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-18 00:39:09,975 INFO  DownloadService - Downloading "https://github.com/flipboxstudio/sosoito/archive/master.zip", attempt 3
+2019-03-18 00:40:11,561 DEBUG FullProcessService - Repository https://github.com/flipboxstudio/sosoito available: true
+2019-03-18 00:40:11,562 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-18 00:40:11,562 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/flipboxstudio/sosoito, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src]
+2019-03-18 00:40:13,561 INFO  SysUtils - 
+2019-03-18 00:40:13,569 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/.git": true
+2019-03-18 00:40:13,572 INFO  FullProcessService - Size of directory with sources: 183 KB
+2019-03-18 00:40:13,572 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src]
+2019-03-18 00:40:13,593 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/.git/
 
-2018-09-14 23:08:36,414 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/gradlew
-2018-09-14 23:08:36,417 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/sosoito/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/build.gradle
-2018-09-14 23:08:36,419 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/sosoito/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/settings.gradle
-2018-09-14 23:08:36,420 INFO  ProjectBuildService - Remote scripts: none
-2018-09-14 23:08:36,420 INFO  ProjectFixService - Fixing project...
-2018-09-14 23:08:36,427 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/sosoito/local.properties
-2018-09-14 23:08:36,427 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/sosoito/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-14 23:08:36,428 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/local.properties
-2018-09-14 23:08:36,428 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
-2018-09-14 23:08:36,428 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
-2018-09-14 23:08:36,429 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-14 23:08:36,429 INFO  ProjectFixService - Project was maybe fixed
-2018-09-14 23:08:36,429 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 23:08:36,429 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/sosoito/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 23:08:37,017 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-14 23:08:37,017 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-14 23:08:37,017 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-14 23:08:37,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/sosoito/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-14 23:08:37,516 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-14 23:08:37,517 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-03-18 00:40:13,596 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/gradlew
+2019-03-18 00:40:13,599 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/sosoito/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/build.gradle
+2019-03-18 00:40:13,602 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/sosoito/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/settings.gradle
+2019-03-18 00:40:13,602 INFO  ProjectBuildService - Remote scripts: none
+2019-03-18 00:40:13,602 INFO  ProjectFixService - Fixing project...
+2019-03-18 00:40:13,609 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/sosoito/local.properties
+2019-03-18 00:40:13,609 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/sosoito/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-03-18 00:40:13,610 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/local.properties
+2019-03-18 00:40:13,610 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.14.1-all.zip
+2019-03-18 00:40:13,611 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.14.1-bin.zip)
+2019-03-18 00:40:13,612 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
+2019-03-18 00:40:13,612 INFO  ProjectFixService - Project was maybe fixed
+2019-03-18 00:40:13,612 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 00:40:13,612 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/sosoito/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 00:40:21,209 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-18 00:40:21,209 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-18 00:40:21,209 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/sosoito/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-18 00:40:32,614 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:sosoito:preBuild UP-TO-DATE
+:sosoito:preDebugBuild UP-TO-DATE
+:sosoito:checkDebugManifest
+:sosoito:preDebugAndroidTestBuild UP-TO-DATE
+:sosoito:preDebugUnitTestBuild UP-TO-DATE
+:sosoito:preReleaseBuild UP-TO-DATE
+:sosoito:preReleaseUnitTestBuild UP-TO-DATE
+:sosoito:prepareComAndroidSupportAnimatedVectorDrawable2511Library
+:sosoito:prepareComAndroidSupportAppcompatV72511Library
+:sosoito:prepareComAndroidSupportSupportCompat2511Library
+:sosoito:prepareComAndroidSupportSupportCoreUi2511Library
+:sosoito:prepareComAndroidSupportSupportCoreUtils2511Library
+:sosoito:prepareComAndroidSupportSupportFragment2511Library
+:sosoito:prepareComAndroidSupportSupportMediaCompat2511Library
+:sosoito:prepareComAndroidSupportSupportV42511Library
+:sosoito:prepareComAndroidSupportSupportVectorDrawable2511Library
+:sosoito:prepareDebugDependencies
+:sosoito:compileDebugAidl
+:sosoito:compileDebugNdk UP-TO-DATE
+:sosoito:compileLint
+:sosoito:copyDebugLint UP-TO-DATE
+:sosoito:compileDebugRenderscript
+:sosoito:generateDebugBuildConfig
+:sosoito:generateDebugResValues
+:sosoito:generateDebugResources
+:sosoito:mergeDebugResources
+:sosoito:processDebugManifest
+:sosoito:processDebugResources
+:sosoito:generateDebugSources
+:sosoito:incrementalDebugJavaCompilationSafeguard
+:sosoito:compileDebugJavaWithJavac
+:sosoito:compileDebugJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sosoito:extractDebugAnnotations
+:sosoito:mergeDebugShaders
+:sosoito:compileDebugShaders
+:sosoito:generateDebugAssets
+:sosoito:mergeDebugAssets
+:sosoito:mergeDebugProguardFiles
+:sosoito:packageDebugRenderscript UP-TO-DATE
+:sosoito:packageDebugResources
+:sosoito:processDebugJavaRes UP-TO-DATE
+:sosoito:transformResourcesWithMergeJavaResForDebug
+:sosoito:transformClassesAndResourcesWithSyncLibJarsForDebug
+:sosoito:mergeDebugJniLibFolders
+:sosoito:transformNative_libsWithMergeJniLibsForDebug
+:sosoito:transformNative_libsWithSyncJniLibsForDebug
+:sosoito:bundleDebug
+:sosoito:compileDebugSources
+:sosoito:assembleDebug
+:sosoito:checkReleaseManifest
+:sosoito:prepareReleaseDependencies
+:sosoito:compileReleaseAidl
+:sosoito:compileReleaseNdk UP-TO-DATE
+:sosoito:copyReleaseLint UP-TO-DATE
+:sosoito:compileReleaseRenderscript
+:sosoito:generateReleaseBuildConfig
+:sosoito:generateReleaseResValues
+:sosoito:generateReleaseResources
+:sosoito:mergeReleaseResources
+:sosoito:processReleaseManifest
+:sosoito:processReleaseResources
+:sosoito:generateReleaseSources
+:sosoito:incrementalReleaseJavaCompilationSafeguard
+:sosoito:compileReleaseJavaWithJavac
+:sosoito:compileReleaseJavaWithJavac - is not incremental (e.g. outputs have changed, no previous execution, etc.).
+:sosoito:extractReleaseAnnotations
+:sosoito:mergeReleaseShaders
+:sosoito:compileReleaseShaders
+:sosoito:generateReleaseAssets
+:sosoito:mergeReleaseAssets
+:sosoito:mergeReleaseProguardFiles
+:sosoito:packageReleaseRenderscript UP-TO-DATE
+:sosoito:packageReleaseResources
+:sosoito:processReleaseJavaRes UP-TO-DATE
+:sosoito:transformResourcesWithMergeJavaResForRelease
+:sosoito:transformClassesAndResourcesWithSyncLibJarsForRelease
+:sosoito:mergeReleaseJniLibFolders
+:sosoito:transformNative_libsWithMergeJniLibsForRelease
+:sosoito:transformNative_libsWithSyncJniLibsForRelease
+:sosoito:bundleRelease
+:sosoito:compileReleaseSources
+:sosoito:assembleRelease
+:sosoito:assemble
+:sosoito:build
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+BUILD SUCCESSFUL
 
-* Try:
-Run with --info or --debug option to get more log output.
+Total time: 10.767 secs
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:68)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:78)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+2019-03-18 00:40:32,686 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 00:40:32,686 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 00:40:39,223 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-03-18 00:40:39,224 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-18 00:40:39,224 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552844288311-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-18 00:40:45,965 INFO  SysUtils - Configuration on demand is an incubating feature.
+Incremental java compilation is an incubating feature.
+:sosoito:preBuild UP-TO-DATE
+:sosoito:preDebugBuild UP-TO-DATE
+:sosoito:checkDebugManifest
+:sosoito:preDebugAndroidTestBuild UP-TO-DATE
+:sosoito:preDebugUnitTestBuild UP-TO-DATE
+:sosoito:preReleaseBuild UP-TO-DATE
+:sosoito:preReleaseUnitTestBuild UP-TO-DATE
+:sosoito:prepareComAndroidSupportAnimatedVectorDrawable2511Library UP-TO-DATE
+:sosoito:prepareComAndroidSupportAppcompatV72511Library UP-TO-DATE
+:sosoito:prepareComAndroidSupportSupportCompat2511Library UP-TO-DATE
+:sosoito:prepareComAndroidSupportSupportCoreUi2511Library UP-TO-DATE
+:sosoito:prepareComAndroidSupportSupportCoreUtils2511Library UP-TO-DATE
+:sosoito:prepareComAndroidSupportSupportFragment2511Library UP-TO-DATE
+:sosoito:prepareComAndroidSupportSupportMediaCompat2511Library UP-TO-DATE
+:sosoito:prepareComAndroidSupportSupportV42511Library UP-TO-DATE
+:sosoito:prepareComAndroidSupportSupportVectorDrawable2511Library UP-TO-DATE
+:sosoito:prepareDebugDependencies
+:sosoito:compileDebugAidl UP-TO-DATE
+:sosoito:compileDebugNdk UP-TO-DATE
+:sosoito:compileLint UP-TO-DATE
+:sosoito:copyDebugLint UP-TO-DATE
+:sosoito:compileDebugRenderscript UP-TO-DATE
+:sosoito:generateDebugBuildConfig UP-TO-DATE
+:sosoito:generateDebugResValues UP-TO-DATE
+:sosoito:generateDebugResources UP-TO-DATE
+:sosoito:mergeDebugResources UP-TO-DATE
+:sosoito:processDebugManifest UP-TO-DATE
+:sosoito:processDebugResources UP-TO-DATE
+:sosoito:generateDebugSources UP-TO-DATE
+:sosoito:incrementalDebugJavaCompilationSafeguard UP-TO-DATE
+:sosoito:compileDebugJavaWithJavac UP-TO-DATE
+:sosoito:extractDebugAnnotations UP-TO-DATE
+:sosoito:mergeDebugShaders UP-TO-DATE
+:sosoito:compileDebugShaders UP-TO-DATE
+:sosoito:generateDebugAssets UP-TO-DATE
+:sosoito:mergeDebugAssets UP-TO-DATE
+:sosoito:mergeDebugProguardFiles UP-TO-DATE
+:sosoito:packageDebugRenderscript UP-TO-DATE
+:sosoito:packageDebugResources UP-TO-DATE
+:sosoito:processDebugJavaRes UP-TO-DATE
+:sosoito:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+:sosoito:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+:sosoito:mergeDebugJniLibFolders UP-TO-DATE
+:sosoito:transformNative_libsWithMergeJniLibsForDebug UP-TO-DATE
+:sosoito:transformNative_libsWithSyncJniLibsForDebug UP-TO-DATE
+:sosoito:bundleDebug UP-TO-DATE
+:sosoito:compileDebugSources UP-TO-DATE
+:sosoito:assembleDebug UP-TO-DATE
+:sosoito:checkReleaseManifest
+:sosoito:prepareReleaseDependencies
+:sosoito:compileReleaseAidl UP-TO-DATE
+:sosoito:compileReleaseNdk UP-TO-DATE
+:sosoito:copyReleaseLint UP-TO-DATE
+:sosoito:compileReleaseRenderscript UP-TO-DATE
+:sosoito:generateReleaseBuildConfig UP-TO-DATE
+:sosoito:generateReleaseResValues UP-TO-DATE
+:sosoito:generateReleaseResources UP-TO-DATE
+:sosoito:mergeReleaseResources UP-TO-DATE
+:sosoito:processReleaseManifest UP-TO-DATE
+:sosoito:processReleaseResources UP-TO-DATE
+:sosoito:generateReleaseSources UP-TO-DATE
+:sosoito:incrementalReleaseJavaCompilationSafeguard UP-TO-DATE
+:sosoito:compileReleaseJavaWithJavac UP-TO-DATE
+:sosoito:extractReleaseAnnotations UP-TO-DATE
+:sosoito:mergeReleaseShaders UP-TO-DATE
+:sosoito:compileReleaseShaders UP-TO-DATE
+:sosoito:generateReleaseAssets UP-TO-DATE
+:sosoito:mergeReleaseAssets UP-TO-DATE
+:sosoito:mergeReleaseProguardFiles UP-TO-DATE
+:sosoito:packageReleaseRenderscript UP-TO-DATE
+:sosoito:packageReleaseResources UP-TO-DATE
+:sosoito:processReleaseJavaRes UP-TO-DATE
+:sosoito:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+:sosoito:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+:sosoito:mergeReleaseJniLibFolders UP-TO-DATE
+:sosoito:transformNative_libsWithMergeJniLibsForRelease UP-TO-DATE
+:sosoito:transformNative_libsWithSyncJniLibsForRelease UP-TO-DATE
+:sosoito:bundleRelease UP-TO-DATE
+:sosoito:compileReleaseSources UP-TO-DATE
+:sosoito:assembleRelease UP-TO-DATE
+:sosoito:assemble UP-TO-DATE
+:sosoito:build
 
+BUILD SUCCESSFUL
 
-2018-09-14 23:08:37,520 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 23:08:37,521 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 23:08:38,005 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-14 23:08:38,005 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-14 23:08:38,005 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-14 23:08:38,005 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941315780-0/src/sosoito-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-14 23:08:38,510 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-14 23:08:38,511 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+Total time: 6.142 secs
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
-
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:68)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:78)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:205)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:55)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:36)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-2018-09-14 23:08:38,514 ERROR FullProcessService - Project build has not produced APK file
-2018-09-14 23:08:38,518 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-18 00:40:46,037 ERROR FullProcessService - Project build has not produced APK file
+2019-03-18 00:40:46,099 ERROR FullProcessService - Could not find generated or existed APK file

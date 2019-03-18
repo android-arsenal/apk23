@@ -1,538 +1,1126 @@
-2018-10-09 14:22:58,844 INFO  DownloadService - Downloading "https://github.com/jainsahab/AndroidSnooper/archive/master.zip", attempt 3
-2018-10-09 14:23:00,647 INFO  DownloadService - Downloaded https://github.com/jainsahab/AndroidSnooper/archive/master.zip, attempt 3
-2018-10-09 14:23:00,648 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/master.zip": 1 MB
-2018-10-09 14:23:00,648 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-09 14:23:00,654 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/master.zip: true
-2018-10-09 14:23:00,654 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src'.
-2018-10-09 14:23:00,733 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-10-09 14:23:00,733 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src]
-2018-10-09 14:23:00,749 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/.git/
+2019-03-17 23:43:44,772 INFO  DownloadService - Downloading "https://github.com/jainsahab/AndroidSnooper/archive/master.zip", attempt 3
+2019-03-17 23:44:45,351 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-17 23:44:46,750 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-17 23:44:46,750 INFO  DownloadService - Downloading "https://github.com/jainsahab/AndroidSnooper/archive/master.zip", attempt 3
+2019-03-17 23:45:48,158 DEBUG FullProcessService - Repository https://github.com/jainsahab/AndroidSnooper available: true
+2019-03-17 23:45:48,159 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-17 23:45:48,159 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jainsahab/AndroidSnooper, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src]
+2019-03-17 23:45:51,976 INFO  SysUtils - 
+2019-03-17 23:45:51,988 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/.git": true
+2019-03-17 23:45:51,999 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-17 23:45:51,999 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src]
+2019-03-17 23:45:52,018 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/.git/
 
-2018-10-09 14:23:00,757 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew
-2018-10-09 14:23:00,766 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/build.gradle
-2018-10-09 14:23:00,773 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle
-2018-10-09 14:23:00,774 INFO  ProjectBuildService - Remote scripts: none
-2018-10-09 14:23:00,774 INFO  ProjectFixService - Fixing project...
-2018-10-09 14:23:00,802 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-No-Op/local.properties
-2018-10-09 14:23:00,805 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-09 14:23:00,806 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/local.properties
-2018-10-09 14:23:00,810 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-09 14:23:00,810 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp/local.properties
-2018-10-09 14:23:00,813 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-09 14:23:00,814 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/local.properties
-2018-10-09 14:23:00,817 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-09 14:23:00,818 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring/local.properties
-2018-10-09 14:23:00,821 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-09 14:23:00,822 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper/local.properties
-2018-10-09 14:23:00,826 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-09 14:23:00,826 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/local.properties
-2018-10-09 14:23:00,827 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.4.1-all.zip
-2018-10-09 14:23:00,827 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.4.1-bin.zip)
-2018-10-09 14:23:00,828 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=16,targetSdkVersion=24]
-2018-10-09 14:23:00,828 INFO  ProjectFixService - Project was maybe fixed
-2018-10-09 14:23:00,828 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 14:23:00,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 14:23:01,488 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 14:23:01,488 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 14:23:01,488 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 14:23:01,489 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 14:23:02,043 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-09 14:23:02,043 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-03-17 23:45:52,027 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew
+2019-03-17 23:45:52,036 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/build.gradle
+2019-03-17 23:45:52,045 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp-No-Op/build.gradle
+2019-03-17 23:45:52,045 INFO  ProjectBuildService - Remote scripts: none
+2019-03-17 23:45:52,046 INFO  ProjectFixService - Fixing project...
+2019-03-17 23:45:52,073 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-No-Op/local.properties
+2019-03-17 23:45:52,076 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 23:45:52,077 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp-No-Op/local.properties
+2019-03-17 23:45:52,080 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 23:45:52,080 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp/local.properties
+2019-03-17 23:45:52,084 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 23:45:52,084 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring-No-Op/local.properties
+2019-03-17 23:45:52,087 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 23:45:52,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring/local.properties
+2019-03-17 23:45:52,090 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 23:45:52,091 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper/local.properties
+2019-03-17 23:45:52,094 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 23:45:52,094 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/local.properties
+2019-03-17 23:45:52,095 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-bin.zip
+2019-03-17 23:45:52,095 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-17 23:45:52,095 INFO  ProjectFixService - Project was maybe fixed
+2019-03-17 23:45:52,095 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 23:45:52,095 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 23:46:17,889 INFO  ProjectTaskService - Detected possible tasks: 80
+2019-03-17 23:46:17,889 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 23:46:17,889 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 23:46:28,979 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :Snooper-No-Op:androidSourcesJar
+> Task :Snooper-No-Op:preBuild UP-TO-DATE
+> Task :Snooper-No-Op:preDebugBuild UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugAidl NO-SOURCE
+> Task :Snooper-No-Op:compileDebugRenderscript
+> Task :Snooper-No-Op:checkDebugManifest
+> Task :Snooper-No-Op:generateDebugBuildConfig
+> Task :Snooper-No-Op:generateDebugResValues
+> Task :Snooper-No-Op:generateDebugResources
+> Task :Snooper-No-Op:packageDebugResources
+> Task :Snooper-No-Op:processDebugManifest
+> Task :Snooper-No-Op:generateDebugRFile
+> Task :Snooper-No-Op:prepareLintJar
+> Task :Snooper-No-Op:generateDebugSources
+> Task :Snooper-No-Op:javaPreCompileDebug
+> Task :Snooper-No-Op:compileDebugJavaWithJavac
+> Task :Snooper-No-Op:extractDebugAnnotations
+> Task :Snooper-No-Op:mergeDebugConsumerProguardFiles
+> Task :Snooper-No-Op:mergeDebugShaders
+> Task :Snooper-No-Op:compileDebugShaders
+> Task :Snooper-No-Op:generateDebugAssets
+> Task :Snooper-No-Op:packageDebugAssets
+> Task :Snooper-No-Op:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-No-Op:processDebugJavaRes NO-SOURCE
+> Task :Snooper-No-Op:transformResourcesWithMergeJavaResForDebug
+> Task :Snooper-No-Op:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :Snooper-No-Op:compileDebugNdk NO-SOURCE
+> Task :Snooper-No-Op:mergeDebugJniLibFolders
+> Task :Snooper-No-Op:transformNativeLibsWithMergeJniLibsForDebug
+> Task :Snooper-No-Op:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :Snooper-No-Op:transformNativeLibsWithSyncJniLibsForDebug
+> Task :Snooper-No-Op:bundleDebugAar
+> Task :Snooper-No-Op:compileDebugSources
+> Task :Snooper-No-Op:assembleDebug
+> Task :Snooper-No-Op:preReleaseBuild UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseAidl NO-SOURCE
+> Task :Snooper-No-Op:compileReleaseRenderscript
+> Task :Snooper-No-Op:checkReleaseManifest
+> Task :Snooper-No-Op:generateReleaseBuildConfig
+> Task :Snooper-No-Op:generateReleaseResValues
+> Task :Snooper-No-Op:generateReleaseResources
+> Task :Snooper-No-Op:packageReleaseResources
+> Task :Snooper-No-Op:processReleaseManifest
+> Task :Snooper-No-Op:generateReleaseRFile
+> Task :Snooper-No-Op:generateReleaseSources
+> Task :Snooper-No-Op:javaPreCompileRelease
+> Task :Snooper-No-Op:compileReleaseJavaWithJavac
+> Task :Snooper-No-Op:extractReleaseAnnotations
+> Task :Snooper-No-Op:mergeReleaseConsumerProguardFiles
+> Task :Snooper-No-Op:mergeReleaseShaders
+> Task :Snooper-No-Op:compileReleaseShaders
+> Task :Snooper-No-Op:generateReleaseAssets
+> Task :Snooper-No-Op:packageReleaseAssets
+> Task :Snooper-No-Op:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-No-Op:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-No-Op:transformResourcesWithMergeJavaResForRelease
+> Task :Snooper-No-Op:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :Snooper-No-Op:compileReleaseNdk NO-SOURCE
+> Task :Snooper-No-Op:mergeReleaseJniLibFolders
+> Task :Snooper-No-Op:transformNativeLibsWithMergeJniLibsForRelease
+> Task :Snooper-No-Op:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :Snooper-No-Op:transformNativeLibsWithSyncJniLibsForRelease
+> Task :Snooper-No-Op:bundleReleaseAar
+> Task :Snooper-No-Op:compileReleaseSources
+> Task :Snooper-No-Op:mergeReleaseResources
+> Task :Snooper-No-Op:verifyReleaseResources
+> Task :Snooper-No-Op:assembleRelease
+> Task :Snooper-No-Op:signArchives SKIPPED
+> Task :Snooper-No-Op:assemble
+> Task :Snooper-No-Op:build
 
-* What went wrong:
-Could not determine java version from '11'.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-* Try:
-Run with --info or --debug option to get more log output.
+BUILD SUCCESSFUL in 10s
+46 actionable tasks: 46 executed
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+2019-03-17 23:46:28,997 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 23:46:28,997 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 23:46:36,670 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-17 23:46:36,670 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 23:46:36,671 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 23:46:48,117 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :Snooper-Okhttp-No-Op:androidSourcesJar
+> Task :Snooper-No-Op:preBuild UP-TO-DATE
+> Task :Snooper-No-Op:preDebugBuild UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugAidl NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:preBuild UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:preDebugBuild UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileDebugAidl NO-SOURCE
+> Task :Snooper-No-Op:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper-No-Op:checkDebugManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugResValues UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugResources UP-TO-DATE
+> Task :Snooper-No-Op:packageDebugResources UP-TO-DATE
+> Task :Snooper-No-Op:processDebugManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugRFile UP-TO-DATE
+> Task :Snooper-No-Op:prepareLintJar UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugSources UP-TO-DATE
+> Task :Snooper-No-Op:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper-No-Op:processDebugJavaRes NO-SOURCE
+> Task :Snooper-No-Op:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :Snooper-No-Op:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:compileDebugRenderscript
+> Task :Snooper-Okhttp-No-Op:checkDebugManifest
+> Task :Snooper-Okhttp-No-Op:generateDebugBuildConfig
+> Task :Snooper-Okhttp-No-Op:generateDebugResValues
+> Task :Snooper-Okhttp-No-Op:generateDebugResources
+> Task :Snooper-Okhttp-No-Op:packageDebugResources
+> Task :Snooper-Okhttp-No-Op:processDebugManifest
+> Task :Snooper-Okhttp-No-Op:generateDebugRFile
+> Task :Snooper-Okhttp-No-Op:prepareLintJar
+> Task :Snooper-Okhttp-No-Op:generateDebugSources
+> Task :Snooper-Okhttp-No-Op:javaPreCompileDebug
+> Task :Snooper-Okhttp-No-Op:compileDebugJavaWithJavac
+> Task :Snooper-Okhttp-No-Op:extractDebugAnnotations
+> Task :Snooper-Okhttp-No-Op:mergeDebugConsumerProguardFiles
+> Task :Snooper-Okhttp-No-Op:mergeDebugShaders
+> Task :Snooper-Okhttp-No-Op:compileDebugShaders
+> Task :Snooper-Okhttp-No-Op:generateDebugAssets
+> Task :Snooper-Okhttp-No-Op:packageDebugAssets
+> Task :Snooper-Okhttp-No-Op:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:processDebugJavaRes NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:transformResourcesWithMergeJavaResForDebug
+> Task :Snooper-Okhttp-No-Op:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :Snooper-Okhttp-No-Op:compileDebugNdk NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:mergeDebugJniLibFolders
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithMergeJniLibsForDebug
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithSyncJniLibsForDebug
+> Task :Snooper-Okhttp-No-Op:bundleDebugAar
+> Task :Snooper-Okhttp-No-Op:compileDebugSources
+> Task :Snooper-Okhttp-No-Op:assembleDebug
+> Task :Snooper-No-Op:preReleaseBuild UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseAidl NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:preReleaseBuild UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileReleaseAidl NO-SOURCE
+> Task :Snooper-No-Op:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper-No-Op:checkReleaseManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseResValues UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseResources UP-TO-DATE
+> Task :Snooper-No-Op:packageReleaseResources UP-TO-DATE
+> Task :Snooper-No-Op:processReleaseManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseRFile UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseSources UP-TO-DATE
+> Task :Snooper-No-Op:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper-No-Op:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-No-Op:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :Snooper-No-Op:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:compileReleaseRenderscript
+> Task :Snooper-Okhttp-No-Op:checkReleaseManifest
+> Task :Snooper-Okhttp-No-Op:generateReleaseBuildConfig
+> Task :Snooper-Okhttp-No-Op:generateReleaseResValues
+> Task :Snooper-Okhttp-No-Op:generateReleaseResources
+> Task :Snooper-Okhttp-No-Op:packageReleaseResources
+> Task :Snooper-Okhttp-No-Op:processReleaseManifest
+> Task :Snooper-Okhttp-No-Op:generateReleaseRFile
+> Task :Snooper-Okhttp-No-Op:generateReleaseSources
+> Task :Snooper-Okhttp-No-Op:javaPreCompileRelease
+> Task :Snooper-Okhttp-No-Op:compileReleaseJavaWithJavac
+> Task :Snooper-Okhttp-No-Op:extractReleaseAnnotations
+> Task :Snooper-Okhttp-No-Op:mergeReleaseConsumerProguardFiles
+> Task :Snooper-Okhttp-No-Op:mergeReleaseShaders
+> Task :Snooper-Okhttp-No-Op:compileReleaseShaders
+> Task :Snooper-Okhttp-No-Op:generateReleaseAssets
+> Task :Snooper-Okhttp-No-Op:packageReleaseAssets
+> Task :Snooper-Okhttp-No-Op:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:transformResourcesWithMergeJavaResForRelease
+> Task :Snooper-Okhttp-No-Op:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :Snooper-Okhttp-No-Op:compileReleaseNdk NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:mergeReleaseJniLibFolders
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithMergeJniLibsForRelease
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithSyncJniLibsForRelease
+> Task :Snooper-Okhttp-No-Op:bundleReleaseAar
+> Task :Snooper-Okhttp-No-Op:compileReleaseSources
+> Task :Snooper-Okhttp-No-Op:mergeReleaseResources
+> Task :Snooper-Okhttp-No-Op:verifyReleaseResources
+> Task :Snooper-Okhttp-No-Op:assembleRelease
+> Task :Snooper-Okhttp-No-Op:signArchives SKIPPED
+> Task :Snooper-Okhttp-No-Op:assemble
+> Task :Snooper-Okhttp-No-Op:build
 
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-10-09 14:23:02,054 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 14:23:02,055 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 14:23:02,585 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 14:23:02,585 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 14:23:02,585 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 14:23:02,585 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 14:23:03,142 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-09 14:23:03,142 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+BUILD SUCCESSFUL in 11s
+67 actionable tasks: 48 executed, 19 up-to-date
 
-* What went wrong:
-Could not determine java version from '11'.
+2019-03-17 23:46:48,150 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 23:46:48,150 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 23:46:55,709 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-17 23:46:55,709 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 23:46:55,709 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 23:47:13,110 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :Snooper-Okhttp:androidSourcesJar
+> Task :Snooper:preBuild UP-TO-DATE
+> Task :Snooper:preDebugBuild UP-TO-DATE
+> Task :Snooper:compileDebugAidl NO-SOURCE
+> Task :Snooper-Okhttp:preBuild UP-TO-DATE
+> Task :Snooper-Okhttp:preDebugBuild UP-TO-DATE
+> Task :Snooper-Okhttp:compileDebugAidl NO-SOURCE
+> Task :Snooper:compileDebugRenderscript
+> Task :Snooper:checkDebugManifest
+> Task :Snooper:generateDebugBuildConfig
+> Task :Snooper:generateDebugResValues
+> Task :Snooper:generateDebugResources
+> Task :Snooper:packageDebugResources
+> Task :Snooper:processDebugManifest
+> Task :Snooper:generateDebugRFile
+> Task :Snooper:prepareLintJar
+> Task :Snooper:generateDebugSources
+> Task :Snooper:javaPreCompileDebug
 
-* Try:
-Run with --info or --debug option to get more log output.
+> Task :Snooper:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :Snooper:jacocoDebug
+> Task :Snooper:processDebugJavaRes NO-SOURCE
+> Task :Snooper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :Snooper:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Okhttp:compileDebugRenderscript
+> Task :Snooper-Okhttp:checkDebugManifest
+> Task :Snooper-Okhttp:generateDebugBuildConfig
+> Task :Snooper-Okhttp:generateDebugResValues
+> Task :Snooper-Okhttp:generateDebugResources
+> Task :Snooper-Okhttp:packageDebugResources
+> Task :Snooper-Okhttp:processDebugManifest
+> Task :Snooper-Okhttp:generateDebugRFile
+> Task :Snooper-Okhttp:prepareLintJar
+> Task :Snooper-Okhttp:generateDebugSources
+> Task :Snooper-Okhttp:javaPreCompileDebug
+> Task :Snooper-Okhttp:compileDebugJavaWithJavac
+> Task :Snooper-Okhttp:extractDebugAnnotations
+> Task :Snooper-Okhttp:mergeDebugConsumerProguardFiles
+> Task :Snooper-Okhttp:mergeDebugShaders
+> Task :Snooper-Okhttp:compileDebugShaders
+> Task :Snooper-Okhttp:generateDebugAssets
+> Task :Snooper-Okhttp:packageDebugAssets
+> Task :Snooper-Okhttp:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Okhttp:processDebugJavaRes NO-SOURCE
+> Task :Snooper-Okhttp:transformResourcesWithMergeJavaResForDebug
+> Task :Snooper-Okhttp:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :Snooper-Okhttp:compileDebugNdk NO-SOURCE
+> Task :Snooper-Okhttp:mergeDebugJniLibFolders
+> Task :Snooper-Okhttp:transformNativeLibsWithMergeJniLibsForDebug
+> Task :Snooper-Okhttp:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :Snooper-Okhttp:transformNativeLibsWithSyncJniLibsForDebug
+> Task :Snooper-Okhttp:bundleDebugAar
+> Task :Snooper-Okhttp:compileDebugSources
+> Task :Snooper-Okhttp:assembleDebug
+> Task :Snooper:preReleaseBuild UP-TO-DATE
+> Task :Snooper:compileReleaseAidl NO-SOURCE
+> Task :Snooper-Okhttp:preReleaseBuild UP-TO-DATE
+> Task :Snooper-Okhttp:compileReleaseAidl NO-SOURCE
+> Task :Snooper:compileReleaseRenderscript
+> Task :Snooper:checkReleaseManifest
+> Task :Snooper:generateReleaseBuildConfig
+> Task :Snooper:generateReleaseResValues
+> Task :Snooper:generateReleaseResources
+> Task :Snooper:packageReleaseResources
+> Task :Snooper:processReleaseManifest
+> Task :Snooper:generateReleaseRFile
+> Task :Snooper:generateReleaseSources
+> Task :Snooper:javaPreCompileRelease
 
+> Task :Snooper:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-2018-10-09 14:23:03,150 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 14:23:03,151 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 14:23:03,756 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 14:23:03,756 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 14:23:03,756 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 14:23:03,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 14:23:04,316 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-09 14:23:04,316 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+> Task :Snooper:processReleaseJavaRes NO-SOURCE
+> Task :Snooper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :Snooper:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Okhttp:compileReleaseRenderscript
+> Task :Snooper-Okhttp:checkReleaseManifest
+> Task :Snooper-Okhttp:generateReleaseBuildConfig
+> Task :Snooper-Okhttp:generateReleaseResValues
+> Task :Snooper-Okhttp:generateReleaseResources
+> Task :Snooper-Okhttp:packageReleaseResources
+> Task :Snooper-Okhttp:processReleaseManifest
+> Task :Snooper-Okhttp:generateReleaseRFile
+> Task :Snooper-Okhttp:generateReleaseSources
+> Task :Snooper-Okhttp:javaPreCompileRelease
+> Task :Snooper-Okhttp:compileReleaseJavaWithJavac
+> Task :Snooper-Okhttp:extractReleaseAnnotations
+> Task :Snooper-Okhttp:mergeReleaseConsumerProguardFiles
+> Task :Snooper-Okhttp:mergeReleaseShaders
+> Task :Snooper-Okhttp:compileReleaseShaders
+> Task :Snooper-Okhttp:generateReleaseAssets
+> Task :Snooper-Okhttp:packageReleaseAssets
+> Task :Snooper-Okhttp:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Okhttp:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-Okhttp:transformResourcesWithMergeJavaResForRelease
+> Task :Snooper-Okhttp:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :Snooper-Okhttp:compileReleaseNdk NO-SOURCE
+> Task :Snooper-Okhttp:mergeReleaseJniLibFolders
+> Task :Snooper-Okhttp:transformNativeLibsWithMergeJniLibsForRelease
+> Task :Snooper-Okhttp:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :Snooper-Okhttp:transformNativeLibsWithSyncJniLibsForRelease
+> Task :Snooper-Okhttp:bundleReleaseAar
+> Task :Snooper-Okhttp:compileReleaseSources
+> Task :Snooper-Okhttp:mergeReleaseResources
+> Task :Snooper-Okhttp:verifyReleaseResources
+> Task :Snooper-Okhttp:assembleRelease
+> Task :Snooper-Okhttp:signArchives SKIPPED
+> Task :Snooper-Okhttp:assemble
+> Task :Snooper-Okhttp:build
 
-* What went wrong:
-Could not determine java version from '11'.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-* Try:
-Run with --info or --debug option to get more log output.
+BUILD SUCCESSFUL in 17s
+68 actionable tasks: 68 executed
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+2019-03-17 23:47:13,192 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 23:47:13,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 23:47:20,690 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-17 23:47:20,691 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 23:47:20,691 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 23:47:33,554 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :Snooper-Spring-No-Op:androidSourcesJar
+> Task :Snooper-No-Op:preBuild UP-TO-DATE
+> Task :Snooper-No-Op:preDebugBuild UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugAidl NO-SOURCE
+> Task :Snooper-Spring-No-Op:preBuild UP-TO-DATE
+> Task :Snooper-Spring-No-Op:preDebugBuild UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileDebugAidl NO-SOURCE
+> Task :Snooper-No-Op:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper-No-Op:checkDebugManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugResValues UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugResources UP-TO-DATE
+> Task :Snooper-No-Op:packageDebugResources UP-TO-DATE
+> Task :Snooper-No-Op:processDebugManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugRFile UP-TO-DATE
+> Task :Snooper-No-Op:prepareLintJar UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugSources UP-TO-DATE
+> Task :Snooper-No-Op:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper-No-Op:processDebugJavaRes NO-SOURCE
+> Task :Snooper-No-Op:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :Snooper-No-Op:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Spring-No-Op:compileDebugRenderscript
+> Task :Snooper-Spring-No-Op:checkDebugManifest
+> Task :Snooper-Spring-No-Op:generateDebugBuildConfig
+> Task :Snooper-Spring-No-Op:generateDebugResValues
+> Task :Snooper-Spring-No-Op:generateDebugResources
+> Task :Snooper-Spring-No-Op:packageDebugResources
+> Task :Snooper-Spring-No-Op:processDebugManifest
+> Task :Snooper-Spring-No-Op:generateDebugRFile
+> Task :Snooper-Spring-No-Op:prepareLintJar
+> Task :Snooper-Spring-No-Op:generateDebugSources
+> Task :Snooper-Spring-No-Op:javaPreCompileDebug
+> Task :Snooper-Spring-No-Op:compileDebugJavaWithJavac
+> Task :Snooper-Spring-No-Op:extractDebugAnnotations
+> Task :Snooper-Spring-No-Op:mergeDebugConsumerProguardFiles
+> Task :Snooper-Spring-No-Op:mergeDebugShaders
+> Task :Snooper-Spring-No-Op:compileDebugShaders
+> Task :Snooper-Spring-No-Op:generateDebugAssets
+> Task :Snooper-Spring-No-Op:packageDebugAssets
+> Task :Snooper-Spring-No-Op:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Spring-No-Op:processDebugJavaRes NO-SOURCE
+> Task :Snooper-Spring-No-Op:transformResourcesWithMergeJavaResForDebug
+> Task :Snooper-Spring-No-Op:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :Snooper-Spring-No-Op:compileDebugNdk NO-SOURCE
+> Task :Snooper-Spring-No-Op:mergeDebugJniLibFolders
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithMergeJniLibsForDebug
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithSyncJniLibsForDebug
+> Task :Snooper-Spring-No-Op:bundleDebugAar
+> Task :Snooper-Spring-No-Op:compileDebugSources
+> Task :Snooper-Spring-No-Op:assembleDebug
+> Task :Snooper-No-Op:preReleaseBuild UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseAidl NO-SOURCE
+> Task :Snooper-Spring-No-Op:preReleaseBuild UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileReleaseAidl NO-SOURCE
+> Task :Snooper-No-Op:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper-No-Op:checkReleaseManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseResValues UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseResources UP-TO-DATE
+> Task :Snooper-No-Op:packageReleaseResources UP-TO-DATE
+> Task :Snooper-No-Op:processReleaseManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseRFile UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseSources UP-TO-DATE
+> Task :Snooper-No-Op:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper-No-Op:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-No-Op:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :Snooper-No-Op:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Spring-No-Op:compileReleaseRenderscript
+> Task :Snooper-Spring-No-Op:checkReleaseManifest
+> Task :Snooper-Spring-No-Op:generateReleaseBuildConfig
+> Task :Snooper-Spring-No-Op:generateReleaseResValues
+> Task :Snooper-Spring-No-Op:generateReleaseResources
+> Task :Snooper-Spring-No-Op:packageReleaseResources
+> Task :Snooper-Spring-No-Op:processReleaseManifest
+> Task :Snooper-Spring-No-Op:generateReleaseRFile
+> Task :Snooper-Spring-No-Op:generateReleaseSources
+> Task :Snooper-Spring-No-Op:javaPreCompileRelease
+> Task :Snooper-Spring-No-Op:compileReleaseJavaWithJavac
+> Task :Snooper-Spring-No-Op:extractReleaseAnnotations
+> Task :Snooper-Spring-No-Op:mergeReleaseConsumerProguardFiles
+> Task :Snooper-Spring-No-Op:mergeReleaseShaders
+> Task :Snooper-Spring-No-Op:compileReleaseShaders
+> Task :Snooper-Spring-No-Op:generateReleaseAssets
+> Task :Snooper-Spring-No-Op:packageReleaseAssets
+> Task :Snooper-Spring-No-Op:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Spring-No-Op:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-Spring-No-Op:transformResourcesWithMergeJavaResForRelease
+> Task :Snooper-Spring-No-Op:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :Snooper-Spring-No-Op:compileReleaseNdk NO-SOURCE
+> Task :Snooper-Spring-No-Op:mergeReleaseJniLibFolders
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithMergeJniLibsForRelease
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithSyncJniLibsForRelease
+> Task :Snooper-Spring-No-Op:bundleReleaseAar
+> Task :Snooper-Spring-No-Op:compileReleaseSources
+> Task :Snooper-Spring-No-Op:mergeReleaseResources
+> Task :Snooper-Spring-No-Op:verifyReleaseResources
+> Task :Snooper-Spring-No-Op:assembleRelease
+> Task :Snooper-Spring-No-Op:signArchives SKIPPED
+> Task :Snooper-Spring-No-Op:assemble
+> Task :Snooper-Spring-No-Op:build
 
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-10-09 14:23:04,324 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 14:23:04,324 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 14:23:04,834 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 14:23:04,834 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 14:23:04,834 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 14:23:04,834 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 14:23:05,371 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-09 14:23:05,371 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+BUILD SUCCESSFUL in 12s
+67 actionable tasks: 46 executed, 21 up-to-date
 
-* What went wrong:
-Could not determine java version from '11'.
+2019-03-17 23:47:33,645 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 23:47:33,645 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 23:47:41,335 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-17 23:47:41,336 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 23:47:41,336 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper-Spring/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 23:47:54,143 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :Snooper-Spring:androidSourcesJar
+> Task :Snooper:preBuild UP-TO-DATE
+> Task :Snooper:preDebugBuild UP-TO-DATE
+> Task :Snooper:compileDebugAidl NO-SOURCE
+> Task :Snooper-Spring:preBuild UP-TO-DATE
+> Task :Snooper-Spring:preDebugBuild UP-TO-DATE
+> Task :Snooper-Spring:compileDebugAidl NO-SOURCE
+> Task :Snooper:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper:checkDebugManifest UP-TO-DATE
+> Task :Snooper:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper:generateDebugResValues UP-TO-DATE
+> Task :Snooper:generateDebugResources UP-TO-DATE
+> Task :Snooper:packageDebugResources UP-TO-DATE
+> Task :Snooper:processDebugManifest UP-TO-DATE
+> Task :Snooper:generateDebugRFile UP-TO-DATE
+> Task :Snooper:prepareLintJar UP-TO-DATE
+> Task :Snooper:generateDebugSources UP-TO-DATE
+> Task :Snooper:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper:jacocoDebug UP-TO-DATE
+> Task :Snooper:processDebugJavaRes NO-SOURCE
+> Task :Snooper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :Snooper:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Spring:compileDebugRenderscript
+> Task :Snooper-Spring:checkDebugManifest
+> Task :Snooper-Spring:generateDebugBuildConfig
+> Task :Snooper-Spring:generateDebugResValues
+> Task :Snooper-Spring:generateDebugResources
+> Task :Snooper-Spring:packageDebugResources
+> Task :Snooper-Spring:processDebugManifest
+> Task :Snooper-Spring:generateDebugRFile
+> Task :Snooper-Spring:prepareLintJar
+> Task :Snooper-Spring:generateDebugSources
+> Task :Snooper-Spring:javaPreCompileDebug
+> Task :Snooper-Spring:compileDebugJavaWithJavac
+> Task :Snooper-Spring:extractDebugAnnotations
+> Task :Snooper-Spring:mergeDebugConsumerProguardFiles
+> Task :Snooper-Spring:mergeDebugShaders
+> Task :Snooper-Spring:compileDebugShaders
+> Task :Snooper-Spring:generateDebugAssets
+> Task :Snooper-Spring:packageDebugAssets
+> Task :Snooper-Spring:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Spring:processDebugJavaRes NO-SOURCE
+> Task :Snooper-Spring:transformResourcesWithMergeJavaResForDebug
+> Task :Snooper-Spring:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :Snooper-Spring:compileDebugNdk NO-SOURCE
+> Task :Snooper-Spring:mergeDebugJniLibFolders
+> Task :Snooper-Spring:transformNativeLibsWithMergeJniLibsForDebug
+> Task :Snooper-Spring:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :Snooper-Spring:transformNativeLibsWithSyncJniLibsForDebug
+> Task :Snooper-Spring:bundleDebugAar
+> Task :Snooper-Spring:compileDebugSources
+> Task :Snooper-Spring:assembleDebug
+> Task :Snooper:preReleaseBuild UP-TO-DATE
+> Task :Snooper:compileReleaseAidl NO-SOURCE
+> Task :Snooper-Spring:preReleaseBuild UP-TO-DATE
+> Task :Snooper-Spring:compileReleaseAidl NO-SOURCE
+> Task :Snooper:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper:checkReleaseManifest UP-TO-DATE
+> Task :Snooper:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper:generateReleaseResValues UP-TO-DATE
+> Task :Snooper:generateReleaseResources UP-TO-DATE
+> Task :Snooper:packageReleaseResources UP-TO-DATE
+> Task :Snooper:processReleaseManifest UP-TO-DATE
+> Task :Snooper:generateReleaseRFile UP-TO-DATE
+> Task :Snooper:generateReleaseSources UP-TO-DATE
+> Task :Snooper:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper:processReleaseJavaRes NO-SOURCE
+> Task :Snooper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :Snooper:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Spring:compileReleaseRenderscript
+> Task :Snooper-Spring:checkReleaseManifest
+> Task :Snooper-Spring:generateReleaseBuildConfig
+> Task :Snooper-Spring:generateReleaseResValues
+> Task :Snooper-Spring:generateReleaseResources
+> Task :Snooper-Spring:packageReleaseResources
+> Task :Snooper-Spring:processReleaseManifest
+> Task :Snooper-Spring:generateReleaseRFile
+> Task :Snooper-Spring:generateReleaseSources
+> Task :Snooper-Spring:javaPreCompileRelease
+> Task :Snooper-Spring:compileReleaseJavaWithJavac
+> Task :Snooper-Spring:extractReleaseAnnotations
+> Task :Snooper-Spring:mergeReleaseConsumerProguardFiles
+> Task :Snooper-Spring:mergeReleaseShaders
+> Task :Snooper-Spring:compileReleaseShaders
+> Task :Snooper-Spring:generateReleaseAssets
+> Task :Snooper-Spring:packageReleaseAssets
+> Task :Snooper-Spring:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Spring:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-Spring:transformResourcesWithMergeJavaResForRelease
+> Task :Snooper-Spring:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :Snooper-Spring:compileReleaseNdk NO-SOURCE
+> Task :Snooper-Spring:mergeReleaseJniLibFolders
+> Task :Snooper-Spring:transformNativeLibsWithMergeJniLibsForRelease
+> Task :Snooper-Spring:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :Snooper-Spring:transformNativeLibsWithSyncJniLibsForRelease
+> Task :Snooper-Spring:bundleReleaseAar
+> Task :Snooper-Spring:compileReleaseSources
+> Task :Snooper-Spring:mergeReleaseResources
+> Task :Snooper-Spring:verifyReleaseResources
+> Task :Snooper-Spring:assembleRelease
+> Task :Snooper-Spring:signArchives SKIPPED
+> Task :Snooper-Spring:assemble
+> Task :Snooper-Spring:build
 
-* Try:
-Run with --info or --debug option to get more log output.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+BUILD SUCCESSFUL in 12s
+68 actionable tasks: 46 executed, 22 up-to-date
 
+2019-03-17 23:47:54,266 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 23:47:54,266 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 23:48:02,290 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-03-17 23:48:02,290 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 23:48:02,290 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/Snooper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 23:48:13,791 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :Snooper:androidSourcesJar
+> Task :Snooper:preBuild UP-TO-DATE
+> Task :Snooper:preDebugBuild UP-TO-DATE
+> Task :Snooper:compileDebugAidl NO-SOURCE
+> Task :Snooper:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper:checkDebugManifest UP-TO-DATE
+> Task :Snooper:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper:generateDebugResValues UP-TO-DATE
+> Task :Snooper:generateDebugResources UP-TO-DATE
+> Task :Snooper:packageDebugResources UP-TO-DATE
+> Task :Snooper:processDebugManifest UP-TO-DATE
+> Task :Snooper:generateDebugRFile UP-TO-DATE
+> Task :Snooper:prepareLintJar UP-TO-DATE
+> Task :Snooper:generateDebugSources UP-TO-DATE
+> Task :Snooper:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper:extractDebugAnnotations
+> Task :Snooper:mergeDebugConsumerProguardFiles
+> Task :Snooper:mergeDebugShaders
+> Task :Snooper:compileDebugShaders
+> Task :Snooper:generateDebugAssets
+> Task :Snooper:packageDebugAssets
+> Task :Snooper:packageDebugRenderscript NO-SOURCE
+> Task :Snooper:jacocoDebug UP-TO-DATE
+> Task :Snooper:processDebugJavaRes NO-SOURCE
+> Task :Snooper:transformResourcesWithMergeJavaResForDebug
+> Task :Snooper:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :Snooper:compileDebugNdk NO-SOURCE
+> Task :Snooper:mergeDebugJniLibFolders
+> Task :Snooper:transformNativeLibsWithMergeJniLibsForDebug
+> Task :Snooper:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :Snooper:transformNativeLibsWithSyncJniLibsForDebug
+> Task :Snooper:bundleDebugAar
+> Task :Snooper:compileDebugSources UP-TO-DATE
+> Task :Snooper:assembleDebug
+> Task :Snooper:preReleaseBuild UP-TO-DATE
+> Task :Snooper:compileReleaseAidl NO-SOURCE
+> Task :Snooper:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper:checkReleaseManifest UP-TO-DATE
+> Task :Snooper:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper:generateReleaseResValues UP-TO-DATE
+> Task :Snooper:generateReleaseResources UP-TO-DATE
+> Task :Snooper:packageReleaseResources UP-TO-DATE
+> Task :Snooper:processReleaseManifest UP-TO-DATE
+> Task :Snooper:generateReleaseRFile UP-TO-DATE
+> Task :Snooper:generateReleaseSources UP-TO-DATE
+> Task :Snooper:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper:extractReleaseAnnotations
+> Task :Snooper:mergeReleaseConsumerProguardFiles
+> Task :Snooper:mergeReleaseShaders
+> Task :Snooper:compileReleaseShaders
+> Task :Snooper:generateReleaseAssets
+> Task :Snooper:packageReleaseAssets
+> Task :Snooper:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper:processReleaseJavaRes NO-SOURCE
+> Task :Snooper:transformResourcesWithMergeJavaResForRelease
+> Task :Snooper:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :Snooper:compileReleaseNdk NO-SOURCE
+> Task :Snooper:mergeReleaseJniLibFolders
+> Task :Snooper:transformNativeLibsWithMergeJniLibsForRelease
+> Task :Snooper:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :Snooper:transformNativeLibsWithSyncJniLibsForRelease
+> Task :Snooper:bundleReleaseAar
+> Task :Snooper:compileReleaseSources UP-TO-DATE
+> Task :Snooper:mergeReleaseResources
+> Task :Snooper:verifyReleaseResources
+> Task :Snooper:assembleRelease
+> Task :Snooper:signArchives SKIPPED
+> Task :Snooper:assemble
+> Task :Snooper:build
 
-2018-10-09 14:23:05,382 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 14:23:05,382 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 14:23:05,880 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 14:23:05,880 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 14:23:05,880 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 14:23:05,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 14:23:06,389 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-09 14:23:06,390 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-* What went wrong:
-Could not determine java version from '11'.
+BUILD SUCCESSFUL in 11s
+47 actionable tasks: 27 executed, 20 up-to-date
 
-* Try:
-Run with --info or --debug option to get more log output.
+2019-03-17 23:48:13,970 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-17 23:48:13,970 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-17 23:48:22,476 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-03-17 23:48:22,477 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-17 23:48:22,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552841024769-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-17 23:48:33,571 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :Snooper:androidSourcesJar UP-TO-DATE
+> Task :Snooper:preBuild UP-TO-DATE
+> Task :Snooper:preDebugBuild UP-TO-DATE
+> Task :Snooper:compileDebugAidl NO-SOURCE
+> Task :Snooper:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper:checkDebugManifest UP-TO-DATE
+> Task :Snooper:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper:generateDebugResValues UP-TO-DATE
+> Task :Snooper:generateDebugResources UP-TO-DATE
+> Task :Snooper:packageDebugResources UP-TO-DATE
+> Task :Snooper:processDebugManifest UP-TO-DATE
+> Task :Snooper:generateDebugRFile UP-TO-DATE
+> Task :Snooper:prepareLintJar UP-TO-DATE
+> Task :Snooper:generateDebugSources UP-TO-DATE
+> Task :Snooper:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper:extractDebugAnnotations UP-TO-DATE
+> Task :Snooper:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :Snooper:mergeDebugShaders UP-TO-DATE
+> Task :Snooper:compileDebugShaders UP-TO-DATE
+> Task :Snooper:generateDebugAssets UP-TO-DATE
+> Task :Snooper:packageDebugAssets UP-TO-DATE
+> Task :Snooper:packageDebugRenderscript NO-SOURCE
+> Task :Snooper:jacocoDebug UP-TO-DATE
+> Task :Snooper:processDebugJavaRes NO-SOURCE
+> Task :Snooper:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :Snooper:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :Snooper:compileDebugNdk NO-SOURCE
+> Task :Snooper:mergeDebugJniLibFolders UP-TO-DATE
+> Task :Snooper:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :Snooper:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :Snooper:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :Snooper:bundleDebugAar UP-TO-DATE
+> Task :Snooper:compileDebugSources UP-TO-DATE
+> Task :Snooper:assembleDebug UP-TO-DATE
+> Task :Snooper:preReleaseBuild UP-TO-DATE
+> Task :Snooper:compileReleaseAidl NO-SOURCE
+> Task :Snooper:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper:checkReleaseManifest UP-TO-DATE
+> Task :Snooper:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper:generateReleaseResValues UP-TO-DATE
+> Task :Snooper:generateReleaseResources UP-TO-DATE
+> Task :Snooper:packageReleaseResources UP-TO-DATE
+> Task :Snooper:processReleaseManifest UP-TO-DATE
+> Task :Snooper:generateReleaseRFile UP-TO-DATE
+> Task :Snooper:generateReleaseSources UP-TO-DATE
+> Task :Snooper:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper:extractReleaseAnnotations UP-TO-DATE
+> Task :Snooper:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :Snooper:mergeReleaseShaders UP-TO-DATE
+> Task :Snooper:compileReleaseShaders UP-TO-DATE
+> Task :Snooper:generateReleaseAssets UP-TO-DATE
+> Task :Snooper:packageReleaseAssets UP-TO-DATE
+> Task :Snooper:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper:processReleaseJavaRes NO-SOURCE
+> Task :Snooper:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :Snooper:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :Snooper:compileReleaseNdk NO-SOURCE
+> Task :Snooper:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :Snooper:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :Snooper:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :Snooper:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :Snooper:bundleReleaseAar UP-TO-DATE
+> Task :Snooper:compileReleaseSources UP-TO-DATE
+> Task :Snooper:mergeReleaseResources UP-TO-DATE
+> Task :Snooper:verifyReleaseResources UP-TO-DATE
+> Task :Snooper:assembleRelease UP-TO-DATE
+> Task :Snooper:signArchives SKIPPED
+> Task :Snooper:assemble UP-TO-DATE
+> Task :Snooper:build
+> Task :Snooper-No-Op:androidSourcesJar UP-TO-DATE
+> Task :Snooper-No-Op:preBuild UP-TO-DATE
+> Task :Snooper-No-Op:preDebugBuild UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugAidl NO-SOURCE
+> Task :Snooper-No-Op:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper-No-Op:checkDebugManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugResValues UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugResources UP-TO-DATE
+> Task :Snooper-No-Op:packageDebugResources UP-TO-DATE
+> Task :Snooper-No-Op:processDebugManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugRFile UP-TO-DATE
+> Task :Snooper-No-Op:prepareLintJar UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugSources UP-TO-DATE
+> Task :Snooper-No-Op:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper-No-Op:extractDebugAnnotations UP-TO-DATE
+> Task :Snooper-No-Op:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-No-Op:mergeDebugShaders UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugShaders UP-TO-DATE
+> Task :Snooper-No-Op:generateDebugAssets UP-TO-DATE
+> Task :Snooper-No-Op:packageDebugAssets UP-TO-DATE
+> Task :Snooper-No-Op:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-No-Op:processDebugJavaRes NO-SOURCE
+> Task :Snooper-No-Op:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :Snooper-No-Op:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugNdk NO-SOURCE
+> Task :Snooper-No-Op:mergeDebugJniLibFolders UP-TO-DATE
+> Task :Snooper-No-Op:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :Snooper-No-Op:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :Snooper-No-Op:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :Snooper-No-Op:bundleDebugAar UP-TO-DATE
+> Task :Snooper-No-Op:compileDebugSources UP-TO-DATE
+> Task :Snooper-No-Op:assembleDebug UP-TO-DATE
+> Task :Snooper-No-Op:preReleaseBuild UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseAidl NO-SOURCE
+> Task :Snooper-No-Op:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper-No-Op:checkReleaseManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseResValues UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseResources UP-TO-DATE
+> Task :Snooper-No-Op:packageReleaseResources UP-TO-DATE
+> Task :Snooper-No-Op:processReleaseManifest UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseRFile UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseSources UP-TO-DATE
+> Task :Snooper-No-Op:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper-No-Op:extractReleaseAnnotations UP-TO-DATE
+> Task :Snooper-No-Op:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-No-Op:mergeReleaseShaders UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseShaders UP-TO-DATE
+> Task :Snooper-No-Op:generateReleaseAssets UP-TO-DATE
+> Task :Snooper-No-Op:packageReleaseAssets UP-TO-DATE
+> Task :Snooper-No-Op:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-No-Op:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-No-Op:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :Snooper-No-Op:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseNdk NO-SOURCE
+> Task :Snooper-No-Op:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :Snooper-No-Op:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :Snooper-No-Op:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :Snooper-No-Op:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :Snooper-No-Op:bundleReleaseAar UP-TO-DATE
+> Task :Snooper-No-Op:compileReleaseSources UP-TO-DATE
+> Task :Snooper-No-Op:mergeReleaseResources UP-TO-DATE
+> Task :Snooper-No-Op:verifyReleaseResources UP-TO-DATE
+> Task :Snooper-No-Op:assembleRelease UP-TO-DATE
+> Task :Snooper-No-Op:signArchives SKIPPED
+> Task :Snooper-No-Op:assemble UP-TO-DATE
+> Task :Snooper-No-Op:build
+> Task :Snooper-Okhttp:androidSourcesJar UP-TO-DATE
+> Task :Snooper-Okhttp:preBuild UP-TO-DATE
+> Task :Snooper-Okhttp:preDebugBuild UP-TO-DATE
+> Task :Snooper-Okhttp:compileDebugAidl NO-SOURCE
+> Task :Snooper:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :Snooper-Okhttp:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper-Okhttp:checkDebugManifest UP-TO-DATE
+> Task :Snooper-Okhttp:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper-Okhttp:generateDebugResValues UP-TO-DATE
+> Task :Snooper-Okhttp:generateDebugResources UP-TO-DATE
+> Task :Snooper-Okhttp:packageDebugResources UP-TO-DATE
+> Task :Snooper-Okhttp:processDebugManifest UP-TO-DATE
+> Task :Snooper-Okhttp:generateDebugRFile UP-TO-DATE
+> Task :Snooper-Okhttp:prepareLintJar UP-TO-DATE
+> Task :Snooper-Okhttp:generateDebugSources UP-TO-DATE
+> Task :Snooper-Okhttp:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper-Okhttp:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper-Okhttp:extractDebugAnnotations UP-TO-DATE
+> Task :Snooper-Okhttp:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-Okhttp:mergeDebugShaders UP-TO-DATE
+> Task :Snooper-Okhttp:compileDebugShaders UP-TO-DATE
+> Task :Snooper-Okhttp:generateDebugAssets UP-TO-DATE
+> Task :Snooper-Okhttp:packageDebugAssets UP-TO-DATE
+> Task :Snooper-Okhttp:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Okhttp:processDebugJavaRes NO-SOURCE
+> Task :Snooper-Okhttp:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :Snooper-Okhttp:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :Snooper-Okhttp:compileDebugNdk NO-SOURCE
+> Task :Snooper-Okhttp:mergeDebugJniLibFolders UP-TO-DATE
+> Task :Snooper-Okhttp:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :Snooper-Okhttp:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :Snooper-Okhttp:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :Snooper-Okhttp:bundleDebugAar UP-TO-DATE
+> Task :Snooper-Okhttp:compileDebugSources UP-TO-DATE
+> Task :Snooper-Okhttp:assembleDebug UP-TO-DATE
+> Task :Snooper-Okhttp:preReleaseBuild UP-TO-DATE
+> Task :Snooper-Okhttp:compileReleaseAidl NO-SOURCE
+> Task :Snooper:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :Snooper-Okhttp:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper-Okhttp:checkReleaseManifest UP-TO-DATE
+> Task :Snooper-Okhttp:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper-Okhttp:generateReleaseResValues UP-TO-DATE
+> Task :Snooper-Okhttp:generateReleaseResources UP-TO-DATE
+> Task :Snooper-Okhttp:packageReleaseResources UP-TO-DATE
+> Task :Snooper-Okhttp:processReleaseManifest UP-TO-DATE
+> Task :Snooper-Okhttp:generateReleaseRFile UP-TO-DATE
+> Task :Snooper-Okhttp:generateReleaseSources UP-TO-DATE
+> Task :Snooper-Okhttp:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper-Okhttp:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper-Okhttp:extractReleaseAnnotations UP-TO-DATE
+> Task :Snooper-Okhttp:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-Okhttp:mergeReleaseShaders UP-TO-DATE
+> Task :Snooper-Okhttp:compileReleaseShaders UP-TO-DATE
+> Task :Snooper-Okhttp:generateReleaseAssets UP-TO-DATE
+> Task :Snooper-Okhttp:packageReleaseAssets UP-TO-DATE
+> Task :Snooper-Okhttp:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Okhttp:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-Okhttp:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :Snooper-Okhttp:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :Snooper-Okhttp:compileReleaseNdk NO-SOURCE
+> Task :Snooper-Okhttp:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :Snooper-Okhttp:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :Snooper-Okhttp:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :Snooper-Okhttp:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :Snooper-Okhttp:bundleReleaseAar UP-TO-DATE
+> Task :Snooper-Okhttp:compileReleaseSources UP-TO-DATE
+> Task :Snooper-Okhttp:mergeReleaseResources UP-TO-DATE
+> Task :Snooper-Okhttp:verifyReleaseResources UP-TO-DATE
+> Task :Snooper-Okhttp:assembleRelease UP-TO-DATE
+> Task :Snooper-Okhttp:signArchives SKIPPED
+> Task :Snooper-Okhttp:assemble UP-TO-DATE
+> Task :Snooper-Okhttp:build
+> Task :Snooper-Okhttp-No-Op:androidSourcesJar UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:preBuild UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:preDebugBuild UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileDebugAidl NO-SOURCE
+> Task :Snooper-No-Op:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:checkDebugManifest UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateDebugResValues UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateDebugResources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:packageDebugResources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:processDebugManifest UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateDebugRFile UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:prepareLintJar UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateDebugSources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:extractDebugAnnotations UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:mergeDebugShaders UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileDebugShaders UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateDebugAssets UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:packageDebugAssets UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:processDebugJavaRes NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileDebugNdk NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:mergeDebugJniLibFolders UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:bundleDebugAar UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileDebugSources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:assembleDebug UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:preReleaseBuild UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileReleaseAidl NO-SOURCE
+> Task :Snooper-No-Op:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:checkReleaseManifest UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateReleaseResValues UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateReleaseResources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:packageReleaseResources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:processReleaseManifest UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateReleaseRFile UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateReleaseSources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:extractReleaseAnnotations UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:mergeReleaseShaders UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileReleaseShaders UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:generateReleaseAssets UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:packageReleaseAssets UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileReleaseNdk NO-SOURCE
+> Task :Snooper-Okhttp-No-Op:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:bundleReleaseAar UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:compileReleaseSources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:mergeReleaseResources UP-TO-DATE
+> Task :Snooper-Okhttp-No-Op:verifyReleaseResources
+> Task :Snooper-Okhttp-No-Op:assembleRelease
+> Task :Snooper-Okhttp-No-Op:signArchives SKIPPED
+> Task :Snooper-Okhttp-No-Op:assemble
+> Task :Snooper-Okhttp-No-Op:build
+> Task :Snooper-Spring:androidSourcesJar UP-TO-DATE
+> Task :Snooper-Spring:preBuild UP-TO-DATE
+> Task :Snooper-Spring:preDebugBuild UP-TO-DATE
+> Task :Snooper-Spring:compileDebugAidl NO-SOURCE
+> Task :Snooper-Spring:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper-Spring:checkDebugManifest UP-TO-DATE
+> Task :Snooper-Spring:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper-Spring:generateDebugResValues UP-TO-DATE
+> Task :Snooper-Spring:generateDebugResources UP-TO-DATE
+> Task :Snooper-Spring:packageDebugResources UP-TO-DATE
+> Task :Snooper-Spring:processDebugManifest UP-TO-DATE
+> Task :Snooper-Spring:generateDebugRFile UP-TO-DATE
+> Task :Snooper-Spring:prepareLintJar UP-TO-DATE
+> Task :Snooper-Spring:generateDebugSources UP-TO-DATE
+> Task :Snooper-Spring:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper-Spring:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper-Spring:extractDebugAnnotations UP-TO-DATE
+> Task :Snooper-Spring:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-Spring:mergeDebugShaders UP-TO-DATE
+> Task :Snooper-Spring:compileDebugShaders UP-TO-DATE
+> Task :Snooper-Spring:generateDebugAssets UP-TO-DATE
+> Task :Snooper-Spring:packageDebugAssets UP-TO-DATE
+> Task :Snooper-Spring:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Spring:processDebugJavaRes NO-SOURCE
+> Task :Snooper-Spring:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :Snooper-Spring:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :Snooper-Spring:compileDebugNdk NO-SOURCE
+> Task :Snooper-Spring:mergeDebugJniLibFolders UP-TO-DATE
+> Task :Snooper-Spring:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :Snooper-Spring:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :Snooper-Spring:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :Snooper-Spring:bundleDebugAar UP-TO-DATE
+> Task :Snooper-Spring:compileDebugSources UP-TO-DATE
+> Task :Snooper-Spring:assembleDebug UP-TO-DATE
+> Task :Snooper-Spring:preReleaseBuild UP-TO-DATE
+> Task :Snooper-Spring:compileReleaseAidl NO-SOURCE
+> Task :Snooper-Spring:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper-Spring:checkReleaseManifest UP-TO-DATE
+> Task :Snooper-Spring:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper-Spring:generateReleaseResValues UP-TO-DATE
+> Task :Snooper-Spring:generateReleaseResources UP-TO-DATE
+> Task :Snooper-Spring:packageReleaseResources UP-TO-DATE
+> Task :Snooper-Spring:processReleaseManifest UP-TO-DATE
+> Task :Snooper-Spring:generateReleaseRFile UP-TO-DATE
+> Task :Snooper-Spring:generateReleaseSources UP-TO-DATE
+> Task :Snooper-Spring:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper-Spring:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper-Spring:extractReleaseAnnotations UP-TO-DATE
+> Task :Snooper-Spring:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-Spring:mergeReleaseShaders UP-TO-DATE
+> Task :Snooper-Spring:compileReleaseShaders UP-TO-DATE
+> Task :Snooper-Spring:generateReleaseAssets UP-TO-DATE
+> Task :Snooper-Spring:packageReleaseAssets UP-TO-DATE
+> Task :Snooper-Spring:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Spring:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-Spring:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :Snooper-Spring:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :Snooper-Spring:compileReleaseNdk NO-SOURCE
+> Task :Snooper-Spring:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :Snooper-Spring:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :Snooper-Spring:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :Snooper-Spring:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :Snooper-Spring:bundleReleaseAar UP-TO-DATE
+> Task :Snooper-Spring:compileReleaseSources UP-TO-DATE
+> Task :Snooper-Spring:mergeReleaseResources UP-TO-DATE
+> Task :Snooper-Spring:verifyReleaseResources
+> Task :Snooper-Spring:assembleRelease
+> Task :Snooper-Spring:signArchives SKIPPED
+> Task :Snooper-Spring:assemble
+> Task :Snooper-Spring:build
+> Task :Snooper-Spring-No-Op:androidSourcesJar UP-TO-DATE
+> Task :Snooper-Spring-No-Op:preBuild UP-TO-DATE
+> Task :Snooper-Spring-No-Op:preDebugBuild UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileDebugAidl NO-SOURCE
+> Task :Snooper-Spring-No-Op:compileDebugRenderscript UP-TO-DATE
+> Task :Snooper-Spring-No-Op:checkDebugManifest UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateDebugBuildConfig UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateDebugResValues UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateDebugResources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:packageDebugResources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:processDebugManifest UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateDebugRFile UP-TO-DATE
+> Task :Snooper-Spring-No-Op:prepareLintJar UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateDebugSources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:javaPreCompileDebug UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileDebugJavaWithJavac UP-TO-DATE
+> Task :Snooper-Spring-No-Op:extractDebugAnnotations UP-TO-DATE
+> Task :Snooper-Spring-No-Op:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-Spring-No-Op:mergeDebugShaders UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileDebugShaders UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateDebugAssets UP-TO-DATE
+> Task :Snooper-Spring-No-Op:packageDebugAssets UP-TO-DATE
+> Task :Snooper-Spring-No-Op:packageDebugRenderscript NO-SOURCE
+> Task :Snooper-Spring-No-Op:processDebugJavaRes NO-SOURCE
+> Task :Snooper-Spring-No-Op:transformResourcesWithMergeJavaResForDebug UP-TO-DATE
+> Task :Snooper-Spring-No-Op:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileDebugNdk NO-SOURCE
+> Task :Snooper-Spring-No-Op:mergeDebugJniLibFolders UP-TO-DATE
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :Snooper-Spring-No-Op:bundleDebugAar UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileDebugSources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:assembleDebug UP-TO-DATE
+> Task :Snooper-Spring-No-Op:preReleaseBuild UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileReleaseAidl NO-SOURCE
+> Task :Snooper-Spring-No-Op:compileReleaseRenderscript UP-TO-DATE
+> Task :Snooper-Spring-No-Op:checkReleaseManifest UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateReleaseBuildConfig UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateReleaseResValues UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateReleaseResources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:packageReleaseResources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:processReleaseManifest UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateReleaseRFile UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateReleaseSources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:javaPreCompileRelease UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :Snooper-Spring-No-Op:extractReleaseAnnotations UP-TO-DATE
+> Task :Snooper-Spring-No-Op:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :Snooper-Spring-No-Op:mergeReleaseShaders UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileReleaseShaders UP-TO-DATE
+> Task :Snooper-Spring-No-Op:generateReleaseAssets UP-TO-DATE
+> Task :Snooper-Spring-No-Op:packageReleaseAssets UP-TO-DATE
+> Task :Snooper-Spring-No-Op:packageReleaseRenderscript NO-SOURCE
+> Task :Snooper-Spring-No-Op:processReleaseJavaRes NO-SOURCE
+> Task :Snooper-Spring-No-Op:transformResourcesWithMergeJavaResForRelease UP-TO-DATE
+> Task :Snooper-Spring-No-Op:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileReleaseNdk NO-SOURCE
+> Task :Snooper-Spring-No-Op:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :Snooper-Spring-No-Op:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :Snooper-Spring-No-Op:bundleReleaseAar UP-TO-DATE
+> Task :Snooper-Spring-No-Op:compileReleaseSources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:mergeReleaseResources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:verifyReleaseResources
+> Task :Snooper-Spring-No-Op:assembleRelease
+> Task :Snooper-Spring-No-Op:signArchives SKIPPED
+> Task :Snooper-Spring-No-Op:assemble
+> Task :Snooper-Spring-No-Op:build
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
+BUILD SUCCESSFUL in 10s
+281 actionable tasks: 3 executed, 278 up-to-date
 
-2018-10-09 14:23:06,399 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 14:23:06,399 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 14:23:06,882 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 14:23:06,882 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 14:23:06,882 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 14:23:06,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/Snooper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 14:23:07,374 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-09 14:23:07,374 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Could not determine java version from '11'.
-
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-2018-10-09 14:23:07,382 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-09 14:23:07,383 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-09 14:23:07,869 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-10-09 14:23:07,869 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-10-09 14:23:07,869 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-10-09 14:23:07,869 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1539069778840-0/src/AndroidSnooper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-10-09 14:23:08,377 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
-	at java.base/java.lang.Thread.run(Thread.java:834)
-2018-10-09 14:23:08,378 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-Could not determine java version from '11'.
-
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '11'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-2018-10-09 14:23:08,388 ERROR FullProcessService - Project build has not produced APK file
-2018-10-09 14:23:08,397 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-17 23:48:33,728 ERROR FullProcessService - Project build has not produced APK file
+2019-03-17 23:48:33,879 ERROR FullProcessService - Could not find generated or existed APK file

@@ -1,36 +1,39 @@
-2018-10-25 18:27:58,209 INFO  DownloadService - Downloading "https://github.com/hzw1199/AndroidGpsStatus/archive/master.zip", attempt 3
-2018-10-25 18:28:00,904 INFO  DownloadService - Downloaded https://github.com/hzw1199/AndroidGpsStatus/archive/master.zip, attempt 3
-2018-10-25 18:28:00,904 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/master.zip": 1 MB
-2018-10-25 18:28:00,904 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-10-25 18:28:00,905 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/master.zip: true
-2018-10-25 18:28:00,905 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src'.
-2018-10-25 18:28:00,949 INFO  FullProcessService - Size of directory with sources: 1 MB
-2018-10-25 18:28:00,949 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src]
-2018-10-25 18:28:00,968 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/.git/
+2019-03-18 00:12:08,816 INFO  DownloadService - Downloading "https://github.com/hzw1199/AndroidGpsStatus/archive/master.zip", attempt 3
+2019-03-18 00:13:09,397 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-03-18 00:13:11,177 INFO  GithubDownloadService - Default branch of this repository: master
+2019-03-18 00:13:11,177 INFO  DownloadService - Downloading "https://github.com/hzw1199/AndroidGpsStatus/archive/master.zip", attempt 3
+2019-03-18 00:14:12,645 DEBUG FullProcessService - Repository https://github.com/hzw1199/AndroidGpsStatus available: true
+2019-03-18 00:14:12,645 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-03-18 00:14:12,645 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/hzw1199/AndroidGpsStatus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src]
+2019-03-18 00:14:16,715 INFO  SysUtils - 
+2019-03-18 00:14:16,724 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/.git": true
+2019-03-18 00:14:16,727 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-18 00:14:16,728 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src]
+2019-03-18 00:14:16,749 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/.git/
 
-2018-10-25 18:28:00,972 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew
-2018-10-25 18:28:00,975 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/build.gradle
-2018-10-25 18:28:00,978 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/settings.gradle
-2018-10-25 18:28:00,979 INFO  ProjectBuildService - Remote scripts: none
-2018-10-25 18:28:00,979 INFO  ProjectFixService - Fixing project...
-2018-10-25 18:28:00,987 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/local.properties
-2018-10-25 18:28:00,987 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-25 18:28:00,988 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-25 18:28:00,988 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/local.properties
-2018-10-25 18:28:00,989 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-25 18:28:00,989 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-25 18:28:00,990 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/local.properties
-2018-10-25 18:28:00,990 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2018-10-25 18:28:00,991 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2018-10-25 18:28:00,991 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-25 18:28:00,992 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2018-10-25 18:28:00,992 INFO  ProjectFixService - Project was maybe fixed
-2018-10-25 18:28:00,992 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 18:28:00,992 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 18:28:13,842 INFO  ProjectTaskService - Detected possible tasks: 64
-2018-10-25 18:28:13,842 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2018-10-25 18:28:13,842 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2018-10-25 18:28:39,002 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-18 00:14:16,753 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/gradlew
+2019-03-18 00:14:16,757 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/build.gradle
+2019-03-18 00:14:16,761 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/settings.gradle
+2019-03-18 00:14:16,762 INFO  ProjectBuildService - Remote scripts: none
+2019-03-18 00:14:16,762 INFO  ProjectFixService - Fixing project...
+2019-03-18 00:14:16,771 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/local.properties
+2019-03-18 00:14:16,771 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-03-18 00:14:16,772 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-03-18 00:14:16,772 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/app/local.properties
+2019-03-18 00:14:16,773 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-03-18 00:14:16,773 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-03-18 00:14:16,774 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/local.properties
+2019-03-18 00:14:16,775 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-03-18 00:14:16,775 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-03-18 00:14:16,776 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-03-18 00:14:16,776 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-03-18 00:14:16,776 INFO  ProjectFixService - Project was maybe fixed
+2019-03-18 00:14:16,777 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 00:14:16,777 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 00:14:24,556 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-18 00:14:24,556 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-18 00:14:24,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-18 00:14:37,308 INFO  SysUtils - Configuration on demand is an incubating feature.
 :GpsStatusLibrary:preBuild UP-TO-DATE
 :GpsStatusLibrary:preDebugBuild UP-TO-DATE
 :GpsStatusLibrary:compileDebugAidl
@@ -84,7 +87,7 @@
 :GpsStatusLibrary:generateDebugSources
 :GpsStatusLibrary:compileDebugJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/src/main/java/com/adam/gpsstatus/GpsStatusProxy.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/src/main/java/com/adam/gpsstatus/GpsStatusProxy.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :GpsStatusLibrary:extractDebugAnnotations
@@ -97,7 +100,7 @@ Note: Recompile with -Xlint:unchecked for details.
 :GpsStatusLibrary:generateReleaseSources
 :GpsStatusLibrary:compileReleaseJavaWithJavacNote: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/GpsStatusLibrary/src/main/java/com/adam/gpsstatus/GpsStatusProxy.java uses unchecked or unsafe operations.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/GpsStatusLibrary/src/main/java/com/adam/gpsstatus/GpsStatusProxy.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
 :GpsStatusLibrary:extractReleaseAnnotations
@@ -109,15 +112,15 @@ Note: Recompile with -Xlint:unchecked for details.
 :GpsStatusLibrary:assemble
 :GpsStatusLibrary:build
 
-BUILD SUCCESSFUL in 24s
+BUILD SUCCESSFUL in 12s
 48 actionable tasks: 48 executed
 
-2018-10-25 18:28:39,052 INFO  ProjectTaskService - Detecting possible tasks...
-2018-10-25 18:28:39,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-10-25 18:28:50,191 INFO  ProjectTaskService - Detected possible tasks: 66
-2018-10-25 18:28:50,192 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-10-25 18:28:50,192 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-10-25 18:29:28,843 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-18 00:14:37,366 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-18 00:14:37,366 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-18 00:14:43,458 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-03-18 00:14:43,459 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-03-18 00:14:43,459 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-03-18 00:15:09,516 INFO  SysUtils - Configuration on demand is an incubating feature.
 :GpsStatusLibrary:preBuild UP-TO-DATE
 :GpsStatusLibrary:preDebugBuild UP-TO-DATE
 :GpsStatusLibrary:compileDebugAidl UP-TO-DATE
@@ -242,7 +245,7 @@ BUILD SUCCESSFUL in 24s
 :app:assemble
 :app:build
 
-BUILD SUCCESSFUL in 38s
+BUILD SUCCESSFUL in 25s
 91 actionable tasks: 57 executed, 34 up-to-date
 
-2018-10-25 18:29:28,960 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1540466878203-0/src/AndroidGpsStatus-master/app/build/outputs/apk/debug/app-debug.apk
+2019-03-18 00:15:09,609 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552842728813-0/src/app/build/outputs/apk/debug/app-debug.apk
