@@ -1,164 +1,191 @@
-2018-09-14 23:12:03,527 INFO  DownloadService - Downloading "https://github.com/egslava/BlurredImageView/archive/master.zip", attempt 3
-2018-09-14 23:12:04,004 INFO  DownloadService - Downloaded https://github.com/egslava/BlurredImageView/archive/master.zip, attempt 3
-2018-09-14 23:12:04,004 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/master.zip": 62 KB
-2018-09-14 23:12:04,004 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-14 23:12:04,010 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/master.zip: true
-2018-09-14 23:12:04,010 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src'.
-2018-09-14 23:12:04,019 INFO  FullProcessService - Size of directory with sources: 84 KB
-2018-09-14 23:12:04,019 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src]
-2018-09-14 23:12:04,036 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/.git/
+2019-03-24 01:26:08,700 INFO  DownloadService - Downloading "https://github.com/egslava/BlurredImageView/archive/master.zip", attempt 3
+2019-03-24 01:26:09,212 INFO  DownloadService - Downloaded https://github.com/egslava/BlurredImageView/archive/master.zip, attempt 3
+2019-03-24 01:26:09,213 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/master.zip": 62 KB
+2019-03-24 01:26:09,213 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-24 01:26:09,214 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/master.zip: true
+2019-03-24 01:26:09,214 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src'.
+2019-03-24 01:26:09,224 INFO  FullProcessService - Size of directory with sources: 84 KB
+2019-03-24 01:26:09,224 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src]
+2019-03-24 01:26:09,254 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/.git/
 
-2018-09-14 23:12:04,038 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/gradlew
-2018-09-14 23:12:04,040 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/blurredview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/build.gradle
-2018-09-14 23:12:04,041 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/blurredview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/settings.gradle
-2018-09-14 23:12:04,041 INFO  ProjectBuildService - Remote scripts: none
-2018-09-14 23:12:04,041 INFO  ProjectFixService - Fixing project...
-2018-09-14 23:12:04,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/blurredview/local.properties
-2018-09-14 23:12:04,045 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/blurredview/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
-2018-09-14 23:12:04,046 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/local.properties
-2018-09-14 23:12:04,046 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
-2018-09-14 23:12:04,046 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
-2018-09-14 23:12:04,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
-2018-09-14 23:12:04,047 INFO  ProjectFixService - Project was maybe fixed
-2018-09-14 23:12:04,047 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 23:12:04,047 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/blurredview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 23:12:04,786 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-14 23:12:04,786 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-14 23:12:04,786 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-14 23:12:04,786 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/blurredview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-14 23:12:05,363 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-14 23:12:05,363 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-03-24 01:26:09,257 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/gradlew
+2019-03-24 01:26:09,261 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/blurredview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/build.gradle
+2019-03-24 01:26:09,264 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/blurredview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/settings.gradle
+2019-03-24 01:26:09,265 INFO  ProjectBuildService - Remote scripts: none
+2019-03-24 01:26:09,265 INFO  ProjectFixService - Fixing project...
+2019-03-24 01:26:09,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/blurredview/local.properties
+2019-03-24 01:26:09,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/blurredview/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2019-03-24 01:26:09,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/local.properties
+2019-03-24 01:26:09,274 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-2.2.1-all.zip
+2019-03-24 01:26:09,275 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-2.2.1-bin.zip)
+2019-03-24 01:26:09,276 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/build.gradle": [buildToolsVersion=22.0.1,compileSdkVersion=21,minSdkVersion=8,targetSdkVersion=21]
+2019-03-24 01:26:09,277 INFO  ProjectFixService - Project was maybe fixed
+2019-03-24 01:26:09,277 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-24 01:26:09,277 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/blurredview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-24 01:26:34,201 INFO  ProjectTaskService - Detected possible tasks: 64
+2019-03-24 01:26:34,201 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2019-03-24 01:26:34,201 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/blurredview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2019-03-24 01:26:43,973 INFO  SysUtils - Configuration on demand is an incubating feature.
+:blurredview:compileLint
+:blurredview:copyDebugLint UP-TO-DATE
+:blurredview:preBuild UP-TO-DATE
+:blurredview:preDebugBuild UP-TO-DATE
+:blurredview:checkDebugManifest
+:blurredview:preDebugAndroidTestBuild UP-TO-DATE
+:blurredview:preDebugUnitTestBuild UP-TO-DATE
+:blurredview:preReleaseBuild UP-TO-DATE
+:blurredview:preReleaseUnitTestBuild UP-TO-DATE
+:blurredview:prepareComAndroidSupportAppcompatV72200Library
+:blurredview:prepareComAndroidSupportSupportV42200Library
+:blurredview:prepareComMsSquareEtsyblur011Library
+:blurredview:prepareDebugDependencies
+:blurredview:compileDebugAidl
+:blurredview:compileDebugRenderscript
+:blurredview:generateDebugBuildConfig
+:blurredview:generateDebugAssets UP-TO-DATE
+:blurredview:mergeDebugAssets
+:blurredview:generateDebugResValues
+:blurredview:generateDebugResources
+:blurredview:mergeDebugResources
+:blurredview:processDebugManifest
+:blurredview:processDebugResources
+:blurredview:generateDebugSources
+:blurredview:processDebugJavaRes UP-TO-DATE
+:blurredview:compileDebugJava
+:blurredview:extractDebugAnnotations
+:blurredview:mergeDebugProguardFiles
+:blurredview:packageDebugJar
+:blurredview:compileDebugNdk UP-TO-DATE
+:blurredview:packageDebugJniLibs UP-TO-DATE
+:blurredview:packageDebugLocalJar UP-TO-DATE
+:blurredview:packageDebugRenderscript UP-TO-DATE
+:blurredview:packageDebugResources
+:blurredview:bundleDebug
+:blurredview:compileDebugSources
+:blurredview:assembleDebug
+:blurredview:copyReleaseLint UP-TO-DATE
+:blurredview:checkReleaseManifest
+:blurredview:prepareReleaseDependencies
+:blurredview:compileReleaseAidl
+:blurredview:compileReleaseRenderscript
+:blurredview:generateReleaseBuildConfig
+:blurredview:generateReleaseAssets UP-TO-DATE
+:blurredview:mergeReleaseAssets
+:blurredview:generateReleaseResValues
+:blurredview:generateReleaseResources
+:blurredview:mergeReleaseResources
+:blurredview:processReleaseManifest
+:blurredview:processReleaseResources
+:blurredview:generateReleaseSources
+:blurredview:processReleaseJavaRes UP-TO-DATE
+:blurredview:compileReleaseJava
+:blurredview:extractReleaseAnnotations
+:blurredview:mergeReleaseProguardFiles
+:blurredview:packageReleaseJar
+:blurredview:compileReleaseNdk UP-TO-DATE
+:blurredview:packageReleaseJniLibs UP-TO-DATE
+:blurredview:packageReleaseLocalJar UP-TO-DATE
+:blurredview:packageReleaseRenderscript UP-TO-DATE
+:blurredview:packageReleaseResources
+:blurredview:bundleRelease
+:blurredview:compileReleaseSources
+:blurredview:assembleRelease
+:blurredview:javadoc/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/blurredview/src/main/java/ru/egslava/blurredview/BlurredImageView.java:10: error: package com.ms.square.android.etsyblur does not exist
+import com.ms.square.android.etsyblur.Blur;
+                                     ^
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/blurredview/src/main/java/ru/egslava/blurredview/BlurredImageView.java:11: error: package com.ms.square.android.etsyblur does not exist
+import com.ms.square.android.etsyblur.Util;
+                                     ^
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+2 warnings
+:blurredview:javadocJar
+:blurredview:sourcesJar
+:blurredview:assemble
+:blurredview:build
 
-* Try:
-Run with --info or --debug option to get more log output.
+BUILD SUCCESSFUL
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:63)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:72)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
+Total time: 9.277 secs
 
+2019-03-24 01:26:44,017 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-24 01:26:44,017 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-24 01:26:50,024 INFO  ProjectTaskService - Detected possible tasks: 63
+2019-03-24 01:26:50,024 INFO  ProjectTaskService - Excluded tasks (16): lintDebug mockableAndroidJar deviceCheck lint deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck uninstallAll testRelease test check connectedAndroidTest lintRelease testDebug connectedAndroidTestDebug
+2019-03-24 01:26:50,024 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553365568697-0/src/BlurredImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, uninstallAll, -x, testRelease, -x, test, -x, check, -x, connectedAndroidTest, -x, lintRelease, -x, testDebug, -x, connectedAndroidTestDebug, build]
+2019-03-24 01:26:55,392 INFO  SysUtils - Configuration on demand is an incubating feature.
+:blurredview:compileLint
+:blurredview:copyDebugLint UP-TO-DATE
+:blurredview:preBuild UP-TO-DATE
+:blurredview:preDebugBuild UP-TO-DATE
+:blurredview:checkDebugManifest
+:blurredview:preDebugAndroidTestBuild UP-TO-DATE
+:blurredview:preDebugUnitTestBuild UP-TO-DATE
+:blurredview:preReleaseBuild UP-TO-DATE
+:blurredview:preReleaseUnitTestBuild UP-TO-DATE
+:blurredview:prepareComAndroidSupportAppcompatV72200Library UP-TO-DATE
+:blurredview:prepareComAndroidSupportSupportV42200Library UP-TO-DATE
+:blurredview:prepareComMsSquareEtsyblur011Library UP-TO-DATE
+:blurredview:prepareDebugDependencies
+:blurredview:compileDebugAidl UP-TO-DATE
+:blurredview:compileDebugRenderscript UP-TO-DATE
+:blurredview:generateDebugBuildConfig UP-TO-DATE
+:blurredview:generateDebugAssets UP-TO-DATE
+:blurredview:mergeDebugAssets UP-TO-DATE
+:blurredview:generateDebugResValues UP-TO-DATE
+:blurredview:generateDebugResources UP-TO-DATE
+:blurredview:mergeDebugResources UP-TO-DATE
+:blurredview:processDebugManifest UP-TO-DATE
+:blurredview:processDebugResources UP-TO-DATE
+:blurredview:generateDebugSources UP-TO-DATE
+:blurredview:processDebugJavaRes UP-TO-DATE
+:blurredview:compileDebugJava UP-TO-DATE
+:blurredview:extractDebugAnnotations UP-TO-DATE
+:blurredview:mergeDebugProguardFiles UP-TO-DATE
+:blurredview:packageDebugJar UP-TO-DATE
+:blurredview:compileDebugNdk UP-TO-DATE
+:blurredview:packageDebugJniLibs UP-TO-DATE
+:blurredview:packageDebugLocalJar UP-TO-DATE
+:blurredview:packageDebugRenderscript UP-TO-DATE
+:blurredview:packageDebugResources UP-TO-DATE
+:blurredview:bundleDebug UP-TO-DATE
+:blurredview:compileDebugSources UP-TO-DATE
+:blurredview:assembleDebug UP-TO-DATE
+:blurredview:copyReleaseLint UP-TO-DATE
+:blurredview:checkReleaseManifest
+:blurredview:prepareReleaseDependencies
+:blurredview:compileReleaseAidl UP-TO-DATE
+:blurredview:compileReleaseRenderscript UP-TO-DATE
+:blurredview:generateReleaseBuildConfig UP-TO-DATE
+:blurredview:generateReleaseAssets UP-TO-DATE
+:blurredview:mergeReleaseAssets UP-TO-DATE
+:blurredview:generateReleaseResValues UP-TO-DATE
+:blurredview:generateReleaseResources UP-TO-DATE
+:blurredview:mergeReleaseResources UP-TO-DATE
+:blurredview:processReleaseManifest UP-TO-DATE
+:blurredview:processReleaseResources UP-TO-DATE
+:blurredview:generateReleaseSources UP-TO-DATE
+:blurredview:processReleaseJavaRes UP-TO-DATE
+:blurredview:compileReleaseJava UP-TO-DATE
+:blurredview:extractReleaseAnnotations UP-TO-DATE
+:blurredview:mergeReleaseProguardFiles UP-TO-DATE
+:blurredview:packageReleaseJar UP-TO-DATE
+:blurredview:compileReleaseNdk UP-TO-DATE
+:blurredview:packageReleaseJniLibs UP-TO-DATE
+:blurredview:packageReleaseLocalJar UP-TO-DATE
+:blurredview:packageReleaseRenderscript UP-TO-DATE
+:blurredview:packageReleaseResources UP-TO-DATE
+:blurredview:bundleRelease UP-TO-DATE
+:blurredview:compileReleaseSources UP-TO-DATE
+:blurredview:assembleRelease UP-TO-DATE
+:blurredview:javadoc UP-TO-DATE
+:blurredview:javadocJar UP-TO-DATE
+:blurredview:sourcesJar UP-TO-DATE
+:blurredview:assemble UP-TO-DATE
+:blurredview:build
 
-2018-09-14 23:12:05,365 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 23:12:05,365 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 23:12:05,944 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-14 23:12:05,944 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-14 23:12:05,944 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-14 23:12:05,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536941523524-0/src/BlurredImageView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-14 23:12:06,516 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-14 23:12:06,516 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+BUILD SUCCESSFUL
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+Total time: 4.877 secs
 
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:63)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:72)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:206)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:169)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:54)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:35)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:33)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:130)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:48)
-
-
-2018-09-14 23:12:06,517 ERROR FullProcessService - Project build has not produced APK file
-2018-09-14 23:12:06,519 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-24 01:26:55,435 ERROR FullProcessService - Project build has not produced APK file
+2019-03-24 01:26:55,477 ERROR FullProcessService - Could not find generated or existed APK file
