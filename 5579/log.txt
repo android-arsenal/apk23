@@ -1,43 +1,40 @@
-2019-03-18 11:55:16,691 INFO  DownloadService - Downloading "https://github.com/jainsahab/AndroidSnooper/archive/master.zip", attempt 3
-2019-03-18 11:56:17,248 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-18 11:56:18,533 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-18 11:56:18,533 INFO  DownloadService - Downloading "https://github.com/jainsahab/AndroidSnooper/archive/master.zip", attempt 3
-2019-03-18 11:57:19,948 DEBUG FullProcessService - Repository https://github.com/jainsahab/AndroidSnooper available: true
-2019-03-18 11:57:19,948 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-18 11:57:19,948 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/jainsahab/AndroidSnooper, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src]
-2019-03-18 11:57:22,613 INFO  SysUtils - 
-2019-03-18 11:57:22,625 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/.git": true
-2019-03-18 11:57:22,636 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-18 11:57:22,636 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src]
-2019-03-18 11:57:22,652 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/.git/
+2019-03-27 15:34:53,284 INFO  DownloadService - Downloading "https://github.com/jainsahab/AndroidSnooper/archive/master.zip", attempt 3
+2019-03-27 15:34:54,972 INFO  DownloadService - Downloaded https://github.com/jainsahab/AndroidSnooper/archive/master.zip, attempt 3
+2019-03-27 15:34:54,972 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/master.zip": 1 MB
+2019-03-27 15:34:54,972 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-03-27 15:34:54,974 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/master.zip: true
+2019-03-27 15:34:54,974 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src'.
+2019-03-27 15:34:55,052 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-03-27 15:34:55,053 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src]
+2019-03-27 15:34:55,071 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/.git/
 
-2019-03-18 11:57:22,660 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew
-2019-03-18 11:57:22,669 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/build.gradle
-2019-03-18 11:57:22,676 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp-No-Op/build.gradle
-2019-03-18 11:57:22,677 INFO  ProjectBuildService - Remote scripts: none
-2019-03-18 11:57:22,677 INFO  ProjectFixService - Fixing project...
-2019-03-18 11:57:22,701 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-No-Op/local.properties
-2019-03-18 11:57:22,703 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-18 11:57:22,704 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp-No-Op/local.properties
-2019-03-18 11:57:22,706 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-18 11:57:22,707 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp/local.properties
-2019-03-18 11:57:22,710 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-18 11:57:22,710 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring-No-Op/local.properties
-2019-03-18 11:57:22,713 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-18 11:57:22,713 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring/local.properties
-2019-03-18 11:57:22,716 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-18 11:57:22,717 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper/local.properties
-2019-03-18 11:57:22,720 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-18 11:57:22,720 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/local.properties
-2019-03-18 11:57:22,720 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-bin.zip
-2019-03-18 11:57:22,721 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-18 11:57:22,721 INFO  ProjectFixService - Project was maybe fixed
-2019-03-18 11:57:22,721 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:57:22,721 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:57:29,633 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-03-18 11:57:29,633 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:57:29,633 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:57:38,826 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:34:55,079 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew
+2019-03-27 15:34:55,088 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/build.gradle
+2019-03-27 15:34:55,096 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Publish.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/maven-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle
+2019-03-27 15:34:55,097 INFO  ProjectBuildService - Remote scripts: none
+2019-03-27 15:34:55,097 INFO  ProjectFixService - Fixing project...
+2019-03-27 15:34:55,120 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-No-Op/local.properties
+2019-03-27 15:34:55,123 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:34:55,123 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/local.properties
+2019-03-27 15:34:55,126 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:34:55,127 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp/local.properties
+2019-03-27 15:34:55,130 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:34:55,130 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/local.properties
+2019-03-27 15:34:55,133 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:34:55,133 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring/local.properties
+2019-03-27 15:34:55,136 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:34:55,137 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper/local.properties
+2019-03-27 15:34:55,140 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:34:55,141 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/local.properties
+2019-03-27 15:34:55,141 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-bin.zip
+2019-03-27 15:34:55,141 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-03-27 15:34:55,141 INFO  ProjectFixService - Project was maybe fixed
+2019-03-27 15:34:55,141 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:34:55,142 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:35:02,908 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-27 15:35:02,908 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-27 15:35:02,908 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-27 15:35:12,749 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :Snooper-No-Op:androidSourcesJar
 > Task :Snooper-No-Op:preBuild UP-TO-DATE
 > Task :Snooper-No-Op:preDebugBuild UP-TO-DATE
@@ -113,15 +110,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 8s
+BUILD SUCCESSFUL in 9s
 46 actionable tasks: 46 executed
 
-2019-03-18 11:57:38,848 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:57:38,848 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:57:45,616 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-03-18 11:57:45,616 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:57:45,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:57:53,723 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:35:12,769 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:35:12,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:35:20,183 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-27 15:35:20,183 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-27 15:35:20,183 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-27 15:35:29,382 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :Snooper-Okhttp-No-Op:androidSourcesJar
 > Task :Snooper-No-Op:preBuild UP-TO-DATE
 > Task :Snooper-No-Op:preDebugBuild UP-TO-DATE
@@ -231,15 +228,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 8s
 67 actionable tasks: 48 executed, 19 up-to-date
 
-2019-03-18 11:57:53,753 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:57:53,753 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:58:00,480 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-03-18 11:58:00,480 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:58:00,480 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:58:13,837 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:35:29,412 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:35:29,412 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:35:37,007 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-27 15:35:37,007 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-27 15:35:37,008 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Okhttp/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-27 15:35:51,994 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :Snooper-Okhttp:androidSourcesJar
 > Task :Snooper:preBuild UP-TO-DATE
 > Task :Snooper:preDebugBuild UP-TO-DATE
@@ -358,15 +355,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 13s
+BUILD SUCCESSFUL in 14s
 68 actionable tasks: 68 executed
 
-2019-03-18 11:58:13,917 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:58:13,917 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:58:20,639 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-03-18 11:58:20,639 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:58:20,639 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:58:28,856 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:35:52,088 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:35:52,088 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:35:59,805 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-27 15:35:59,805 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-27 15:35:59,805 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring-No-Op/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-27 15:36:08,501 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :Snooper-Spring-No-Op:androidSourcesJar
 > Task :Snooper-No-Op:preBuild UP-TO-DATE
 > Task :Snooper-No-Op:preDebugBuild UP-TO-DATE
@@ -476,15 +473,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 7s
+BUILD SUCCESSFUL in 8s
 67 actionable tasks: 46 executed, 21 up-to-date
 
-2019-03-18 11:58:28,942 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:58:28,942 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:58:35,708 INFO  ProjectTaskService - Detected possible tasks: 77
-2019-03-18 11:58:35,708 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:58:35,708 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper-Spring/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:58:46,413 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:36:08,589 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:36:08,589 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:36:15,762 INFO  ProjectTaskService - Detected possible tasks: 77
+2019-03-27 15:36:15,762 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-27 15:36:15,762 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper-Spring/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-27 15:36:27,236 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :Snooper-Spring:androidSourcesJar
 > Task :Snooper:preBuild UP-TO-DATE
 > Task :Snooper:preDebugBuild UP-TO-DATE
@@ -595,15 +592,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 10s
+BUILD SUCCESSFUL in 11s
 68 actionable tasks: 46 executed, 22 up-to-date
 
-2019-03-18 11:58:46,529 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:58:46,529 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:58:53,466 INFO  ProjectTaskService - Detected possible tasks: 79
-2019-03-18 11:58:53,466 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:58:53,466 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/Snooper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:59:03,302 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:36:27,360 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:36:27,360 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:36:35,057 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-03-27 15:36:35,057 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-27 15:36:35,057 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/Snooper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-27 15:36:45,449 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :Snooper:androidSourcesJar
 > Task :Snooper:preBuild UP-TO-DATE
 > Task :Snooper:preDebugBuild UP-TO-DATE
@@ -680,15 +677,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 9s
+BUILD SUCCESSFUL in 10s
 47 actionable tasks: 27 executed, 20 up-to-date
 
-2019-03-18 11:59:03,449 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 11:59:03,449 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 11:59:10,815 INFO  ProjectTaskService - Detected possible tasks: 79
-2019-03-18 11:59:10,815 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-03-18 11:59:10,815 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552884916689-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-03-18 11:59:21,239 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-03-27 15:36:45,602 INFO  ProjectTaskService - Detecting possible tasks...
+2019-03-27 15:36:45,602 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-03-27 15:36:53,880 INFO  ProjectTaskService - Detected possible tasks: 79
+2019-03-27 15:36:53,880 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll createDebugCoverageReport test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-03-27 15:36:53,880 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553675693282-0/src/AndroidSnooper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, createDebugCoverageReport, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-03-27 15:37:04,262 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :Snooper:androidSourcesJar UP-TO-DATE
 > Task :Snooper:preBuild UP-TO-DATE
 > Task :Snooper:preDebugBuild UP-TO-DATE
@@ -755,10 +752,10 @@ BUILD SUCCESSFUL in 9s
 > Task :Snooper:bundleReleaseAar UP-TO-DATE
 > Task :Snooper:compileReleaseSources UP-TO-DATE
 > Task :Snooper:mergeReleaseResources UP-TO-DATE
-> Task :Snooper:verifyReleaseResources
-> Task :Snooper:assembleRelease
+> Task :Snooper:verifyReleaseResources UP-TO-DATE
+> Task :Snooper:assembleRelease UP-TO-DATE
 > Task :Snooper:signArchives SKIPPED
-> Task :Snooper:assemble
+> Task :Snooper:assemble UP-TO-DATE
 > Task :Snooper:build
 > Task :Snooper-No-Op:androidSourcesJar UP-TO-DATE
 > Task :Snooper-No-Op:preBuild UP-TO-DATE
@@ -1109,10 +1106,10 @@ BUILD SUCCESSFUL in 9s
 > Task :Snooper-Spring-No-Op:bundleReleaseAar UP-TO-DATE
 > Task :Snooper-Spring-No-Op:compileReleaseSources UP-TO-DATE
 > Task :Snooper-Spring-No-Op:mergeReleaseResources UP-TO-DATE
-> Task :Snooper-Spring-No-Op:verifyReleaseResources
-> Task :Snooper-Spring-No-Op:assembleRelease
+> Task :Snooper-Spring-No-Op:verifyReleaseResources UP-TO-DATE
+> Task :Snooper-Spring-No-Op:assembleRelease UP-TO-DATE
 > Task :Snooper-Spring-No-Op:signArchives SKIPPED
-> Task :Snooper-Spring-No-Op:assemble
+> Task :Snooper-Spring-No-Op:assemble UP-TO-DATE
 > Task :Snooper-Spring-No-Op:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
@@ -1120,7 +1117,7 @@ Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/4.10.1/userguide/command_line_interface.html#sec:command_line_warnings
 
 BUILD SUCCESSFUL in 10s
-281 actionable tasks: 5 executed, 276 up-to-date
+281 actionable tasks: 3 executed, 278 up-to-date
 
-2019-03-18 11:59:21,387 ERROR FullProcessService - Project build has not produced APK file
-2019-03-18 11:59:21,533 ERROR FullProcessService - Could not find generated or existed APK file
+2019-03-27 15:37:04,412 ERROR FullProcessService - Project build has not produced APK file
+2019-03-27 15:37:04,566 ERROR FullProcessService - Could not find generated or existed APK file
