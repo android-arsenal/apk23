@@ -1,33 +1,33 @@
-2019-03-17 00:52:42,959 INFO  DownloadService - Downloading "https://github.com/InflationX/ViewPump/archive/master.zip", attempt 3
-2019-03-17 00:52:44,596 INFO  DownloadService - Downloaded https://github.com/InflationX/ViewPump/archive/master.zip, attempt 3
-2019-03-17 00:52:44,596 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/master.zip": 94 KB
-2019-03-17 00:52:44,596 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-17 00:52:44,602 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/master.zip: true
-2019-03-17 00:52:44,602 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src'.
-2019-03-17 00:52:44,621 INFO  FullProcessService - Size of directory with sources: 140 KB
-2019-03-17 00:52:44,621 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src]
-2019-03-17 00:52:44,640 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/.git/
+2019-04-01 11:35:22,209 INFO  DownloadService - Downloading "https://github.com/InflationX/ViewPump/archive/master.zip", attempt 3
+2019-04-01 11:35:22,908 INFO  DownloadService - Downloaded https://github.com/InflationX/ViewPump/archive/master.zip, attempt 3
+2019-04-01 11:35:22,908 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/master.zip": 96 KB
+2019-04-01 11:35:22,908 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-01 11:35:22,910 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/master.zip: true
+2019-04-01 11:35:22,910 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src'.
+2019-04-01 11:35:22,930 INFO  FullProcessService - Size of directory with sources: 142 KB
+2019-04-01 11:35:22,930 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src]
+2019-04-01 11:35:22,951 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/.git/
 
-2019-03-17 00:52:44,643 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/gradlew
-2019-03-17 00:52:44,646 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/viewpump/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/build.gradle
-2019-03-17 00:52:44,649 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/viewpump/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build.gradle
-2019-03-17 00:52:44,649 INFO  ProjectBuildService - Remote scripts: none
-2019-03-17 00:52:44,649 INFO  ProjectFixService - Fixing project...
-2019-03-17 00:52:44,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/local.properties
-2019-03-17 00:52:44,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 00:52:44,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/viewpump/local.properties
-2019-03-17 00:52:44,659 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/viewpump/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 00:52:44,659 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/local.properties
-2019-03-17 00:52:44,659 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
-2019-03-17 00:52:44,660 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
-2019-03-17 00:52:44,661 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-03-17 00:52:44,661 INFO  ProjectFixService - Project was maybe fixed
-2019-03-17 00:52:44,661 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 00:52:44,661 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 00:53:00,371 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-03-17 00:53:00,371 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-17 00:53:00,372 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-17 00:53:58,550 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
+2019-04-01 11:35:22,954 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/gradlew
+2019-04-01 11:35:22,957 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/viewpump/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/build.gradle
+2019-04-01 11:35:22,960 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/viewpump/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build.gradle
+2019-04-01 11:35:22,960 INFO  ProjectBuildService - Remote scripts: none
+2019-04-01 11:35:22,960 INFO  ProjectFixService - Fixing project...
+2019-04-01 11:35:22,968 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/local.properties
+2019-04-01 11:35:22,969 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-01 11:35:22,969 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/viewpump/local.properties
+2019-04-01 11:35:22,970 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/viewpump/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-01 11:35:22,970 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/local.properties
+2019-04-01 11:35:22,971 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-04-01 11:35:22,971 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-04-01 11:35:22,972 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-04-01 11:35:22,972 INFO  ProjectFixService - Project was maybe fixed
+2019-04-01 11:35:22,972 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-01 11:35:22,972 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-01 11:35:31,661 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-04-01 11:35:31,662 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-01 11:35:31,662 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-01 11:36:17,890 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.2.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -46,13 +46,19 @@ ERROR: [TAG] Failed to resolve variable '${junit.version}'
 
 > Task :viewpump:preBuild UP-TO-DATE
 > Task :viewpump:preDebugBuild UP-TO-DATE
-> Task :viewpump:compileDebugAidl NO-SOURCE
 > Task :viewpump:checkDebugManifest
-> Task :viewpump:compileDebugRenderscript
 > Task :viewpump:generateDebugBuildConfig SKIPPED
 > Task :viewpump:generateDebugResValues
-> Task :viewpump:generateDebugResources
 > Task :viewpump:processDebugManifest
+> Task :viewpump:prepareLintJar
+> Task :viewpump:processDebugJavaRes NO-SOURCE
+> Task :ViewPumpSample:preBuild UP-TO-DATE
+> Task :ViewPumpSample:extractProguardFiles
+> Task :viewpump:packageDebugRenderscript NO-SOURCE
+> Task :ViewPumpSample:prepareLintJar
+> Task :viewpump:compileDebugAidl NO-SOURCE
+> Task :viewpump:compileDebugRenderscript
+> Task :viewpump:generateDebugResources
 > Task :viewpump:packageDebugResources
 > Task :viewpump:generateDebugRFile
 
@@ -60,21 +66,15 @@ ERROR: [TAG] Failed to resolve variable '${junit.version}'
 ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 
 > Task :viewpump:compileDebugKotlin
-> Task :viewpump:prepareLintJar
 > Task :viewpump:generateDebugSources
 > Task :viewpump:javaPreCompileDebug
 > Task :viewpump:compileDebugJavaWithJavac NO-SOURCE
-> Task :viewpump:processDebugJavaRes NO-SOURCE
 > Task :viewpump:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-> Task :ViewPumpSample:preBuild UP-TO-DATE
-> Task :ViewPumpSample:extractProguardFiles
 > Task :ViewPumpSample:preDebugBuild
 > Task :ViewPumpSample:compileDebugAidl NO-SOURCE
-> Task :viewpump:packageDebugRenderscript NO-SOURCE
 > Task :ViewPumpSample:compileDebugRenderscript
 > Task :ViewPumpSample:checkDebugManifest
 > Task :ViewPumpSample:generateDebugBuildConfig
-> Task :ViewPumpSample:prepareLintJar
 > Task :ViewPumpSample:generateDebugSources
 > Task :ViewPumpSample:javaPreCompileDebug
 > Task :ViewPumpSample:mainApkListPersistenceDebug
@@ -106,10 +106,10 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :ViewPumpSample:transformResourcesWithMergeJavaResForDebug
 ProGuard, version 6.0.3
 Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0fb6261dfa62a34145bf3809a9afd868/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0fd8d1caffe85412a80afddeada7c55d/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c88b05397b318abf9f61ef4d6d0f3501/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c8706213868579baa127b01155b8c40c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c31544f3aefb84b29722cab64c9ec42f/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a98bacad41cb4de676f2b4767cddb6ff/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/82a3e0fddc9f521e55d1319992233fff/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/2139b3da4fcb60520ef288f12b79bb5d/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f9fcfc0f82c71d905702f0cd4200759f/jars/classes.jar] (filtered)
@@ -147,9 +147,9 @@ Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.square
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.trove4j/trove4j/20160824/33c3e174a9c8368d93761d3d12712db18e903959/trove4j-20160824.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/viewpump/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/viewpump/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
@@ -181,17 +181,7 @@ Note: kotlin.coroutines.jvm.internal.DebugMetadataKt accesses a declared field '
       Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { java.lang.String label; }'
       Maybe this is library field 'android.view.inputmethod.EditorInfo { java.lang.CharSequence label; }'
 Note: the configuration keeps the entry point 'com.squareup.leakcanary.HeapAnalyzer$1 { HeapAnalyzer$1(com.squareup.leakcanary.HeapAnalyzer,java.util.Collection,gnu.trove.THashMap); }', but not the descriptor class 'gnu.trove.THashMap'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.InflateRequest { InflateRequest(java.lang.String,android.content.Context,android.util.AttributeSet,android.view.View,io.github.inflationx.viewpump.FallbackViewCreator,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.InflateRequest$Companion { InflateRequest$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.InflateResult { InflateResult(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.InflateResult$Companion { InflateResult$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ReflectiveFallbackViewCreator$Companion { ReflectiveFallbackViewCreator$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPump { ViewPump(java.util.List,boolean,boolean,boolean,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPump$Companion { ViewPump$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPumpContextWrapper { ViewPumpContextWrapper(android.content.Context,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPumpContextWrapper$Companion { ViewPumpContextWrapper$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPumpLayoutInflater$Companion { ViewPumpLayoutInflater$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: there were 11 unkept descriptor classes in kept class members.
+Note: there were 1 unkept descriptor classes in kept class members.
       You should consider explicitly keeping the mentioned classes
       (using '-keep').
       (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
@@ -207,25 +197,25 @@ Ignoring unused library classes...
   Final number of library classes:    1302
 Printing kept classes, fields, and methods...
 Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/outputs/mapping/debug/usage.txt]...
 
 > Task :ViewPumpSample:transformClassesAndResourcesWithProguardForDebug
 Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
 thread-pool size=4
 
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/outputs/mapping/debug/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 3001
-  Final number of program classes:    1155
+  Final number of program classes:    1152
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/outputs/mapping/debug/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/outputs/mapping/debug/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/proguard/debug/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0fb6261dfa62a34145bf3809a9afd868/jars/classes.jar] (filtered)
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/proguard/debug/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0fd8d1caffe85412a80afddeada7c55d/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c88b05397b318abf9f61ef4d6d0f3501/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c8706213868579baa127b01155b8c40c/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c31544f3aefb84b29722cab64c9ec42f/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a98bacad41cb4de676f2b4767cddb6ff/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/82a3e0fddc9f521e55d1319992233fff/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/2139b3da4fcb60520ef288f12b79bb5d/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/f9fcfc0f82c71d905702f0cd4200759f/jars/classes.jar] (filtered)
@@ -263,9 +253,9 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.trove4j/trove4j/20160824/33c3e174a9c8368d93761d3d12712db18e903959/trove4j-20160824.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/viewpump/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/viewpump/build/intermediates/intermediate-jars/debug/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
 
 > Task :ViewPumpSample:transformClassesWithDexBuilderForDebug
 > Task :ViewPumpSample:transformDexArchiveWithDexMergerForDebug
@@ -338,7 +328,7 @@ ProGuard, version 6.0.3
 Reading input...
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c88b05397b318abf9f61ef4d6d0f3501/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c8706213868579baa127b01155b8c40c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9522027bdd64bdf6fe0c8c3b4a6f1567/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e3d2786614c859d5b3d5e16faa38e8d2/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/82a3e0fddc9f521e55d1319992233fff/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/2139b3da4fcb60520ef288f12b79bb5d/jars/classes.jar] (filtered)
@@ -373,9 +363,9 @@ Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6a21dd0
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
@@ -405,20 +395,6 @@ Note: kotlin.coroutines.jvm.internal.DebugMetadataKt accesses a declared field '
       Maybe this is library field 'android.inputmethodservice.Keyboard$Key { java.lang.CharSequence label; }'
       Maybe this is library field 'android.speech.tts.TextToSpeech$EngineInfo { java.lang.String label; }'
       Maybe this is library field 'android.view.inputmethod.EditorInfo { java.lang.CharSequence label; }'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.InflateRequest { InflateRequest(java.lang.String,android.content.Context,android.util.AttributeSet,android.view.View,io.github.inflationx.viewpump.FallbackViewCreator,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.InflateRequest$Companion { InflateRequest$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.InflateResult { InflateResult(android.view.View,java.lang.String,android.content.Context,android.util.AttributeSet,int,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.InflateResult$Companion { InflateResult$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ReflectiveFallbackViewCreator$Companion { ReflectiveFallbackViewCreator$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPump { ViewPump(java.util.List,boolean,boolean,boolean,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPump$Companion { ViewPump$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPumpContextWrapper { ViewPumpContextWrapper(android.content.Context,kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPumpContextWrapper$Companion { ViewPumpContextWrapper$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: the configuration keeps the entry point 'io.github.inflationx.viewpump.ViewPumpLayoutInflater$Companion { ViewPumpLayoutInflater$Companion(kotlin.jvm.internal.DefaultConstructorMarker); }', but not the descriptor class 'kotlin.jvm.internal.DefaultConstructorMarker'
-Note: there were 10 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
 Note: there were 5 unresolved dynamic references to classes or interfaces.
       You should check if you need to specify additional program jars.
       (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
@@ -432,18 +408,18 @@ Ignoring unused library classes...
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 2251
-  Final number of program classes:    809
+  Final number of program classes:    806
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c88b05397b318abf9f61ef4d6d0f3501/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c8706213868579baa127b01155b8c40c/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9522027bdd64bdf6fe0c8c3b4a6f1567/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e3d2786614c859d5b3d5e16faa38e8d2/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/82a3e0fddc9f521e55d1319992233fff/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/2139b3da4fcb60520ef288f12b79bb5d/jars/classes.jar] (filtered)
@@ -478,9 +454,9 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 > Task :ViewPumpSample:transformClassesAndResourcesWithProguardForRelease
 > Task :ViewPumpSample:transformClassesWithDexBuilderForRelease
 > Task :ViewPumpSample:transformDexArchiveWithDexMergerForRelease
@@ -500,7 +476,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 57s
+BUILD SUCCESSFUL in 45s
 87 actionable tasks: 87 executed
 
-2019-03-17 00:53:58,649 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758762957-0/src/ViewPump-master/ViewPumpSample/build/outputs/apk/release/ViewPumpSample-release-unsigned.apk
+2019-04-01 11:36:17,979 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554093322206-0/src/ViewPump-master/ViewPumpSample/build/outputs/apk/release/ViewPumpSample-release-unsigned.apk
