@@ -1,42 +1,39 @@
-2019-03-18 12:13:57,707 INFO  DownloadService - Downloading "https://github.com/Doctoror/ParticlesDrawable/archive/master.zip", attempt 3
-2019-03-18 12:14:58,290 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-18 12:14:59,136 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-18 12:14:59,137 INFO  DownloadService - Downloading "https://github.com/Doctoror/ParticlesDrawable/archive/master.zip", attempt 3
-2019-03-18 12:16:01,214 DEBUG FullProcessService - Repository https://github.com/Doctoror/ParticlesDrawable available: true
-2019-03-18 12:16:01,214 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-18 12:16:01,215 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Doctoror/ParticlesDrawable, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src]
-2019-03-18 12:16:04,792 INFO  SysUtils - 
-2019-03-18 12:16:04,801 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/.git": true
-2019-03-18 12:16:04,807 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-03-18 12:16:04,807 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src]
-2019-03-18 12:16:04,825 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/.git/
+2019-04-06 14:18:02,642 INFO  DownloadService - Downloading "https://github.com/Doctoror/ParticlesDrawable/archive/master.zip", attempt 3
+2019-04-06 14:18:03,958 INFO  DownloadService - Downloaded https://github.com/Doctoror/ParticlesDrawable/archive/master.zip, attempt 3
+2019-04-06 14:18:03,958 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/master.zip": 1 MB
+2019-04-06 14:18:03,958 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-06 14:18:03,960 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/master.zip: true
+2019-04-06 14:18:03,961 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src'.
+2019-04-06 14:18:04,025 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-04-06 14:18:04,025 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src]
+2019-04-06 14:18:04,043 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/.git/
 
-2019-03-18 12:16:04,830 INFO  ProjectBuildService - Gradle wrapper(s): none
-2019-03-18 12:16:04,830 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2019-03-18 12:16:04,835 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/opengl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/build.gradle
-2019-03-18 12:16:04,840 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/library/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/opengl/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/opengl/build.gradle
-2019-03-18 12:16:04,840 INFO  ProjectBuildService - Remote scripts: none
-2019-03-18 12:16:04,840 INFO  ProjectFixService - Fixing project...
-2019-03-18 12:16:04,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/demo/local.properties
-2019-03-18 12:16:04,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-18 12:16:04,874 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-18 12:16:04,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/library/local.properties
-2019-03-18 12:16:04,880 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-18 12:16:04,880 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-18 12:16:04,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/opengl/local.properties
-2019-03-18 12:16:04,886 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/opengl/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-18 12:16:04,886 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/opengl/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-18 12:16:04,887 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/local.properties
-2019-03-18 12:16:04,896 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-03-18 12:16:04,896 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-03-18 12:16:04,896 INFO  ProjectFixService - Project was maybe fixed
-2019-03-18 12:16:04,896 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 12:16:04,896 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 12:16:04,904 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-18 12:16:04,904 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-18 12:16:04,904 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-18 12:16:04,904 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-18 12:16:04,909 ERROR SysUtils - Could not process external command
+2019-04-06 14:18:04,048 INFO  ProjectBuildService - Gradle wrapper(s): none
+2019-04-06 14:18:04,048 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
+2019-04-06 14:18:04,053 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/opengl/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/build.gradle
+2019-04-06 14:18:04,057 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/demo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/library/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/library/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/dependencies.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/opengl/gradle-mvn-push.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/opengl/build.gradle
+2019-04-06 14:18:04,058 INFO  ProjectBuildService - Remote scripts: none
+2019-04-06 14:18:04,058 INFO  ProjectFixService - Fixing project...
+2019-04-06 14:18:04,071 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/demo/local.properties
+2019-04-06 14:18:04,075 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/demo/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:18:04,075 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/demo/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:18:04,076 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/library/local.properties
+2019-04-06 14:18:04,081 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/library/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:18:04,081 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/library/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:18:04,082 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/opengl/local.properties
+2019-04-06 14:18:04,086 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/opengl/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:18:04,086 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/opengl/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:18:04,087 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/local.properties
+2019-04-06 14:18:04,092 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-04-06 14:18:04,092 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-04-06 14:18:04,092 INFO  ProjectFixService - Project was maybe fixed
+2019-04-06 14:18:04,093 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:18:04,093 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:18:04,105 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-06 14:18:04,105 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 14:18:04,106 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 14:18:04,106 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/demo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 14:18:04,110 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -73,14 +70,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-03-18 12:16:04,909 INFO  SysUtils - 
-2019-03-18 12:16:04,914 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 12:16:04,914 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 12:16:04,920 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-18 12:16:04,920 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-18 12:16:04,920 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-18 12:16:04,920 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-18 12:16:04,925 ERROR SysUtils - Could not process external command
+2019-04-06 14:18:04,110 INFO  SysUtils - 
+2019-04-06 14:18:04,115 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:18:04,115 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:18:04,120 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-06 14:18:04,120 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 14:18:04,120 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 14:18:04,120 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/library/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 14:18:04,124 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -117,14 +114,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-03-18 12:16:04,925 INFO  SysUtils - 
-2019-03-18 12:16:04,930 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 12:16:04,930 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/opengl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 12:16:04,935 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-18 12:16:04,935 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-18 12:16:04,935 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-18 12:16:04,935 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/opengl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-18 12:16:04,939 ERROR SysUtils - Could not process external command
+2019-04-06 14:18:04,124 INFO  SysUtils - 
+2019-04-06 14:18:04,129 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:18:04,130 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/opengl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:18:04,134 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-06 14:18:04,134 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 14:18:04,134 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 14:18:04,134 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/opengl/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 14:18:04,139 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -161,14 +158,14 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-03-18 12:16:04,939 INFO  SysUtils - 
-2019-03-18 12:16:04,944 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 12:16:04,944 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 12:16:04,949 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2019-03-18 12:16:04,949 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-18 12:16:04,949 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-18 12:16:04,949 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552886037704-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-18 12:16:04,954 ERROR SysUtils - Could not process external command
+2019-04-06 14:18:04,139 INFO  SysUtils - 
+2019-04-06 14:18:04,143 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-06 14:18:04,144 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-06 14:18:04,149 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
+2019-04-06 14:18:04,149 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-04-06 14:18:04,149 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-04-06 14:18:04,149 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1554535082640-0/src/ParticlesDrawable-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-06 14:18:04,153 ERROR SysUtils - Could not process external command
 java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1048)
 	at java.lang.Runtime.exec(Runtime.java:620)
@@ -205,6 +202,6 @@ Caused by: java.io.IOException: error=2, No such file or directory
 	at java.lang.ProcessImpl.start(ProcessImpl.java:134)
 	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1029)
 	... 28 common frames omitted
-2019-03-18 12:16:04,954 INFO  SysUtils - 
-2019-03-18 12:16:04,958 ERROR FullProcessService - Project build has not produced APK file
-2019-03-18 12:16:04,963 ERROR FullProcessService - Could not find generated or existed APK file
+2019-04-06 14:18:04,153 INFO  SysUtils - 
+2019-04-06 14:18:04,158 ERROR FullProcessService - Project build has not produced APK file
+2019-04-06 14:18:04,163 ERROR FullProcessService - Could not find generated or existed APK file
