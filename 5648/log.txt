@@ -1,37 +1,37 @@
-2019-03-23 22:59:59,472 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
-2019-03-23 23:00:01,000 INFO  DownloadService - Downloaded https://github.com/adorsys/secure-storage-android/archive/master.zip, attempt 3
-2019-03-23 23:00:01,001 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/master.zip": 375 KB
-2019-03-23 23:00:01,001 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-23 23:00:01,006 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/master.zip: true
-2019-03-23 23:00:01,007 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src'.
-2019-03-23 23:00:01,034 INFO  FullProcessService - Size of directory with sources: 475 KB
-2019-03-23 23:00:01,034 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src]
-2019-03-23 23:00:01,053 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/.git/
+2019-04-30 14:35:29,316 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
+2019-04-30 14:35:31,366 INFO  DownloadService - Downloaded https://github.com/adorsys/secure-storage-android/archive/master.zip, attempt 3
+2019-04-30 14:35:31,366 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/master.zip": 375 KB
+2019-04-30 14:35:31,366 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-04-30 14:35:31,372 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/master.zip: true
+2019-04-30 14:35:31,372 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src'.
+2019-04-30 14:35:31,396 INFO  FullProcessService - Size of directory with sources: 475 KB
+2019-04-30 14:35:31,396 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src]
+2019-04-30 14:35:31,413 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/.git/
 
-2019-03-23 23:00:01,056 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/gradlew
-2019-03-23 23:00:01,060 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/build.gradle
-2019-03-23 23:00:01,064 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/settings.gradle
-2019-03-23 23:00:01,064 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle", attempt 3
-2019-03-23 23:00:01,301 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle, attempt 3
-2019-03-23 23:00:01,301 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle", attempt 3
-2019-03-23 23:00:01,521 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle, attempt 3
-2019-03-23 23:00:01,522 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle
-2019-03-23 23:00:01,522 INFO  ProjectFixService - Fixing project...
-2019-03-23 23:00:01,533 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/local.properties
-2019-03-23 23:00:01,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-03-23 23:00:01,534 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/local.properties
-2019-03-23 23:00:01,534 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-03-23 23:00:01,535 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/local.properties
-2019-03-23 23:00:01,535 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-03-23 23:00:01,535 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-03-23 23:00:01,537 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-03-23 23:00:01,537 INFO  ProjectFixService - Project was maybe fixed
-2019-03-23 23:00:01,537 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 23:00:01,537 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 23:00:09,086 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-03-23 23:00:09,086 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-23 23:00:09,087 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-23 23:00:15,966 ERROR SysUtils - Could not process external command
+2019-04-30 14:35:31,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/gradlew
+2019-04-30 14:35:31,419 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/build.gradle
+2019-04-30 14:35:31,422 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/settings.gradle
+2019-04-30 14:35:31,423 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle", attempt 3
+2019-04-30 14:35:33,206 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle, attempt 3
+2019-04-30 14:35:33,206 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle", attempt 3
+2019-04-30 14:35:33,466 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle, attempt 3
+2019-04-30 14:35:33,466 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle
+2019-04-30 14:35:33,466 INFO  ProjectFixService - Fixing project...
+2019-04-30 14:35:33,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/local.properties
+2019-04-30 14:35:33,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-04-30 14:35:33,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/local.properties
+2019-04-30 14:35:33,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-04-30 14:35:33,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/local.properties
+2019-04-30 14:35:33,480 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
+2019-04-30 14:35:33,480 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
+2019-04-30 14:35:33,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-04-30 14:35:33,481 INFO  ProjectFixService - Project was maybe fixed
+2019-04-30 14:35:33,481 INFO  ProjectTaskService - Detecting possible tasks...
+2019-04-30 14:35:33,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-04-30 14:35:40,231 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-04-30 14:35:40,231 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-04-30 14:35:40,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-04-30 14:35:45,827 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,7 +44,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -58,7 +58,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 23:00:15,966 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:35:45,827 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -138,17 +138,38 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 6s
+BUILD FAILED in 5s
 
-2019-03-23 23:00:15,967 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-03-23 23:00:15,967 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-23 23:01:12,277 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-04-30 14:35:45,827 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-04-30 14:35:45,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-04-30 14:36:44,246 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :securestoragelibrary:preBuild UP-TO-DATE
 :securestoragelibrary:preDebugBuild UP-TO-DATE
 :securestoragelibrary:checkDebugManifest
 :securestoragelibrary:processDebugManifest
 :app:preDebugBuild
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-rc02/support-fragment-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-rc02/support-core-utils-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-rc02/support-core-ui-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-rc02/animated-vector-drawable-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-rc02/appcompat-v7-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-rc02/support-vector-drawable-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-rc02/loader-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-rc02/viewpager-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-rc02/drawerlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-rc02/customview-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-rc02/slidingpanelayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-rc02/asynclayoutinflater-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-rc02/coordinatorlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-rc02/swiperefreshlayout-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-rc02/support-compat-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-rc02/localbroadcastmanager-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-rc02/cursoradapter-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-rc02/versionedparcelable-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-rc02/documentfile-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-rc02/interpolator-28.0.0-rc02.aar
+Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-rc02/print-28.0.0-rc02.aar
 :securestoragelibrary:compileDebugAidl
 :app:compileDebugAidl
 :securestoragelibrary:packageDebugRenderscript NO-SOURCE
@@ -170,6 +191,8 @@ BUILD FAILED in 6s
 :securestoragelibrary:generateDebugBuildConfig
 :securestoragelibrary:prepareLintJar
 :securestoragelibrary:javaPreCompileDebug
+Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-rc02/collections-28.0.0-rc02.jar
+Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-rc02/support-annotations-28.0.0-rc02.jar
 :securestoragelibrary:processDebugJavaRes NO-SOURCE
 :app:prepareLintJar
 :app:compileDebugNdk NO-SOURCE
@@ -233,6 +256,7 @@ BUILD FAILED in 6s
 :securestoragelibrary:transformNativeLibsWithStripDebugSymbolForRelease
 :securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForRelease
 :app:checkstyle
+Download https://jcenter.bintray.com/com/puppycrawl/tools/checkstyle/6.19/checkstyle-6.19.jar
 :app:pmd
 :app:preDebugUnitTestBuild UP-TO-DATE
 :app:mockableAndroidJar
@@ -242,16 +266,19 @@ BUILD FAILED in 6s
 :securestoragelibrary:generateDebugRFile
 :app:processDebugResources
 :securestoragelibrary:generateDebugSources
-:securestoragelibrary:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
+:securestoragelibrary:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :securestoragelibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
 :app:compileDebugKotlin
+Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.70/kotlin-stdlib-jdk7-1.2.70.jar
 :app:generateDebugSources
 :app:javaPreCompileDebug
 :app:compileDebugJavaWithJavac
 :app:compileDebugSources
 :app:transformClassesWithDexBuilderForDebug
+D8: Stripped invalid locals information from 1 method.
+D8: Stripped invalid locals information from 1 method.
 :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 :app:transformDexArchiveWithDexMergerForDebug
 :app:transformNativeLibsWithMergeJniLibsForDebug
@@ -262,7 +289,7 @@ Note: Recompile with -Xlint:deprecation for details.
 :securestoragelibrary:generateReleaseRFile
 :app:processReleaseResources
 :securestoragelibrary:generateReleaseSources
-:securestoragelibrary:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
+:securestoragelibrary:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 :securestoragelibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
@@ -311,10 +338,10 @@ Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.androi
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.70/b5b9449f73ce7bf312e89a7560cb3c209a0fa13e/kotlin-stdlib-1.2.70.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.70/6ea722d7d0b9451293e739076ddb6a4108d57b6b/kotlin-stdlib-common-1.2.70.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/intermediates/classes/release] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/classes/release] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/tmp/kotlin-classes/release] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
 Note: duplicate definition of library class [android.net.http.HttpResponseCache]
@@ -354,16 +381,16 @@ Ignoring unused library classes...
   Final number of library classes:    1287
 Printing kept classes, fields, and methods...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 2029
   Final number of program classes:    642
 Inlining subroutines...
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/intermediates/transforms/proguard/release/0.jar]
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/transforms/proguard/release/0.jar]
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/2c9befc4d6eb2661d7c87426ce32c82d/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.70/9318bb9dadaa56534ac8b0728a1ffa2bd0e48b28/kotlin-stdlib-jdk7-1.2.70.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/a1f0ce3474a262ae8919683ccc2f5836/jars/classes.jar] (filtered)
@@ -397,11 +424,11 @@ Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.70/b5b9449f73ce7bf312e89a7560cb3c209a0fa13e/kotlin-stdlib-1.2.70.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.70/6ea722d7d0b9451293e739076ddb6a4108d57b6b/kotlin-stdlib-common-1.2.70.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/securestoragelibrary/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/intermediates/classes/release] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/outputs/mapping/release/dump.txt]...
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/classes/release] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/tmp/kotlin-classes/release] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/outputs/mapping/release/dump.txt]...
 :app:transformClassesWithDexBuilderForRelease
 :app:transformDexArchiveWithDexMergerForRelease
 :app:transformNativeLibsWithMergeJniLibsForRelease
@@ -410,10 +437,10 @@ Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/15
 :app:assembleRelease
 :app:assemble
 :app:lint
-Ran lint on variant release: 7 issues found
 Ran lint on variant debug: 7 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/reports/lint-results.xml
+Ran lint on variant release: 7 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/reports/lint-results.xml
 :app:compileDebugUnitTestKotlin
 :app:javaPreCompileDebugUnitTest
 :app:compileDebugUnitTestJavaWithJavac NO-SOURCE
@@ -426,7 +453,7 @@ Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgby
 :app:check
 :app:build
 
-BUILD SUCCESSFUL in 55s
+BUILD SUCCESSFUL in 57s
 103 actionable tasks: 103 executed
 
-2019-03-23 23:01:12,361 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553356799469-0/src/secure-storage-android-master/app/build/outputs/apk/debug/app-debug.apk
+2019-04-30 14:36:44,335 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/outputs/apk/debug/app-debug.apk

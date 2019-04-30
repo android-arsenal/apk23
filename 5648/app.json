@@ -31,8 +31,8 @@
   "dexClasses" : 2029,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionName=\"null\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"de.adorsys.android.securestoragetest\" platformBuildVersionName=\"null\">\n\t<uses-sdk android:minSdkVersion=\"18\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Secure Device Storage Test\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:debuggable=\"true\" android:allowBackup=\"false\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"android.support.v4.app.CoreComponentFactory\">\n\t\t<activity android:name=\"de.adorsys.android.securestoragetest.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t\t<provider android:name=\"de.adorsys.android.securestoragelibrary.SecureStorageProvider\" android:enabled=\"true\" android:exported=\"false\" android:authorities=\"de.adorsys.android.securestoragetest.de.adorsys.android.securestoragelibrary\" />\n\t</application>\n</manifest>\n",
-  "fileSize" : 2110830,
-  "crc32" : 3868020664,
-  "sha256" : "d7e5429f194f5a272d5d8511fe69dc05ddf61821f2ffaada7b1d86268508541b",
-  "buildTime" : 1553356848000
+  "fileSize" : 2110810,
+  "crc32" : 885160259,
+  "sha256" : "2fb2c0219275beb0a98f796696d7fcc0c621a325b28e5cc2d246a526511a3092",
+  "buildTime" : 1556609781000
 }
