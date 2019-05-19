@@ -1,37 +1,40 @@
-2019-03-17 00:55:56,363 INFO  DownloadService - Downloading "https://github.com/leandroBorgesFerreira/LoadingButtonAndroid/archive/master.zip", attempt 3
-2019-03-17 00:55:58,237 INFO  DownloadService - Downloaded https://github.com/leandroBorgesFerreira/LoadingButtonAndroid/archive/master.zip, attempt 3
-2019-03-17 00:55:58,237 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/master.zip": 138 KB
-2019-03-17 00:55:58,237 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-17 00:55:58,237 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/master.zip: true
-2019-03-17 00:55:58,238 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src'.
-2019-03-17 00:55:58,267 INFO  FullProcessService - Size of directory with sources: 186 KB
-2019-03-17 00:55:58,267 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src]
-2019-03-17 00:55:58,293 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/.git/
+2019-05-19 18:45:23,275 INFO  DownloadService - Downloading "https://github.com/leandroBorgesFerreira/LoadingButtonAndroid/archive/master.zip", attempt 3
+2019-05-19 18:46:23,837 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-05-19 18:46:24,971 INFO  GithubDownloadService - Default branch of this repository: master
+2019-05-19 18:46:24,971 INFO  DownloadService - Downloading "https://github.com/leandroBorgesFerreira/LoadingButtonAndroid/archive/master.zip", attempt 3
+2019-05-19 18:47:26,493 DEBUG FullProcessService - Repository https://github.com/leandroBorgesFerreira/LoadingButtonAndroid available: true
+2019-05-19 18:47:26,493 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-05-19 18:47:26,494 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/leandroBorgesFerreira/LoadingButtonAndroid, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src]
+2019-05-19 18:47:28,481 INFO  SysUtils - 
+2019-05-19 18:47:28,492 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/.git": true
+2019-05-19 18:47:28,498 INFO  FullProcessService - Size of directory with sources: 190 KB
+2019-05-19 18:47:28,498 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src]
+2019-05-19 18:47:28,526 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/.git/
 
-2019-03-17 00:55:58,298 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/gradlew
-2019-03-17 00:55:58,304 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/loading-button-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle
-2019-03-17 00:55:58,308 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/loading-button-android/build.gradle
-2019-03-17 00:55:58,309 INFO  ProjectBuildService - Remote scripts: none
-2019-03-17 00:55:58,309 INFO  ProjectFixService - Fixing project...
-2019-03-17 00:55:58,321 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/app/local.properties
-2019-03-17 00:55:58,322 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-17 00:55:58,322 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-17 00:55:58,323 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/loading-button-android/local.properties
-2019-03-17 00:55:58,324 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/loading-button-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-17 00:55:58,324 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/loading-button-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-17 00:55:58,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/local.properties
-2019-03-17 00:55:58,326 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-03-17 00:55:58,326 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-03-17 00:55:58,329 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-17 00:55:58,329 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-03-17 00:55:58,330 INFO  ProjectFixService - Project was maybe fixed
-2019-03-17 00:55:58,330 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 00:55:58,330 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 00:56:15,803 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 00:56:15,803 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-17 00:56:15,804 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-17 00:56:15,804 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-17 00:56:20,692 ERROR SysUtils - Could not process external command
+2019-05-19 18:47:28,531 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/gradlew
+2019-05-19 18:47:28,537 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/loading-button-android/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle
+2019-05-19 18:47:28,542 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/loading-button-android/build.gradle
+2019-05-19 18:47:28,542 INFO  ProjectBuildService - Remote scripts: none
+2019-05-19 18:47:28,542 INFO  ProjectFixService - Fixing project...
+2019-05-19 18:47:28,554 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/app/local.properties
+2019-05-19 18:47:28,556 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 18:47:28,556 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 18:47:28,557 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/loading-button-android/local.properties
+2019-05-19 18:47:28,558 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/loading-button-android/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 18:47:28,558 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/loading-button-android/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 18:47:28,559 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/local.properties
+2019-05-19 18:47:28,560 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-19 18:47:28,560 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-19 18:47:28,562 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 18:47:28,562 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-05-19 18:47:28,563 INFO  ProjectFixService - Project was maybe fixed
+2019-05-19 18:47:28,563 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 18:47:28,563 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 18:47:38,625 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-19 18:47:38,625 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-19 18:47:38,625 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-19 18:47:38,625 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-19 18:47:44,530 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -51,29 +54,29 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 00:56:20,692 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 18:47:44,530 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle' line: 43
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle' line: 43
 
 * What went wrong:
-A problem occurred evaluating root project 'LoadingButtonAndroid-master'.
+A problem occurred evaluating root project 'src'.
 > Problem retrieving description.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'LoadingButtonAndroid-master'.
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'src'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -189,7 +192,7 @@ Caused by: org.ajoberstar.grgit.exception.GrgitException: Problem retrieving des
 	at java_util_concurrent_Callable$call.call(Unknown Source)
 	at org.ajoberstar.grgit.util.OpSyntaxUtil.tryOp(OpSyntaxUtil.groovy:45)
 	at org.ajoberstar.grgit.Grgit.methodMissing(Grgit.groovy:188)
-	at build_g89l3tsayfx9a5cy3obu29hs$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle:43)
+	at build_9hgmeukq8t16wop82nygak463$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle:43)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -204,7 +207,7 @@ Caused by: org.ajoberstar.grgit.exception.GrgitException: Problem retrieving des
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_g89l3tsayfx9a5cy3obu29hs.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle:41)
+	at build_9hgmeukq8t16wop82nygak463.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle:41)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 107 more
 Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref HEAD can not be resolved
@@ -218,15 +221,15 @@ Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref HEAD can not be
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-03-17 00:56:20,698 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 00:56:20,698 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/loading-button-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 00:56:25,406 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 00:56:25,406 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-17 00:56:25,406 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-17 00:56:25,406 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/loading-button-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-17 00:56:30,101 ERROR SysUtils - Could not process external command
+2019-05-19 18:47:44,536 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 18:47:44,536 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/loading-button-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 18:47:49,512 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-19 18:47:49,512 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-19 18:47:49,512 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-19 18:47:49,512 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/loading-button-android/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-19 18:47:54,763 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -246,29 +249,29 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 00:56:30,101 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 18:47:54,763 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle' line: 43
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle' line: 43
 
 * What went wrong:
-A problem occurred evaluating root project 'LoadingButtonAndroid-master'.
+A problem occurred evaluating root project 'src'.
 > Problem retrieving description.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'LoadingButtonAndroid-master'.
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'src'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -384,7 +387,7 @@ Caused by: org.ajoberstar.grgit.exception.GrgitException: Problem retrieving des
 	at java_util_concurrent_Callable$call.call(Unknown Source)
 	at org.ajoberstar.grgit.util.OpSyntaxUtil.tryOp(OpSyntaxUtil.groovy:45)
 	at org.ajoberstar.grgit.Grgit.methodMissing(Grgit.groovy:188)
-	at build_g89l3tsayfx9a5cy3obu29hs$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle:43)
+	at build_9hgmeukq8t16wop82nygak463$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle:43)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -399,7 +402,7 @@ Caused by: org.ajoberstar.grgit.exception.GrgitException: Problem retrieving des
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_g89l3tsayfx9a5cy3obu29hs.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle:41)
+	at build_9hgmeukq8t16wop82nygak463.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle:41)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 107 more
 Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref HEAD can not be resolved
@@ -413,15 +416,15 @@ Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref HEAD can not be
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-03-17 00:56:30,106 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-17 00:56:30,106 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-17 00:56:35,059 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-17 00:56:35,059 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-17 00:56:35,059 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-17 00:56:35,059 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-17 00:56:40,110 ERROR SysUtils - Could not process external command
+2019-05-19 18:47:54,769 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 18:47:54,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 18:48:00,228 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-19 18:48:00,228 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-05-19 18:48:00,228 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-05-19 18:48:00,228 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-05-19 18:48:06,341 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -441,29 +444,29 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-17 00:56:40,110 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 18:48:06,342 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle' line: 43
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle' line: 43
 
 * What went wrong:
-A problem occurred evaluating root project 'LoadingButtonAndroid-master'.
+A problem occurred evaluating root project 'src'.
 > Problem retrieving description.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
 
 * Exception is:
-org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'LoadingButtonAndroid-master'.
+org.gradle.api.GradleScriptException: A problem occurred evaluating root project 'src'.
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:92)
 	at org.gradle.configuration.DefaultScriptPluginFactory$ScriptPluginImpl$2.run(DefaultScriptPluginFactory.java:206)
 	at org.gradle.configuration.ProjectScriptTarget.addConfiguration(ProjectScriptTarget.java:77)
@@ -579,7 +582,7 @@ Caused by: org.ajoberstar.grgit.exception.GrgitException: Problem retrieving des
 	at java_util_concurrent_Callable$call.call(Unknown Source)
 	at org.ajoberstar.grgit.util.OpSyntaxUtil.tryOp(OpSyntaxUtil.groovy:45)
 	at org.ajoberstar.grgit.Grgit.methodMissing(Grgit.groovy:188)
-	at build_g89l3tsayfx9a5cy3obu29hs$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle:43)
+	at build_9hgmeukq8t16wop82nygak463$_run_closure2.doCall(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle:43)
 	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
 	at org.gradle.util.ConfigureUtil.configureTarget(ConfigureUtil.java:154)
 	at org.gradle.util.ConfigureUtil.configure(ConfigureUtil.java:105)
@@ -594,7 +597,7 @@ Caused by: org.ajoberstar.grgit.exception.GrgitException: Problem retrieving des
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:133)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:82)
-	at build_g89l3tsayfx9a5cy3obu29hs.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552758956361-0/src/LoadingButtonAndroid-master/build.gradle:41)
+	at build_9hgmeukq8t16wop82nygak463.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558266323272-0/src/build.gradle:41)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 107 more
 Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref HEAD can not be resolved
@@ -608,7 +611,7 @@ Caused by: org.eclipse.jgit.api.errors.RefNotFoundException: Ref HEAD can not be
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 5s
 
-2019-03-17 00:56:40,115 ERROR FullProcessService - Project build has not produced APK file
-2019-03-17 00:56:40,119 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-19 18:48:06,348 ERROR FullProcessService - Project build has not produced APK file
+2019-05-19 18:48:06,354 ERROR FullProcessService - Could not find generated or existed APK file

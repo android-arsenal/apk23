@@ -1,40 +1,43 @@
-2019-03-23 23:03:48,134 INFO  DownloadService - Downloading "https://github.com/aritraroy/PatternLockView/archive/master.zip", attempt 3
-2019-03-23 23:03:50,785 INFO  DownloadService - Downloaded https://github.com/aritraroy/PatternLockView/archive/master.zip, attempt 3
-2019-03-23 23:03:50,785 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/master.zip": 653 KB
-2019-03-23 23:03:50,785 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-03-23 23:03:50,790 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/master.zip: true
-2019-03-23 23:03:50,791 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src'.
-2019-03-23 23:03:50,818 INFO  FullProcessService - Size of directory with sources: 751 KB
-2019-03-23 23:03:50,818 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src]
-2019-03-23 23:03:50,836 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/.git/
+2019-05-19 19:16:55,587 INFO  DownloadService - Downloading "https://github.com/aritraroy/PatternLockView/archive/master.zip", attempt 3
+2019-05-19 19:17:56,229 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-05-19 19:17:57,305 INFO  GithubDownloadService - Default branch of this repository: master
+2019-05-19 19:17:57,305 INFO  DownloadService - Downloading "https://github.com/aritraroy/PatternLockView/archive/master.zip", attempt 3
+2019-05-19 19:18:58,679 DEBUG FullProcessService - Repository https://github.com/aritraroy/PatternLockView available: true
+2019-05-19 19:18:58,679 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-05-19 19:18:58,679 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/aritraroy/PatternLockView, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src]
+2019-05-19 19:19:00,963 INFO  SysUtils - 
+2019-05-19 19:19:00,971 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/.git": true
+2019-05-19 19:19:00,976 INFO  FullProcessService - Size of directory with sources: 751 KB
+2019-05-19 19:19:00,977 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src]
+2019-05-19 19:19:00,998 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/.git/
 
-2019-03-23 23:03:50,840 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew
-2019-03-23 23:03:50,843 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview-reactive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/build.gradle
-2019-03-23 23:03:50,847 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview-reactive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/settings.gradle
-2019-03-23 23:03:50,847 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2019-03-23 23:03:51,065 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2019-03-23 23:03:51,065 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2019-03-23 23:03:51,286 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2019-03-23 23:03:51,287 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2019-03-23 23:03:51,287 INFO  ProjectFixService - Fixing project...
-2019-03-23 23:03:51,297 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/app/local.properties
-2019-03-23 23:03:51,299 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-03-23 23:03:51,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview-reactive/local.properties
-2019-03-23 23:03:51,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview-reactive/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-03-23 23:03:51,302 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview/local.properties
-2019-03-23 23:03:51,304 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-03-23 23:03:51,304 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/local.properties
-2019-03-23 23:03:51,304 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2019-03-23 23:03:51,305 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2019-03-23 23:03:51,305 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
-2019-03-23 23:03:51,305 INFO  ProjectFixService - Project was maybe fixed
-2019-03-23 23:03:51,305 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 23:03:51,305 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 23:03:58,714 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-23 23:03:58,714 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-23 23:03:58,714 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-23 23:03:58,714 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-23 23:04:05,619 ERROR SysUtils - Could not process external command
+2019-05-19 19:19:01,002 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew
+2019-05-19 19:19:01,006 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview-reactive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/build.gradle
+2019-05-19 19:19:01,010 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview-reactive/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/settings.gradle
+2019-05-19 19:19:01,012 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-05-19 19:19:01,550 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-05-19 19:19:01,550 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-05-19 19:19:01,865 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-05-19 19:19:01,866 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-05-19 19:19:01,866 INFO  ProjectFixService - Fixing project...
+2019-05-19 19:19:01,875 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/app/local.properties
+2019-05-19 19:19:01,877 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-05-19 19:19:01,877 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview-reactive/local.properties
+2019-05-19 19:19:01,879 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview-reactive/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-05-19 19:19:01,880 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview/local.properties
+2019-05-19 19:19:01,881 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-05-19 19:19:01,881 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/local.properties
+2019-05-19 19:19:01,881 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
+2019-05-19 19:19:01,882 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
+2019-05-19 19:19:01,882 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=14,targetSdkVersion=25]
+2019-05-19 19:19:01,882 INFO  ProjectFixService - Project was maybe fixed
+2019-05-19 19:19:01,882 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 19:19:01,882 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 19:19:10,828 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-19 19:19:10,828 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-05-19 19:19:10,828 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-05-19 19:19:10,828 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-05-19 19:19:19,747 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -47,21 +50,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 23:04:05,619 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 19:19:19,747 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -236,15 +239,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.605 secs
+Total time: 8.525 secs
 
-2019-03-23 23:04:05,624 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 23:04:05,624 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview-reactive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 23:04:12,540 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-23 23:04:12,541 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-23 23:04:12,541 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-23 23:04:12,541 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview-reactive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-23 23:04:19,528 ERROR SysUtils - Could not process external command
+2019-05-19 19:19:19,754 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 19:19:19,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview-reactive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 19:19:28,054 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-19 19:19:28,054 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-05-19 19:19:28,054 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-05-19 19:19:28,054 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview-reactive/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-05-19 19:19:36,613 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -257,21 +260,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 23:04:19,528 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 19:19:36,613 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -446,15 +449,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.663 secs
+Total time: 8.138 secs
 
-2019-03-23 23:04:19,532 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 23:04:19,532 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 23:04:26,630 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-23 23:04:26,630 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-23 23:04:26,630 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-23 23:04:26,630 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/patternlockview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-23 23:04:33,859 ERROR SysUtils - Could not process external command
+2019-05-19 19:19:36,617 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 19:19:36,618 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 19:19:44,754 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-19 19:19:44,755 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-05-19 19:19:44,755 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-05-19 19:19:44,755 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/patternlockview/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-05-19 19:19:52,606 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -467,21 +470,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 23:04:33,859 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 19:19:52,606 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -578,15 +581,15 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 6.95 secs
+Total time: 7.574 secs
 
-2019-03-23 23:04:33,864 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-23 23:04:33,864 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-23 23:04:42,134 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-23 23:04:42,134 INFO  ProjectTaskService - Detected possible tasks: 3
-2019-03-23 23:04:42,134 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
-2019-03-23 23:04:42,134 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1553357028129-0/src/PatternLockView-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
-2019-03-23 23:04:49,873 ERROR SysUtils - Could not process external command
+2019-05-19 19:19:52,610 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-19 19:19:52,610 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-19 19:20:00,291 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-05-19 19:20:00,291 INFO  ProjectTaskService - Detected possible tasks: 3
+2019-05-19 19:20:00,291 INFO  ProjectTaskService - Excluded tasks (3): sourcesJar javadocJar javadoc
+2019-05-19 19:20:00,291 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268215582-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, sourcesJar, -x, javadocJar, -x, javadoc, build]
+2019-05-19 19:20:07,851 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -599,21 +602,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor8.invoke(Unknown Source)
+	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-23 23:04:49,873 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-19 19:20:07,851 INFO  SysUtils - Configuration on demand is an incubating feature.
 Incremental java compilation is an incubating feature.
 
 FAILURE: Build failed with an exception.
@@ -790,7 +793,7 @@ Caused by: java.lang.RuntimeException: No toolchains found in the NDK toolchains
 
 BUILD FAILED
 
-Total time: 7.435 secs
+Total time: 7.26 secs
 
-2019-03-23 23:04:49,878 ERROR FullProcessService - Project build has not produced APK file
-2019-03-23 23:04:49,884 ERROR FullProcessService - Could not find generated or existed APK file
+2019-05-19 19:20:07,856 ERROR FullProcessService - Project build has not produced APK file
+2019-05-19 19:20:07,861 ERROR FullProcessService - Could not find generated or existed APK file
