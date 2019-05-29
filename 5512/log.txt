@@ -1,39 +1,36 @@
-2019-05-19 19:20:07,891 INFO  DownloadService - Downloading "https://github.com/andstatus/andstatus/archive/master.zip", attempt 3
-2019-05-19 19:21:08,470 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-05-19 19:21:09,614 INFO  GithubDownloadService - Default branch of this repository: master
-2019-05-19 19:21:09,615 INFO  DownloadService - Downloading "https://github.com/andstatus/andstatus/archive/master.zip", attempt 3
-2019-05-19 19:22:11,283 DEBUG FullProcessService - Repository https://github.com/andstatus/andstatus available: true
-2019-05-19 19:22:11,283 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-05-19 19:22:11,283 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/andstatus/andstatus, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src]
-2019-05-19 19:22:15,164 INFO  SysUtils - 
-2019-05-19 19:22:15,188 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/.git": true
-2019-05-19 19:22:15,221 INFO  FullProcessService - Size of directory with sources: 8 MB
-2019-05-19 19:22:15,221 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src]
-2019-05-19 19:22:15,241 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/.git/
+2019-05-29 11:55:10,515 INFO  DownloadService - Downloading "https://github.com/andstatus/andstatus/archive/master.zip", attempt 3
+2019-05-29 11:55:14,039 INFO  DownloadService - Downloaded https://github.com/andstatus/andstatus/archive/master.zip, attempt 3
+2019-05-29 11:55:14,040 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/master.zip": 3 MB
+2019-05-29 11:55:14,040 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-05-29 11:55:14,048 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/master.zip: true
+2019-05-29 11:55:14,048 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src'.
+2019-05-29 11:55:14,311 INFO  FullProcessService - Size of directory with sources: 8 MB
+2019-05-29 11:55:14,312 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src]
+2019-05-29 11:55:14,328 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/.git/
 
-2019-05-19 19:22:15,263 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/gradlew
-2019-05-19 19:22:15,288 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/draglistview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/build.gradle
-2019-05-19 19:22:15,310 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/dump.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/draglistview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/settings.gradle
-2019-05-19 19:22:15,311 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 19:22:15,311 INFO  ProjectFixService - Fixing project...
-2019-05-19 19:22:15,359 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/app/local.properties
-2019-05-19 19:22:15,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:22:15,362 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:22:15,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/draglistview/local.properties
-2019-05-19 19:22:15,367 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/draglistview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:22:15,367 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/draglistview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:22:15,368 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/local.properties
-2019-05-19 19:22:15,369 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-05-19 19:22:15,369 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-05-19 19:22:15,373 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-05-19 19:22:15,373 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-19 19:22:15,373 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 19:22:15,374 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 19:22:15,374 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 19:22:37,221 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-19 19:22:37,221 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 19:22:37,221 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 19:23:57,645 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-05-29 11:55:14,343 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/gradlew
+2019-05-29 11:55:14,359 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/draglistview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/build.gradle
+2019-05-29 11:55:14,374 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/dump.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/draglistview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/settings.gradle
+2019-05-29 11:55:14,374 INFO  ProjectBuildService - Remote scripts: none
+2019-05-29 11:55:14,374 INFO  ProjectFixService - Fixing project...
+2019-05-29 11:55:14,408 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/app/local.properties
+2019-05-29 11:55:14,410 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-29 11:55:14,411 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-29 11:55:14,412 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/draglistview/local.properties
+2019-05-29 11:55:14,414 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/draglistview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-29 11:55:14,414 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/draglistview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-29 11:55:14,415 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/local.properties
+2019-05-29 11:55:14,415 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-05-29 11:55:14,416 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-05-29 11:55:14,417 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-05-29 11:55:14,417 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-05-29 11:55:14,418 INFO  ProjectFixService - Project was maybe fixed
+2019-05-29 11:55:14,418 INFO  ProjectTaskService - Detecting possible tasks...
+2019-05-29 11:55:14,418 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-05-29 11:55:20,980 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-05-29 11:55:20,980 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-05-29 11:55:20,980 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-05-29 11:56:06,145 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :draglistview:preBuild UP-TO-DATE
 > Task :draglistview:preDebugBuild UP-TO-DATE
@@ -43,40 +40,28 @@
 > Task :app:prepareLintJar
 > Task :draglistview:generateDebugBuildConfig
 > Task :draglistview:compileDebugAidl NO-SOURCE
-> Task :draglistview:compileDebugRenderscript NO-SOURCE
 > Task :draglistview:generateDebugResValues
-> Task :draglistview:generateDebugResources
 > Task :draglistview:prepareLintJar
+> Task :draglistview:compileDebugRenderscript NO-SOURCE
+> Task :draglistview:generateDebugResources
 > Task :draglistview:generateDebugSources
 > Task :draglistview:javaPreCompileDebug
-> Task :draglistview:mergeDebugShaders
-> Task :draglistview:compileDebugShaders
-> Task :draglistview:generateDebugAssets
-> Task :draglistview:packageDebugAssets
-> Task :draglistview:processDebugJavaRes NO-SOURCE
-> Task :draglistview:mergeDebugJniLibFolders
-> Task :draglistview:transformNativeLibsWithMergeJniLibsForDebug
-> Task :draglistview:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :draglistview:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :draglistview:preReleaseBuild UP-TO-DATE
-> Task :draglistview:checkReleaseManifest
-> Task :draglistview:packageDebugResources
-> Task :draglistview:generateDebugRFile
-
-> Task :draglistview:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/draglistview/src/main/java/com/woxthebox/draglistview/DragItem.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-Note: Some input files use unchecked or unsafe operations.
-Note: Recompile with -Xlint:unchecked for details.
-
-> Task :draglistview:bundleLibCompileDebug
-> Task :draglistview:bundleLibRuntimeDebug
 > Task :app:preDebugBuild
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
 > Task :app:generateDebugBuildConfig
 > Task :app:generateDebugSources
+> Task :draglistview:packageDebugResources
+> Task :draglistview:generateDebugRFile
+
+> Task :draglistview:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/draglistview/src/main/java/com/woxthebox/draglistview/DragItem.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+Note: Some input files use unchecked or unsafe operations.
+Note: Recompile with -Xlint:unchecked for details.
+
+> Task :draglistview:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -85,32 +70,44 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :app:createDebugCompatibleScreenManifests
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
+
+> Task :app:compileDebugJavaWithJavac
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-> Task :app:compileDebugJavaWithJavac
-
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :draglistview:mergeDebugShaders
+> Task :draglistview:compileDebugShaders
+> Task :draglistview:generateDebugAssets
+> Task :draglistview:packageDebugAssets
 > Task :app:mergeDebugAssets
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :draglistview:bundleLibRuntimeDebug
 > Task :app:checkDebugDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForDebug
 > Task :app:transformDexArchiveWithExternalLibsDexMergerForDebug
 > Task :app:transformDexArchiveWithDexMergerForDebug
 > Task :app:mergeDebugJniLibFolders
+> Task :draglistview:processDebugJavaRes NO-SOURCE
 > Task :draglistview:bundleLibResDebug
+> Task :draglistview:mergeDebugJniLibFolders
+> Task :draglistview:transformNativeLibsWithMergeJniLibsForDebug
+> Task :draglistview:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :draglistview:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
 > Task :app:packageDebug
 > Task :app:assembleDebug
+> Task :draglistview:preReleaseBuild UP-TO-DATE
+> Task :draglistview:checkReleaseManifest
 > Task :draglistview:processReleaseManifest
 > Task :app:preReleaseBuild
 > Task :draglistview:compileReleaseAidl NO-SOURCE
@@ -130,7 +127,7 @@ Note: Recompile with -Xlint:unchecked for details.
 > Task :draglistview:javaPreCompileRelease
 
 > Task :draglistview:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/draglistview/src/main/java/com/woxthebox/draglistview/DragItem.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/draglistview/src/main/java/com/woxthebox/draglistview/DragItem.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
@@ -153,11 +150,11 @@ Note: Recompile with -Xlint:unchecked for details.
 
 > Task :app:compileReleaseSources
 > Task :draglistview:prepareLintJarForPublish
+> Task :app:mergeReleaseShaders
 
 > Task :app:lintVitalRelease
 Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/f006c3cb91bb6e2e09e4db26580fd9d9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-> Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
 > Task :draglistview:mergeReleaseShaders
@@ -191,7 +188,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 20s
+BUILD SUCCESSFUL in 44s
 89 actionable tasks: 89 executed
 
-2019-05-19 19:23:57,842 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558268407889-0/src/app/build/outputs/apk/release/AndStatus-49.00-release-unsigned.apk
+2019-05-29 11:56:06,271 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559105710511-0/src/andstatus-master/app/build/outputs/apk/release/AndStatus-50.00-release-unsigned.apk
