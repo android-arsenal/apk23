@@ -1,239 +1,292 @@
-2018-09-13 23:18:15,484 INFO  DownloadService - Downloading "https://github.com/Madrapps/EyeDropper/archive/master.zip", attempt 3
-2018-09-13 23:18:16,298 INFO  DownloadService - Downloaded https://github.com/Madrapps/EyeDropper/archive/master.zip, attempt 3
-2018-09-13 23:18:16,298 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/master.zip": 287 KB
-2018-09-13 23:18:16,298 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-13 23:18:16,303 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/master.zip: true
-2018-09-13 23:18:16,304 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src'.
-2018-09-13 23:18:16,325 INFO  FullProcessService - Size of directory with sources: 305 KB
-2018-09-13 23:18:16,326 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src]
-2018-09-13 23:18:16,343 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/.git/
+2019-06-02 22:34:52,375 INFO  DownloadService - Downloading "https://github.com/Madrapps/EyeDropper/archive/master.zip", attempt 3
+2019-06-02 22:35:52,969 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-02 22:35:54,216 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-02 22:35:54,234 INFO  DownloadService - Downloading "https://github.com/Madrapps/EyeDropper/archive/master.zip", attempt 3
+2019-06-02 22:36:55,735 DEBUG FullProcessService - Repository https://github.com/Madrapps/EyeDropper available: true
+2019-06-02 22:36:55,735 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-02 22:36:55,735 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Madrapps/EyeDropper, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src]
+2019-06-02 22:36:57,856 INFO  SysUtils - 
+2019-06-02 22:36:57,878 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/.git": true
+2019-06-02 22:36:57,879 INFO  FullProcessService - Size of directory with sources: 302 KB
+2019-06-02 22:36:57,879 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src]
+2019-06-02 22:36:57,900 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/.git/
 
-2018-09-13 23:18:16,346 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/gradlew
-2018-09-13 23:18:16,350 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/eyedropper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/build.gradle
-2018-09-13 23:18:16,354 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/eyedropper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/settings.gradle
-2018-09-13 23:18:16,354 INFO  ProjectBuildService - Remote scripts: none
-2018-09-13 23:18:16,354 INFO  ProjectFixService - Fixing project...
-2018-09-13 23:18:16,361 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/eyedropper/local.properties
-2018-09-13 23:18:16,361 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/eyedropper/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-09-13 23:18:16,362 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/sample/local.properties
-2018-09-13 23:18:16,362 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/sample/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-13 23:18:16,363 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/local.properties
-2018-09-13 23:18:16,363 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.0-milestone-1-all.zip
-2018-09-13 23:18:16,364 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.0-bin.zip)
-2018-09-13 23:18:16,372 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=15,targetSdkVersion=25]
-2018-09-13 23:18:16,373 INFO  ProjectFixService - Project was maybe fixed
-2018-09-13 23:18:16,373 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 23:18:16,373 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/eyedropper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 23:18:17,126 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 23:18:17,126 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 23:18:17,126 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 23:18:17,126 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/eyedropper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 23:18:17,776 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 23:18:17,776 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-06-02 22:36:57,902 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/gradlew
+2019-06-02 22:36:57,904 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/eyedropper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/build.gradle
+2019-06-02 22:36:57,905 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/eyedropper/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/settings.gradle
+2019-06-02 22:36:57,905 INFO  ProjectBuildService - Remote scripts: none
+2019-06-02 22:36:57,905 INFO  ProjectFixService - Fixing project...
+2019-06-02 22:36:57,909 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/eyedropper/local.properties
+2019-06-02 22:36:57,910 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/eyedropper/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-06-02 22:36:57,910 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/eyedropper/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-06-02 22:36:57,911 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/local.properties
+2019-06-02 22:36:57,912 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-06-02 22:36:57,912 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-06-02 22:36:57,913 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/local.properties
+2019-06-02 22:36:57,913 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-02 22:36:57,913 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-02 22:36:57,914 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-06-02 22:36:57,914 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=27,minSdkVersion=15,targetSdkVersion=27]
+2019-06-02 22:36:57,915 INFO  ProjectFixService - Project was maybe fixed
+2019-06-02 22:36:57,915 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 22:36:57,915 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/eyedropper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 22:37:05,269 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-06-02 22:37:05,269 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-02 22:37:05,269 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/eyedropper/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-02 22:37:24,705 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+> Configure project :eyedropper
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-* Try:
-Run with --info or --debug option to get more log output.
+> Task :eyedropper:preBuild UP-TO-DATE
+> Task :eyedropper:preDebugBuild UP-TO-DATE
+> Task :eyedropper:compileDebugAidl NO-SOURCE
+> Task :eyedropper:compileDebugRenderscript NO-SOURCE
+> Task :eyedropper:checkDebugManifest
+> Task :eyedropper:generateDebugBuildConfig
+> Task :eyedropper:generateDebugResValues
+> Task :eyedropper:generateDebugResources
+> Task :eyedropper:packageDebugResources
+> Task :eyedropper:processDebugManifest
+> Task :eyedropper:generateDebugRFile
+> Task :eyedropper:compileDebugKotlin
+> Task :eyedropper:prepareLintJar
+> Task :eyedropper:generateDebugSources
+> Task :eyedropper:javaPreCompileDebug
+> Task :eyedropper:compileDebugJavaWithJavac
+> Task :eyedropper:extractDebugAnnotations
+> Task :eyedropper:mergeDebugConsumerProguardFiles
+> Task :eyedropper:mergeDebugShaders
+> Task :eyedropper:compileDebugShaders
+> Task :eyedropper:generateDebugAssets
+> Task :eyedropper:packageDebugAssets
+> Task :eyedropper:packageDebugRenderscript NO-SOURCE
+> Task :eyedropper:prepareLintJarForPublish
+> Task :eyedropper:processDebugJavaRes NO-SOURCE
+> Task :eyedropper:transformResourcesWithMergeJavaResForDebug
+> Task :eyedropper:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :eyedropper:mergeDebugJniLibFolders
+> Task :eyedropper:transformNativeLibsWithMergeJniLibsForDebug
+> Task :eyedropper:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :eyedropper:transformNativeLibsWithSyncJniLibsForDebug
+> Task :eyedropper:bundleDebugAar
+> Task :eyedropper:compileDebugSources
+> Task :eyedropper:assembleDebug
+> Task :eyedropper:preReleaseBuild UP-TO-DATE
+> Task :eyedropper:compileReleaseAidl NO-SOURCE
+> Task :eyedropper:compileReleaseRenderscript NO-SOURCE
+> Task :eyedropper:checkReleaseManifest
+> Task :eyedropper:generateReleaseBuildConfig
+> Task :eyedropper:generateReleaseResValues
+> Task :eyedropper:generateReleaseResources
+> Task :eyedropper:packageReleaseResources
+> Task :eyedropper:processReleaseManifest
+> Task :eyedropper:generateReleaseRFile
+> Task :eyedropper:compileReleaseKotlin
+> Task :eyedropper:generateReleaseSources
+> Task :eyedropper:javaPreCompileRelease
+> Task :eyedropper:compileReleaseJavaWithJavac
+> Task :eyedropper:extractReleaseAnnotations
+> Task :eyedropper:mergeReleaseConsumerProguardFiles
+> Task :eyedropper:mergeReleaseShaders
+> Task :eyedropper:compileReleaseShaders
+> Task :eyedropper:generateReleaseAssets
+> Task :eyedropper:packageReleaseAssets
+> Task :eyedropper:packageReleaseRenderscript NO-SOURCE
+> Task :eyedropper:processReleaseJavaRes NO-SOURCE
+> Task :eyedropper:transformResourcesWithMergeJavaResForRelease
+> Task :eyedropper:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :eyedropper:mergeReleaseJniLibFolders
+> Task :eyedropper:transformNativeLibsWithMergeJniLibsForRelease
+> Task :eyedropper:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :eyedropper:transformNativeLibsWithSyncJniLibsForRelease
+> Task :eyedropper:bundleReleaseAar
+> Task :eyedropper:compileReleaseSources
+> Task :eyedropper:mergeReleaseResources
+> Task :eyedropper:verifyReleaseResources
+> Task :eyedropper:assembleRelease
+> Task :eyedropper:javadoc NO-SOURCE
+> Task :eyedropper:javadocJar
+> Task :eyedropper:sourcesJar
+> Task :eyedropper:assemble
+> Task :eyedropper:build
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
+BUILD SUCCESSFUL in 18s
+48 actionable tasks: 48 executed
 
-2018-09-13 23:18:17,780 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 23:18:17,780 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 23:18:18,340 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 23:18:18,340 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 23:18:18,340 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 23:18:18,340 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 23:18:18,972 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 23:18:18,972 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-06-02 22:37:24,718 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 22:37:24,718 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 22:37:30,922 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-02 22:37:30,922 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-02 22:37:30,923 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-02 22:38:16,077 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+> Configure project :eyedropper
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-* Try:
-Run with --info or --debug option to get more log output.
+> Task :eyedropper:preBuild UP-TO-DATE
+> Task :eyedropper:preDebugBuild UP-TO-DATE
+> Task :eyedropper:compileDebugAidl NO-SOURCE
+> Task :eyedropper:compileDebugRenderscript NO-SOURCE
+> Task :eyedropper:checkDebugManifest UP-TO-DATE
+> Task :eyedropper:generateDebugBuildConfig UP-TO-DATE
+> Task :eyedropper:generateDebugResValues UP-TO-DATE
+> Task :eyedropper:generateDebugResources UP-TO-DATE
+> Task :eyedropper:packageDebugResources UP-TO-DATE
+> Task :eyedropper:processDebugManifest UP-TO-DATE
+> Task :eyedropper:generateDebugRFile UP-TO-DATE
+> Task :eyedropper:compileDebugKotlin UP-TO-DATE
+> Task :eyedropper:prepareLintJar UP-TO-DATE
+> Task :eyedropper:generateDebugSources UP-TO-DATE
+> Task :eyedropper:javaPreCompileDebug UP-TO-DATE
+> Task :eyedropper:compileDebugJavaWithJavac UP-TO-DATE
+> Task :eyedropper:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild
+> Task :sample:compileDebugAidl NO-SOURCE
+> Task :eyedropper:packageDebugRenderscript NO-SOURCE
+> Task :sample:compileDebugRenderscript NO-SOURCE
+> Task :sample:checkDebugManifest
+> Task :sample:generateDebugBuildConfig
+> Task :sample:prepareLintJar
+> Task :sample:generateDebugSources
+> Task :sample:javaPreCompileDebug
+> Task :sample:mainApkListPersistenceDebug
+> Task :sample:generateDebugResValues
+> Task :sample:generateDebugResources
+> Task :sample:mergeDebugResources
+> Task :sample:createDebugCompatibleScreenManifests
+> Task :sample:processDebugManifest
+> Task :sample:processDebugResources
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :sample:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/src/main/java/com/madrapps/eyedropperapp/views/CustomView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
+> Task :sample:compileDebugSources
+> Task :eyedropper:mergeDebugShaders UP-TO-DATE
+> Task :eyedropper:compileDebugShaders UP-TO-DATE
+> Task :eyedropper:generateDebugAssets UP-TO-DATE
+> Task :eyedropper:packageDebugAssets UP-TO-DATE
+> Task :sample:mergeDebugShaders
+> Task :sample:compileDebugShaders
+> Task :sample:generateDebugAssets
+> Task :sample:mergeDebugAssets
+> Task :eyedropper:processDebugJavaRes NO-SOURCE
+> Task :eyedropper:bundleLibResDebug
+> Task :eyedropper:bundleLibRuntimeDebug
+> Task :eyedropper:createFullJarDebug
+> Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeExtDexDebug
+> Task :sample:transformClassesWithDexBuilderForDebug
+> Task :sample:mergeDexDebug
+> Task :sample:validateSigningDebug
+> Task :sample:signingConfigWriterDebug
+> Task :eyedropper:mergeDebugJniLibFolders UP-TO-DATE
+> Task :eyedropper:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
+> Task :eyedropper:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :eyedropper:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
+> Task :eyedropper:preReleaseBuild UP-TO-DATE
+> Task :eyedropper:compileReleaseAidl NO-SOURCE
+> Task :eyedropper:compileReleaseRenderscript NO-SOURCE
+> Task :eyedropper:checkReleaseManifest UP-TO-DATE
+> Task :eyedropper:generateReleaseBuildConfig UP-TO-DATE
+> Task :eyedropper:generateReleaseResValues UP-TO-DATE
+> Task :eyedropper:generateReleaseResources UP-TO-DATE
+> Task :eyedropper:packageReleaseResources UP-TO-DATE
+> Task :eyedropper:processReleaseManifest UP-TO-DATE
+> Task :eyedropper:generateReleaseRFile UP-TO-DATE
+> Task :eyedropper:compileReleaseKotlin UP-TO-DATE
+> Task :eyedropper:generateReleaseSources UP-TO-DATE
+> Task :eyedropper:javaPreCompileRelease UP-TO-DATE
+> Task :eyedropper:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :eyedropper:bundleLibCompileRelease
+> Task :sample:extractProguardFiles
+> Task :sample:preReleaseBuild
+> Task :sample:compileReleaseAidl NO-SOURCE
+> Task :eyedropper:packageReleaseRenderscript NO-SOURCE
+> Task :sample:compileReleaseRenderscript NO-SOURCE
+> Task :sample:checkReleaseManifest
+> Task :sample:generateReleaseBuildConfig
+> Task :sample:generateReleaseSources
+> Task :sample:javaPreCompileRelease
+> Task :sample:mainApkListPersistenceRelease
+> Task :sample:generateReleaseResValues
+> Task :sample:generateReleaseResources
+> Task :sample:mergeReleaseResources
+> Task :sample:createReleaseCompatibleScreenManifests
+> Task :sample:processReleaseManifest
+> Task :sample:processReleaseResources
 
-2018-09-13 23:18:18,975 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 23:18:18,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 23:18:19,589 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 23:18:19,589 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 23:18:19,589 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 23:18:19,590 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536855495480-0/src/EyeDropper-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 23:18:20,183 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 23:18:20,183 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+> Task :sample:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/src/main/java/com/madrapps/eyedropperapp/views/CustomView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+> Task :sample:compileReleaseSources
+> Task :eyedropper:prepareLintJarForPublish UP-TO-DATE
 
-* Try:
-Run with --info or --debug option to get more log output.
+> Task :sample:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8ef4cdd79e488c7fa390a2f683304844/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-27/android.jar
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:253)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:182)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :eyedropper:mergeReleaseShaders UP-TO-DATE
+> Task :eyedropper:compileReleaseShaders UP-TO-DATE
+> Task :eyedropper:generateReleaseAssets UP-TO-DATE
+> Task :eyedropper:packageReleaseAssets UP-TO-DATE
+> Task :sample:mergeReleaseShaders
+> Task :sample:compileReleaseShaders
+> Task :sample:generateReleaseAssets
+> Task :sample:mergeReleaseAssets
+> Task :sample:signingConfigWriterRelease
+> Task :eyedropper:bundleLibRuntimeRelease
+> Task :eyedropper:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :eyedropper:processReleaseJavaRes NO-SOURCE
+> Task :eyedropper:bundleLibResRelease
+> Task :sample:processReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForRelease
 
+> Task :sample:transformClassesAndResourcesWithR8ForRelease
+R8 is the new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.4.94 (build 390954928f0db9c3b888a367f7f128ce3bbfb160 from go/r8bot (luci-r8-ci-archive-0-5g74)).
 
-2018-09-13 23:18:20,187 ERROR FullProcessService - Project build has not produced APK file
-2018-09-13 23:18:20,190 ERROR FullProcessService - Could not find generated or existed APK file
+Removed unused resources: Binary resource data reduced from 590KB to 577KB: Removed 2%
+
+> Task :sample:transformClassesAndDexWithShrinkResForRelease
+> Task :eyedropper:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :eyedropper:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
+> Task :eyedropper:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :eyedropper:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :sample:packageRelease
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 44s
+92 actionable tasks: 59 executed, 33 up-to-date
+
+2019-06-02 22:38:16,137 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489692373-0/src/sample/build/outputs/apk/release/sample-release-unsigned.apk

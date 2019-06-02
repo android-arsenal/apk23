@@ -1,1119 +1,380 @@
-2018-09-13 13:29:36,056 INFO  DownloadService - Downloading "https://github.com/Fondesa/RecyclerViewDivider/archive/master.zip", attempt 3
-2018-09-13 13:29:37,480 INFO  DownloadService - Downloaded https://github.com/Fondesa/RecyclerViewDivider/archive/master.zip, attempt 3
-2018-09-13 13:29:37,481 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/master.zip": 378 KB
-2018-09-13 13:29:37,481 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-13 13:29:37,486 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/master.zip: true
-2018-09-13 13:29:37,486 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src'.
-2018-09-13 13:29:37,522 INFO  FullProcessService - Size of directory with sources: 456 KB
-2018-09-13 13:29:37,522 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src]
-2018-09-13 13:29:37,538 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/.git/
+2019-06-02 22:28:48,965 INFO  DownloadService - Downloading "https://github.com/Fondesa/RecyclerViewDivider/archive/master.zip", attempt 3
+2019-06-02 22:29:49,545 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-02 22:29:50,796 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-02 22:29:50,797 INFO  DownloadService - Downloading "https://github.com/Fondesa/RecyclerViewDivider/archive/master.zip", attempt 3
+2019-06-02 22:30:52,344 DEBUG FullProcessService - Repository https://github.com/Fondesa/RecyclerViewDivider available: true
+2019-06-02 22:30:52,344 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-02 22:30:52,344 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Fondesa/RecyclerViewDivider, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src]
+2019-06-02 22:30:54,891 INFO  SysUtils - 
+2019-06-02 22:30:54,898 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/.git": true
+2019-06-02 22:30:54,900 INFO  FullProcessService - Size of directory with sources: 410 KB
+2019-06-02 22:30:54,900 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src]
+2019-06-02 22:30:54,915 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/.git/
 
-2018-09-13 13:29:37,542 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew
-2018-09-13 13:29:37,546 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-kotlin/build.gradle
-2018-09-13 13:29:37,549 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-java/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-kotlin/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/settings.gradle
-2018-09-13 13:29:37,550 INFO  ProjectBuildService - Remote scripts: none
-2018-09-13 13:29:37,550 INFO  ProjectFixService - Fixing project...
-2018-09-13 13:29:37,560 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/local.properties
-2018-09-13 13:29:37,560 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-bin.zip
-2018-09-13 13:29:37,563 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-13 13:29:37,563 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-13 13:29:37,564 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/buildSrc/local.properties
-2018-09-13 13:29:37,566 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-13 13:29:37,566 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-13 13:29:37,567 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/recycler-view-divider/local.properties
-2018-09-13 13:29:37,569 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-13 13:29:37,569 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-13 13:29:37,570 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/local.properties
-2018-09-13 13:29:37,572 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-13 13:29:37,572 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-13 13:29:37,573 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-java/local.properties
-2018-09-13 13:29:37,575 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-java/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-13 13:29:37,575 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-java/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-13 13:29:37,576 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-kotlin/local.properties
-2018-09-13 13:29:37,578 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-kotlin/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2018-09-13 13:29:37,578 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-kotlin/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2018-09-13 13:29:37,578 INFO  ProjectFixService - Project was maybe fixed
-2018-09-13 13:29:37,578 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 13:29:37,578 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 13:29:51,883 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 13:29:51,883 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 13:29:51,883 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 13:29:51,883 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 13:29:57,080 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 13:29:57,080 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
+2019-06-02 22:30:54,918 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/gradlew
+2019-06-02 22:30:54,920 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/recycler-view-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/sample/build.gradle
+2019-06-02 22:30:54,922 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/recycler-view-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/settings.gradle
+2019-06-02 22:30:54,922 INFO  ProjectBuildService - Remote scripts: none
+2019-06-02 22:30:54,922 INFO  ProjectFixService - Fixing project...
+2019-06-02 22:30:54,928 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/local.properties
+2019-06-02 22:30:54,928 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
+2019-06-02 22:30:54,929 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-02 22:30:54,930 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-02 22:30:54,930 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/buildSrc/local.properties
+2019-06-02 22:30:54,931 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-02 22:30:54,931 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-02 22:30:54,932 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/recycler-view-divider/local.properties
+2019-06-02 22:30:54,933 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/recycler-view-divider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-02 22:30:54,933 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/recycler-view-divider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-02 22:30:54,934 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/sample/local.properties
+2019-06-02 22:30:54,935 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-02 22:30:54,935 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-02 22:30:54,936 INFO  ProjectFixService - Project was maybe fixed
+2019-06-02 22:30:54,936 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-02 22:30:54,936 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-02 22:31:07,259 INFO  ProjectTaskService - Detected possible tasks: 121
+2019-06-02 22:31:07,260 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-02 22:31:07,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-02 22:32:11,556 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+Daemon will be stopped at the end of the build stopping after processing
+> Task :buildSrc:compileJava NO-SOURCE
+> Task :buildSrc:compileGroovy UP-TO-DATE
+> Task :buildSrc:processResources NO-SOURCE
+> Task :buildSrc:classes UP-TO-DATE
+> Task :buildSrc:jar UP-TO-DATE
+> Task :buildSrc:assemble UP-TO-DATE
+> Task :buildSrc:compileTestJava NO-SOURCE
+> Task :buildSrc:compileTestGroovy NO-SOURCE
+> Task :buildSrc:processTestResources NO-SOURCE
+> Task :buildSrc:testClasses UP-TO-DATE
+> Task :buildSrc:test NO-SOURCE
+> Task :buildSrc:check UP-TO-DATE
+> Task :buildSrc:build UP-TO-DATE
 Configuration on demand is an incubating feature.
-:buildSrc:compileJava NO-SOURCE
-:buildSrc:compileGroovy UP-TO-DATE
-:buildSrc:processResources NO-SOURCE
-:buildSrc:classes UP-TO-DATE
-:buildSrc:jar UP-TO-DATE
-:buildSrc:assemble UP-TO-DATE
-:buildSrc:compileTestJava NO-SOURCE
-:buildSrc:compileTestGroovy NO-SOURCE
-:buildSrc:processTestResources NO-SOURCE
-:buildSrc:testClasses UP-TO-DATE
-:buildSrc:test NO-SOURCE
-:buildSrc:check UP-TO-DATE
-:buildSrc:build UP-TO-DATE
 
-FAILURE: Build failed with an exception.
+> Configure project :recycler-view-divider
+WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
+It will be removed at the end of 2019.
+For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
+To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
 
-* What went wrong:
-A problem occurred configuring project ':recycler-view-divider'.
-> Failed to notify project evaluation listener.
-   > javax/xml/bind/annotation/XmlSchema
+> Task :recycler-view-divider:preBuild UP-TO-DATE
+> Task :recycler-view-divider:preDebugBuild UP-TO-DATE
+> Task :recycler-view-divider:checkDebugManifest
+> Task :recycler-view-divider:generateDebugBuildConfig
+> Task :recycler-view-divider:compileDebugAidl NO-SOURCE
+> Task :recycler-view-divider:compileDebugRenderscript NO-SOURCE
+> Task :recycler-view-divider:generateDebugResValues
+> Task :recycler-view-divider:generateDebugResources
+> Task :recycler-view-divider:processDebugManifest
+> Task :recycler-view-divider:packageDebugResources
+> Task :recycler-view-divider:generateDebugRFile
+> Task :recycler-view-divider:prepareLintJar
+> Task :recycler-view-divider:generateDebugSources
+> Task :recycler-view-divider:compileDebugKotlin
+> Task :recycler-view-divider:javaPreCompileDebug
+> Task :recycler-view-divider:compileDebugJavaWithJavac
+> Task :recycler-view-divider:extractDebugAnnotations
+> Task :recycler-view-divider:mergeDebugConsumerProguardFiles
+> Task :recycler-view-divider:mergeDebugShaders
+> Task :recycler-view-divider:compileDebugShaders
+> Task :recycler-view-divider:generateDebugAssets
+> Task :recycler-view-divider:packageDebugAssets
+> Task :recycler-view-divider:packageDebugRenderscript NO-SOURCE
+> Task :recycler-view-divider:prepareLintJarForPublish
+> Task :recycler-view-divider:processDebugJavaRes NO-SOURCE
+> Task :recycler-view-divider:transformResourcesWithMergeJavaResForDebug
+> Task :recycler-view-divider:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :recycler-view-divider:mergeDebugJniLibFolders
+> Task :recycler-view-divider:transformNativeLibsWithMergeJniLibsForDebug
+> Task :recycler-view-divider:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :recycler-view-divider:transformNativeLibsWithSyncJniLibsForDebug
+> Task :recycler-view-divider:bundleDebugAar
+> Task :recycler-view-divider:compileDebugSources
+> Task :recycler-view-divider:assembleDebug
+> Task :recycler-view-divider:preReleaseBuild UP-TO-DATE
+> Task :recycler-view-divider:compileReleaseAidl NO-SOURCE
+> Task :recycler-view-divider:compileReleaseRenderscript NO-SOURCE
+> Task :recycler-view-divider:checkReleaseManifest
+> Task :recycler-view-divider:generateReleaseBuildConfig
+> Task :recycler-view-divider:generateReleaseResValues
+> Task :recycler-view-divider:generateReleaseResources
+> Task :recycler-view-divider:packageReleaseResources
+> Task :recycler-view-divider:processReleaseManifest
+> Task :recycler-view-divider:generateReleaseRFile
+> Task :recycler-view-divider:compileReleaseKotlin
+> Task :recycler-view-divider:generateReleaseSources
+> Task :recycler-view-divider:javaPreCompileRelease
+> Task :recycler-view-divider:compileReleaseJavaWithJavac
+> Task :recycler-view-divider:extractReleaseAnnotations
+> Task :recycler-view-divider:mergeReleaseConsumerProguardFiles
+> Task :recycler-view-divider:mergeReleaseShaders
+> Task :recycler-view-divider:compileReleaseShaders
+> Task :recycler-view-divider:generateReleaseAssets
+> Task :recycler-view-divider:packageReleaseAssets
+> Task :recycler-view-divider:packageReleaseRenderscript NO-SOURCE
+> Task :recycler-view-divider:processReleaseJavaRes NO-SOURCE
+> Task :recycler-view-divider:transformResourcesWithMergeJavaResForRelease
+> Task :recycler-view-divider:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :recycler-view-divider:mergeReleaseJniLibFolders
+> Task :recycler-view-divider:transformNativeLibsWithMergeJniLibsForRelease
+> Task :recycler-view-divider:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :recycler-view-divider:transformNativeLibsWithSyncJniLibsForRelease
+> Task :recycler-view-divider:bundleReleaseAar
+> Task :recycler-view-divider:compileReleaseSources
 
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+> Task :recycler-view-divider:dokka
+No documentation for com.fondesa.recyclerviewdivider.RecyclerViewDivider$getItemOffsets(android.graphics.Rect, android.view.View, androidx.recyclerview.widget.RecyclerView, androidx.recyclerview.widget.RecyclerView.State) (RecyclerViewDivider.kt:99)
+No documentation for com.fondesa.recyclerviewdivider.RecyclerViewDivider$onDraw(android.graphics.Canvas, androidx.recyclerview.widget.RecyclerView, androidx.recyclerview.widget.RecyclerView.State) (RecyclerViewDivider.kt:179)
+No documentation for com.fondesa.recyclerviewdivider.manager.visibility.VisibilityManager.VisibilityType.NONE (VisibilityManager.kt:42)
+No documentation for com.fondesa.recyclerviewdivider.manager.visibility.VisibilityManager.VisibilityType.ITEMS_ONLY (VisibilityManager.kt:43)
+No documentation for com.fondesa.recyclerviewdivider.manager.visibility.VisibilityManager.VisibilityType.GROUP_ONLY (VisibilityManager.kt:44)
+No documentation for com.fondesa.recyclerviewdivider.manager.visibility.VisibilityManager.VisibilityType.ALL (VisibilityManager.kt:45)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider (RecyclerViewDivider.kt:44)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider (RecyclerViewDivider.kt:44)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$addTo(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:80)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$removeFrom(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:90)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Companion$with(android.content.Context) (RecyclerViewDivider.kt:66)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$addTo(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:80)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$addTo(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:80)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$removeFrom(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:90)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$removeFrom(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:90)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Builder (RecyclerViewDivider.kt:379)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Builder (RecyclerViewDivider.kt:379)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.BuilderProvider$provideDividerBuilder(android.content.Context) (RecyclerViewDivider.kt:544)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Companion$with(android.content.Context) (RecyclerViewDivider.kt:66)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Companion$with(android.content.Context) (RecyclerViewDivider.kt:66)
+Can't find node by signature `android.view.ViewGroup.MarginLayoutParams`, referenced at com.fondesa.recyclerviewdivider.extension$startMarginCompat#android.view.ViewGroup.MarginLayoutParams (LayoutParamsExtensions.kt:22)
+Can't find node by signature `android.view.ViewGroup.MarginLayoutParams`, referenced at com.fondesa.recyclerviewdivider.extension$endMarginCompat#android.view.ViewGroup.MarginLayoutParams (LayoutParamsExtensions.kt:30)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>(kotlin.Int) (DefaultDrawableManager.kt:30)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>() (DefaultDrawableManager.kt:37)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>(kotlin.Int) (DefaultDrawableManager.kt:30)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>(kotlin.Int) (DefaultDrawableManager.kt:30)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>() (DefaultDrawableManager.kt:37)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DrawableManager$itemDrawable(kotlin.Int, kotlin.Int) (DrawableManager.kt:30)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DrawableManager$itemDrawable(kotlin.Int, kotlin.Int) (DrawableManager.kt:30)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.manager.size.DefaultSizeManager$<init>(android.content.Context) (DefaultSizeManager.kt:33)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$VERTICAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONTAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$VERTICAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONTAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider (RecyclerViewDivider.kt:44)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>(kotlin.Int) (DefaultDrawableManager.kt:30)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>() (DefaultDrawableManager.kt:37)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>(kotlin.Int) (DefaultDrawableManager.kt:30)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>(kotlin.Int) (DefaultDrawableManager.kt:30)
+Can't find node by signature `android.graphics.drawable.ColorDrawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager$<init>() (DefaultDrawableManager.kt:37)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DrawableManager$itemDrawable(kotlin.Int, kotlin.Int) (DrawableManager.kt:30)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.manager.size.DefaultSizeManager$<init>(android.content.Context) (DefaultSizeManager.kt:33)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$VERTICAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONTAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DefaultDrawableManager (DefaultDrawableManager.kt:23)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.drawable.DrawableManager$itemDrawable(kotlin.Int, kotlin.Int) (DrawableManager.kt:30)
+Can't find node by signature `android.view.ViewGroup.MarginLayoutParams`, referenced at com.fondesa.recyclerviewdivider.extension$startMarginCompat#android.view.ViewGroup.MarginLayoutParams (LayoutParamsExtensions.kt:22)
+Can't find node by signature `android.view.ViewGroup.MarginLayoutParams`, referenced at com.fondesa.recyclerviewdivider.extension$endMarginCompat#android.view.ViewGroup.MarginLayoutParams (LayoutParamsExtensions.kt:30)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider (RecyclerViewDivider.kt:44)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$addTo(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:80)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$removeFrom(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:90)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Companion$with(android.content.Context) (RecyclerViewDivider.kt:66)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$addTo(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:80)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$addTo(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:80)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$removeFrom(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:90)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider$removeFrom(androidx.recyclerview.widget.RecyclerView) (RecyclerViewDivider.kt:90)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Builder (RecyclerViewDivider.kt:379)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Builder (RecyclerViewDivider.kt:379)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.BuilderProvider$provideDividerBuilder(android.content.Context) (RecyclerViewDivider.kt:544)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Companion$with(android.content.Context) (RecyclerViewDivider.kt:66)
+Can't find node by signature `android.content.Context`, referenced at com.fondesa.recyclerviewdivider.RecyclerViewDivider.Companion$with(android.content.Context) (RecyclerViewDivider.kt:66)
+Can't find node by signature `android.graphics.drawable.Drawable`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$VERTICAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
+Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONTAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
 
-* Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':recycler-view-divider'.
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.internal.event.ListenerNotificationException: Failed to notify project evaluation listener.
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:86)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy25.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
-	... 91 more
-Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
-	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
-	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
-	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
-	at com.android.builder.sdk.DefaultSdkLoader.init(DefaultSdkLoader.java:383)
-	at com.android.builder.sdk.DefaultSdkLoader.getSdkInfo(DefaultSdkLoader.java:366)
-	at com.android.build.gradle.internal.SdkHandler.initTarget(SdkHandler.java:168)
-	at com.android.build.gradle.BasePlugin.ensureTargetSetup(BasePlugin.java:718)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:600)
-	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
-	... 98 more
-Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
-	... 115 more
+> Task :recycler-view-divider:mergeReleaseResources
+> Task :recycler-view-divider:verifyReleaseResources
+> Task :recycler-view-divider:assembleRelease
+> Task :recycler-view-divider:sourcesJar
+> Task :recycler-view-divider:javadocJar
+> Task :recycler-view-divider:assemble
+> Task :recycler-view-divider:build
+> Task :recycler-view-divider:bundleLibCompileDebug
+> Task :sample:preBuild UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :recycler-view-divider:bundleLibResDebug
+> Task :recycler-view-divider:bundleLibRuntimeDebug
+> Task :recycler-view-divider:createFullJarDebug
+> Task :sample:preLocalDebugBuild
+> Task :sample:compileLocalDebugAidl NO-SOURCE
+> Task :sample:compileLocalDebugRenderscript NO-SOURCE
+> Task :sample:checkLocalDebugManifest
+> Task :sample:generateLocalDebugBuildConfig
+> Task :sample:mainApkListPersistenceLocalDebug
+> Task :sample:generateLocalDebugResValues
+> Task :sample:generateLocalDebugResources
+> Task :sample:mergeLocalDebugResources
+> Task :sample:createLocalDebugCompatibleScreenManifests
+> Task :sample:processLocalDebugManifest
+> Task :sample:processLocalDebugResources
+> Task :sample:compileLocalDebugKotlin
+> Task :sample:generateLocalDebugSources
+> Task :sample:javaPreCompileLocalDebug
+> Task :sample:compileLocalDebugJavaWithJavac
+> Task :sample:compileLocalDebugSources
+> Task :sample:checkLocalDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForLocalDebug
+> Task :sample:mergeLocalDebugShaders
+> Task :sample:compileLocalDebugShaders
+> Task :sample:generateLocalDebugAssets
+> Task :sample:mergeLocalDebugAssets
+> Task :sample:validateSigningLocalDebug
+> Task :sample:signingConfigWriterLocalDebug
+> Task :recycler-view-divider:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :sample:mergeLocalDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForLocalDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForLocalDebug
+> Task :sample:processLocalDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForLocalDebug
+> Task :recycler-view-divider:bundleLibCompileRelease
+> Task :sample:preLocalReleaseBuild
+> Task :sample:compileLocalReleaseAidl NO-SOURCE
+> Task :sample:compileLocalReleaseRenderscript NO-SOURCE
+> Task :sample:checkLocalReleaseManifest
+> Task :sample:generateLocalReleaseBuildConfig
+> Task :sample:mainApkListPersistenceLocalRelease
+> Task :sample:generateLocalReleaseResValues
+> Task :sample:generateLocalReleaseResources
+> Task :sample:mergeLocalReleaseResources
+> Task :sample:createLocalReleaseCompatibleScreenManifests
+> Task :sample:processLocalReleaseManifest
+> Task :sample:processLocalReleaseResources
+> Task :sample:preMavenDebugBuild
+> Task :sample:compileMavenDebugAidl NO-SOURCE
+> Task :sample:compileMavenDebugRenderscript NO-SOURCE
+> Task :sample:checkMavenDebugManifest
+> Task :sample:generateMavenDebugBuildConfig
+> Task :sample:mainApkListPersistenceMavenDebug
+> Task :sample:generateMavenDebugResValues
+> Task :sample:generateMavenDebugResources
+> Task :sample:mergeMavenDebugResources
+> Task :sample:mergeExtDexLocalDebug
+> Task :sample:mergeDexLocalDebug
+> Task :sample:packageLocalDebug
+> Task :sample:assembleLocalDebug
+> Task :sample:createMavenDebugCompatibleScreenManifests
+> Task :sample:processMavenDebugManifest
+> Task :sample:processMavenDebugResources
+> Task :sample:compileMavenDebugKotlin
+> Task :sample:generateMavenDebugSources
+> Task :sample:javaPreCompileMavenDebug
+> Task :sample:compileMavenDebugJavaWithJavac
+> Task :sample:compileMavenDebugSources
+> Task :sample:checkMavenDebugDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForMavenDebug
+> Task :sample:mergeMavenDebugShaders
+> Task :sample:compileMavenDebugShaders
+> Task :sample:generateMavenDebugAssets
+> Task :sample:mergeMavenDebugAssets
+> Task :sample:validateSigningMavenDebug
+> Task :sample:signingConfigWriterMavenDebug
+> Task :sample:mergeMavenDebugJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForMavenDebug
+> Task :sample:mergeExtDexMavenDebug
+> Task :sample:mergeDexMavenDebug
+> Task :sample:transformNativeLibsWithStripDebugSymbolForMavenDebug
+> Task :sample:processMavenDebugJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForMavenDebug
+> Task :sample:packageMavenDebug
+> Task :sample:assembleMavenDebug
+> Task :sample:assembleDebug
+> Task :sample:compileLocalReleaseKotlin
+> Task :sample:generateLocalReleaseSources
+> Task :sample:javaPreCompileLocalRelease
+> Task :sample:compileLocalReleaseJavaWithJavac
+> Task :sample:compileLocalReleaseSources
+> Task :recycler-view-divider:bundleLibResRelease
 
+> Task :sample:lintVitalLocalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/428cb7698ba86b7d6a3d25d03e0f31a6/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
-* Get more help at https://help.gradle.org
+> Task :recycler-view-divider:bundleLibRuntimeRelease
+> Task :recycler-view-divider:createFullJarRelease
+> Task :sample:checkLocalReleaseDuplicateClasses
+> Task :sample:transformClassesWithDexBuilderForLocalRelease
+> Task :sample:mergeLocalReleaseShaders
+> Task :sample:compileLocalReleaseShaders
+> Task :sample:generateLocalReleaseAssets
+> Task :sample:mergeLocalReleaseAssets
+> Task :sample:signingConfigWriterLocalRelease
+> Task :recycler-view-divider:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :sample:mergeLocalReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForLocalRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForLocalRelease
+> Task :sample:processLocalReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForLocalRelease
+> Task :sample:preMavenReleaseBuild
+> Task :sample:compileMavenReleaseAidl NO-SOURCE
+> Task :sample:compileMavenReleaseRenderscript NO-SOURCE
+> Task :sample:checkMavenReleaseManifest
+> Task :sample:generateMavenReleaseBuildConfig
+> Task :sample:mainApkListPersistenceMavenRelease
+> Task :sample:generateMavenReleaseResValues
+> Task :sample:generateMavenReleaseResources
+> Task :sample:mergeMavenReleaseResources
+> Task :sample:createMavenReleaseCompatibleScreenManifests
+> Task :sample:processMavenReleaseManifest
+> Task :sample:processMavenReleaseResources
+> Task :sample:compileMavenReleaseKotlin
+> Task :sample:mergeExtDexLocalRelease
+> Task :sample:mergeDexLocalRelease
+> Task :sample:packageLocalRelease
+> Task :sample:assembleLocalRelease
+> Task :sample:assembleLocal
+> Task :sample:generateMavenReleaseSources
+> Task :sample:javaPreCompileMavenRelease
+> Task :sample:compileMavenReleaseJavaWithJavac
+> Task :sample:compileMavenReleaseSources
+> Task :sample:checkMavenReleaseDuplicateClasses
+> Task :sample:lintVitalMavenRelease
+> Task :sample:transformClassesWithDexBuilderForMavenRelease
+> Task :sample:mergeExtDexMavenRelease
+> Task :sample:mergeDexMavenRelease
+> Task :sample:mergeMavenReleaseShaders
+> Task :sample:compileMavenReleaseShaders
+> Task :sample:generateMavenReleaseAssets
+> Task :sample:mergeMavenReleaseAssets
+> Task :sample:signingConfigWriterMavenRelease
+> Task :sample:mergeMavenReleaseJniLibFolders
+> Task :sample:transformNativeLibsWithMergeJniLibsForMavenRelease
+> Task :sample:transformNativeLibsWithStripDebugSymbolForMavenRelease
+> Task :sample:processMavenReleaseJavaRes NO-SOURCE
+> Task :sample:transformResourcesWithMergeJavaResForMavenRelease
+> Task :sample:packageMavenRelease
+> Task :sample:assembleMavenRelease
+> Task :sample:assembleMaven
+> Task :sample:assembleRelease
+> Task :sample:assemble
+> Task :sample:build
 
-BUILD FAILED in 4s
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-2018-09-13 13:29:57,088 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 13:29:57,088 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/buildSrc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 13:30:00,754 INFO  ProjectTaskService - Detected possible tasks: 58
-2018-09-13 13:30:00,754 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2018-09-13 13:30:00,754 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/buildSrc/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2018-09-13 13:30:04,368 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
-Configuration on demand is an incubating feature.
-:buildSrc:compileJava NO-SOURCE
-:buildSrc:compileGroovy UP-TO-DATE
-:buildSrc:processResources NO-SOURCE
-:buildSrc:classes UP-TO-DATE
-:buildSrc:jar UP-TO-DATE
-:buildSrc:assemble UP-TO-DATE
-:buildSrc:compileTestJava NO-SOURCE
-:buildSrc:compileTestGroovy NO-SOURCE
-:buildSrc:processTestResources NO-SOURCE
-:buildSrc:testClasses UP-TO-DATE
-:buildSrc:test NO-SOURCE
-:buildSrc:check UP-TO-DATE
-:buildSrc:build UP-TO-DATE
-Support for nested build without a settings file was deprecated and will be removed in Gradle 5.0. You should create a empty settings file in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/buildSrc
-	at org.gradle.initialization.DefaultSettingsLoader.deprecateWarningIfNecessary(DefaultSettingsLoader.java:89)
-	at org.gradle.initialization.DefaultSettingsLoader.findAndLoadSettings(DefaultSettingsLoader.java:57)
-	at org.gradle.internal.composite.CompositeBuildSettingsLoader.findAndLoadSettings(CompositeBuildSettingsLoader.java:40)
-	at org.gradle.initialization.NotifyingSettingsLoader.findAndLoadSettings(NotifyingSettingsLoader.java:31)
-	at org.gradle.initialization.DefaultGradleLauncher$LoadBuild.run(DefaultGradleLauncher.java:235)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.loadSettings(DefaultGradleLauncher.java:159)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:122)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-:compileJava NO-SOURCE
-:compileGroovy UP-TO-DATE
-:processResources NO-SOURCE
-:classes UP-TO-DATE
-:jar UP-TO-DATE
-:assemble UP-TO-DATE
-:build
+BUILD SUCCESSFUL in 1m 3s
+164 actionable tasks: 164 executed
 
-BUILD SUCCESSFUL in 3s
-2 actionable tasks: 2 up-to-date
-
-2018-09-13 13:30:04,375 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 13:30:04,375 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 13:30:09,617 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 13:30:09,617 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 13:30:09,617 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 13:30:09,617 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 13:30:14,890 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 13:30:14,890 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
-Configuration on demand is an incubating feature.
-:buildSrc:compileJava NO-SOURCE
-:buildSrc:compileGroovy UP-TO-DATE
-:buildSrc:processResources NO-SOURCE
-:buildSrc:classes UP-TO-DATE
-:buildSrc:jar UP-TO-DATE
-:buildSrc:assemble UP-TO-DATE
-:buildSrc:compileTestJava NO-SOURCE
-:buildSrc:compileTestGroovy NO-SOURCE
-:buildSrc:processTestResources NO-SOURCE
-:buildSrc:testClasses UP-TO-DATE
-:buildSrc:test NO-SOURCE
-:buildSrc:check UP-TO-DATE
-:buildSrc:build UP-TO-DATE
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-A problem occurred configuring project ':recycler-view-divider'.
-> Failed to notify project evaluation listener.
-   > javax/xml/bind/annotation/XmlSchema
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':recycler-view-divider'.
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.internal.event.ListenerNotificationException: Failed to notify project evaluation listener.
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:86)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy25.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
-	... 91 more
-Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
-	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
-	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
-	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
-	at com.android.builder.sdk.DefaultSdkLoader.init(DefaultSdkLoader.java:383)
-	at com.android.builder.sdk.DefaultSdkLoader.getSdkInfo(DefaultSdkLoader.java:366)
-	at com.android.build.gradle.internal.SdkHandler.initTarget(SdkHandler.java:168)
-	at com.android.build.gradle.BasePlugin.ensureTargetSetup(BasePlugin.java:718)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:600)
-	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
-	... 98 more
-Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
-	... 115 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 4s
-
-2018-09-13 13:30:14,897 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 13:30:14,897 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 13:30:20,448 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 13:30:20,448 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 13:30:20,448 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 13:30:20,448 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 13:30:25,545 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 13:30:25,545 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
-Configuration on demand is an incubating feature.
-:buildSrc:compileJava NO-SOURCE
-:buildSrc:compileGroovy UP-TO-DATE
-:buildSrc:processResources NO-SOURCE
-:buildSrc:classes UP-TO-DATE
-:buildSrc:jar UP-TO-DATE
-:buildSrc:assemble UP-TO-DATE
-:buildSrc:compileTestJava NO-SOURCE
-:buildSrc:compileTestGroovy NO-SOURCE
-:buildSrc:processTestResources NO-SOURCE
-:buildSrc:testClasses UP-TO-DATE
-:buildSrc:test NO-SOURCE
-:buildSrc:check UP-TO-DATE
-:buildSrc:build UP-TO-DATE
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-A problem occurred configuring project ':sample:sample-java'.
-> Failed to notify project evaluation listener.
-   > javax/xml/bind/annotation/XmlSchema
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample:sample-java'.
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:62)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.internal.event.ListenerNotificationException: Failed to notify project evaluation listener.
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:86)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy25.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
-	... 91 more
-Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
-	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
-	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
-	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
-	at com.android.builder.sdk.DefaultSdkLoader.init(DefaultSdkLoader.java:383)
-	at com.android.builder.sdk.DefaultSdkLoader.getSdkInfo(DefaultSdkLoader.java:366)
-	at com.android.build.gradle.internal.SdkHandler.initTarget(SdkHandler.java:168)
-	at com.android.build.gradle.BasePlugin.ensureTargetSetup(BasePlugin.java:718)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:600)
-	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
-	... 98 more
-Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
-	... 115 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 4s
-
-2018-09-13 13:30:25,552 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 13:30:25,552 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 13:30:30,975 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 13:30:30,975 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 13:30:30,975 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 13:30:30,975 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-java/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 13:30:36,057 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 13:30:36,057 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
-Configuration on demand is an incubating feature.
-:buildSrc:compileJava NO-SOURCE
-:buildSrc:compileGroovy UP-TO-DATE
-:buildSrc:processResources NO-SOURCE
-:buildSrc:classes UP-TO-DATE
-:buildSrc:jar UP-TO-DATE
-:buildSrc:assemble UP-TO-DATE
-:buildSrc:compileTestJava NO-SOURCE
-:buildSrc:compileTestGroovy NO-SOURCE
-:buildSrc:processTestResources NO-SOURCE
-:buildSrc:testClasses UP-TO-DATE
-:buildSrc:test NO-SOURCE
-:buildSrc:check UP-TO-DATE
-:buildSrc:build UP-TO-DATE
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-A problem occurred configuring project ':sample:sample-java'.
-> Failed to notify project evaluation listener.
-   > javax/xml/bind/annotation/XmlSchema
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample:sample-java'.
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.internal.event.ListenerNotificationException: Failed to notify project evaluation listener.
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:86)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy25.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
-	... 91 more
-Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
-	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
-	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
-	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
-	at com.android.builder.sdk.DefaultSdkLoader.init(DefaultSdkLoader.java:383)
-	at com.android.builder.sdk.DefaultSdkLoader.getSdkInfo(DefaultSdkLoader.java:366)
-	at com.android.build.gradle.internal.SdkHandler.initTarget(SdkHandler.java:168)
-	at com.android.build.gradle.BasePlugin.ensureTargetSetup(BasePlugin.java:718)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:600)
-	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
-	... 98 more
-Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
-	... 115 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 4s
-
-2018-09-13 13:30:36,064 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 13:30:36,064 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 13:30:41,260 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 13:30:41,260 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 13:30:41,260 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 13:30:41,260 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536820176054-0/src/RecyclerViewDivider-master/sample/sample-kotlin/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 13:30:46,427 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at jdk.internal.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 13:30:46,427 INFO  SysUtils - WARNING: An illegal reflective access operation has occurred
-WARNING: Illegal reflective access by org.codehaus.groovy.reflection.CachedClass (file:/Users/vbauer/.gradle/wrapper/dists/gradle-4.4-bin/bgaq7vklkazwgxox0hdadxbvi/gradle-4.4/lib/groovy-all-2.4.12.jar) to method java.lang.Object.finalize()
-WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.reflection.CachedClass
-WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
-WARNING: All illegal access operations will be denied in a future release
-Configuration on demand is an incubating feature.
-:buildSrc:compileJava NO-SOURCE
-:buildSrc:compileGroovy UP-TO-DATE
-:buildSrc:processResources NO-SOURCE
-:buildSrc:classes UP-TO-DATE
-:buildSrc:jar UP-TO-DATE
-:buildSrc:assemble UP-TO-DATE
-:buildSrc:compileTestJava NO-SOURCE
-:buildSrc:compileTestGroovy NO-SOURCE
-:buildSrc:processTestResources NO-SOURCE
-:buildSrc:testClasses UP-TO-DATE
-:buildSrc:test NO-SOURCE
-:buildSrc:check UP-TO-DATE
-:buildSrc:build UP-TO-DATE
-
-FAILURE: Build failed with an exception.
-
-* What went wrong:
-A problem occurred configuring project ':sample:sample-kotlin'.
-> Failed to notify project evaluation listener.
-   > javax/xml/bind/annotation/XmlSchema
-
-* Try:
-Run with --info or --debug option to get more log output. Run with --scan to get full insights.
-
-* Exception is:
-org.gradle.api.ProjectConfigurationException: A problem occurred configuring project ':sample:sample-kotlin'.
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.addConfigurationFailure(LifecycleProjectEvaluator.java:94)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:89)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.doConfigure(LifecycleProjectEvaluator.java:70)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.access$100(LifecycleProjectEvaluator.java:34)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator$ConfigureProject.run(LifecycleProjectEvaluator.java:110)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.evaluate(LifecycleProjectEvaluator.java:50)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:666)
-	at org.gradle.api.internal.project.DefaultProject.evaluate(DefaultProject.java:135)
-	at org.gradle.execution.TaskPathProjectEvaluator.configure(TaskPathProjectEvaluator.java:35)
-	at org.gradle.execution.TaskPathProjectEvaluator.configureHierarchy(TaskPathProjectEvaluator.java:60)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:100)
-	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:81)
-	at org.gradle.execution.commandline.CommandLineTaskParser.parseTasks(CommandLineTaskParser.java:42)
-	at org.gradle.execution.TaskNameResolvingBuildConfigurationAction.configure(TaskNameResolvingBuildConfigurationAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.DefaultTasksBuildExecutionAction.configure(DefaultTasksBuildExecutionAction.java:44)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$000(DefaultBuildConfigurationActionExecuter.java:25)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.proceed(DefaultBuildConfigurationActionExecuter.java:54)
-	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:47)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
-	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
-	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
-	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:31)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:108)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-Caused by: org.gradle.internal.event.ListenerNotificationException: Failed to notify project evaluation listener.
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:86)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:324)
-	at org.gradle.internal.event.BroadcastDispatch$CompositeDispatch.dispatch(BroadcastDispatch.java:234)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:140)
-	at org.gradle.internal.event.ListenerBroadcast.dispatch(ListenerBroadcast.java:37)
-	at org.gradle.internal.dispatch.ProxyDispatchAdapter$DispatchingInvocationHandler.invoke(ProxyDispatchAdapter.java:93)
-	at com.sun.proxy.$Proxy25.afterEvaluate(Unknown Source)
-	at org.gradle.configuration.project.LifecycleProjectEvaluator.notifyAfterEvaluate(LifecycleProjectEvaluator.java:76)
-	... 91 more
-Caused by: java.lang.NoClassDefFoundError: javax/xml/bind/annotation/XmlSchema
-	at com.android.repository.api.SchemaModule$SchemaModuleVersion.<init>(SchemaModule.java:156)
-	at com.android.repository.api.SchemaModule.<init>(SchemaModule.java:75)
-	at com.android.sdklib.repository.AndroidSdkHandler.<clinit>(AndroidSdkHandler.java:81)
-	at com.android.builder.sdk.DefaultSdkLoader.init(DefaultSdkLoader.java:383)
-	at com.android.builder.sdk.DefaultSdkLoader.getSdkInfo(DefaultSdkLoader.java:366)
-	at com.android.build.gradle.internal.SdkHandler.initTarget(SdkHandler.java:168)
-	at com.android.build.gradle.BasePlugin.ensureTargetSetup(BasePlugin.java:718)
-	at com.android.build.gradle.BasePlugin.createAndroidTasks(BasePlugin.java:600)
-	at com.android.build.gradle.BasePlugin.lambda$null$3(BasePlugin.java:555)
-	at com.android.builder.profile.ThreadRecorder.record(ThreadRecorder.java:81)
-	at com.android.build.gradle.BasePlugin.lambda$createTasks$4(BasePlugin.java:551)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:91)
-	at org.gradle.internal.event.BroadcastDispatch$ActionInvocationHandler.dispatch(BroadcastDispatch.java:80)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:42)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:230)
-	at org.gradle.internal.event.BroadcastDispatch$SingletonDispatch.dispatch(BroadcastDispatch.java:149)
-	at org.gradle.internal.event.AbstractBroadcastDispatch.dispatch(AbstractBroadcastDispatch.java:58)
-	... 98 more
-Caused by: java.lang.ClassNotFoundException: javax.xml.bind.annotation.XmlSchema
-	... 115 more
-
-
-* Get more help at https://help.gradle.org
-
-BUILD FAILED in 4s
-
-2018-09-13 13:30:46,434 ERROR FullProcessService - Project build has not produced APK file
-2018-09-13 13:30:46,440 ERROR FullProcessService - Could not find generated or existed APK file
+2019-06-02 22:32:11,704 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489328963-0/src/sample/build/outputs/apk/maven/release/sample-maven-release-unsigned.apk
