@@ -1,36 +1,39 @@
-2019-05-26 19:06:29,941 INFO  DownloadService - Downloading "https://github.com/lingarajsankaravelu/Katex/archive/master.zip", attempt 3
-2019-05-26 19:06:31,850 INFO  DownloadService - Downloaded https://github.com/lingarajsankaravelu/Katex/archive/master.zip, attempt 3
-2019-05-26 19:06:31,851 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/master.zip": 1 MB
-2019-05-26 19:06:31,851 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-05-26 19:06:31,851 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/master.zip: true
-2019-05-26 19:06:31,852 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src'.
-2019-05-26 19:06:31,905 INFO  FullProcessService - Size of directory with sources: 3 MB
-2019-05-26 19:06:31,905 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src]
-2019-05-26 19:06:31,921 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/.git/
+2019-06-10 14:47:26,678 INFO  DownloadService - Downloading "https://github.com/lingarajsankaravelu/Katex/archive/master.zip", attempt 3
+2019-06-10 14:48:27,260 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-10 14:48:28,241 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-10 14:48:28,241 INFO  DownloadService - Downloading "https://github.com/lingarajsankaravelu/Katex/archive/master.zip", attempt 3
+2019-06-10 14:49:29,730 DEBUG FullProcessService - Repository https://github.com/lingarajsankaravelu/Katex available: true
+2019-06-10 14:49:29,730 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-10 14:49:29,730 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/lingarajsankaravelu/Katex, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src]
+2019-06-10 14:49:32,932 INFO  SysUtils - 
+2019-06-10 14:49:32,940 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/.git": true
+2019-06-10 14:49:32,944 INFO  FullProcessService - Size of directory with sources: 3 MB
+2019-06-10 14:49:32,944 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src]
+2019-06-10 14:49:32,960 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/.git/
 
-2019-05-26 19:06:31,925 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/gradlew
-2019-05-26 19:06:31,928 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/katexmathview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/build.gradle
-2019-05-26 19:06:31,931 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/katexmathview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/settings.gradle
-2019-05-26 19:06:31,931 INFO  ProjectBuildService - Remote scripts: none
-2019-05-26 19:06:31,931 INFO  ProjectFixService - Fixing project...
-2019-05-26 19:06:31,939 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/app/local.properties
-2019-05-26 19:06:31,940 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
-2019-05-26 19:06:31,940 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-26 19:06:31,941 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/katexmathview/local.properties
-2019-05-26 19:06:31,942 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/katexmathview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
-2019-05-26 19:06:31,942 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/katexmathview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-26 19:06:31,943 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/local.properties
-2019-05-26 19:06:31,943 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
-2019-05-26 19:06:31,943 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
-2019-05-26 19:06:31,943 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
-2019-05-26 19:06:31,944 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-05-26 19:06:31,944 INFO  ProjectFixService - Project was maybe fixed
-2019-05-26 19:06:31,944 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-26 19:06:31,944 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-26 19:06:38,831 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-05-26 19:06:38,831 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-26 19:06:38,832 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-26 19:07:02,451 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 14:49:32,963 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/gradlew
+2019-06-10 14:49:32,967 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/katexmathview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/build.gradle
+2019-06-10 14:49:32,970 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/katexmathview/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/settings.gradle
+2019-06-10 14:49:32,970 INFO  ProjectBuildService - Remote scripts: none
+2019-06-10 14:49:32,970 INFO  ProjectFixService - Fixing project...
+2019-06-10 14:49:32,978 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/app/local.properties
+2019-06-10 14:49:32,979 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
+2019-06-10 14:49:32,979 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-10 14:49:32,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/katexmathview/local.properties
+2019-06-10 14:49:32,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/katexmathview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
+2019-06-10 14:49:32,980 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/katexmathview/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-10 14:49:32,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/local.properties
+2019-06-10 14:49:32,981 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.10.1-all.zip
+2019-06-10 14:49:32,982 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.10.1-bin.zip)
+2019-06-10 14:49:32,982 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=<null>,targetSdkVersion=28]
+2019-06-10 14:49:32,982 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-10 14:49:32,983 INFO  ProjectFixService - Project was maybe fixed
+2019-06-10 14:49:32,983 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:49:32,983 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:49:40,586 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-10 14:49:40,586 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-10 14:49:40,586 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-10 14:50:08,488 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :katexmathview:preBuild UP-TO-DATE
 > Task :katexmathview:preDebugBuild UP-TO-DATE
@@ -160,7 +163,7 @@
 > Task :app:assemble
 > Task :app:build
 
-BUILD SUCCESSFUL in 23s
+BUILD SUCCESSFUL in 27s
 88 actionable tasks: 88 executed
 
-2019-05-26 19:07:02,517 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558872389939-0/src/Katex-master/app/build/outputs/apk/debug/app-debug.apk
+2019-06-10 14:50:08,547 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152846673-0/src/app/build/outputs/apk/debug/app-debug.apk

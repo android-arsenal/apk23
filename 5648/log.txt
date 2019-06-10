@@ -1,37 +1,43 @@
-2019-04-30 14:35:29,316 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
-2019-04-30 14:35:31,366 INFO  DownloadService - Downloaded https://github.com/adorsys/secure-storage-android/archive/master.zip, attempt 3
-2019-04-30 14:35:31,366 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/master.zip": 375 KB
-2019-04-30 14:35:31,366 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-04-30 14:35:31,372 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/master.zip: true
-2019-04-30 14:35:31,372 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src'.
-2019-04-30 14:35:31,396 INFO  FullProcessService - Size of directory with sources: 475 KB
-2019-04-30 14:35:31,396 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src]
-2019-04-30 14:35:31,413 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/.git/
+2019-06-10 14:39:54,027 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
+2019-06-10 14:40:54,718 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-10 14:40:55,673 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-10 14:40:55,673 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
+2019-06-10 14:41:57,450 DEBUG FullProcessService - Repository https://github.com/adorsys/secure-storage-android available: true
+2019-06-10 14:41:57,450 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-10 14:41:57,450 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/adorsys/secure-storage-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src]
+2019-06-10 14:41:59,576 INFO  SysUtils - 
+2019-06-10 14:41:59,583 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/.git": true
+2019-06-10 14:41:59,585 INFO  FullProcessService - Size of directory with sources: 475 KB
+2019-06-10 14:41:59,585 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src]
+2019-06-10 14:41:59,601 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/.git/
 
-2019-04-30 14:35:31,416 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/gradlew
-2019-04-30 14:35:31,419 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/build.gradle
-2019-04-30 14:35:31,422 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/settings.gradle
-2019-04-30 14:35:31,423 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle", attempt 3
-2019-04-30 14:35:33,206 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle, attempt 3
-2019-04-30 14:35:33,206 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle", attempt 3
-2019-04-30 14:35:33,466 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle, attempt 3
-2019-04-30 14:35:33,466 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle
-2019-04-30 14:35:33,466 INFO  ProjectFixService - Fixing project...
-2019-04-30 14:35:33,477 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/local.properties
-2019-04-30 14:35:33,478 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-04-30 14:35:33,478 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/local.properties
-2019-04-30 14:35:33,479 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-04-30 14:35:33,479 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/local.properties
-2019-04-30 14:35:33,480 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.4-all.zip
-2019-04-30 14:35:33,480 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.4-bin.zip)
-2019-04-30 14:35:33,481 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/build.gradle": [buildToolsVersion=28.0.2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-04-30 14:35:33,481 INFO  ProjectFixService - Project was maybe fixed
-2019-04-30 14:35:33,481 INFO  ProjectTaskService - Detecting possible tasks...
-2019-04-30 14:35:33,482 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-04-30 14:35:40,231 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-04-30 14:35:40,231 INFO  ProjectTaskService - Excluded tasks (22): lintDebug mockableAndroidJar javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-04-30 14:35:40,232 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-04-30 14:35:45,827 ERROR SysUtils - Could not process external command
+2019-06-10 14:41:59,604 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/gradlew
+2019-06-10 14:41:59,606 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/build.gradle
+2019-06-10 14:41:59,608 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/settings.gradle
+2019-06-10 14:41:59,614 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle", attempt 3
+2019-06-10 14:42:00,352 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle, attempt 3
+2019-06-10 14:42:00,353 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle", attempt 3
+2019-06-10 14:42:00,750 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle, attempt 3
+2019-06-10 14:42:00,750 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle
+2019-06-10 14:42:00,750 INFO  ProjectFixService - Fixing project...
+2019-06-10 14:42:00,759 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/local.properties
+2019-06-10 14:42:00,760 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-10 14:42:00,760 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-10 14:42:00,761 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/local.properties
+2019-06-10 14:42:00,765 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-10 14:42:00,765 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-10 14:42:00,766 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/local.properties
+2019-06-10 14:42:00,767 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-06-10 14:42:00,767 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-06-10 14:42:00,768 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-10 14:42:00,769 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-06-10 14:42:00,769 INFO  ProjectFixService - Project was maybe fixed
+2019-06-10 14:42:00,769 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:42:00,769 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:42:17,904 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-06-10 14:42:17,904 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-10 14:42:17,904 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-10 14:42:23,122 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -44,21 +50,22 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
 	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
 	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$null$1(BuildProcessorServiceImpl.java:113)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
 	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-04-30 14:35:45,827 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 14:42:23,122 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -73,60 +80,79 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
 	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:268)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:175)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:130)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:109)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:47)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:30)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
 	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
 	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:69)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:30)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:291)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:264)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:33)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:257)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:191)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
@@ -140,320 +166,647 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 BUILD FAILED in 5s
 
-2019-04-30 14:35:45,827 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-04-30 14:35:45,827 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-04-30 14:36:44,246 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:preBuild UP-TO-DATE
-:securestoragelibrary:preBuild UP-TO-DATE
-:securestoragelibrary:preDebugBuild UP-TO-DATE
-:securestoragelibrary:checkDebugManifest
-:securestoragelibrary:processDebugManifest
-:app:preDebugBuild
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-fragment/28.0.0-rc02/support-fragment-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-utils/28.0.0-rc02/support-core-utils-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-core-ui/28.0.0-rc02/support-core-ui-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/animated-vector-drawable/28.0.0-rc02/animated-vector-drawable-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/appcompat-v7/28.0.0-rc02/appcompat-v7-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-vector-drawable/28.0.0-rc02/support-vector-drawable-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/loader/28.0.0-rc02/loader-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/viewpager/28.0.0-rc02/viewpager-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/drawerlayout/28.0.0-rc02/drawerlayout-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/customview/28.0.0-rc02/customview-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/slidingpanelayout/28.0.0-rc02/slidingpanelayout-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/asynclayoutinflater/28.0.0-rc02/asynclayoutinflater-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/coordinatorlayout/28.0.0-rc02/coordinatorlayout-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/swiperefreshlayout/28.0.0-rc02/swiperefreshlayout-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-compat/28.0.0-rc02/support-compat-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/localbroadcastmanager/28.0.0-rc02/localbroadcastmanager-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/cursoradapter/28.0.0-rc02/cursoradapter-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/versionedparcelable/28.0.0-rc02/versionedparcelable-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/documentfile/28.0.0-rc02/documentfile-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/interpolator/28.0.0-rc02/interpolator-28.0.0-rc02.aar
-Download https://dl.google.com/dl/android/maven2/com/android/support/print/28.0.0-rc02/print-28.0.0-rc02.aar
-:securestoragelibrary:compileDebugAidl
-:app:compileDebugAidl
-:securestoragelibrary:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:securestoragelibrary:compileDebugRenderscript
-:securestoragelibrary:generateDebugResValues
-:securestoragelibrary:generateDebugResources
-:securestoragelibrary:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:securestoragelibrary:platformAttrExtractor
-:securestoragelibrary:generateDebugBuildConfig
-:securestoragelibrary:prepareLintJar
-:securestoragelibrary:javaPreCompileDebug
-Download https://dl.google.com/dl/android/maven2/com/android/support/collections/28.0.0-rc02/collections-28.0.0-rc02.jar
-Download https://dl.google.com/dl/android/maven2/com/android/support/support-annotations/28.0.0-rc02/support-annotations-28.0.0-rc02.jar
-:securestoragelibrary:processDebugJavaRes NO-SOURCE
-:app:prepareLintJar
-:app:compileDebugNdk NO-SOURCE
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:securestoragelibrary:mergeDebugShaders
-:securestoragelibrary:compileDebugShaders
-:securestoragelibrary:generateDebugAssets
-:securestoragelibrary:packageDebugAssets
-:app:mergeDebugAssets
-:app:mergeDebugJniLibFolders
-:securestoragelibrary:compileDebugNdk NO-SOURCE
-:securestoragelibrary:mergeDebugJniLibFolders
-:securestoragelibrary:transformNativeLibsWithMergeJniLibsForDebug
-:securestoragelibrary:transformNativeLibsWithStripDebugSymbolForDebug
-:securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:processDebugJavaRes NO-SOURCE
-:app:validateSigningDebug
-:app:extractProguardFiles
-:securestoragelibrary:extractProguardFiles
-:securestoragelibrary:preReleaseBuild
-:securestoragelibrary:checkReleaseManifest
-:securestoragelibrary:processReleaseManifest
-:app:preReleaseBuild
-:securestoragelibrary:compileReleaseAidl
-:app:compileReleaseAidl
-:securestoragelibrary:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:securestoragelibrary:compileReleaseRenderscript
-:securestoragelibrary:generateReleaseResValues
-:securestoragelibrary:generateReleaseResources
-:securestoragelibrary:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:securestoragelibrary:generateReleaseBuildConfig
-:securestoragelibrary:javaPreCompileRelease
-:securestoragelibrary:processReleaseJavaRes NO-SOURCE
-:app:compileReleaseNdk NO-SOURCE
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:securestoragelibrary:mergeReleaseShaders
-:securestoragelibrary:compileReleaseShaders
-:securestoragelibrary:generateReleaseAssets
-:securestoragelibrary:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:processReleaseJavaRes NO-SOURCE
-:securestoragelibrary:mergeReleaseConsumerProguardFiles
-:app:mergeReleaseJniLibFolders
-:securestoragelibrary:compileReleaseNdk NO-SOURCE
-:securestoragelibrary:mergeReleaseJniLibFolders
-:securestoragelibrary:transformNativeLibsWithMergeJniLibsForRelease
-:securestoragelibrary:transformNativeLibsWithStripDebugSymbolForRelease
-:securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:checkstyle
-Download https://jcenter.bintray.com/com/puppycrawl/tools/checkstyle/6.19/checkstyle-6.19.jar
-:app:pmd
-:app:preDebugUnitTestBuild UP-TO-DATE
-:app:mockableAndroidJar
-:app:processDebugUnitTestJavaRes NO-SOURCE
-:app:preReleaseUnitTestBuild
-:app:processReleaseUnitTestJavaRes NO-SOURCE
-:securestoragelibrary:generateDebugRFile
-:app:processDebugResources
-:securestoragelibrary:generateDebugSources
-:securestoragelibrary:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
+2019-06-10 14:42:23,122 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-06-10 14:42:23,123 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-06-10 14:43:02,214 ERROR SysUtils - Could not process external command
+org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
+	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
+	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:69)
+	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
+	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
+	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
+	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
+	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
+	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
+	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+2019-06-10 14:43:02,216 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :securestoragelibrary:preBuild UP-TO-DATE
+> Task :securestoragelibrary:preDebugBuild UP-TO-DATE
+> Task :securestoragelibrary:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :securestoragelibrary:generateDebugResValues
+> Task :app:createDebugCompatibleScreenManifests
+> Task :securestoragelibrary:checkDebugManifest
+> Task :securestoragelibrary:generateDebugBuildConfig
+> Task :app:mergeDebugShaders
+> Task :securestoragelibrary:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResources
+> Task :securestoragelibrary:compileDebugRenderscript NO-SOURCE
+> Task :securestoragelibrary:generateDebugResources
+> Task :securestoragelibrary:packageDebugResources
+> Task :securestoragelibrary:processDebugManifest
+> Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :securestoragelibrary:mergeDebugShaders
+> Task :securestoragelibrary:compileDebugShaders
+> Task :securestoragelibrary:generateDebugAssets
+> Task :securestoragelibrary:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :securestoragelibrary:parseDebugLibraryResources
+> Task :securestoragelibrary:javaPreCompileDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :securestoragelibrary:processDebugJavaRes NO-SOURCE
+> Task :app:checkDebugDuplicateClasses
+> Task :securestoragelibrary:generateDebugRFile
+> Task :app:processDebugResources
+
+> Task :securestoragelibrary:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:securestoragelibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:compileDebugKotlin
-Download https://jcenter.bintray.com/org/jetbrains/kotlin/kotlin-stdlib-jdk7/1.2.70/kotlin-stdlib-jdk7-1.2.70.jar
-:app:generateDebugSources
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugSources
-:app:transformClassesWithDexBuilderForDebug
-D8: Stripped invalid locals information from 1 method.
-D8: Stripped invalid locals information from 1 method.
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:transformResourcesWithMergeJavaResForDebug
-:app:packageDebug
-:app:assembleDebug
-:securestoragelibrary:generateReleaseRFile
-:app:processReleaseResources
-:securestoragelibrary:generateReleaseSources
-:securestoragelibrary:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
+> Task :securestoragelibrary:bundleLibResDebug
+> Task :securestoragelibrary:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
+> Task :securestoragelibrary:bundleLibRuntimeDebug
+> Task :securestoragelibrary:createFullJarDebug
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
+> Task :app:mergeDebugJniLibFolders
+> Task :securestoragelibrary:mergeDebugJniLibFolders
+> Task :app:extractProguardFiles
+> Task :app:preReleaseBuild
+> Task :securestoragelibrary:extractProguardFiles
+> Task :securestoragelibrary:preReleaseBuild
+> Task :securestoragelibrary:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :securestoragelibrary:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :securestoragelibrary:compileReleaseRenderscript NO-SOURCE
+> Task :securestoragelibrary:generateReleaseResValues
+> Task :securestoragelibrary:generateReleaseResources
+> Task :securestoragelibrary:packageReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :securestoragelibrary:checkReleaseManifest
+> Task :securestoragelibrary:processReleaseManifest
+> Task :app:processReleaseManifest
+> Task :app:mergeReleaseResources
+> Task :securestoragelibrary:generateReleaseBuildConfig
+> Task :securestoragelibrary:parseReleaseLibraryResources
+> Task :securestoragelibrary:javaPreCompileRelease
+> Task :securestoragelibrary:mergeDebugNativeLibs
+> Task :securestoragelibrary:stripDebugDebugSymbols
+> Task :securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:prepareLintJar
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :securestoragelibrary:mergeReleaseShaders
+> Task :securestoragelibrary:compileReleaseShaders
+> Task :securestoragelibrary:generateReleaseAssets
+> Task :securestoragelibrary:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :securestoragelibrary:processReleaseJavaRes NO-SOURCE
+> Task :securestoragelibrary:mergeReleaseJniLibFolders
+> Task :securestoragelibrary:prepareLintJarForPublish
+> Task :securestoragelibrary:mergeReleaseNativeLibs
+> Task :securestoragelibrary:stripReleaseDebugSymbols
+> Task :securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :securestoragelibrary:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :securestoragelibrary:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-:securestoragelibrary:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:compileReleaseKotlin
-:app:generateReleaseSources
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseSources
-:app:lintVitalRelease SKIPPED
-:app:transformResourcesWithMergeJavaResForRelease
-:app:transformClassesAndResourcesWithProguardForRelease
-Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
-thread-pool size=4
-ProGuard, version 5.3.3
-Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/2c9befc4d6eb2661d7c87426ce32c82d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.70/9318bb9dadaa56534ac8b0728a1ffa2bd0e48b28/kotlin-stdlib-jdk7-1.2.70.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/a1f0ce3474a262ae8919683ccc2f5836/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/306b007147f3a1a61daab45075b87caa/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/ac0ba0cfd912be51862dc6d3825a268b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/542dfb3cd287fb0b0a8ca65a9469a8e6/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/c15023b1f1ea70d4575cfc7ca8cb5848/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/9cfc8d0487f14d1bdad13620f8f1e107/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/d3a1eb85b9355b8d9a0c5e865fc51326/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/882850fcd04dab515f7f89c2d7140b1d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/395d0e2c6d5cb56da167631cc9ad3585/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/e4b2d92b481f1dbe8c5d58ddd42a1aeb/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/d89e038ec4189a5613a6fc4ce10e635b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/13e7dacb9b192c7f40c4c1cb9b15ed42/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/7963f6439ad8f444b4a12b2dbd4a1403/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/f46b2ab9ce9ad5c8a6da11ff54c5f585/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/da82ad3fe2ec2d47173c7210e1da3c3e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0-rc02/9b8a0db9ca147cfe2c2d603d0a1ad6021543eb1f/collections-28.0.0-rc02.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/0942de9adf0e41f79604d71bb6e85929/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f43d48e9d6e4eb59535ea76cf30f5f50/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/c796a60de1643d769a87a0b3eb740da1/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/89427926efd8d2152bc31f8d93bde84b/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/dbe82f5b7ff3b5a4b6922fb41d83c602/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/76ebbb44659f8242a70a2d5d7bb8fadd/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d30b40f67eab338628abb2fd20a163f2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b5d2d5725939b08a7ce208e0831c74e7/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/60a46c8e1886e795d422c36cbe4d6366/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0-rc02/326b0d8c3d8dfe86ed237f0a74395ca8d347e561/support-annotations-28.0.0-rc02.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.70/b5b9449f73ce7bf312e89a7560cb3c209a0fa13e/kotlin-stdlib-1.2.70.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.70/6ea722d7d0b9451293e739076ddb6a4108d57b6b/kotlin-stdlib-common-1.2.70.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/classes/release] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/tmp/kotlin-classes/release] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
-Note: duplicate definition of library class [android.net.http.HttpResponseCache]
-Note: duplicate definition of library class [android.net.http.SslCertificate$DName]
-Note: duplicate definition of library class [android.net.http.SslCertificate]
-Note: duplicate definition of library class [android.net.http.SslError]
-Note: duplicate definition of library class [org.apache.http.conn.ConnectTimeoutException]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.HostNameResolver]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.LayeredSocketFactory]
-Note: duplicate definition of library class [org.apache.http.conn.scheme.SocketFactory]
-Note: duplicate definition of library class [org.apache.http.params.CoreConnectionPNames]
-Note: duplicate definition of library class [org.apache.http.params.HttpConnectionParams]
-Note: duplicate definition of library class [org.apache.http.params.HttpParams]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.mock.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.base.jar]
-Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/android.test.runner.jar]
-Note: there were 11 duplicate class definitions.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#duplicateclass)
-Initializing...
-Note: de.adorsys.android.securestoragelibrary.PRNGFixes: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
-Note: de.adorsys.android.securestoragelibrary.PRNGFixes: can't find dynamically referenced class org.apache.harmony.xnet.provider.jsse.NativeCrypto
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.jdk8.JDK8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE8PlatformImplementations
-Note: kotlin.internal.PlatformImplementationsKt: can't find dynamically referenced class kotlin.internal.JRE7PlatformImplementations
-Note: kotlin.jvm.internal.Reflection: can't find dynamically referenced class kotlin.reflect.jvm.internal.ReflectionFactoryImpl
-Note: the configuration keeps the entry point 'androidx.core.graphics.drawable.IconCompatParcelizer { android.support.v4.graphics.drawable.IconCompat read(androidx.versionedparcelable.VersionedParcel); }', but not the descriptor class 'androidx.versionedparcelable.VersionedParcel'
-Note: the configuration keeps the entry point 'androidx.core.graphics.drawable.IconCompatParcelizer { void write(android.support.v4.graphics.drawable.IconCompat,androidx.versionedparcelable.VersionedParcel); }', but not the descriptor class 'androidx.versionedparcelable.VersionedParcel'
-Note: there were 2 unkept descriptor classes in kept class members.
-      You should consider explicitly keeping the mentioned classes
-      (using '-keep').
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#descriptorclass)
-Note: there were 6 unresolved dynamic references to classes or interfaces.
-      You should check if you need to specify additional program jars.
-      (http://proguard.sourceforge.net/manual/troubleshooting.html#dynamicalclass)
-Ignoring unused library classes...
-  Original number of library classes: 4801
-  Final number of library classes:    1287
-Printing kept classes, fields, and methods...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/outputs/mapping/release/usage.txt]...
-Removing unused program classes and class elements...
-  Original number of program classes: 2029
-  Final number of program classes:    642
-Inlining subroutines...
-Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/outputs/mapping/release/mapping.txt]...
-Preverifying...
-Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/appcompat-v7-28.0.0-rc02.aar/2c9befc4d6eb2661d7c87426ce32c82d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-jdk7/1.2.70/9318bb9dadaa56534ac8b0728a1ffa2bd0e48b28/kotlin-stdlib-jdk7-1.2.70.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-fragment-28.0.0-rc02.aar/a1f0ce3474a262ae8919683ccc2f5836/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-28.0.0-rc02.aar/306b007147f3a1a61daab45075b87caa/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-ui-28.0.0-rc02.aar/ac0ba0cfd912be51862dc6d3825a268b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-core-utils-28.0.0-rc02.aar/542dfb3cd287fb0b0a8ca65a9469a8e6/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-28.0.0-rc02.aar/c15023b1f1ea70d4575cfc7ca8cb5848/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/loader-28.0.0-rc02.aar/9cfc8d0487f14d1bdad13620f8f1e107/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewpager-28.0.0-rc02.aar/d3a1eb85b9355b8d9a0c5e865fc51326/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/coordinatorlayout-28.0.0-rc02.aar/882850fcd04dab515f7f89c2d7140b1d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/drawerlayout-28.0.0-rc02.aar/395d0e2c6d5cb56da167631cc9ad3585/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/slidingpanelayout-28.0.0-rc02.aar/e4b2d92b481f1dbe8c5d58ddd42a1aeb/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/customview-28.0.0-rc02.aar/d89e038ec4189a5613a6fc4ce10e635b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/swiperefreshlayout-28.0.0-rc02.aar/13e7dacb9b192c7f40c4c1cb9b15ed42/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/asynclayoutinflater-28.0.0-rc02.aar/7963f6439ad8f444b4a12b2dbd4a1403/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/support-compat-28.0.0-rc02.aar/f46b2ab9ce9ad5c8a6da11ff54c5f585/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/versionedparcelable-28.0.0-rc02.aar/da82ad3fe2ec2d47173c7210e1da3c3e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/collections/28.0.0-rc02/9b8a0db9ca147cfe2c2d603d0a1ad6021543eb1f/collections-28.0.0-rc02.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/cursoradapter-28.0.0-rc02.aar/0942de9adf0e41f79604d71bb6e85929/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/f43d48e9d6e4eb59535ea76cf30f5f50/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/documentfile-28.0.0-rc02.aar/c796a60de1643d769a87a0b3eb740da1/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/localbroadcastmanager-28.0.0-rc02.aar/89427926efd8d2152bc31f8d93bde84b/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/print-28.0.0-rc02.aar/dbe82f5b7ff3b5a4b6922fb41d83c602/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/viewmodel-1.1.1.aar/76ebbb44659f8242a70a2d5d7bb8fadd/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/livedata-core-1.1.1.aar/d30b40f67eab338628abb2fd20a163f2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.lifecycle/common/1.1.1/207a6efae6a3555e326de41f76bdadd9a239cbce/common-1.1.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/runtime-1.1.1.aar/b5d2d5725939b08a7ce208e0831c74e7/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/android.arch.core/common/1.1.1/e55b70d1f5620db124b3e85a7f4bdc7bd48d9f95/common-1.1.1.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-1/files-1.1/interpolator-28.0.0-rc02.aar/60a46c8e1886e795d422c36cbe4d6366/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.android.support/support-annotations/28.0.0-rc02/326b0d8c3d8dfe86ed237f0a74395ca8d347e561/support-annotations-28.0.0-rc02.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.2.70/b5b9449f73ce7bf312e89a7560cb3c209a0fa13e/kotlin-stdlib-1.2.70.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.2.70/6ea722d7d0b9451293e739076ddb6a4108d57b6b/kotlin-stdlib-common-1.2.70.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/securestoragelibrary/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/classes/release] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/tmp/kotlin-classes/release] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
-Printing classes to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/outputs/mapping/release/dump.txt]...
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:lint
-Ran lint on variant debug: 7 issues found
-Ran lint on variant release: 7 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/reports/lint-results.xml
-:app:compileDebugUnitTestKotlin
-:app:javaPreCompileDebugUnitTest
-:app:compileDebugUnitTestJavaWithJavac NO-SOURCE
-:app:testDebugUnitTest NO-SOURCE
-:app:compileReleaseUnitTestKotlin
-:app:javaPreCompileReleaseUnitTest
-:app:compileReleaseUnitTestJavaWithJavac NO-SOURCE
-:app:testReleaseUnitTest NO-SOURCE
-:app:test UP-TO-DATE
-:app:check
-:app:build
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :securestoragelibrary:bundleLibResRelease
+> Task :securestoragelibrary:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeReleaseGeneratedProguardFiles
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :securestoragelibrary:mergeReleaseGeneratedProguardFiles
+> Task :securestoragelibrary:mergeReleaseConsumerProguardFiles
+> Task :app:checkstyle FAILED
+> Task :securestoragelibrary:bundleLibRuntimeRelease
+> Task :app:mergeReleaseJavaResource
 
-BUILD SUCCESSFUL in 57s
-103 actionable tasks: 103 executed
+FAILURE: Build failed with an exception.
 
-2019-04-30 14:36:44,335 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1556609729314-0/src/secure-storage-android-master/app/build/outputs/apk/debug/app-debug.apk
+* What went wrong:
+Execution failed for task ':app:checkstyle'.
+> Unable to create Root Module: config {/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/config/checkstyle.xml}, classpath {null}.
+
+* Try:
+Run with --info or --debug option to get more log output. Run with --scan to get full insights.
+
+* Exception is:
+org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:checkstyle'.
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:151)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$3.accept(ExecuteActionsTaskExecuter.java:148)
+	at org.gradle.internal.Try$Failure.ifSuccessfulOrElse(Try.java:191)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:141)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionStateTaskExecuter.execute(ResolveBeforeExecutionStateTaskExecuter.java:75)
+	at org.gradle.api.internal.tasks.execution.ValidatingTaskExecuter.execute(ValidatingTaskExecuter.java:62)
+	at org.gradle.api.internal.tasks.execution.SkipEmptySourceFilesTaskExecuter.execute(SkipEmptySourceFilesTaskExecuter.java:108)
+	at org.gradle.api.internal.tasks.execution.ResolveBeforeExecutionOutputsTaskExecuter.execute(ResolveBeforeExecutionOutputsTaskExecuter.java:67)
+	at org.gradle.api.internal.tasks.execution.ResolveAfterPreviousExecutionStateTaskExecuter.execute(ResolveAfterPreviousExecutionStateTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.CleanupStaleOutputsExecuter.execute(CleanupStaleOutputsExecuter.java:94)
+	at org.gradle.api.internal.tasks.execution.FinalizePropertiesTaskExecuter.execute(FinalizePropertiesTaskExecuter.java:46)
+	at org.gradle.api.internal.tasks.execution.ResolveTaskExecutionModeExecuter.execute(ResolveTaskExecutionModeExecuter.java:95)
+	at org.gradle.api.internal.tasks.execution.SkipTaskWithNoActionsExecuter.execute(SkipTaskWithNoActionsExecuter.java:57)
+	at org.gradle.api.internal.tasks.execution.SkipOnlyIfTaskExecuter.execute(SkipOnlyIfTaskExecuter.java:56)
+	at org.gradle.api.internal.tasks.execution.CatchExceptionTaskExecuter.execute(CatchExceptionTaskExecuter.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.executeTask(EventFiringTaskExecuter.java:73)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:52)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter$1.call(EventFiringTaskExecuter.java:49)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.api.internal.tasks.execution.EventFiringTaskExecuter.execute(EventFiringTaskExecuter.java:49)
+	at org.gradle.execution.plan.LocalTaskNodeExecutor.execute(LocalTaskNodeExecutor.java:43)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:355)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$InvokeNodeExecutorsAction.execute(DefaultTaskExecutionGraph.java:343)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:336)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph$BuildOperationAwareExecutionAction.execute(DefaultTaskExecutionGraph.java:322)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:134)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker$1.execute(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.execute(DefaultPlanExecutor.java:202)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.executeNextNode(DefaultPlanExecutor.java:193)
+	at org.gradle.execution.plan.DefaultPlanExecutor$ExecutorWorker.run(DefaultPlanExecutor.java:129)
+	at org.gradle.execution.plan.DefaultPlanExecutor.process(DefaultPlanExecutor.java:74)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.executeWithServices(DefaultTaskExecutionGraph.java:178)
+	at org.gradle.execution.taskgraph.DefaultTaskExecutionGraph.execute(DefaultTaskExecutionGraph.java:154)
+	at org.gradle.execution.SelectedTaskExecutionAction.execute(SelectedTaskExecutionAction.java:41)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.access$000(DefaultBuildExecuter.java:24)
+	at org.gradle.execution.DefaultBuildExecuter$1.proceed(DefaultBuildExecuter.java:46)
+	at org.gradle.execution.DryRunBuildExecutionAction.execute(DryRunBuildExecutionAction.java:49)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:40)
+	at org.gradle.execution.DefaultBuildExecuter.execute(DefaultBuildExecuter.java:33)
+	at org.gradle.initialization.DefaultGradleLauncher$ExecuteTasks.run(DefaultGradleLauncher.java:383)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.runTasks(DefaultGradleLauncher.java:247)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:159)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
+	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
+	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:51)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:416)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:406)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:102)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:45)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
+	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:208)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:394)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:367)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:360)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:292)
+	at org.gradle.launcher.Main.doAction(Main.java:36)
+	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
+	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
+	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
+	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
+	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
+	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+Caused by: : Unable to create Root Module: config {/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/config/checkstyle.xml}, classpath {null}.
+	at com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask.createRootModule(CheckstyleAntTask.java:415)
+	at com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask.realExecute(CheckstyleAntTask.java:305)
+	at com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask.execute(CheckstyleAntTask.java:288)
+	at org.apache.tools.ant.UnknownElement.execute(UnknownElement.java:293)
+	at org.apache.tools.ant.dispatch.DispatchUtils.execute(DispatchUtils.java:106)
+	at org.gradle.api.internal.project.ant.BasicAntBuilder.nodeCompleted(BasicAntBuilder.java:78)
+	at org.gradle.internal.metaobject.BeanDynamicObject$MetaClassAdapter.invokeMethod(BeanDynamicObject.java:479)
+	at org.gradle.internal.metaobject.BeanDynamicObject.tryInvokeMethod(BeanDynamicObject.java:191)
+	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
+	at org.gradle.api.internal.project.antbuilder.AntBuilderDelegate.nodeCompleted(AntBuilderDelegate.java:118)
+	at org.gradle.api.plugins.quality.internal.CheckstyleInvoker$_invoke_closure1.doCall(CheckstyleInvoker.groovy:58)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:70)
+	at org.gradle.util.ClosureBackedAction.execute(ClosureBackedAction.java:52)
+	at org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder$2.execute(DefaultIsolatedAntBuilder.java:152)
+	at org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder$2.execute(DefaultIsolatedAntBuilder.java:134)
+	at org.gradle.api.internal.project.antbuilder.ClassPathToClassLoaderCache.withCachedClassLoader(ClassPathToClassLoaderCache.java:134)
+	at org.gradle.api.internal.project.antbuilder.DefaultIsolatedAntBuilder.execute(DefaultIsolatedAntBuilder.java:128)
+	at org.gradle.api.internal.project.IsolatedAntBuilder$execute$0.call(Unknown Source)
+	at org.gradle.api.plugins.quality.internal.CheckstyleInvoker.invoke(CheckstyleInvoker.groovy:51)
+	at org.gradle.api.plugins.quality.Checkstyle.run(Checkstyle.java:148)
+	at org.gradle.internal.reflect.JavaMethod.invoke(JavaMethod.java:103)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.doExecute(StandardTaskAction.java:48)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:41)
+	at org.gradle.api.internal.project.taskfactory.StandardTaskAction.execute(StandardTaskAction.java:28)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:702)
+	at org.gradle.api.internal.AbstractTask$TaskActionWrapper.execute(AbstractTask.java:669)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$5.run(ExecuteActionsTaskExecuter.java:404)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:402)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:394)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$1.execute(DefaultBuildOperationExecutor.java:165)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:250)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:158)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:92)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeAction(ExecuteActionsTaskExecuter.java:393)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.executeActions(ExecuteActionsTaskExecuter.java:376)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.access$200(ExecuteActionsTaskExecuter.java:80)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter$TaskExecution.execute(ExecuteActionsTaskExecuter.java:213)
+	at org.gradle.internal.execution.steps.ExecuteStep.lambda$execute$1(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:33)
+	at org.gradle.internal.execution.steps.ExecuteStep.execute(ExecuteStep.java:26)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:58)
+	at org.gradle.internal.execution.steps.CleanupOutputsStep.execute(CleanupOutputsStep.java:35)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:48)
+	at org.gradle.internal.execution.steps.ResolveInputChangesStep.execute(ResolveInputChangesStep.java:33)
+	at org.gradle.internal.execution.steps.CancelExecutionStep.execute(CancelExecutionStep.java:39)
+	at org.gradle.internal.execution.steps.TimeoutStep.executeWithoutTimeout(TimeoutStep.java:73)
+	at org.gradle.internal.execution.steps.TimeoutStep.execute(TimeoutStep.java:54)
+	at org.gradle.internal.execution.steps.CatchExceptionStep.execute(CatchExceptionStep.java:35)
+	at org.gradle.internal.execution.steps.CreateOutputsStep.execute(CreateOutputsStep.java:51)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:45)
+	at org.gradle.internal.execution.steps.SnapshotOutputsStep.execute(SnapshotOutputsStep.java:31)
+	at org.gradle.internal.execution.steps.CacheStep.executeWithoutCache(CacheStep.java:201)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:70)
+	at org.gradle.internal.execution.steps.CacheStep.execute(CacheStep.java:45)
+	at org.gradle.internal.execution.steps.BroadcastChangingOutputsStep.execute(BroadcastChangingOutputsStep.java:49)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:43)
+	at org.gradle.internal.execution.steps.StoreSnapshotsStep.execute(StoreSnapshotsStep.java:32)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:38)
+	at org.gradle.internal.execution.steps.RecordOutputsStep.execute(RecordOutputsStep.java:24)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.executeBecause(SkipUpToDateStep.java:96)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.lambda$execute$0(SkipUpToDateStep.java:89)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:54)
+	at org.gradle.internal.execution.steps.SkipUpToDateStep.execute(SkipUpToDateStep.java:38)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:77)
+	at org.gradle.internal.execution.steps.ResolveChangesStep.execute(ResolveChangesStep.java:37)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:36)
+	at org.gradle.internal.execution.steps.legacy.MarkSnapshottingInputsFinishedStep.execute(MarkSnapshottingInputsFinishedStep.java:26)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:90)
+	at org.gradle.internal.execution.steps.ResolveCachingStateStep.execute(ResolveCachingStateStep.java:48)
+	at org.gradle.internal.execution.impl.DefaultWorkExecutor.execute(DefaultWorkExecutor.java:33)
+	at org.gradle.api.internal.tasks.execution.ExecuteActionsTaskExecuter.execute(ExecuteActionsTaskExecuter.java:120)
+	... 115 more
+Caused by: com.puppycrawl.tools.checkstyle.api.CheckstyleException: SuppressionCommentFilter is not allowed as a child in Checker
+	at com.puppycrawl.tools.checkstyle.Checker.setupChild(Checker.java:483)
+	at com.puppycrawl.tools.checkstyle.api.AutomaticBean.configure(AutomaticBean.java:198)
+	at com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask.createRootModule(CheckstyleAntTask.java:412)
+	... 186 more
+
+
+* Get more help at https://help.gradle.org
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD FAILED in 38s
+88 actionable tasks: 88 executed
+
+2019-06-10 14:43:02,274 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:43:02,274 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:43:09,352 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-06-10 14:43:09,353 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-06-10 14:43:09,353 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/securestoragelibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-06-10 14:43:21,808 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :securestoragelibrary:preBuild UP-TO-DATE
+> Task :securestoragelibrary:preDebugBuild UP-TO-DATE
+> Task :securestoragelibrary:checkDebugManifest UP-TO-DATE
+> Task :securestoragelibrary:generateDebugBuildConfig UP-TO-DATE
+> Task :securestoragelibrary:generateDebugResValues UP-TO-DATE
+> Task :securestoragelibrary:processDebugManifest UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugShaders UP-TO-DATE
+> Task :securestoragelibrary:compileDebugShaders UP-TO-DATE
+> Task :securestoragelibrary:compileDebugAidl NO-SOURCE
+> Task :securestoragelibrary:compileDebugRenderscript NO-SOURCE
+> Task :securestoragelibrary:generateDebugResources UP-TO-DATE
+> Task :securestoragelibrary:packageDebugResources UP-TO-DATE
+> Task :securestoragelibrary:parseDebugLibraryResources UP-TO-DATE
+> Task :securestoragelibrary:generateDebugRFile UP-TO-DATE
+> Task :securestoragelibrary:javaPreCompileDebug UP-TO-DATE
+> Task :securestoragelibrary:compileDebugJavaWithJavac UP-TO-DATE
+> Task :securestoragelibrary:extractDebugAnnotations
+> Task :securestoragelibrary:mergeDebugGeneratedProguardFiles
+> Task :securestoragelibrary:mergeDebugConsumerProguardFiles
+> Task :securestoragelibrary:generateDebugAssets UP-TO-DATE
+> Task :securestoragelibrary:packageDebugAssets UP-TO-DATE
+> Task :securestoragelibrary:packageDebugRenderscript NO-SOURCE
+> Task :securestoragelibrary:prepareLintJarForPublish UP-TO-DATE
+> Task :securestoragelibrary:processDebugJavaRes NO-SOURCE
+> Task :securestoragelibrary:mergeDebugJniLibFolders UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugNativeLibs UP-TO-DATE
+> Task :securestoragelibrary:stripDebugDebugSymbols UP-TO-DATE
+> Task :securestoragelibrary:transformNativeLibsWithSyncJniLibsForDebug
+> Task :securestoragelibrary:compileDebugSources UP-TO-DATE
+> Task :securestoragelibrary:extractProguardFiles UP-TO-DATE
+> Task :securestoragelibrary:preReleaseBuild UP-TO-DATE
+> Task :securestoragelibrary:compileReleaseAidl NO-SOURCE
+> Task :securestoragelibrary:compileReleaseRenderscript NO-SOURCE
+> Task :securestoragelibrary:checkReleaseManifest UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseBuildConfig UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseResValues UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseResources UP-TO-DATE
+> Task :securestoragelibrary:packageReleaseResources UP-TO-DATE
+> Task :securestoragelibrary:parseReleaseLibraryResources UP-TO-DATE
+> Task :securestoragelibrary:processReleaseManifest UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseRFile UP-TO-DATE
+> Task :securestoragelibrary:javaPreCompileRelease UP-TO-DATE
+> Task :securestoragelibrary:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :securestoragelibrary:extractReleaseAnnotations
+> Task :securestoragelibrary:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseConsumerProguardFiles UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseShaders UP-TO-DATE
+> Task :securestoragelibrary:compileReleaseShaders UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseAssets UP-TO-DATE
+> Task :securestoragelibrary:packageReleaseAssets UP-TO-DATE
+> Task :securestoragelibrary:packageReleaseRenderscript NO-SOURCE
+> Task :securestoragelibrary:mergeDebugJavaResource
+> Task :securestoragelibrary:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :securestoragelibrary:bundleDebugAar
+> Task :securestoragelibrary:assembleDebug
+> Task :securestoragelibrary:processReleaseJavaRes NO-SOURCE
+> Task :securestoragelibrary:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseNativeLibs UP-TO-DATE
+> Task :securestoragelibrary:stripReleaseDebugSymbols UP-TO-DATE
+> Task :securestoragelibrary:transformNativeLibsWithSyncJniLibsForRelease
+> Task :securestoragelibrary:compileReleaseSources UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseJavaResource
+> Task :securestoragelibrary:mergeReleaseResources
+> Task :securestoragelibrary:generateReleaseLibraryProguardRules
+
+> Task :securestoragelibrary:transformClassesAndResourcesWithR8ForRelease
+R8 is a new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.5.25 (build 6d99525417adc92659dea2318e949b8699cda625 from go/r8bot (luci-r8-ci-archive-0-clp3)).
+
+
+> Task :securestoragelibrary:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :securestoragelibrary:bundleReleaseAar
+> Task :securestoragelibrary:verifyReleaseResources
+> Task :securestoragelibrary:assembleRelease
+> Task :securestoragelibrary:assemble
+> Task :securestoragelibrary:build
+
+BUILD SUCCESSFUL in 12s
+50 actionable tasks: 16 executed, 34 up-to-date
+
+2019-06-10 14:43:21,878 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:43:21,878 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:43:29,189 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-06-10 14:43:29,189 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-10 14:43:29,190 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-10 14:43:56,558 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :app:preDebugBuild UP-TO-DATE
+> Task :securestoragelibrary:preBuild UP-TO-DATE
+> Task :securestoragelibrary:preDebugBuild UP-TO-DATE
+> Task :securestoragelibrary:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :securestoragelibrary:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceDebug UP-TO-DATE
+> Task :app:generateDebugResValues UP-TO-DATE
+> Task :app:generateDebugResources UP-TO-DATE
+> Task :securestoragelibrary:generateDebugResValues UP-TO-DATE
+> Task :securestoragelibrary:compileDebugRenderscript NO-SOURCE
+> Task :securestoragelibrary:generateDebugResources UP-TO-DATE
+> Task :securestoragelibrary:packageDebugResources UP-TO-DATE
+> Task :app:mergeDebugResources UP-TO-DATE
+> Task :app:createDebugCompatibleScreenManifests UP-TO-DATE
+> Task :securestoragelibrary:checkDebugManifest UP-TO-DATE
+> Task :securestoragelibrary:processDebugManifest UP-TO-DATE
+> Task :app:processDebugManifest UP-TO-DATE
+> Task :securestoragelibrary:parseDebugLibraryResources UP-TO-DATE
+> Task :securestoragelibrary:generateDebugRFile UP-TO-DATE
+> Task :app:processDebugResources UP-TO-DATE
+> Task :securestoragelibrary:generateDebugBuildConfig UP-TO-DATE
+> Task :securestoragelibrary:javaPreCompileDebug UP-TO-DATE
+> Task :securestoragelibrary:compileDebugJavaWithJavac UP-TO-DATE
+> Task :securestoragelibrary:bundleLibCompileDebug UP-TO-DATE
+> Task :app:compileDebugKotlin UP-TO-DATE
+> Task :app:javaPreCompileDebug UP-TO-DATE
+> Task :app:compileDebugJavaWithJavac UP-TO-DATE
+> Task :app:compileDebugSources UP-TO-DATE
+> Task :app:mergeDebugShaders UP-TO-DATE
+> Task :app:compileDebugShaders UP-TO-DATE
+> Task :app:generateDebugAssets UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugShaders UP-TO-DATE
+> Task :securestoragelibrary:compileDebugShaders UP-TO-DATE
+> Task :securestoragelibrary:generateDebugAssets UP-TO-DATE
+> Task :securestoragelibrary:packageDebugAssets UP-TO-DATE
+> Task :app:mergeDebugAssets UP-TO-DATE
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :securestoragelibrary:processDebugJavaRes NO-SOURCE
+> Task :securestoragelibrary:bundleLibResDebug UP-TO-DATE
+> Task :app:mergeDebugJavaResource UP-TO-DATE
+> Task :securestoragelibrary:bundleLibRuntimeDebug UP-TO-DATE
+> Task :securestoragelibrary:createFullJarDebug UP-TO-DATE
+> Task :app:checkDebugDuplicateClasses UP-TO-DATE
+> Task :app:transformClassesWithDexBuilderForDebug UP-TO-DATE
+> Task :app:validateSigningDebug UP-TO-DATE
+> Task :app:signingConfigWriterDebug UP-TO-DATE
+> Task :app:mergeDebugJniLibFolders UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugJniLibFolders UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugNativeLibs UP-TO-DATE
+> Task :securestoragelibrary:stripDebugDebugSymbols UP-TO-DATE
+> Task :securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForDebug UP-TO-DATE
+> Task :app:mergeDebugNativeLibs UP-TO-DATE
+> Task :app:stripDebugDebugSymbols UP-TO-DATE
+> Task :app:extractProguardFiles UP-TO-DATE
+> Task :app:preReleaseBuild UP-TO-DATE
+> Task :securestoragelibrary:extractProguardFiles UP-TO-DATE
+> Task :securestoragelibrary:preReleaseBuild UP-TO-DATE
+> Task :securestoragelibrary:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :securestoragelibrary:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest UP-TO-DATE
+> Task :app:generateReleaseBuildConfig UP-TO-DATE
+> Task :app:mainApkListPersistenceRelease UP-TO-DATE
+> Task :app:generateReleaseResValues UP-TO-DATE
+> Task :app:generateReleaseResources UP-TO-DATE
+> Task :securestoragelibrary:compileReleaseRenderscript NO-SOURCE
+> Task :securestoragelibrary:generateReleaseResValues UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseResources UP-TO-DATE
+> Task :securestoragelibrary:packageReleaseResources UP-TO-DATE
+> Task :app:mergeReleaseResources UP-TO-DATE
+> Task :app:createReleaseCompatibleScreenManifests UP-TO-DATE
+> Task :securestoragelibrary:checkReleaseManifest UP-TO-DATE
+> Task :securestoragelibrary:processReleaseManifest UP-TO-DATE
+> Task :app:processReleaseManifest UP-TO-DATE
+> Task :securestoragelibrary:parseReleaseLibraryResources UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseRFile UP-TO-DATE
+> Task :app:processReleaseResources UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseBuildConfig UP-TO-DATE
+> Task :securestoragelibrary:javaPreCompileRelease UP-TO-DATE
+> Task :securestoragelibrary:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :securestoragelibrary:bundleLibCompileRelease UP-TO-DATE
+> Task :app:compileReleaseKotlin UP-TO-DATE
+> Task :app:javaPreCompileRelease UP-TO-DATE
+> Task :app:compileReleaseJavaWithJavac UP-TO-DATE
+> Task :app:compileReleaseSources UP-TO-DATE
+> Task :app:prepareLintJar UP-TO-DATE
+> Task :securestoragelibrary:prepareLintJarForPublish UP-TO-DATE
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/1359b8221bd179d600d491af8e698ef7/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+
+> Task :app:mergeReleaseShaders UP-TO-DATE
+> Task :app:compileReleaseShaders UP-TO-DATE
+> Task :app:generateReleaseAssets UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseShaders UP-TO-DATE
+> Task :securestoragelibrary:compileReleaseShaders UP-TO-DATE
+> Task :securestoragelibrary:generateReleaseAssets UP-TO-DATE
+> Task :securestoragelibrary:packageReleaseAssets UP-TO-DATE
+> Task :app:mergeReleaseAssets UP-TO-DATE
+> Task :app:signingConfigWriterRelease UP-TO-DATE
+> Task :app:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :securestoragelibrary:processReleaseJavaRes NO-SOURCE
+> Task :securestoragelibrary:bundleLibResRelease UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseJniLibFolders UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseNativeLibs UP-TO-DATE
+> Task :securestoragelibrary:stripReleaseDebugSymbols UP-TO-DATE
+> Task :securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForRelease UP-TO-DATE
+> Task :app:mergeReleaseNativeLibs UP-TO-DATE
+> Task :app:stripReleaseDebugSymbols UP-TO-DATE
+> Task :app:mergeExtDexDebug
+> Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:mergeReleaseJavaResource UP-TO-DATE
+> Task :securestoragelibrary:bundleLibRuntimeRelease UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseGeneratedProguardFiles UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseConsumerProguardFiles UP-TO-DATE
+R8: The rule `-keep public class * extends androidx.versionedparcelable.VersionedParcelable {
+  <init>();
+}` uses extends but actually matches implements.
+
+> Task :app:transformClassesAndResourcesWithR8ForRelease
+R8 is a new Android code shrinker. If you experience any issues, please file a bug at
+https://issuetracker.google.com, using 'Shrinker (R8)' as component name. You can
+disable R8 by updating gradle.properties with 'android.enableR8=false'.
+Current version is: 1.5.25 (build 6d99525417adc92659dea2318e949b8699cda625 from go/r8bot (luci-r8-ci-archive-0-clp3)).
+
+
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :securestoragelibrary:extractDebugAnnotations UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugGeneratedProguardFiles UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugConsumerProguardFiles UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugJavaResource UP-TO-DATE
+> Task :securestoragelibrary:transformClassesAndResourcesWithSyncLibJarsForDebug UP-TO-DATE
+> Task :securestoragelibrary:transformNativeLibsWithSyncJniLibsForDebug UP-TO-DATE
+> Task :securestoragelibrary:bundleDebugAar UP-TO-DATE
+> Task :securestoragelibrary:compileDebugSources UP-TO-DATE
+> Task :securestoragelibrary:assembleDebug UP-TO-DATE
+> Task :securestoragelibrary:extractReleaseAnnotations UP-TO-DATE
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :app:assemble
+> Task :app:build
+> Task :securestoragelibrary:generateReleaseLibraryProguardRules UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseJavaResource UP-TO-DATE
+> Task :securestoragelibrary:transformClassesAndResourcesWithR8ForRelease UP-TO-DATE
+> Task :securestoragelibrary:transformClassesAndResourcesWithSyncLibJarsForRelease UP-TO-DATE
+> Task :securestoragelibrary:transformNativeLibsWithSyncJniLibsForRelease UP-TO-DATE
+> Task :securestoragelibrary:bundleReleaseAar UP-TO-DATE
+> Task :securestoragelibrary:compileReleaseSources UP-TO-DATE
+> Task :securestoragelibrary:mergeReleaseResources UP-TO-DATE
+> Task :securestoragelibrary:verifyReleaseResources UP-TO-DATE
+> Task :securestoragelibrary:assembleRelease UP-TO-DATE
+> Task :securestoragelibrary:assemble
+> Task :securestoragelibrary:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 27s
+109 actionable tasks: 6 executed, 103 up-to-date
+
+2019-06-10 14:43:56,631 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152394023-0/src/app/build/outputs/apk/debug/app-debug.apk

@@ -1,39 +1,39 @@
-2019-06-02 22:38:22,638 INFO  DownloadService - Downloading "https://github.com/charbgr/litho-picasso/archive/master.zip", attempt 3
-2019-06-02 22:39:23,292 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-02 22:39:24,578 INFO  GithubDownloadService - Default branch of this repository: master
-2019-06-02 22:39:24,578 INFO  DownloadService - Downloading "https://github.com/charbgr/litho-picasso/archive/master.zip", attempt 3
-2019-06-02 22:40:26,145 DEBUG FullProcessService - Repository https://github.com/charbgr/litho-picasso available: true
-2019-06-02 22:40:26,145 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-06-02 22:40:26,145 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/charbgr/litho-picasso, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src]
-2019-06-02 22:40:28,150 INFO  SysUtils - 
-2019-06-02 22:40:28,175 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/.git": true
-2019-06-02 22:40:28,177 INFO  FullProcessService - Size of directory with sources: 172 KB
-2019-06-02 22:40:28,177 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src]
-2019-06-02 22:40:28,192 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/.git/
+2019-06-10 14:36:53,630 INFO  DownloadService - Downloading "https://github.com/charbgr/litho-picasso/archive/master.zip", attempt 3
+2019-06-10 14:37:54,196 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-06-10 14:37:55,294 INFO  GithubDownloadService - Default branch of this repository: master
+2019-06-10 14:37:55,294 INFO  DownloadService - Downloading "https://github.com/charbgr/litho-picasso/archive/master.zip", attempt 3
+2019-06-10 14:38:56,924 DEBUG FullProcessService - Repository https://github.com/charbgr/litho-picasso available: true
+2019-06-10 14:38:56,924 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-06-10 14:38:56,924 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/charbgr/litho-picasso, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src]
+2019-06-10 14:38:58,800 INFO  SysUtils - 
+2019-06-10 14:38:58,829 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/.git": true
+2019-06-10 14:38:58,831 INFO  FullProcessService - Size of directory with sources: 172 KB
+2019-06-10 14:38:58,831 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src]
+2019-06-10 14:38:58,847 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/.git/
 
-2019-06-02 22:40:28,194 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/gradlew
-2019-06-02 22:40:28,196 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/litho-picasso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/build.gradle
-2019-06-02 22:40:28,198 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/litho-picasso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/settings.gradle
-2019-06-02 22:40:28,198 INFO  ProjectBuildService - Remote scripts: none
-2019-06-02 22:40:28,198 INFO  ProjectFixService - Fixing project...
-2019-06-02 22:40:28,203 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/app/local.properties
-2019-06-02 22:40:28,204 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-02 22:40:28,204 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-02 22:40:28,205 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/litho-picasso/local.properties
-2019-06-02 22:40:28,206 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/litho-picasso/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-02 22:40:28,206 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/litho-picasso/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-02 22:40:28,207 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/local.properties
-2019-06-02 22:40:28,207 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-06-02 22:40:28,207 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-06-02 22:40:28,209 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-02 22:40:28,209 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-02 22:40:28,209 INFO  ProjectFixService - Project was maybe fixed
-2019-06-02 22:40:28,209 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-02 22:40:28,209 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-02 22:40:34,414 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-06-02 22:40:34,414 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-06-02 22:40:34,414 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-06-02 22:41:13,449 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-06-10 14:38:58,849 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/gradlew
+2019-06-10 14:38:58,852 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/litho-picasso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/build.gradle
+2019-06-10 14:38:58,854 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/litho-picasso/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/settings.gradle
+2019-06-10 14:38:58,854 INFO  ProjectBuildService - Remote scripts: none
+2019-06-10 14:38:58,854 INFO  ProjectFixService - Fixing project...
+2019-06-10 14:38:58,859 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/app/local.properties
+2019-06-10 14:38:58,860 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-10 14:38:58,860 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-10 14:38:58,861 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/litho-picasso/local.properties
+2019-06-10 14:38:58,862 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/litho-picasso/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-10 14:38:58,862 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/litho-picasso/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-10 14:38:58,863 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/local.properties
+2019-06-10 14:38:58,863 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-06-10 14:38:58,863 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-06-10 14:38:58,864 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-06-10 14:38:58,865 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
+2019-06-10 14:38:58,865 INFO  ProjectFixService - Project was maybe fixed
+2019-06-10 14:38:58,865 INFO  ProjectTaskService - Detecting possible tasks...
+2019-06-10 14:38:58,865 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-06-10 14:39:05,567 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-06-10 14:39:05,567 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-06-10 14:39:05,567 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-06-10 14:39:36,100 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :litho-picasso
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -50,24 +50,20 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :litho-picasso:preDebugBuild UP-TO-DATE
 > Task :litho-picasso:checkDebugManifest
 > Task :litho-picasso:processDebugManifest
-> Task :litho-picasso:packageDebugRenderscript NO-SOURCE
-> Task :app:prepareLintJar
-> Task :litho-picasso:generateDebugBuildConfig
-> Task :litho-picasso:generateDebugResValues
-> Task :litho-picasso:prepareLintJar
-> Task :litho-picasso:mergeDebugShaders
-> Task :litho-picasso:compileDebugShaders
-> Task :litho-picasso:generateDebugAssets
-> Task :litho-picasso:packageDebugAssets
 > Task :app:preDebugBuild
 > Task :litho-picasso:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
+> Task :litho-picasso:packageDebugRenderscript NO-SOURCE
 > Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
 > Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
 > Task :app:generateDebugSources
 > Task :litho-picasso:compileDebugRenderscript NO-SOURCE
+> Task :litho-picasso:generateDebugBuildConfig
+> Task :litho-picasso:generateDebugResValues
 > Task :litho-picasso:generateDebugResources
+> Task :litho-picasso:prepareLintJar
 > Task :litho-picasso:packageDebugResources
 > Task :litho-picasso:generateDebugRFile
 > Task :litho-picasso:generateDebugSources
@@ -78,8 +74,8 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:mergeDebugResources
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
 > Task :app:compileDebugJavaWithJavac
@@ -87,14 +83,18 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
+> Task :litho-picasso:mergeDebugShaders
+> Task :litho-picasso:compileDebugShaders
+> Task :litho-picasso:generateDebugAssets
+> Task :litho-picasso:packageDebugAssets
 > Task :app:mergeDebugAssets
-> Task :app:checkDebugDuplicateClasses
 > Task :litho-picasso:processDebugJavaRes NO-SOURCE
 > Task :litho-picasso:bundleLibResDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeExtDexDebug
 > Task :litho-picasso:bundleLibRuntimeDebug
 > Task :litho-picasso:createFullJarDebug
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeLibDexDebug
 > Task :app:mergeProjectDexDebug
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
@@ -104,9 +104,12 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :litho-picasso:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :litho-picasso:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:mergeLibDexDebug
 > Task :app:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
 > Task :litho-picasso:preReleaseBuild UP-TO-DATE
 > Task :litho-picasso:checkReleaseManifest
 > Task :litho-picasso:processReleaseManifest
@@ -133,25 +136,21 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :app:generateReleaseResValues
 > Task :app:generateReleaseResources
 > Task :app:mergeReleaseResources
-> Task :app:mergeExtDexDebug
-> Task :app:packageDebug
-> Task :app:assembleDebug
 > Task :app:createReleaseCompatibleScreenManifests
 > Task :app:processReleaseManifest
 > Task :app:processReleaseResources
 > Task :app:compileReleaseJavaWithJavac
 > Task :app:compileReleaseSources
 > Task :litho-picasso:prepareLintJarForPublish
-
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c0904a8ce0c815cd9414a71afb128280/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-
 > Task :litho-picasso:processReleaseJavaRes NO-SOURCE
 > Task :litho-picasso:bundleLibResRelease
 > Task :litho-picasso:bundleLibRuntimeRelease
 > Task :litho-picasso:createFullJarRelease
 > Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
 > Task :app:generateReleaseAssets
@@ -170,8 +169,6 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :app:transformResourcesWithMergeJavaResForRelease
-> Task :app:mergeExtDexRelease
-> Task :app:mergeDexRelease
 > Task :app:packageRelease
 > Task :app:assembleRelease
 > Task :app:assemble
@@ -181,7 +178,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 38s
+BUILD SUCCESSFUL in 30s
 92 actionable tasks: 92 executed
 
-2019-06-02 22:41:13,512 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1559489902631-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-06-10 14:39:36,163 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560152213627-0/src/app/build/outputs/apk/debug/app-debug.apk
