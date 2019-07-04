@@ -1,42 +1,42 @@
-2019-05-19 18:24:56,662 INFO  DownloadService - Downloading "https://github.com/magnusja/libaums/archive/master.zip", attempt 3
-2019-05-19 18:25:57,220 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-05-19 18:25:58,345 INFO  GithubDownloadService - Default branch of this repository: develop
-2019-05-19 18:25:58,345 INFO  DownloadService - Downloading "https://github.com/magnusja/libaums/archive/develop.zip", attempt 3
-2019-05-19 18:26:59,831 DEBUG FullProcessService - Repository https://github.com/magnusja/libaums available: true
-2019-05-19 18:26:59,832 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-05-19 18:26:59,832 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/magnusja/libaums, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src]
-2019-05-19 18:27:02,550 INFO  SysUtils - 
-2019-05-19 18:27:02,560 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/.git": true
-2019-05-19 18:27:02,567 INFO  FullProcessService - Size of directory with sources: 490 KB
-2019-05-19 18:27:02,567 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src]
-2019-05-19 18:27:02,585 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/.git/
+2019-07-05 03:47:46,878 INFO  DownloadService - Downloading "https://github.com/magnusja/libaums/archive/master.zip", attempt 3
+2019-07-05 03:48:47,482 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 03:48:48,359 INFO  GithubDownloadService - Default branch of this repository: develop
+2019-07-05 03:48:48,360 INFO  DownloadService - Downloading "https://github.com/magnusja/libaums/archive/develop.zip", attempt 3
+2019-07-05 03:49:49,858 DEBUG FullProcessService - Repository https://github.com/magnusja/libaums available: true
+2019-07-05 03:49:49,858 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 03:49:49,858 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/magnusja/libaums, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src]
+2019-07-05 03:49:51,926 INFO  SysUtils - 
+2019-07-05 03:49:51,934 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/.git": true
+2019-07-05 03:49:51,939 INFO  FullProcessService - Size of directory with sources: 491 KB
+2019-07-05 03:49:51,939 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src]
+2019-07-05 03:49:51,954 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/.git/
 
-2019-05-19 18:27:02,591 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/gradlew
-2019-05-19 18:27:02,598 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/build.gradle
-2019-05-19 18:27:02,604 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/settings.gradle
-2019-05-19 18:27:02,605 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 18:27:02,605 INFO  ProjectFixService - Fixing project...
-2019-05-19 18:27:02,619 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/app/local.properties
-2019-05-19 18:27:02,620 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 18:27:02,620 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/httpserver/local.properties
-2019-05-19 18:27:02,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/httpserver/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 18:27:02,621 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/javafs/local.properties
-2019-05-19 18:27:02,621 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/javafs/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 18:27:02,622 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/local.properties
-2019-05-19 18:27:02,622 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 18:27:02,623 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/storageprovider/local.properties
-2019-05-19 18:27:02,623 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/storageprovider/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 18:27:02,624 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/local.properties
-2019-05-19 18:27:02,624 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
-2019-05-19 18:27:02,624 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
-2019-05-19 18:27:02,626 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-05-19 18:27:02,626 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 18:27:02,626 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 18:27:02,626 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 18:27:10,601 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-05-19 18:27:10,601 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 18:27:10,601 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 18:28:08,289 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-05 03:49:51,959 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/gradlew
+2019-07-05 03:49:51,963 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/build.gradle
+2019-07-05 03:49:51,967 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/settings.gradle
+2019-07-05 03:49:51,968 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 03:49:51,968 INFO  ProjectFixService - Fixing project...
+2019-07-05 03:49:51,978 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/app/local.properties
+2019-07-05 03:49:51,978 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 03:49:51,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/httpserver/local.properties
+2019-07-05 03:49:51,979 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/httpserver/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 03:49:51,979 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/javafs/local.properties
+2019-07-05 03:49:51,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/javafs/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 03:49:51,980 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/local.properties
+2019-07-05 03:49:51,980 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 03:49:51,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/storageprovider/local.properties
+2019-07-05 03:49:51,981 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/storageprovider/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 03:49:51,981 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/local.properties
+2019-07-05 03:49:51,982 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-07-05 03:49:51,982 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-07-05 03:49:51,984 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-07-05 03:49:51,984 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 03:49:51,984 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 03:49:51,984 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 03:50:02,675 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-07-05 03:50:02,675 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 03:50:02,675 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 03:50:55,616 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :httpserver:preBuild UP-TO-DATE
 > Task :httpserver:preDebugBuild UP-TO-DATE
@@ -54,26 +54,20 @@
 > Task :storageprovider:preDebugBuild UP-TO-DATE
 > Task :storageprovider:checkDebugManifest
 > Task :storageprovider:processDebugManifest
-> Task :app:preDebugBuild
 > Task :libaums:compileDebugAidl NO-SOURCE
 > Task :httpserver:compileDebugAidl NO-SOURCE
 > Task :javafs:compileDebugAidl NO-SOURCE
 > Task :storageprovider:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
 > Task :httpserver:packageDebugRenderscript NO-SOURCE
 > Task :javafs:packageDebugRenderscript NO-SOURCE
 > Task :libaums:packageDebugRenderscript NO-SOURCE
 > Task :storageprovider:packageDebugRenderscript NO-SOURCE
-> Task :app:compileDebugRenderscript
-> Task :app:checkDebugManifest
-> Task :app:generateDebugBuildConfig
 > Task :app:prepareLintJar
-> Task :app:generateDebugSources
-> Task :httpserver:compileDebugRenderscript
+> Task :httpserver:compileDebugRenderscript NO-SOURCE
 > Task :httpserver:generateDebugBuildConfig
 > Task :httpserver:generateDebugResValues
 > Task :httpserver:generateDebugResources
-> Task :libaums:compileDebugRenderscript
+> Task :libaums:compileDebugRenderscript NO-SOURCE
 > Task :libaums:generateDebugResValues
 > Task :libaums:generateDebugResources
 > Task :httpserver:prepareLintJar
@@ -82,46 +76,47 @@
 > Task :libaums:prepareLintJar
 > Task :libaums:generateDebugSources
 > Task :libaums:javaPreCompileDebug
-> Task :libaums:processDebugJavaRes NO-SOURCE
-> Task :httpserver:processDebugJavaRes NO-SOURCE
-> Task :javafs:compileDebugRenderscript
+> Task :javafs:compileDebugRenderscript NO-SOURCE
 > Task :javafs:generateDebugBuildConfig
 > Task :javafs:generateDebugResValues
 > Task :javafs:generateDebugResources
 > Task :javafs:prepareLintJar
 > Task :javafs:generateDebugSources
-> Task :javafs:processDebugJavaRes NO-SOURCE
-> Task :storageprovider:compileDebugRenderscript
-> Task :storageprovider:generateDebugBuildConfig
-> Task :storageprovider:generateDebugResValues
-> Task :storageprovider:generateDebugResources
-> Task :storageprovider:prepareLintJar
-> Task :storageprovider:generateDebugSources
-> Task :storageprovider:processDebugJavaRes NO-SOURCE
+> Task :storageprovider:compileDebugRenderscript NO-SOURCE
 > Task :httpserver:packageDebugResources
 > Task :libaums:packageDebugResources
 > Task :libaums:generateDebugRFile
 > Task :httpserver:generateDebugRFile
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:generateDebugSources
 
 > Task :libaums:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :libaums:jacocoDebug
-> Task :libaums:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :libaums:bundleLibCompileDebug
 > Task :httpserver:javaPreCompileDebug
 > Task :httpserver:compileDebugJavaWithJavac
-> Task :httpserver:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :httpserver:bundleLibCompileDebug
 > Task :javafs:packageDebugResources
 > Task :javafs:generateDebugRFile
 > Task :javafs:javaPreCompileDebug
 > Task :javafs:compileDebugJavaWithJavac
-> Task :javafs:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :javafs:bundleLibCompileDebug
+> Task :storageprovider:generateDebugBuildConfig
+> Task :storageprovider:generateDebugResValues
+> Task :storageprovider:generateDebugResources
 > Task :storageprovider:packageDebugResources
 > Task :storageprovider:generateDebugRFile
+> Task :storageprovider:prepareLintJar
+> Task :storageprovider:generateDebugSources
 > Task :storageprovider:javaPreCompileDebug
 > Task :storageprovider:compileDebugJavaWithJavac
-> Task :storageprovider:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
+> Task :storageprovider:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
 > Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
@@ -132,10 +127,9 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:processDebugResources
 
 > Task :app:compileDebugJavaWithJavac
-
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
-> Task :app:compileDebugNdk NO-SOURCE
+
 > Task :app:compileDebugSources
 > Task :app:mergeDebugShaders
 > Task :app:compileDebugShaders
@@ -157,24 +151,32 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :storageprovider:generateDebugAssets
 > Task :storageprovider:packageDebugAssets
 > Task :app:mergeDebugAssets
+> Task :libaums:processDebugJavaRes NO-SOURCE
+> Task :libaums:bundleLibResDebug
+> Task :libaums:jacocoDebug
+> Task :libaums:bundleLibRuntimeDebug
 > Task :libaums:createFullJarDebug
+> Task :javafs:processDebugJavaRes NO-SOURCE
+> Task :javafs:bundleLibResDebug
+> Task :javafs:bundleLibRuntimeDebug
 > Task :javafs:createFullJarDebug
+> Task :storageprovider:processDebugJavaRes NO-SOURCE
+> Task :storageprovider:bundleLibResDebug
+> Task :storageprovider:bundleLibRuntimeDebug
 > Task :storageprovider:createFullJarDebug
+> Task :httpserver:processDebugJavaRes NO-SOURCE
+> Task :httpserver:bundleLibResDebug
+> Task :httpserver:bundleLibRuntimeDebug
 > Task :httpserver:createFullJarDebug
-
-> Transform artifact org.jacoco.agent-runtime.jar (org.jacoco:org.jacoco.agent:0.7.9) with JetifyTransform
-ERROR: [TAG] Failed to resolve variable '${project.groupId}'
-
-> Task :app:validateSigningDebug
+> Task :app:checkDebugDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
 > Task :app:mergeDebugJniLibFolders
-> Task :httpserver:compileDebugNdk NO-SOURCE
 > Task :httpserver:mergeDebugJniLibFolders
 > Task :httpserver:transformNativeLibsWithMergeJniLibsForDebug
 > Task :httpserver:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :httpserver:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :javafs:compileDebugNdk NO-SOURCE
 > Task :javafs:mergeDebugJniLibFolders
 > Task :javafs:transformNativeLibsWithMergeJniLibsForDebug
 > Task :javafs:transformNativeLibsWithStripDebugSymbolForDebug
@@ -195,7 +197,7 @@ debug|armeabi-v7a :-- Detecting CXX compile features
 debug|armeabi-v7a :-- Detecting CXX compile features - done
 debug|armeabi-v7a :-- Configuring done
 debug|armeabi-v7a :-- Generating done
-debug|armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a
+debug|armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a
 debug|arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 debug|arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 debug|arm64-v8a :-- Detecting C compiler ABI info
@@ -210,7 +212,7 @@ debug|arm64-v8a :-- Detecting CXX compile features
 debug|arm64-v8a :-- Detecting CXX compile features - done
 debug|arm64-v8a :-- Configuring done
 debug|arm64-v8a :-- Generating done
-debug|arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a
+debug|arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/.externalNativeBuild/cmake/debug/arm64-v8a
 debug|x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 debug|x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 debug|x86 :-- Detecting C compiler ABI info
@@ -225,7 +227,7 @@ debug|x86 :-- Detecting CXX compile features
 debug|x86 :-- Detecting CXX compile features - done
 debug|x86 :-- Configuring done
 debug|x86 :-- Generating done
-debug|x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/.externalNativeBuild/cmake/debug/x86
+debug|x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/.externalNativeBuild/cmake/debug/x86
 debug|x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 debug|x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 debug|x86_64 :-- Detecting C compiler ABI info
@@ -240,7 +242,7 @@ debug|x86_64 :-- Detecting CXX compile features
 debug|x86_64 :-- Detecting CXX compile features - done
 debug|x86_64 :-- Configuring done
 debug|x86_64 :-- Generating done
-debug|x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64
+debug|x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/.externalNativeBuild/cmake/debug/x86_64
 
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
@@ -263,7 +265,6 @@ Build errno-lib armeabi-v7a
 > Task :libaums:transformNativeLibsWithMergeJniLibsForDebug
 > Task :libaums:transformNativeLibsWithStripDebugSymbolForDebug
 > Task :libaums:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :storageprovider:compileDebugNdk NO-SOURCE
 > Task :storageprovider:mergeDebugJniLibFolders
 > Task :storageprovider:transformNativeLibsWithMergeJniLibsForDebug
 > Task :storageprovider:transformNativeLibsWithStripDebugSymbolForDebug
@@ -296,16 +297,16 @@ Build errno-lib armeabi-v7a
 > Task :javafs:packageReleaseRenderscript NO-SOURCE
 > Task :libaums:packageReleaseRenderscript NO-SOURCE
 > Task :storageprovider:packageReleaseRenderscript NO-SOURCE
-> Task :app:compileReleaseRenderscript
+> Task :app:compileReleaseRenderscript NO-SOURCE
 > Task :app:checkReleaseManifest
 > Task :app:generateReleaseBuildConfig
 > Task :app:generateReleaseSources
-> Task :httpserver:compileReleaseRenderscript
+> Task :httpserver:compileReleaseRenderscript NO-SOURCE
 > Task :httpserver:generateReleaseBuildConfig
 > Task :httpserver:generateReleaseResValues
 > Task :httpserver:generateReleaseResources
 > Task :httpserver:packageReleaseResources
-> Task :libaums:compileReleaseRenderscript
+> Task :libaums:compileReleaseRenderscript NO-SOURCE
 > Task :libaums:generateReleaseResValues
 > Task :libaums:generateReleaseResources
 > Task :libaums:packageReleaseResources
@@ -317,16 +318,14 @@ Build errno-lib armeabi-v7a
 > Task :libaums:javaPreCompileRelease
 
 > Task :libaums:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :libaums:processReleaseJavaRes NO-SOURCE
-> Task :libaums:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :libaums:bundleLibCompileRelease
 > Task :httpserver:javaPreCompileRelease
 > Task :httpserver:compileReleaseJavaWithJavac
-> Task :httpserver:processReleaseJavaRes NO-SOURCE
-> Task :httpserver:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :javafs:compileReleaseRenderscript
+> Task :httpserver:bundleLibCompileRelease
+> Task :javafs:compileReleaseRenderscript NO-SOURCE
 > Task :javafs:generateReleaseBuildConfig
 > Task :javafs:generateReleaseResValues
 > Task :javafs:generateReleaseResources
@@ -335,9 +334,8 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :javafs:generateReleaseSources
 > Task :javafs:javaPreCompileRelease
 > Task :javafs:compileReleaseJavaWithJavac
-> Task :javafs:processReleaseJavaRes NO-SOURCE
-> Task :javafs:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-> Task :storageprovider:compileReleaseRenderscript
+> Task :javafs:bundleLibCompileRelease
+> Task :storageprovider:compileReleaseRenderscript NO-SOURCE
 > Task :storageprovider:generateReleaseBuildConfig
 > Task :storageprovider:generateReleaseResValues
 > Task :storageprovider:generateReleaseResources
@@ -346,8 +344,7 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :storageprovider:generateReleaseSources
 > Task :storageprovider:javaPreCompileRelease
 > Task :storageprovider:compileReleaseJavaWithJavac
-> Task :storageprovider:processReleaseJavaRes NO-SOURCE
-> Task :storageprovider:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
+> Task :storageprovider:bundleLibCompileRelease
 > Task :app:javaPreCompileRelease
 > Task :app:mainApkListPersistenceRelease
 > Task :app:generateReleaseResValues
@@ -361,17 +358,33 @@ Note: Recompile with -Xlint:deprecation for details.
 Note: Some input files use or override a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
-> Task :app:compileReleaseNdk NO-SOURCE
 > Task :app:compileReleaseSources
-> Task :libaums:createFullJarRelease
+> Task :httpserver:prepareLintJarForPublish
+> Task :javafs:prepareLintJarForPublish
+> Task :libaums:prepareLintJarForPublish
+> Task :storageprovider:prepareLintJarForPublish
 
 > Task :app:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/91af06acfd1c4dabd7d2a862491cf726/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/eb8867b2ce592b4d125696f629ae76e0/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/7e81f02a243a8e7a3d1da2fd15e57cb3/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/afb29925d3fbf3703f92627ef6c327c4/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :libaums:processReleaseJavaRes NO-SOURCE
+> Task :libaums:bundleLibResRelease
+> Task :libaums:bundleLibRuntimeRelease
+> Task :libaums:createFullJarRelease
+> Task :javafs:processReleaseJavaRes NO-SOURCE
+> Task :javafs:bundleLibResRelease
+> Task :javafs:bundleLibRuntimeRelease
 > Task :javafs:createFullJarRelease
+> Task :storageprovider:processReleaseJavaRes NO-SOURCE
+> Task :storageprovider:bundleLibResRelease
+> Task :storageprovider:bundleLibRuntimeRelease
 > Task :storageprovider:createFullJarRelease
+> Task :httpserver:processReleaseJavaRes NO-SOURCE
+> Task :httpserver:bundleLibResRelease
+> Task :httpserver:bundleLibRuntimeRelease
 > Task :httpserver:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
 > Task :app:transformClassesWithDexBuilderForRelease
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -395,12 +408,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :app:mergeReleaseAssets
 > Task :app:signingConfigWriterRelease
 > Task :app:mergeReleaseJniLibFolders
-> Task :httpserver:compileReleaseNdk NO-SOURCE
 > Task :httpserver:mergeReleaseJniLibFolders
 > Task :httpserver:transformNativeLibsWithMergeJniLibsForRelease
 > Task :httpserver:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :httpserver:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :javafs:compileReleaseNdk NO-SOURCE
 > Task :javafs:mergeReleaseJniLibFolders
 > Task :javafs:transformNativeLibsWithMergeJniLibsForRelease
 > Task :javafs:transformNativeLibsWithStripDebugSymbolForRelease
@@ -421,7 +432,7 @@ release|armeabi-v7a :-- Detecting CXX compile features
 release|armeabi-v7a :-- Detecting CXX compile features - done
 release|armeabi-v7a :-- Configuring done
 release|armeabi-v7a :-- Generating done
-release|armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a
+release|armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/.externalNativeBuild/cmake/release/armeabi-v7a
 release|arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 release|arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 release|arm64-v8a :-- Detecting C compiler ABI info
@@ -436,7 +447,7 @@ release|arm64-v8a :-- Detecting CXX compile features
 release|arm64-v8a :-- Detecting CXX compile features - done
 release|arm64-v8a :-- Configuring done
 release|arm64-v8a :-- Generating done
-release|arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a
+release|arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/.externalNativeBuild/cmake/release/arm64-v8a
 release|x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 release|x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 release|x86 :-- Detecting C compiler ABI info
@@ -451,7 +462,7 @@ release|x86 :-- Detecting CXX compile features
 release|x86 :-- Detecting CXX compile features - done
 release|x86 :-- Configuring done
 release|x86 :-- Generating done
-release|x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/.externalNativeBuild/cmake/release/x86
+release|x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/.externalNativeBuild/cmake/release/x86
 release|x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 release|x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 release|x86_64 :-- Detecting C compiler ABI info
@@ -466,7 +477,7 @@ release|x86_64 :-- Detecting CXX compile features
 release|x86_64 :-- Detecting CXX compile features - done
 release|x86_64 :-- Configuring done
 release|x86_64 :-- Generating done
-release|x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/libaums/.externalNativeBuild/cmake/release/x86_64
+release|x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/libaums/.externalNativeBuild/cmake/release/x86_64
 
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -489,7 +500,6 @@ Build errno-lib armeabi-v7a
 > Task :libaums:transformNativeLibsWithMergeJniLibsForRelease
 > Task :libaums:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :libaums:transformNativeLibsWithIntermediateJniLibsForRelease
-> Task :storageprovider:compileReleaseNdk NO-SOURCE
 > Task :storageprovider:mergeReleaseJniLibFolders
 > Task :storageprovider:transformNativeLibsWithMergeJniLibsForRelease
 > Task :storageprovider:transformNativeLibsWithStripDebugSymbolForRelease
@@ -507,7 +517,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 56s
-204 actionable tasks: 204 executed
+BUILD SUCCESSFUL in 52s
+216 actionable tasks: 216 executed
 
-2019-05-19 18:28:08,423 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265096654-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-07-05 03:50:55,701 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273266870-0/src/app/build/outputs/apk/debug/app-debug.apk

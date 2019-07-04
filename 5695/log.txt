@@ -1,36 +1,36 @@
-2019-05-19 18:38:01,424 INFO  DownloadService - Downloading "https://github.com/InflationX/ViewPump/archive/master.zip", attempt 3
-2019-05-19 18:39:02,015 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-05-19 18:39:03,170 INFO  GithubDownloadService - Default branch of this repository: master
-2019-05-19 18:39:03,170 INFO  DownloadService - Downloading "https://github.com/InflationX/ViewPump/archive/master.zip", attempt 3
-2019-05-19 18:40:04,852 DEBUG FullProcessService - Repository https://github.com/InflationX/ViewPump available: true
-2019-05-19 18:40:04,852 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-05-19 18:40:04,852 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/InflationX/ViewPump, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src]
-2019-05-19 18:40:07,629 INFO  SysUtils - 
-2019-05-19 18:40:07,662 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/.git": true
-2019-05-19 18:40:07,665 INFO  FullProcessService - Size of directory with sources: 146 KB
-2019-05-19 18:40:07,665 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src]
-2019-05-19 18:40:07,685 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/.git/
+2019-07-05 03:53:35,676 INFO  DownloadService - Downloading "https://github.com/InflationX/ViewPump/archive/master.zip", attempt 3
+2019-07-05 03:54:36,204 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 03:54:37,067 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-05 03:54:37,067 INFO  DownloadService - Downloading "https://github.com/InflationX/ViewPump/archive/master.zip", attempt 3
+2019-07-05 03:55:38,580 DEBUG FullProcessService - Repository https://github.com/InflationX/ViewPump available: true
+2019-07-05 03:55:38,580 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 03:55:38,580 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/InflationX/ViewPump, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src]
+2019-07-05 03:55:40,713 INFO  SysUtils - 
+2019-07-05 03:55:40,739 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/.git": true
+2019-07-05 03:55:40,741 INFO  FullProcessService - Size of directory with sources: 146 KB
+2019-07-05 03:55:40,741 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src]
+2019-07-05 03:55:40,757 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/.git/
 
-2019-05-19 18:40:07,688 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/gradlew
-2019-05-19 18:40:07,691 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/viewpump/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/build.gradle
-2019-05-19 18:40:07,694 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/viewpump/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build.gradle
-2019-05-19 18:40:07,695 INFO  ProjectBuildService - Remote scripts: none
-2019-05-19 18:40:07,695 INFO  ProjectFixService - Fixing project...
-2019-05-19 18:40:07,704 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/local.properties
-2019-05-19 18:40:07,704 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-19 18:40:07,704 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/viewpump/local.properties
-2019-05-19 18:40:07,705 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/viewpump/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-19 18:40:07,705 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/local.properties
-2019-05-19 18:40:07,706 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3.1-all.zip
-2019-05-19 18:40:07,706 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.3.1-bin.zip)
-2019-05-19 18:40:07,707 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-05-19 18:40:07,707 INFO  ProjectFixService - Project was maybe fixed
-2019-05-19 18:40:07,707 INFO  ProjectTaskService - Detecting possible tasks...
-2019-05-19 18:40:07,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-05-19 18:40:20,944 INFO  ProjectTaskService - Detected possible tasks: 70
-2019-05-19 18:40:20,945 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-05-19 18:40:20,945 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-05-19 18:41:10,566 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.3.1/userguide/gradle_daemon.html.
+2019-07-05 03:55:40,759 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/gradlew
+2019-07-05 03:55:40,761 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/viewpump/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/build.gradle
+2019-07-05 03:55:40,762 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/viewpump/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build.gradle
+2019-07-05 03:55:40,763 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 03:55:40,763 INFO  ProjectFixService - Fixing project...
+2019-07-05 03:55:40,768 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/local.properties
+2019-07-05 03:55:40,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 03:55:40,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/viewpump/local.properties
+2019-07-05 03:55:40,769 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/viewpump/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 03:55:40,769 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/local.properties
+2019-07-05 03:55:40,770 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.3.1-all.zip
+2019-07-05 03:55:40,770 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.3.1-bin.zip)
+2019-07-05 03:55:40,774 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 03:55:40,774 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 03:55:40,774 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 03:55:40,774 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 03:55:52,004 INFO  ProjectTaskService - Detected possible tasks: 70
+2019-07-05 03:55:52,004 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 03:55:52,004 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 03:56:32,398 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.3.1/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 Configuration on demand is an incubating feature.
 
@@ -47,11 +47,11 @@ ERROR: [TAG] Failed to resolve variable '${junit.version}'
 > Task :viewpump:generateReleaseResources
 > Task :viewpump:processReleaseManifest
 > Task :viewpump:packageReleaseResources
+> Task :viewpump:generateReleaseRFile
 
 > Transform artifact guava.jar (com.google.guava:guava:24.0-jre) with JetifyTransform
 ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 
-> Task :viewpump:generateReleaseRFile
 > Task :viewpump:compileReleaseKotlin
 > Task :viewpump:prepareLintJar
 > Task :viewpump:generateReleaseSources
@@ -64,8 +64,8 @@ ERROR: [TAG] Failed to resolve variable '${animal.sniffer.version}'
 > Task :ViewPumpSample:preDebugBuild
 > Task :ViewPumpSample:compileDebugAidl NO-SOURCE
 > Task :viewpump:packageReleaseRenderscript NO-SOURCE
-> Task :ViewPumpSample:checkDebugManifest
 > Task :ViewPumpSample:compileDebugRenderscript
+> Task :ViewPumpSample:checkDebugManifest
 > Task :ViewPumpSample:generateDebugBuildConfig
 > Task :ViewPumpSample:prepareLintJar
 > Task :ViewPumpSample:generateDebugSources
@@ -96,55 +96,53 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :ViewPumpSample:signingConfigWriterDebug
 > Task :viewpump:mergeReleaseConsumerProguardFiles
 > Task :ViewPumpSample:processDebugJavaRes NO-SOURCE
-> Task :viewpump:compileReleaseNdk NO-SOURCE
-> Task :viewpump:mergeReleaseJniLibFolders
 > Task :ViewPumpSample:transformResourcesWithMergeJavaResForDebug
 ProGuard, version 6.0.3
 Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1d672852af147999238ea7ae8a165a8e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1d43d9693df002b86657b2f9b4bf4e2d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/38ab8d932e0158707935556f9611846f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/88773d249bfcb68863b67c9b09b86c7f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/76853b48b9aeb01f75078b4144145e5f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47aa77376271b76a8888753009542c12/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/459d47a85b0a70aea05dbcebc966ec9e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b3e36c639c0ea78fb18100009d88b701/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0f28b88bf7f03b3b515efc315fb02965/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9bb5fb2f170aef97d061c363bb3b936c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3f37d3b5bd110e95b91baef450ac7ded/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/8df5b806a2fda5a2282c3af277ab2ed7/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0a6d6d2b7228b28b3c3ee876e114a938/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/11043e739ccac2a853c38f951333f78c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9f18405e686f026edf97173d26d9db40/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ca61d5cc47d977dc3f85ec93e2b696e1/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fa57857b06f07baf9562a28aa5879de3/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ffa74ea3b714557fe256b838724c06ef/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ff951dd279b17826a0f0b584b9d33da8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c01502fe28f8b2973d129134f833aff9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/680b83291c93cd46e46be3c3e78a8623/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9e59186c6ea8302dce312f4f8f68bf65/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3859ae86cd71b92a122f323b8f1e15a3/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/de486e3d8cd2764013fca84a07bdb2a4/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b944329728983af9dfae38c2b7c0c5a9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/be12d7dbeac4cfeff105154d91d12d64/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/dae0c73b6b521c5577b41bf8762f6a09/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/22467819ceb43af260c942122de4dccc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5bb3b838542a03c601a996db584a1009/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fe837d1b35abb5ea8343a5f6aac59c63/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/396a26488e2cbd5a8b4da959bb40b86b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a907a2162371be2715d85aff086935df/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b599052d0cdf0ee228e19b27a06f2607/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1959d1ee94dc01f65e117c167df74fea/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/13c3bfb6223b6e8480f1e984b1fd265a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1cf5f6b2bd079eaff9368c432b8b6a46/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6c86890bb813e3ab00d0a928b4ef4f2a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/32f70ac6d65515502f4ecb0b6a45ff4b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/840146a3ef995a80f0efd552f97649e0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/90b3d4747665806d8fa1ecd0f50b8f5d/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/7f624b0f05fc1bae6e50b89a87af7df8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5984e12beac43afe1c15124268e9825c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a38b5ef67bb044870e03c661e0513d70/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6b053a93d953c99c96b975d4d89826e2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a53673c89b29d5a805510016f5623518/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/de4f5e48bd56f0161b24be5562635b8d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/55e02e5291b6fecc30123391c319df76/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/674ea5fda1ee28d2292c3540f41e2424/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1b0ea71f1de872ccd3e1f89e62caca55/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/34745b7f50a080d0db0966c3fb69a484/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e6bcf9e496743d1cb835526540d0fc71/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/deafdbd91f401523cb4b7ae8bfb466b8/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/10.0.0/bfac5a77e20734be4373037d47dfe8bd9b441366/butterknife-annotations-10.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ce391a9db197526e3e8ca1406841b7ce/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4a493855861bd3e427b6767ad6178b43/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fc8239b694b3d49e45b61d28a1bc0a20/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47d6f8a2276cbe202bcd9d3b19dd4559/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/10246e12f2a85a246c78e6e1d25d4388/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/036fe293e7da32f71f11d9c199fd8005/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b81c3a4073adf97061bab41b83f3905d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d26439124cfba00a01c808e8af40a71c/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.6.2/5f24b0e8714f58109f791aa3db456dcb3c7d6704/leakcanary-watcher-1.6.2.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.4/4dbe9405e87aa52687c692740253c0ef93dbad9b/haha-2.0.4.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.trove4j/trove4j/20160824/33c3e174a9c8368d93761d3d12712db18e903959/trove4j-20160824.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
@@ -190,70 +188,72 @@ Note: there were 1 accesses to class members by means of introspection.
 Ignoring unused library classes...
   Original number of library classes: 4803
   Final number of library classes:    1302
+Printing kept classes, fields, and methods...
+Inlining subroutines...
+Shrinking...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/outputs/mapping/debug/usage.txt]...
 
 > Task :ViewPumpSample:transformClassesAndResourcesWithProguardForDebug
 Request to incrementing alive workforce from 0. Current workforce (dead or alive) 0
 thread-pool size=4
 
-Printing kept classes, fields, and methods...
-Inlining subroutines...
-Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/outputs/mapping/debug/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 3004
-  Final number of program classes:    1153
+  Final number of program classes:    1154
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/outputs/mapping/debug/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/outputs/mapping/debug/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/transforms/proguard/debug/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1d672852af147999238ea7ae8a165a8e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1d43d9693df002b86657b2f9b4bf4e2d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/38ab8d932e0158707935556f9611846f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/88773d249bfcb68863b67c9b09b86c7f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/76853b48b9aeb01f75078b4144145e5f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47aa77376271b76a8888753009542c12/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/459d47a85b0a70aea05dbcebc966ec9e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b3e36c639c0ea78fb18100009d88b701/jars/classes.jar] (filtered)
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/transforms/proguard/debug/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0f28b88bf7f03b3b515efc315fb02965/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9bb5fb2f170aef97d061c363bb3b936c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3f37d3b5bd110e95b91baef450ac7ded/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/8df5b806a2fda5a2282c3af277ab2ed7/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0a6d6d2b7228b28b3c3ee876e114a938/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/11043e739ccac2a853c38f951333f78c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9f18405e686f026edf97173d26d9db40/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ca61d5cc47d977dc3f85ec93e2b696e1/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fa57857b06f07baf9562a28aa5879de3/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ffa74ea3b714557fe256b838724c06ef/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ff951dd279b17826a0f0b584b9d33da8/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c01502fe28f8b2973d129134f833aff9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/680b83291c93cd46e46be3c3e78a8623/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9e59186c6ea8302dce312f4f8f68bf65/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3859ae86cd71b92a122f323b8f1e15a3/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/de486e3d8cd2764013fca84a07bdb2a4/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b944329728983af9dfae38c2b7c0c5a9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/be12d7dbeac4cfeff105154d91d12d64/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/dae0c73b6b521c5577b41bf8762f6a09/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/22467819ceb43af260c942122de4dccc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5bb3b838542a03c601a996db584a1009/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fe837d1b35abb5ea8343a5f6aac59c63/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/396a26488e2cbd5a8b4da959bb40b86b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a907a2162371be2715d85aff086935df/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b599052d0cdf0ee228e19b27a06f2607/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1959d1ee94dc01f65e117c167df74fea/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/13c3bfb6223b6e8480f1e984b1fd265a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1cf5f6b2bd079eaff9368c432b8b6a46/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6c86890bb813e3ab00d0a928b4ef4f2a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/32f70ac6d65515502f4ecb0b6a45ff4b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/840146a3ef995a80f0efd552f97649e0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/90b3d4747665806d8fa1ecd0f50b8f5d/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/7f624b0f05fc1bae6e50b89a87af7df8/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5984e12beac43afe1c15124268e9825c/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a38b5ef67bb044870e03c661e0513d70/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6b053a93d953c99c96b975d4d89826e2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a53673c89b29d5a805510016f5623518/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/de4f5e48bd56f0161b24be5562635b8d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/55e02e5291b6fecc30123391c319df76/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/674ea5fda1ee28d2292c3540f41e2424/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1b0ea71f1de872ccd3e1f89e62caca55/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/34745b7f50a080d0db0966c3fb69a484/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e6bcf9e496743d1cb835526540d0fc71/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/deafdbd91f401523cb4b7ae8bfb466b8/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/10.0.0/bfac5a77e20734be4373037d47dfe8bd9b441366/butterknife-annotations-10.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ce391a9db197526e3e8ca1406841b7ce/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4a493855861bd3e427b6767ad6178b43/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fc8239b694b3d49e45b61d28a1bc0a20/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47d6f8a2276cbe202bcd9d3b19dd4559/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/10246e12f2a85a246c78e6e1d25d4388/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/036fe293e7da32f71f11d9c199fd8005/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b81c3a4073adf97061bab41b83f3905d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d26439124cfba00a01c808e8af40a71c/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.leakcanary/leakcanary-watcher/1.6.2/5f24b0e8714f58109f791aa3db456dcb3c7d6704/leakcanary-watcher-1.6.2.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.squareup.haha/haha/2.0.4/4dbe9405e87aa52687c692740253c0ef93dbad9b/haha-2.0.4.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.trove4j/trove4j/20160824/33c3e174a9c8368d93761d3d12712db18e903959/trove4j-20160824.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/debug/0.jar] (filtered)
 
 > Task :ViewPumpSample:transformClassesWithDexBuilderForDebug
 > Task :ViewPumpSample:transformDexArchiveWithDexMergerForDebug
+> Task :viewpump:compileReleaseNdk NO-SOURCE
+> Task :viewpump:mergeReleaseJniLibFolders
 > Task :viewpump:transformNativeLibsWithMergeJniLibsForRelease
 > Task :viewpump:transformNativeLibsWithStripDebugSymbolForRelease
 > Task :viewpump:transformNativeLibsWithIntermediateJniLibsForRelease
@@ -285,7 +285,7 @@ Consider setting the experimental feature flag android.enableSeparateAnnotationP
 > Task :ViewPumpSample:compileReleaseSources
 
 > Task :ViewPumpSample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/9fcd632c0a135a380f58c2942464d0dd/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/0497b9f9b2d74bcf60d4b118807c5802/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
 > Task :ViewPumpSample:mergeReleaseShaders
 > Task :ViewPumpSample:compileReleaseShaders
@@ -297,46 +297,46 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :ViewPumpSample:transformResourcesWithMergeJavaResForRelease
 ProGuard, version 6.0.3
 Reading input...
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1d43d9693df002b86657b2f9b4bf4e2d/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/38ab8d932e0158707935556f9611846f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/81ecdf8e4dceab59824aace902b63b5d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9bb5fb2f170aef97d061c363bb3b936c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3f37d3b5bd110e95b91baef450ac7ded/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/261b042cbde3ec843e7e888841a2b4a4/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/76853b48b9aeb01f75078b4144145e5f/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47aa77376271b76a8888753009542c12/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/459d47a85b0a70aea05dbcebc966ec9e/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b3e36c639c0ea78fb18100009d88b701/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fa57857b06f07baf9562a28aa5879de3/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ffa74ea3b714557fe256b838724c06ef/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ff951dd279b17826a0f0b584b9d33da8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c01502fe28f8b2973d129134f833aff9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/680b83291c93cd46e46be3c3e78a8623/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9e59186c6ea8302dce312f4f8f68bf65/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3859ae86cd71b92a122f323b8f1e15a3/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/de486e3d8cd2764013fca84a07bdb2a4/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b944329728983af9dfae38c2b7c0c5a9/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/be12d7dbeac4cfeff105154d91d12d64/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/dae0c73b6b521c5577b41bf8762f6a09/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/22467819ceb43af260c942122de4dccc/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0a6d6d2b7228b28b3c3ee876e114a938/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/11043e739ccac2a853c38f951333f78c/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9f18405e686f026edf97173d26d9db40/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ca61d5cc47d977dc3f85ec93e2b696e1/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5bb3b838542a03c601a996db584a1009/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fe837d1b35abb5ea8343a5f6aac59c63/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/396a26488e2cbd5a8b4da959bb40b86b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a907a2162371be2715d85aff086935df/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b599052d0cdf0ee228e19b27a06f2607/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1959d1ee94dc01f65e117c167df74fea/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/13c3bfb6223b6e8480f1e984b1fd265a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1cf5f6b2bd079eaff9368c432b8b6a46/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6c86890bb813e3ab00d0a928b4ef4f2a/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/32f70ac6d65515502f4ecb0b6a45ff4b/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/840146a3ef995a80f0efd552f97649e0/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/90b3d4747665806d8fa1ecd0f50b8f5d/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/7f624b0f05fc1bae6e50b89a87af7df8/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a53673c89b29d5a805510016f5623518/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5984e12beac43afe1c15124268e9825c/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a38b5ef67bb044870e03c661e0513d70/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6b053a93d953c99c96b975d4d89826e2/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/de4f5e48bd56f0161b24be5562635b8d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/55e02e5291b6fecc30123391c319df76/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e6bcf9e496743d1cb835526540d0fc71/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/674ea5fda1ee28d2292c3540f41e2424/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1b0ea71f1de872ccd3e1f89e62caca55/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/34745b7f50a080d0db0966c3fb69a484/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/deafdbd91f401523cb4b7ae8bfb466b8/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/10.0.0/bfac5a77e20734be4373037d47dfe8bd9b441366/butterknife-annotations-10.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ce391a9db197526e3e8ca1406841b7ce/jars/classes.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4a493855861bd3e427b6767ad6178b43/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fc8239b694b3d49e45b61d28a1bc0a20/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47d6f8a2276cbe202bcd9d3b19dd4559/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/10246e12f2a85a246c78e6e1d25d4388/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/036fe293e7da32f71f11d9c199fd8005/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b81c3a4073adf97061bab41b83f3905d/jars/classes.jar] (filtered)
+Reading program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d26439124cfba00a01c808e8af40a71c/jars/classes.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
 Reading program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+Reading program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+Reading program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/build-tools/28.0.3/core-lambda-stubs.jar]
 Reading library jar [/Users/vbauer/Library/Android/sdk/platforms/android-28/optional/org.apache.http.legacy.jar]
@@ -379,55 +379,55 @@ Ignoring unused library classes...
 Printing kept classes, fields, and methods...
 Inlining subroutines...
 Shrinking...
-Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/outputs/mapping/release/usage.txt]...
+Printing usage to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/outputs/mapping/release/usage.txt]...
 Removing unused program classes and class elements...
   Original number of program classes: 2254
-  Final number of program classes:    807
+  Final number of program classes:    808
 Obfuscating...
-Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/outputs/mapping/release/mapping.txt]...
+Printing mapping to [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/outputs/mapping/release/mapping.txt]...
 Preverifying...
 Writing output...
-Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/transforms/proguard/release/0.jar]
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1d43d9693df002b86657b2f9b4bf4e2d/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/38ab8d932e0158707935556f9611846f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/81ecdf8e4dceab59824aace902b63b5d/jars/classes.jar] (filtered)
+Preparing output jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/transforms/proguard/release/0.jar]
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9bb5fb2f170aef97d061c363bb3b936c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3f37d3b5bd110e95b91baef450ac7ded/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/261b042cbde3ec843e7e888841a2b4a4/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.21/4bcc2012b84840e19e1e28074284cac908be0295/kotlin-stdlib-1.3.21.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/76853b48b9aeb01f75078b4144145e5f/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47aa77376271b76a8888753009542c12/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/459d47a85b0a70aea05dbcebc966ec9e/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b3e36c639c0ea78fb18100009d88b701/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fa57857b06f07baf9562a28aa5879de3/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ffa74ea3b714557fe256b838724c06ef/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ff951dd279b17826a0f0b584b9d33da8/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/c01502fe28f8b2973d129134f833aff9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/680b83291c93cd46e46be3c3e78a8623/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9e59186c6ea8302dce312f4f8f68bf65/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/3859ae86cd71b92a122f323b8f1e15a3/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/de486e3d8cd2764013fca84a07bdb2a4/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b944329728983af9dfae38c2b7c0c5a9/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/be12d7dbeac4cfeff105154d91d12d64/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/dae0c73b6b521c5577b41bf8762f6a09/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/22467819ceb43af260c942122de4dccc/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/0a6d6d2b7228b28b3c3ee876e114a938/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/11043e739ccac2a853c38f951333f78c/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/9f18405e686f026edf97173d26d9db40/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ca61d5cc47d977dc3f85ec93e2b696e1/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5bb3b838542a03c601a996db584a1009/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fe837d1b35abb5ea8343a5f6aac59c63/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/396a26488e2cbd5a8b4da959bb40b86b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a907a2162371be2715d85aff086935df/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b599052d0cdf0ee228e19b27a06f2607/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1959d1ee94dc01f65e117c167df74fea/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/13c3bfb6223b6e8480f1e984b1fd265a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1cf5f6b2bd079eaff9368c432b8b6a46/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6c86890bb813e3ab00d0a928b4ef4f2a/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/32f70ac6d65515502f4ecb0b6a45ff4b/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/840146a3ef995a80f0efd552f97649e0/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/90b3d4747665806d8fa1ecd0f50b8f5d/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/7f624b0f05fc1bae6e50b89a87af7df8/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a53673c89b29d5a805510016f5623518/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/5984e12beac43afe1c15124268e9825c/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/a38b5ef67bb044870e03c661e0513d70/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/6b053a93d953c99c96b975d4d89826e2/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/de4f5e48bd56f0161b24be5562635b8d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/55e02e5291b6fecc30123391c319df76/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/e6bcf9e496743d1cb835526540d0fc71/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/674ea5fda1ee28d2292c3540f41e2424/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/1b0ea71f1de872ccd3e1f89e62caca55/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/34745b7f50a080d0db0966c3fb69a484/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/deafdbd91f401523cb4b7ae8bfb466b8/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/com.jakewharton/butterknife-annotations/10.0.0/bfac5a77e20734be4373037d47dfe8bd9b441366/butterknife-annotations-10.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/ce391a9db197526e3e8ca1406841b7ce/jars/classes.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/4a493855861bd3e427b6767ad6178b43/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/fc8239b694b3d49e45b61d28a1bc0a20/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/47d6f8a2276cbe202bcd9d3b19dd4559/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/10246e12f2a85a246c78e6e1d25d4388/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/036fe293e7da32f71f11d9c199fd8005/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar] (filtered)
-  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/b81c3a4073adf97061bab41b83f3905d/jars/classes.jar] (filtered)
+  Copying resources from program jar [/Users/vbauer/.gradle/caches/transforms-2/files-2.1/d26439124cfba00a01c808e8af40a71c/jars/classes.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.21/f30e4a9897913e53d778f564110bafa1fef46643/kotlin-stdlib-common-1.3.21.jar] (filtered)
   Copying resources from program jar [/Users/vbauer/.gradle/caches/modules-2/files-2.1/org.jetbrains/annotations/13.0/919f0dfe192fb4e063e7dacadee7f8bb9a2672a9/annotations-13.0.jar] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
-  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
-  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/viewpump/build/intermediates/intermediate-jars/release/classes.jar] (filtered)
+  Copying resources from program directory [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/javac/release/compileReleaseJavaWithJavac/classes] (filtered)
+  Copying resources from program jar [/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/intermediates/transforms/mergeJavaRes/release/0.jar] (filtered)
 > Task :ViewPumpSample:transformClassesAndResourcesWithProguardForRelease
 > Task :ViewPumpSample:transformClassesWithDexBuilderForRelease
 > Task :ViewPumpSample:transformDexArchiveWithDexMergerForRelease
@@ -442,7 +442,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.3.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 48s
+BUILD SUCCESSFUL in 39s
 70 actionable tasks: 70 executed
 
-2019-05-19 18:41:10,658 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1558265881420-0/src/ViewPumpSample/build/outputs/apk/release/ViewPumpSample-release-unsigned.apk
+2019-07-05 03:56:32,469 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273615672-0/src/ViewPumpSample/build/outputs/apk/release/ViewPumpSample-release-unsigned.apk

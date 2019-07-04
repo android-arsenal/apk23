@@ -31,8 +31,8 @@
   "dexClasses" : 2204,
   "locales" : [ "", "sl", "as", "bg", "mr", "zh_HK", "zh_TW", "it", "zu", "ko", "uk", "mn", "fi", "lv", "mk", "uz", "eu", "bs", "sw", "pt_PT", "tl", "th", "bn", "pt", "ar", "ru", "gl", "kn", "az", "fa", "sk", "ms", "ml", "gu", "kk", "et", "hi", "cs", "sv", "pa", "el", "lo", "nl", "hu", "af", "hy", "en_AU", "in", "vi", "fr_CA", "ky", "sr", "km", "pt_BR", "da", "be", "es", "tr", "ne", "ro", "hr", "en_CA", "am", "lt", "pl", "zh_CN", "my", "ka", "sq", "fr", "ur", "ja", "or", "is", "si", "en_XC", "iw", "de", "en_IN", "es_US", "nb", "ca", "ta", "en_GB", "te" ],
   "manifest" : "<?xml version=\"1.0\" encoding=\"utf-8\"?>\n<manifest xmlns:android=\"http://schemas.android.com/apk/res/android\" android:versionName=\"null\" android:compileSdkVersion=\"28\" android:compileSdkVersionCodename=\"9\" package=\"de.adorsys.android.securestoragetest\" platformBuildVersionCode=\"28\" platformBuildVersionName=\"9\">\n\t<uses-sdk android:minSdkVersion=\"18\" android:targetSdkVersion=\"28\" />\n\t<application android:theme=\"resourceId:0x7f0d0005\" android:label=\"Secure Device Storage Test\" android:icon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:debuggable=\"true\" android:allowBackup=\"false\" android:supportsRtl=\"true\" android:roundIcon=\"res/mipmap-xxxhdpi-v4/ic_launcher_round.png\" android:appComponentFactory=\"androidx.core.app.CoreComponentFactory\">\n\t\t<activity android:name=\"de.adorsys.android.securestoragetest.MainActivity\">\n\t\t\t<intent-filter>\n\t\t\t\t<action android:name=\"android.intent.action.MAIN\" />\n\t\t\t\t<category android:name=\"android.intent.category.LAUNCHER\" />\n\t\t\t</intent-filter>\n\t\t</activity>\n\t</application>\n</manifest>\n",
-  "fileSize" : 2286301,
-  "crc32" : 1817286055,
-  "sha256" : "54f35be962e4a400b23b58dca824d86c8f483e94f2010b9b548763fe4986db64",
-  "buildTime" : 1560152636000
+  "fileSize" : 2286610,
+  "crc32" : 2584507500,
+  "sha256" : "680a6d6133c338df15c1766cb73218f7dbe1eb93dd4657bbf893b3112d029ba9",
+  "buildTime" : 1562274318000
 }

@@ -1,242 +1,193 @@
-2018-09-13 15:49:13,092 INFO  DownloadService - Downloading "https://github.com/zjywill/OverwatchProgress/archive/master.zip", attempt 3
-2018-09-13 15:49:14,326 INFO  DownloadService - Downloaded https://github.com/zjywill/OverwatchProgress/archive/master.zip, attempt 3
-2018-09-13 15:49:14,326 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/master.zip": 357 KB
-2018-09-13 15:49:14,326 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-13 15:49:14,328 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/master.zip: true
-2018-09-13 15:49:14,328 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src'.
-2018-09-13 15:49:14,355 INFO  FullProcessService - Size of directory with sources: 372 KB
-2018-09-13 15:49:14,355 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src]
-2018-09-13 15:49:14,377 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/.git/
+2019-07-05 03:51:10,753 INFO  DownloadService - Downloading "https://github.com/zjywill/OverwatchProgress/archive/master.zip", attempt 3
+2019-07-05 03:52:11,415 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-05 03:52:12,334 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-05 03:52:12,334 INFO  DownloadService - Downloading "https://github.com/zjywill/OverwatchProgress/archive/master.zip", attempt 3
+2019-07-05 03:53:13,886 DEBUG FullProcessService - Repository https://github.com/zjywill/OverwatchProgress available: true
+2019-07-05 03:53:13,886 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-05 03:53:13,886 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/zjywill/OverwatchProgress, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src]
+2019-07-05 03:53:16,003 INFO  SysUtils - 
+2019-07-05 03:53:16,023 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/.git": true
+2019-07-05 03:53:16,024 INFO  FullProcessService - Size of directory with sources: 372 KB
+2019-07-05 03:53:16,024 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src]
+2019-07-05 03:53:16,039 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/.git/
 
-2018-09-13 15:49:14,382 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/gradlew
-2018-09-13 15:49:14,386 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/overwatch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/build.gradle
-2018-09-13 15:49:14,390 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/overwatch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/settings.gradle
-2018-09-13 15:49:14,390 INFO  ProjectBuildService - Remote scripts: none
-2018-09-13 15:49:14,390 INFO  ProjectFixService - Fixing project...
-2018-09-13 15:49:14,399 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/app/local.properties
-2018-09-13 15:49:14,400 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/app/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
-2018-09-13 15:49:14,401 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/overwatch/local.properties
-2018-09-13 15:49:14,401 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/overwatch/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-09-13 15:49:14,402 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/local.properties
-2018-09-13 15:49:14,403 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-3.3-all.zip
-2018-09-13 15:49:14,403 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-3.3-bin.zip)
-2018-09-13 15:49:14,404 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=24,minSdkVersion=11,targetSdkVersion=24]
-2018-09-13 15:49:14,404 INFO  ProjectFixService - Project was maybe fixed
-2018-09-13 15:49:14,404 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 15:49:14,405 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 15:49:15,115 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 15:49:15,115 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 15:49:15,115 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 15:49:15,116 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 15:49:15,740 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 15:49:15,740 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+2019-07-05 03:53:16,041 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/gradlew
+2019-07-05 03:53:16,043 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/overwatch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/build.gradle
+2019-07-05 03:53:16,044 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/overwatch/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/settings.gradle
+2019-07-05 03:53:16,044 INFO  ProjectBuildService - Remote scripts: none
+2019-07-05 03:53:16,044 INFO  ProjectFixService - Fixing project...
+2019-07-05 03:53:16,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/app/local.properties
+2019-07-05 03:53:16,049 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/app/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 03:53:16,049 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 03:53:16,050 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/overwatch/local.properties
+2019-07-05 03:53:16,050 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/overwatch/build.gradle": [buildToolsVersion=29.0.0,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 03:53:16,050 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/overwatch/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 03:53:16,051 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/local.properties
+2019-07-05 03:53:16,051 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-07-05 03:53:16,051 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-07-05 03:53:16,052 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/build.gradle": [buildToolsVersion=28.0.0-rc1,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-07-05 03:53:16,052 INFO  ProjectFixService - Project was maybe fixed
+2019-07-05 03:53:16,052 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-05 03:53:16,052 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-05 03:53:22,077 INFO  ProjectTaskService - Detected possible tasks: 67
+2019-07-05 03:53:22,077 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-05 03:53:22,077 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-05 03:53:34,239 INFO  SysUtils - Configuration on demand is an incubating feature.
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+> Configure project :app
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
-* Try:
-Run with --info or --debug option to get more log output.
+> Configure project :overwatch
+WARNING: The specified Android SDK Build Tools version (28.0.0-rc1) is ignored, as it is below the minimum supported version (28.0.3) for Android Gradle Plugin 3.4.1.
+Android SDK Build Tools 28.0.3 will be used.
+To suppress this warning, remove "buildToolsVersion '28.0.0-rc1'" from your build.gradle file, as each version of the Android Gradle Plugin now has a default version of the build tools.
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :app:preBuild UP-TO-DATE
+> Task :overwatch:preBuild UP-TO-DATE
+> Task :overwatch:preDebugBuild UP-TO-DATE
+> Task :overwatch:checkDebugManifest
+> Task :overwatch:processDebugManifest
+> Task :app:preDebugBuild
+> Task :overwatch:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :overwatch:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :overwatch:compileDebugRenderscript NO-SOURCE
+> Task :overwatch:generateDebugBuildConfig
+> Task :overwatch:generateDebugResValues
+> Task :overwatch:generateDebugResources
+> Task :overwatch:packageDebugResources
+> Task :overwatch:generateDebugRFile
+> Task :overwatch:prepareLintJar
+> Task :overwatch:generateDebugSources
+> Task :overwatch:javaPreCompileDebug
 
+> Task :overwatch:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/overwatch/src/main/java/com/comix/overwatch/HiveProgressView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-2018-09-13 15:49:15,743 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 15:49:15,743 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/overwatch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 15:49:16,516 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 15:49:16,517 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 15:49:16,517 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 15:49:16,517 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/overwatch/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 15:49:17,230 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 15:49:17,230 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+> Task :overwatch:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :overwatch:mergeDebugShaders
+> Task :overwatch:compileDebugShaders
+> Task :overwatch:generateDebugAssets
+> Task :overwatch:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :overwatch:processDebugJavaRes NO-SOURCE
+> Task :overwatch:bundleLibResDebug
+> Task :overwatch:bundleLibRuntimeDebug
+> Task :overwatch:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeExtDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :overwatch:mergeDebugJniLibFolders
+> Task :overwatch:transformNativeLibsWithMergeJniLibsForDebug
+> Task :overwatch:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :overwatch:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :overwatch:preReleaseBuild UP-TO-DATE
+> Task :overwatch:checkReleaseManifest
+> Task :overwatch:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :overwatch:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :overwatch:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :overwatch:compileReleaseRenderscript NO-SOURCE
+> Task :overwatch:generateReleaseBuildConfig
+> Task :overwatch:generateReleaseResValues
+> Task :overwatch:generateReleaseResources
+> Task :overwatch:packageReleaseResources
+> Task :overwatch:generateReleaseRFile
+> Task :overwatch:generateReleaseSources
+> Task :overwatch:javaPreCompileRelease
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+> Task :overwatch:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/overwatch/src/main/java/com/comix/overwatch/HiveProgressView.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
 
-* Try:
-Run with --info or --debug option to get more log output.
+> Task :overwatch:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :overwatch:prepareLintJarForPublish
 
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/8b703f32682e42329b7f34c4a437bbb4/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
 
+> Task :overwatch:processReleaseJavaRes NO-SOURCE
+> Task :overwatch:bundleLibResRelease
+> Task :overwatch:bundleLibRuntimeRelease
+> Task :overwatch:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :overwatch:mergeReleaseShaders
+> Task :overwatch:compileReleaseShaders
+> Task :overwatch:generateReleaseAssets
+> Task :overwatch:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :overwatch:mergeReleaseJniLibFolders
+> Task :overwatch:transformNativeLibsWithMergeJniLibsForRelease
+> Task :overwatch:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :overwatch:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
 
-2018-09-13 15:49:17,234 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-13 15:49:17,235 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-13 15:49:17,808 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2018-09-13 15:49:17,809 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-13 15:49:17,809 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-13 15:49:17,809 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536828553088-0/src/OverwatchProgress-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-13 15:49:18,374 ERROR SysUtils - Could not process external command
-org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-2018-09-13 15:49:18,374 INFO  SysUtils - 
-FAILURE: Build failed with an exception.
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-* What went wrong:
-Could not determine java version from '10.0.1'.
+BUILD SUCCESSFUL in 11s
+91 actionable tasks: 91 executed
 
-* Try:
-Run with --info or --debug option to get more log output.
-
-* Exception is:
-java.lang.IllegalArgumentException: Could not determine java version from '10.0.1'.
-	at org.gradle.api.JavaVersion.toVersion(JavaVersion.java:70)
-	at org.gradle.api.JavaVersion.current(JavaVersion.java:80)
-	at org.gradle.internal.jvm.UnsupportedJavaRuntimeException.assertUsingVersion(UnsupportedJavaRuntimeException.java:29)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:32)
-	at org.gradle.launcher.cli.JavaRuntimeValidationAction.execute(JavaRuntimeValidationAction.java:24)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:210)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:174)
-	at org.gradle.launcher.Main.doAction(Main.java:33)
-	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
-	at org.gradle.launcher.bootstrap.ProcessBootstrap.run(ProcessBootstrap.java:37)
-	at org.gradle.launcher.GradleMain.main(GradleMain.java:23)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at org.gradle.wrapper.BootstrapMainStarter.start(BootstrapMainStarter.java:30)
-	at org.gradle.wrapper.WrapperExecutor.execute(WrapperExecutor.java:129)
-	at org.gradle.wrapper.GradleWrapperMain.main(GradleWrapperMain.java:61)
-
-
-2018-09-13 15:49:18,378 ERROR FullProcessService - Project build has not produced APK file
-2018-09-13 15:49:18,381 ERROR FullProcessService - Could not find generated or existed APK file
+2019-07-05 03:53:34,257 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562273470744-0/src/app/build/outputs/apk/debug/app-debug.apk
