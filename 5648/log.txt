@@ -1,43 +1,43 @@
-2019-07-05 04:01:30,053 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
-2019-07-05 04:02:30,589 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-07-05 04:02:31,411 INFO  GithubDownloadService - Default branch of this repository: master
-2019-07-05 04:02:31,411 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
-2019-07-05 04:03:32,904 DEBUG FullProcessService - Repository https://github.com/adorsys/secure-storage-android available: true
-2019-07-05 04:03:32,904 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-07-05 04:03:32,904 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/adorsys/secure-storage-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src]
-2019-07-05 04:03:35,019 INFO  SysUtils - 
-2019-07-05 04:03:35,025 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/.git": true
-2019-07-05 04:03:35,027 INFO  FullProcessService - Size of directory with sources: 475 KB
-2019-07-05 04:03:35,027 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src]
-2019-07-05 04:03:35,042 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/.git/
+2019-07-20 15:29:18,670 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
+2019-07-20 15:30:19,199 INFO  GithubDownloadService - Could not find ZIP archive for master branch
+2019-07-20 15:30:20,047 INFO  GithubDownloadService - Default branch of this repository: master
+2019-07-20 15:30:20,047 INFO  DownloadService - Downloading "https://github.com/adorsys/secure-storage-android/archive/master.zip", attempt 3
+2019-07-20 15:31:21,329 DEBUG FullProcessService - Repository https://github.com/adorsys/secure-storage-android available: true
+2019-07-20 15:31:21,329 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
+2019-07-20 15:31:21,329 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/adorsys/secure-storage-android, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src]
+2019-07-20 15:31:23,390 INFO  SysUtils - 
+2019-07-20 15:31:23,398 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/.git": true
+2019-07-20 15:31:23,401 INFO  FullProcessService - Size of directory with sources: 475 KB
+2019-07-20 15:31:23,401 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src]
+2019-07-20 15:31:23,422 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/.git/
 
-2019-07-05 04:03:35,044 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/gradlew
-2019-07-05 04:03:35,047 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/build.gradle
-2019-07-05 04:03:35,049 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/settings.gradle
-2019-07-05 04:03:35,049 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle", attempt 3
-2019-07-05 04:03:35,699 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle, attempt 3
-2019-07-05 04:03:35,699 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle", attempt 3
-2019-07-05 04:03:36,283 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle, attempt 3
-2019-07-05 04:03:36,283 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle
-2019-07-05 04:03:36,284 INFO  ProjectFixService - Fixing project...
-2019-07-05 04:03:36,292 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/local.properties
-2019-07-05 04:03:36,293 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-05 04:03:36,293 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-05 04:03:36,294 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/local.properties
-2019-07-05 04:03:36,298 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-05 04:03:36,298 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-05 04:03:36,299 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/local.properties
-2019-07-05 04:03:36,299 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
-2019-07-05 04:03:36,300 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
-2019-07-05 04:03:36,301 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-05 04:03:36,301 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
-2019-07-05 04:03:36,302 INFO  ProjectFixService - Project was maybe fixed
-2019-07-05 04:03:36,302 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 04:03:36,302 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 04:03:49,579 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-05 04:03:49,580 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 04:03:49,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 04:03:54,349 ERROR SysUtils - Could not process external command
+2019-07-20 15:31:23,425 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/gradlew
+2019-07-20 15:31:23,428 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/build.gradle
+2019-07-20 15:31:23,431 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/checks.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/settings.gradle
+2019-07-20 15:31:23,439 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle", attempt 3
+2019-07-20 15:31:24,879 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle, attempt 3
+2019-07-20 15:31:24,879 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle", attempt 3
+2019-07-20 15:31:25,472 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle, attempt 3
+2019-07-20 15:31:25,473 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/installv.gradle https://raw.githubusercontent.com/adorsys/jcenter-distribution/master/bintrayv.gradle
+2019-07-20 15:31:25,473 INFO  ProjectFixService - Fixing project...
+2019-07-20 15:31:25,481 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/local.properties
+2019-07-20 15:31:25,482 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-07-20 15:31:25,483 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-07-20 15:31:25,484 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/local.properties
+2019-07-20 15:31:25,487 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-07-20 15:31:25,487 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-07-20 15:31:25,489 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/local.properties
+2019-07-20 15:31:25,489 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-07-20 15:31:25,490 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-07-20 15:31:25,491 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-07-20 15:31:25,491 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=28]
+2019-07-20 15:31:25,492 INFO  ProjectFixService - Project was maybe fixed
+2019-07-20 15:31:25,492 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-20 15:31:25,492 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-20 15:31:34,684 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-20 15:31:34,685 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-20 15:31:34,685 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-20 15:31:41,821 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -50,7 +50,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -64,7 +65,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 04:03:54,349 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-20 15:31:41,821 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -163,11 +164,11 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 4s
+BUILD FAILED in 6s
 
-2019-07-05 04:03:54,349 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2019-07-05 04:03:54,349 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-07-05 04:04:27,833 ERROR SysUtils - Could not process external command
+2019-07-20 15:31:41,822 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-07-20 15:31:41,822 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-07-20 15:32:17,977 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -180,7 +181,8 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
 	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
 	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at sun.reflect.GeneratedMethodAccessor9.invoke(Unknown Source)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 	at java.lang.reflect.Method.invoke(Method.java:498)
 	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
@@ -194,7 +196,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-07-05 04:04:27,833 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-20 15:32:17,977 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :securestoragelibrary:preBuild UP-TO-DATE
@@ -209,25 +211,25 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :securestoragelibrary:checkDebugManifest
 > Task :securestoragelibrary:generateDebugBuildConfig
 > Task :app:mergeDebugShaders
-> Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:generateDebugResources
-> Task :securestoragelibrary:compileDebugRenderscript NO-SOURCE
-> Task :securestoragelibrary:compileDebugAidl NO-SOURCE
-> Task :app:compileDebugAidl NO-SOURCE
-> Task :securestoragelibrary:generateDebugResources
-> Task :securestoragelibrary:packageDebugResources
-> Task :app:mergeDebugResources
-> Task :securestoragelibrary:parseDebugLibraryResources
 > Task :app:compileDebugShaders
 > Task :app:generateDebugAssets
 > Task :securestoragelibrary:mergeDebugShaders
 > Task :securestoragelibrary:compileDebugShaders
 > Task :securestoragelibrary:generateDebugAssets
 > Task :securestoragelibrary:packageDebugAssets
-> Task :app:mergeDebugAssets
-> Task :securestoragelibrary:javaPreCompileDebug
 > Task :securestoragelibrary:processDebugManifest
+> Task :securestoragelibrary:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:generateDebugResources
+> Task :securestoragelibrary:compileDebugRenderscript NO-SOURCE
+> Task :securestoragelibrary:generateDebugResources
+> Task :securestoragelibrary:packageDebugResources
 > Task :app:processDebugManifest
+> Task :app:mergeDebugResources
+> Task :securestoragelibrary:parseDebugLibraryResources
+> Task :securestoragelibrary:javaPreCompileDebug
+> Task :app:mergeDebugAssets
 > Task :app:processDebugJavaRes NO-SOURCE
 > Task :securestoragelibrary:processDebugJavaRes NO-SOURCE
 > Task :app:checkDebugDuplicateClasses
@@ -235,21 +237,21 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 > Task :app:processDebugResources
 
 > Task :securestoragelibrary:compileDebugJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
 Note: Recompile with -Xlint:deprecation for details.
 
 > Task :securestoragelibrary:bundleLibResDebug
-> Task :securestoragelibrary:bundleLibCompileDebug
-> Task :app:compileDebugKotlin
 > Task :securestoragelibrary:bundleLibRuntimeDebug
 > Task :securestoragelibrary:createFullJarDebug
+> Task :securestoragelibrary:bundleLibCompileDebug
+> Task :app:compileDebugKotlin
 > Task :app:javaPreCompileDebug
 > Task :app:compileDebugJavaWithJavac
 > Task :app:compileDebugSources
 > Task :app:transformClassesWithDexBuilderForDebug
-> Task :app:mergeDebugJavaResource
 > Task :app:validateSigningDebug
 > Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJavaResource
 > Task :app:mergeDebugJniLibFolders
 > Task :securestoragelibrary:mergeDebugJniLibFolders
 > Task :app:extractProguardFiles
@@ -273,27 +275,13 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :securestoragelibrary:checkReleaseManifest
 > Task :securestoragelibrary:processReleaseManifest
 > Task :app:processReleaseManifest
-> Task :securestoragelibrary:parseReleaseLibraryResources
 > Task :securestoragelibrary:generateReleaseBuildConfig
+> Task :app:mergeReleaseResources
+> Task :securestoragelibrary:javaPreCompileRelease
+> Task :securestoragelibrary:parseReleaseLibraryResources
 > Task :securestoragelibrary:mergeDebugNativeLibs
 > Task :securestoragelibrary:stripDebugDebugSymbols
 > Task :securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForDebug
-> Task :securestoragelibrary:javaPreCompileRelease
-> Task :app:mergeReleaseResources
-> Task :securestoragelibrary:generateReleaseRFile
-> Task :app:processReleaseResources
-
-> Task :securestoragelibrary:compileReleaseJavaWithJavac
-Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :app:mergeDebugNativeLibs
-> Task :app:stripDebugDebugSymbols
-> Task :securestoragelibrary:bundleLibCompileRelease
-> Task :app:compileReleaseKotlin
-> Task :app:javaPreCompileRelease
-> Task :app:compileReleaseJavaWithJavac
-> Task :app:compileReleaseSources
 > Task :app:prepareLintJar
 > Task :app:mergeReleaseShaders
 > Task :app:compileReleaseShaders
@@ -307,12 +295,28 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:mergeReleaseJniLibFolders
 > Task :securestoragelibrary:processReleaseJavaRes NO-SOURCE
 > Task :securestoragelibrary:mergeReleaseJniLibFolders
-> Task :securestoragelibrary:bundleLibResRelease
-> Task :securestoragelibrary:prepareLintJarForPublish
-> Task :app:lintVitalRelease SKIPPED
 > Task :securestoragelibrary:mergeReleaseNativeLibs
 > Task :securestoragelibrary:stripReleaseDebugSymbols
 > Task :securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :securestoragelibrary:prepareLintJarForPublish
+> Task :securestoragelibrary:generateReleaseRFile
+> Task :app:processReleaseResources
+
+> Task :securestoragelibrary:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/src/main/java/de/adorsys/android/securestoragelibrary/KeystoreTool.java uses or overrides a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :securestoragelibrary:bundleLibCompileRelease
+> Task :app:compileReleaseKotlin
+> Task :securestoragelibrary:bundleLibResRelease
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :app:lintVitalRelease SKIPPED
+> Task :app:mergeReleaseNativeLibs
+> Task :app:stripReleaseDebugSymbols
 > Task :app:mergeReleaseGeneratedProguardFiles
 > Task :app:processReleaseJavaRes NO-SOURCE
 > Task :securestoragelibrary:mergeReleaseGeneratedProguardFiles
@@ -320,13 +324,12 @@ Note: Recompile with -Xlint:deprecation for details.
 > Task :app:checkstyle FAILED
 > Task :securestoragelibrary:bundleLibRuntimeRelease
 > Task :app:mergeReleaseJavaResource
-> Task :app:mergeReleaseNativeLibs
 
 FAILURE: Build failed with an exception.
 
 * What went wrong:
 Execution failed for task ':app:checkstyle'.
-> Unable to create Root Module: config {/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/config/checkstyle.xml}, classpath {null}.
+> Unable to create Root Module: config {/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/config/checkstyle.xml}, classpath {null}.
 
 * Try:
 Run with --info or --debug option to get more log output. Run with --scan to get full insights.
@@ -372,7 +375,7 @@ org.gradle.api.tasks.TaskExecutionException: Execution failed for task ':app:che
 	at org.gradle.internal.concurrent.ExecutorPolicy$CatchAndRecordFailures.onExecute(ExecutorPolicy.java:63)
 	at org.gradle.internal.concurrent.ManagedExecutorImpl$1.run(ManagedExecutorImpl.java:46)
 	at org.gradle.internal.concurrent.ThreadFactoryImpl$ManagedThreadRunnable.run(ThreadFactoryImpl.java:55)
-Caused by: : Unable to create Root Module: config {/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/config/checkstyle.xml}, classpath {null}.
+Caused by: : Unable to create Root Module: config {/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/config/checkstyle.xml}, classpath {null}.
 	at com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask.createRootModule(CheckstyleAntTask.java:415)
 	at com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask.realExecute(CheckstyleAntTask.java:305)
 	at com.puppycrawl.tools.checkstyle.ant.CheckstyleAntTask.execute(CheckstyleAntTask.java:288)
@@ -459,15 +462,15 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 32s
-87 actionable tasks: 87 executed
+BUILD FAILED in 35s
+88 actionable tasks: 88 executed
 
-2019-07-05 04:04:27,888 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 04:04:27,888 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 04:04:34,539 INFO  ProjectTaskService - Detected possible tasks: 69
-2019-07-05 04:04:34,540 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-05 04:04:34,540 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/securestoragelibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-05 04:04:46,389 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-20 15:32:18,037 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-20 15:32:18,037 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-20 15:32:25,850 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-07-20 15:32:25,850 INFO  ProjectTaskService - Excluded tasks (18): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-07-20 15:32:25,850 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/securestoragelibrary/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-07-20 15:32:40,057 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :securestoragelibrary:preBuild UP-TO-DATE
 > Task :securestoragelibrary:preDebugBuild UP-TO-DATE
 > Task :securestoragelibrary:checkDebugManifest UP-TO-DATE
@@ -478,6 +481,12 @@ BUILD FAILED in 32s
 > Task :securestoragelibrary:compileDebugShaders UP-TO-DATE
 > Task :securestoragelibrary:generateDebugAssets UP-TO-DATE
 > Task :securestoragelibrary:packageDebugAssets UP-TO-DATE
+> Task :securestoragelibrary:packageDebugRenderscript NO-SOURCE
+> Task :securestoragelibrary:prepareLintJarForPublish UP-TO-DATE
+> Task :securestoragelibrary:processDebugJavaRes NO-SOURCE
+> Task :securestoragelibrary:mergeDebugJniLibFolders UP-TO-DATE
+> Task :securestoragelibrary:mergeDebugNativeLibs UP-TO-DATE
+> Task :securestoragelibrary:stripDebugDebugSymbols UP-TO-DATE
 > Task :securestoragelibrary:compileDebugAidl NO-SOURCE
 > Task :securestoragelibrary:compileDebugRenderscript NO-SOURCE
 > Task :securestoragelibrary:generateDebugResources UP-TO-DATE
@@ -489,12 +498,6 @@ BUILD FAILED in 32s
 > Task :securestoragelibrary:extractDebugAnnotations
 > Task :securestoragelibrary:mergeDebugGeneratedProguardFiles
 > Task :securestoragelibrary:mergeDebugConsumerProguardFiles
-> Task :securestoragelibrary:packageDebugRenderscript NO-SOURCE
-> Task :securestoragelibrary:prepareLintJarForPublish UP-TO-DATE
-> Task :securestoragelibrary:processDebugJavaRes NO-SOURCE
-> Task :securestoragelibrary:mergeDebugJniLibFolders UP-TO-DATE
-> Task :securestoragelibrary:mergeDebugNativeLibs UP-TO-DATE
-> Task :securestoragelibrary:stripDebugDebugSymbols UP-TO-DATE
 > Task :securestoragelibrary:transformNativeLibsWithSyncJniLibsForDebug
 > Task :securestoragelibrary:compileDebugSources UP-TO-DATE
 > Task :securestoragelibrary:extractProguardFiles UP-TO-DATE
@@ -519,10 +522,6 @@ BUILD FAILED in 32s
 > Task :securestoragelibrary:generateReleaseAssets UP-TO-DATE
 > Task :securestoragelibrary:packageReleaseAssets UP-TO-DATE
 > Task :securestoragelibrary:packageReleaseRenderscript NO-SOURCE
-> Task :securestoragelibrary:mergeDebugJavaResource
-> Task :securestoragelibrary:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :securestoragelibrary:bundleDebugAar
-> Task :securestoragelibrary:assembleDebug
 > Task :securestoragelibrary:processReleaseJavaRes NO-SOURCE
 > Task :securestoragelibrary:mergeReleaseJniLibFolders UP-TO-DATE
 > Task :securestoragelibrary:mergeReleaseNativeLibs UP-TO-DATE
@@ -530,6 +529,10 @@ BUILD FAILED in 32s
 > Task :securestoragelibrary:transformNativeLibsWithSyncJniLibsForRelease
 > Task :securestoragelibrary:compileReleaseSources UP-TO-DATE
 > Task :securestoragelibrary:mergeReleaseJavaResource
+> Task :securestoragelibrary:mergeDebugJavaResource
+> Task :securestoragelibrary:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :securestoragelibrary:bundleDebugAar
+> Task :securestoragelibrary:assembleDebug
 > Task :securestoragelibrary:mergeReleaseResources
 > Task :securestoragelibrary:generateReleaseLibraryProguardRules
 > Task :securestoragelibrary:transformClassesAndResourcesWithR8ForRelease
@@ -540,25 +543,25 @@ BUILD FAILED in 32s
 > Task :securestoragelibrary:assemble
 > Task :securestoragelibrary:build
 
-BUILD SUCCESSFUL in 11s
+BUILD SUCCESSFUL in 13s
 50 actionable tasks: 16 executed, 34 up-to-date
 
-2019-07-05 04:04:46,457 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-05 04:04:46,457 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-05 04:04:53,380 INFO  ProjectTaskService - Detected possible tasks: 74
-2019-07-05 04:04:53,380 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-05 04:04:53,381 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-05 04:05:19,042 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-07-20 15:32:40,146 INFO  ProjectTaskService - Detecting possible tasks...
+2019-07-20 15:32:40,146 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-07-20 15:32:48,766 INFO  ProjectTaskService - Detected possible tasks: 74
+2019-07-20 15:32:48,766 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-07-20 15:32:48,766 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-07-20 15:33:23,871 INFO  SysUtils - Configuration on demand is an incubating feature.
 > Task :app:preBuild UP-TO-DATE
 > Task :app:preDebugBuild UP-TO-DATE
 > Task :securestoragelibrary:preBuild UP-TO-DATE
 > Task :securestoragelibrary:preDebugBuild UP-TO-DATE
 > Task :securestoragelibrary:packageDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest UP-TO-DATE
+> Task :app:generateDebugBuildConfig UP-TO-DATE
 > Task :securestoragelibrary:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugAidl NO-SOURCE
 > Task :app:compileDebugRenderscript NO-SOURCE
-> Task :app:checkDebugManifest UP-TO-DATE
-> Task :app:generateDebugBuildConfig UP-TO-DATE
 > Task :app:mainApkListPersistenceDebug UP-TO-DATE
 > Task :app:generateDebugResValues UP-TO-DATE
 > Task :app:generateDebugResources UP-TO-DATE
@@ -663,7 +666,7 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :securestoragelibrary:stripReleaseDebugSymbols UP-TO-DATE
 > Task :securestoragelibrary:transformNativeLibsWithIntermediateJniLibsForRelease UP-TO-DATE
 > Task :app:mergeReleaseNativeLibs UP-TO-DATE
-> Task :app:stripReleaseDebugSymbols
+> Task :app:stripReleaseDebugSymbols UP-TO-DATE
 > Task :app:mergeExtDexDebug
 > Task :app:mergeReleaseGeneratedProguardFiles UP-TO-DATE
 > Task :app:processReleaseJavaRes NO-SOURCE
@@ -709,7 +712,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 25s
-109 actionable tasks: 7 executed, 102 up-to-date
+BUILD SUCCESSFUL in 34s
+109 actionable tasks: 6 executed, 103 up-to-date
 
-2019-07-05 04:05:19,111 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1562274090051-0/src/app/build/outputs/apk/debug/app-debug.apk
+2019-07-20 15:33:23,960 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563611358668-0/src/app/build/outputs/apk/debug/app-debug.apk
