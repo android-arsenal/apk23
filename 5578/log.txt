@@ -1,40 +1,40 @@
-2018-12-26 12:11:11,781 INFO  DownloadService - Downloading "https://github.com/jaksab/EasyNetwork/archive/master.zip", attempt 3
-2018-12-26 12:11:15,156 INFO  DownloadService - Downloaded https://github.com/jaksab/EasyNetwork/archive/master.zip, attempt 3
-2018-12-26 12:11:15,157 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/master.zip": 659 KB
-2018-12-26 12:11:15,157 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-12-26 12:11:15,162 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/master.zip: true
-2018-12-26 12:11:15,163 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src'.
-2018-12-26 12:11:15,206 INFO  FullProcessService - Size of directory with sources: 835 KB
-2018-12-26 12:11:15,206 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src]
-2018-12-26 12:11:15,228 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/.git/
+2019-08-10 22:23:59,833 INFO  DownloadService - Downloading "https://github.com/jaksab/EasyNetwork/archive/master.zip", attempt 3
+2019-08-10 22:24:02,258 INFO  DownloadService - Downloaded https://github.com/jaksab/EasyNetwork/archive/master.zip, attempt 3
+2019-08-10 22:24:02,258 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/master.zip": 659 KB
+2019-08-10 22:24:02,258 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-10 22:24:02,259 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/master.zip: true
+2019-08-10 22:24:02,259 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src'.
+2019-08-10 22:24:02,294 INFO  FullProcessService - Size of directory with sources: 834 KB
+2019-08-10 22:24:02,294 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src]
+2019-08-10 22:24:02,312 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/.git/
 
-2018-12-26 12:11:15,235 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/gradlew
-2018-12-26 12:11:15,241 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/easynet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/build.gradle
-2018-12-26 12:11:15,248 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/easynet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/settings.gradle
-2018-12-26 12:11:15,249 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
-2018-12-26 12:11:15,347 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
-2018-12-26 12:11:15,347 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
-2018-12-26 12:11:15,444 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
-2018-12-26 12:11:15,444 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
-2018-12-26 12:11:15,444 INFO  ProjectFixService - Fixing project...
-2018-12-26 12:11:15,461 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/local.properties
-2018-12-26 12:11:15,463 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-26 12:11:15,463 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-26 12:11:15,464 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/easynet/local.properties
-2018-12-26 12:11:15,466 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/easynet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-26 12:11:15,466 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/easynet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-26 12:11:15,467 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/local.properties
-2018-12-26 12:11:15,468 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2018-12-26 12:11:15,469 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2018-12-26 12:11:15,470 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-26 12:11:15,471 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
-2018-12-26 12:11:15,471 INFO  ProjectFixService - Project was maybe fixed
-2018-12-26 12:11:15,471 INFO  ProjectTaskService - Detecting possible tasks...
-2018-12-26 12:11:15,472 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-12-26 12:11:23,707 INFO  ProjectTaskService - Detected possible tasks: 72
-2018-12-26 12:11:23,707 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2018-12-26 12:11:23,707 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2018-12-26 12:11:31,756 ERROR SysUtils - Could not process external command
+2019-08-10 22:24:02,316 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/gradlew
+2019-08-10 22:24:02,320 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/easynet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/build.gradle
+2019-08-10 22:24:02,324 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/easynet/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/settings.gradle
+2019-08-10 22:24:02,329 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle", attempt 3
+2019-08-10 22:24:03,121 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle, attempt 3
+2019-08-10 22:24:03,121 INFO  DownloadService - Downloading "https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle", attempt 3
+2019-08-10 22:24:03,304 INFO  DownloadService - Downloaded https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle, attempt 3
+2019-08-10 22:24:03,305 INFO  ProjectBuildService - Remote scripts: https://raw.githubusercontent.com/nuuneoi/JCenter/master/bintrayv1.gradle https://raw.githubusercontent.com/nuuneoi/JCenter/master/installv1.gradle
+2019-08-10 22:24:03,305 INFO  ProjectFixService - Fixing project...
+2019-08-10 22:24:03,326 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/local.properties
+2019-08-10 22:24:03,327 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 22:24:03,328 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 22:24:03,329 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/easynet/local.properties
+2019-08-10 22:24:03,332 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/easynet/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 22:24:03,332 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/easynet/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 22:24:03,333 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/local.properties
+2019-08-10 22:24:03,334 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-10 22:24:03,335 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-10 22:24:03,337 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 22:24:03,337 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=15,targetSdkVersion=28]
+2019-08-10 22:24:03,338 INFO  ProjectFixService - Project was maybe fixed
+2019-08-10 22:24:03,338 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-10 22:24:03,338 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-10 22:24:10,776 INFO  ProjectTaskService - Detected possible tasks: 69
+2019-08-10 22:24:10,776 INFO  ProjectTaskService - Excluded tasks (21): lintDebug javadocJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll sourcesJar test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-10 22:24:10,776 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, javadocJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, sourcesJar, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-10 22:24:19,555 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -62,7 +62,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2018-12-26 12:11:31,757 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-10 22:24:19,555 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
@@ -77,57 +77,74 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 	at org.gradle.execution.TaskSelector.getSelection(TaskSelector.java:116)
 	at org.gradle.execution.TaskSelector.getFilter(TaskSelector.java:66)
 	at org.gradle.execution.ExcludedTaskFilteringBuildConfigurationAction.configure(ExcludedTaskFilteringBuildConfigurationAction.java:42)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:48)
-	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:36)
-	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:286)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:181)
-	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:136)
-	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:115)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:78)
-	at org.gradle.internal.invocation.GradleBuildController$1.call(GradleBuildController.java:75)
-	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:152)
-	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:100)
-	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:75)
-	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:28)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.configure(DefaultBuildConfigurationActionExecuter.java:57)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.access$200(DefaultBuildConfigurationActionExecuter.java:26)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter$1.run(DefaultBuildConfigurationActionExecuter.java:43)
+	at org.gradle.internal.Factories$1.create(Factories.java:25)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:132)
+	at org.gradle.api.internal.project.DefaultProjectStateRegistry.withLenientState(DefaultProjectStateRegistry.java:124)
+	at org.gradle.execution.DefaultBuildConfigurationActionExecuter.select(DefaultBuildConfigurationActionExecuter.java:39)
+	at org.gradle.initialization.DefaultGradleLauncher$CalculateTaskGraph.run(DefaultGradleLauncher.java:333)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:301)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:293)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:91)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.run(DelegatingBuildOperationExecutor.java:31)
+	at org.gradle.initialization.DefaultGradleLauncher.constructTaskGraph(DefaultGradleLauncher.java:218)
+	at org.gradle.initialization.DefaultGradleLauncher.doBuildStages(DefaultGradleLauncher.java:155)
+	at org.gradle.initialization.DefaultGradleLauncher.executeTasks(DefaultGradleLauncher.java:134)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:58)
+	at org.gradle.internal.invocation.GradleBuildController$1.execute(GradleBuildController.java:55)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:82)
+	at org.gradle.internal.invocation.GradleBuildController$3.create(GradleBuildController.java:75)
+	at org.gradle.internal.work.DefaultWorkerLeaseService.withLocks(DefaultWorkerLeaseService.java:183)
+	at org.gradle.internal.work.StopShieldingWorkerLeaseService.withLocks(StopShieldingWorkerLeaseService.java:40)
+	at org.gradle.internal.invocation.GradleBuildController.doBuild(GradleBuildController.java:75)
+	at org.gradle.internal.invocation.GradleBuildController.run(GradleBuildController.java:55)
+	at org.gradle.tooling.internal.provider.ExecuteBuildActionRunner.run(ExecuteBuildActionRunner.java:31)
 	at org.gradle.launcher.exec.ChainingBuildActionRunner.run(ChainingBuildActionRunner.java:35)
+	at org.gradle.launcher.exec.BuildOutcomeReportingBuildActionRunner.run(BuildOutcomeReportingBuildActionRunner.java:58)
 	at org.gradle.tooling.internal.provider.ValidatingBuildActionRunner.run(ValidatingBuildActionRunner.java:32)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$1.run(RunAsBuildOperationBuildActionRunner.java:43)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:336)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor$RunnableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:328)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:199)
-	at org.gradle.internal.progress.DefaultBuildOperationExecutor.run(DefaultBuildOperationExecutor.java:110)
-	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:40)
-	at org.gradle.tooling.internal.provider.SubscribableBuildActionRunner.run(SubscribableBuildActionRunner.java:51)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:49)
-	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:32)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:39)
-	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:25)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:80)
-	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:53)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:57)
-	at org.gradle.tooling.internal.provider.ServicesSetupBuildActionExecuter.execute(ServicesSetupBuildActionExecuter.java:32)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:36)
-	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:25)
+	at org.gradle.launcher.exec.BuildCompletionNotifyingBuildActionRunner.run(BuildCompletionNotifyingBuildActionRunner.java:39)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:49)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner$3.call(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:315)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor$CallableBuildOperationWorker.execute(DefaultBuildOperationExecutor.java:305)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.execute(DefaultBuildOperationExecutor.java:175)
+	at org.gradle.internal.operations.DefaultBuildOperationExecutor.call(DefaultBuildOperationExecutor.java:101)
+	at org.gradle.internal.operations.DelegatingBuildOperationExecutor.call(DelegatingBuildOperationExecutor.java:36)
+	at org.gradle.launcher.exec.RunAsBuildOperationBuildActionRunner.run(RunAsBuildOperationBuildActionRunner.java:44)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:49)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter$1.transform(InProcessBuildActionExecuter.java:46)
+	at org.gradle.composite.internal.DefaultRootBuildState.run(DefaultRootBuildState.java:78)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:46)
+	at org.gradle.launcher.exec.InProcessBuildActionExecuter.execute(InProcessBuildActionExecuter.java:31)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:42)
+	at org.gradle.launcher.exec.BuildTreeScopeBuildActionExecuter.execute(BuildTreeScopeBuildActionExecuter.java:28)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:78)
+	at org.gradle.tooling.internal.provider.ContinuousBuildActionExecuter.execute(ContinuousBuildActionExecuter.java:52)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:59)
+	at org.gradle.tooling.internal.provider.SubscribableBuildActionExecuter.execute(SubscribableBuildActionExecuter.java:36)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:68)
+	at org.gradle.tooling.internal.provider.SessionScopeBuildActionExecuter.execute(SessionScopeBuildActionExecuter.java:38)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:37)
+	at org.gradle.tooling.internal.provider.GradleThreadBuildActionExecuter.execute(GradleThreadBuildActionExecuter.java:26)
 	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:43)
 	at org.gradle.tooling.internal.provider.ParallelismConfigurationBuildActionExecuter.execute(ParallelismConfigurationBuildActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:64)
-	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:29)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:59)
-	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:44)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:45)
-	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:30)
-	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:51)
-	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:173)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:285)
-	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:258)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:33)
-	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:22)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:251)
-	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:185)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:60)
+	at org.gradle.tooling.internal.provider.StartParamsValidatingActionExecuter.execute(StartParamsValidatingActionExecuter.java:32)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:55)
+	at org.gradle.tooling.internal.provider.SessionFailureReportingActionExecuter.execute(SessionFailureReportingActionExecuter.java:41)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:48)
+	at org.gradle.tooling.internal.provider.SetupLoggingActionExecuter.execute(SetupLoggingActionExecuter.java:32)
+	at org.gradle.launcher.cli.RunBuildAction.run(RunBuildAction.java:55)
+	at org.gradle.internal.Actions$RunnableActionAdapter.execute(Actions.java:207)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:403)
+	at org.gradle.launcher.cli.CommandLineActionFactory$ParseAndBuildAction.execute(CommandLineActionFactory.java:376)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:37)
+	at org.gradle.launcher.cli.ExceptionReportingAction.execute(ExceptionReportingAction.java:23)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:369)
+	at org.gradle.launcher.cli.CommandLineActionFactory$WithLogging.execute(CommandLineActionFactory.java:299)
 	at org.gradle.launcher.Main.doAction(Main.java:36)
 	at org.gradle.launcher.bootstrap.EntryPoint.run(EntryPoint.java:45)
 	at org.gradle.launcher.bootstrap.ProcessBootstrap.runNoExit(ProcessBootstrap.java:60)
@@ -140,163 +157,174 @@ org.gradle.execution.TaskSelectionException: Task 'javadocJar' not found in proj
 
 * Get more help at https://help.gradle.org
 
-BUILD FAILED in 7s
+BUILD FAILED in 8s
 
-2018-12-26 12:11:31,757 ERROR ProjectBuildService - Excluded tasks were detected wrong
-2018-12-26 12:11:31,757 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-12-26 12:12:14,945 INFO  SysUtils - Configuration on demand is an incubating feature.
-:app:checkDebugClasspath
-:app:preBuild UP-TO-DATE
-:easynet:preBuild UP-TO-DATE
-:easynet:preDebugBuild UP-TO-DATE
-:easynet:checkDebugManifest
-:easynet:processDebugManifest
-:app:preDebugBuild
-:easynet:compileDebugAidl NO-SOURCE
-:app:compileDebugAidl NO-SOURCE
-:easynet:packageDebugRenderscript NO-SOURCE
-:app:compileDebugRenderscript
-:app:checkDebugManifest
-:app:generateDebugBuildConfig
-:app:prepareLintJar
-:app:mainApkListPersistenceDebug
-:app:generateDebugResValues
-:app:generateDebugResources
-:easynet:compileDebugRenderscript
-:easynet:generateDebugResValues
-:easynet:generateDebugResources
-:easynet:packageDebugResources
-:app:mergeDebugResources
-:app:createDebugCompatibleScreenManifests
-:app:processDebugManifest
-:app:splitsDiscoveryTaskDebug
-:easynet:generateDebugRFile
-:app:processDebugResources
-:app:generateDebugSources
-:easynet:generateDebugBuildConfig
-:easynet:prepareLintJar
-:easynet:generateDebugSources
-:easynet:javaPreCompileDebug
-:easynet:compileDebugJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/easynet/src/main/java/pro/oncreate/easynet/processing/NCallbackGson.java uses unchecked or unsafe operations.
+2019-08-10 22:24:19,555 ERROR ProjectBuildService - Excluded tasks were detected wrong
+2019-08-10 22:24:19,556 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-08-10 22:25:21,994 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :app:preBuild UP-TO-DATE
+> Task :easynet:preBuild UP-TO-DATE
+> Task :easynet:preDebugBuild UP-TO-DATE
+> Task :easynet:checkDebugManifest
+> Task :easynet:processDebugManifest
+> Task :app:preDebugBuild
+> Task :easynet:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :easynet:packageDebugRenderscript NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :easynet:compileDebugRenderscript NO-SOURCE
+> Task :easynet:generateDebugBuildConfig
+> Task :easynet:generateDebugResValues
+> Task :easynet:generateDebugResources
+> Task :easynet:packageDebugResources
+> Task :easynet:generateDebugRFile
+> Task :easynet:prepareLintJar
+> Task :easynet:generateDebugSources
+> Task :easynet:javaPreCompileDebug
+
+> Task :easynet:compileDebugJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/easynet/src/main/java/pro/oncreate/easynet/processing/NCallbackGson.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:easynet:processDebugJavaRes NO-SOURCE
-:easynet:transformClassesAndResourcesWithPrepareIntermediateJarsForDebug
-:app:javaPreCompileDebug
-:app:compileDebugJavaWithJavac
-:app:compileDebugNdk NO-SOURCE
-:app:compileDebugSources
-:app:mergeDebugShaders
-:app:compileDebugShaders
-:app:generateDebugAssets
-:easynet:mergeDebugShaders
-:easynet:compileDebugShaders
-:easynet:generateDebugAssets
-:easynet:packageDebugAssets
-:app:mergeDebugAssets
-:app:transformClassesWithDexBuilderForDebug
-:app:transformDexArchiveWithExternalLibsDexMergerForDebug
-:app:transformDexArchiveWithDexMergerForDebug
-:app:mergeDebugJniLibFolders
-:easynet:compileDebugNdk NO-SOURCE
-:easynet:mergeDebugJniLibFolders
-:easynet:transformNativeLibsWithMergeJniLibsForDebug
-:easynet:transformNativeLibsWithStripDebugSymbolForDebug
-:easynet:transformNativeLibsWithIntermediateJniLibsForDebug
-:app:transformNativeLibsWithMergeJniLibsForDebug
-:app:transformNativeLibsWithStripDebugSymbolForDebug
-:app:checkDebugLibraries
-:app:processDebugJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForDebug
-:app:validateSigningDebug
-:app:packageDebug
-:app:assembleDebug
-:app:checkReleaseClasspath
-:easynet:preReleaseBuild UP-TO-DATE
-:easynet:checkReleaseManifest
-:easynet:processReleaseManifest
-:app:preReleaseBuild
-:easynet:compileReleaseAidl NO-SOURCE
-:app:compileReleaseAidl NO-SOURCE
-:easynet:packageReleaseRenderscript NO-SOURCE
-:app:compileReleaseRenderscript
-:app:checkReleaseManifest
-:app:generateReleaseBuildConfig
-:app:mainApkListPersistenceRelease
-:app:generateReleaseResValues
-:app:generateReleaseResources
-:easynet:compileReleaseRenderscript
-:easynet:generateReleaseResValues
-:easynet:generateReleaseResources
-:easynet:packageReleaseResources
-:app:mergeReleaseResources
-:app:createReleaseCompatibleScreenManifests
-:app:processReleaseManifest
-:app:splitsDiscoveryTaskRelease
-:easynet:generateReleaseRFile
-:app:processReleaseResources
-:app:generateReleaseSources
-:easynet:generateReleaseBuildConfig
-:easynet:generateReleaseSources
-:easynet:javaPreCompileRelease
-:easynet:compileReleaseJavaWithJavacNote: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/easynet/src/main/java/pro/oncreate/easynet/processing/NCallbackGson.java uses unchecked or unsafe operations.
+> Task :easynet:bundleLibCompileDebug
+> Task :app:javaPreCompileDebug
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:mergeDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :easynet:mergeDebugShaders
+> Task :easynet:compileDebugShaders
+> Task :easynet:generateDebugAssets
+> Task :easynet:packageDebugAssets
+> Task :app:mergeDebugAssets
+> Task :easynet:processDebugJavaRes NO-SOURCE
+> Task :easynet:bundleLibResDebug
+> Task :easynet:bundleLibRuntimeDebug
+> Task :easynet:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:mergeExtDexDebug
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:mergeDexDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :easynet:mergeDebugJniLibFolders
+> Task :easynet:transformNativeLibsWithMergeJniLibsForDebug
+> Task :easynet:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :easynet:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :easynet:preReleaseBuild UP-TO-DATE
+> Task :easynet:checkReleaseManifest
+> Task :easynet:processReleaseManifest
+> Task :app:preReleaseBuild
+> Task :easynet:compileReleaseAidl NO-SOURCE
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :easynet:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:generateReleaseSources
+> Task :easynet:compileReleaseRenderscript NO-SOURCE
+> Task :easynet:generateReleaseBuildConfig
+> Task :easynet:generateReleaseResValues
+> Task :easynet:generateReleaseResources
+> Task :easynet:packageReleaseResources
+> Task :easynet:generateReleaseRFile
+> Task :easynet:generateReleaseSources
+> Task :easynet:javaPreCompileRelease
+
+> Task :easynet:compileReleaseJavaWithJavac
+Note: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/easynet/src/main/java/pro/oncreate/easynet/processing/NCallbackGson.java uses unchecked or unsafe operations.
 Note: Recompile with -Xlint:unchecked for details.
 
-:easynet:processReleaseJavaRes NO-SOURCE
-:easynet:transformClassesAndResourcesWithPrepareIntermediateJarsForRelease
-:app:javaPreCompileRelease
-:app:compileReleaseJavaWithJavac
-:app:compileReleaseNdk NO-SOURCE
-:app:compileReleaseSources
-:app:lintVitalRelease SKIPPED
-:app:mergeReleaseShaders
-:app:compileReleaseShaders
-:app:generateReleaseAssets
-:easynet:mergeReleaseShaders
-:easynet:compileReleaseShaders
-:easynet:generateReleaseAssets
-:easynet:packageReleaseAssets
-:app:mergeReleaseAssets
-:app:transformClassesWithDexBuilderForRelease
-:app:transformDexArchiveWithExternalLibsDexMergerForRelease
-:app:transformDexArchiveWithDexMergerForRelease
-:app:mergeReleaseJniLibFolders
-:easynet:compileReleaseNdk NO-SOURCE
-:easynet:mergeReleaseJniLibFolders
-:easynet:transformNativeLibsWithMergeJniLibsForRelease
-:easynet:transformNativeLibsWithStripDebugSymbolForRelease
-:easynet:transformNativeLibsWithIntermediateJniLibsForRelease
-:app:transformNativeLibsWithMergeJniLibsForRelease
-:app:transformNativeLibsWithStripDebugSymbolForRelease
-:app:checkReleaseLibraries
-:app:processReleaseJavaRes NO-SOURCE
-:app:transformResourcesWithMergeJavaResForRelease
-:app:packageRelease
-:app:assembleRelease
-:app:assemble
-:app:lint
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-1/files-1.1/android.jar/80847e328f7af16fd4fa0c83b6137441/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-Ran lint on variant debug: 9 issues found
-Ran lint on variant release: 9 issues found
-Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build/reports/lint-results.html
-Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build/reports/lint-results.xml
-:app:generateDebugUnitTestSources
-:app:preDebugUnitTestBuild UP-TO-DATE
-:app:javaPreCompileDebugUnitTest
-:app:compileDebugUnitTestJavaWithJavac
-:app:processDebugUnitTestJavaRes NO-SOURCE
-:app:testDebugUnitTest
-:app:generateReleaseUnitTestSources
-:app:preReleaseUnitTestBuild UP-TO-DATE
-:app:javaPreCompileReleaseUnitTest
-:app:compileReleaseUnitTestJavaWithJavac
-:app:processReleaseUnitTestJavaRes NO-SOURCE
-:app:testReleaseUnitTest
-:app:test
-:app:check
-:app:build
+> Task :easynet:bundleLibCompileRelease
+> Task :app:javaPreCompileRelease
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :easynet:prepareLintJarForPublish
+> Task :app:lintVitalRelease SKIPPED
+> Task :easynet:processReleaseJavaRes NO-SOURCE
+> Task :easynet:bundleLibResRelease
+> Task :easynet:bundleLibRuntimeRelease
+> Task :easynet:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:mergeExtDexRelease
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :app:mergeDexRelease
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :easynet:mergeReleaseShaders
+> Task :easynet:compileReleaseShaders
+> Task :easynet:generateReleaseAssets
+> Task :easynet:packageReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :easynet:mergeReleaseJniLibFolders
+> Task :easynet:transformNativeLibsWithMergeJniLibsForRelease
+> Task :easynet:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :easynet:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
 
-BUILD SUCCESSFUL in 42s
-96 actionable tasks: 96 executed
+> Task :app:lint
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/6dd22c8dc9f72e32ff8428f54bad70f9/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+Ran lint on variant debug: 10 issues found
+Ran lint on variant release: 10 issues found
+Wrote HTML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build/reports/lint-results.html
+Wrote XML report to file:///private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build/reports/lint-results.xml
 
-2018-12-26 12:12:15,054 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1545801071778-0/src/EasyNetwork-master/app/build/outputs/apk/debug/app-debug.apk
+> Task :app:generateDebugUnitTestSources
+> Task :app:preDebugUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileDebugUnitTest
+> Task :app:compileDebugUnitTestJavaWithJavac
+> Task :app:processDebugUnitTestJavaRes NO-SOURCE
+> Task :app:testDebugUnitTest
+> Task :app:generateReleaseUnitTestSources
+> Task :app:preReleaseUnitTestBuild UP-TO-DATE
+> Task :app:javaPreCompileReleaseUnitTest
+> Task :app:compileReleaseUnitTestJavaWithJavac
+> Task :app:processReleaseUnitTestJavaRes NO-SOURCE
+> Task :app:testReleaseUnitTest
+> Task :app:test
+> Task :app:check
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 1m 1s
+97 actionable tasks: 97 executed
+
+2019-08-10 22:25:22,076 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565450639830-0/src/EasyNetwork-master/app/build/outputs/apk/debug/app-debug.apk

@@ -139,7 +139,7 @@
   "org.apache.http.util" : [ "ByteArrayBuffer", "CharArrayBuffer", "EncodingUtils", "EntityUtils", "ExceptionUtils", "LangUtils", "VersionInfo" ],
   "pro.oncreate.easynet" : [ "BuildConfig", "EasyNet", "EasyNet$OnErrorDefaultListener", "EasyNet$OnErrorDefaultListenerWithCode", "EasyNet$OnFailedDefaultListener", "EasyNet$OnSuccessDefaultListener", "EasyNet$RequestDefaultListener", "PaginationModel", "PaginationModel$PaginationInterface", "R", "R$anim", "R$attr", "R$bool", "R$color", "R$dimen", "R$drawable", "R$id", "R$integer", "R$layout", "R$string", "R$style", "R$styleable", "Request" ],
   "pro.oncreate.easynet.data" : [ "NConst", "NErrors" ],
-  "pro.oncreate.easynet.methods" : [ "EntityMethod", "Method", "Method$1", "Method$2", "Method$3", "Method$4", "Method$5", "Method$6", "QueryMethod" ],
+  "pro.oncreate.easynet.methods" : [ "EntityMethod", "Method", "Method$1", "Method$2", "Method$3", "Method$4", "Method$5", "Method$6", "Method$7", "QueryMethod" ],
   "pro.oncreate.easynet.models" : [ "NBaseModel", "NRequestModel", "NResponseModel" ],
   "pro.oncreate.easynet.models.subsidiary" : [ "BindParams", "BindParams$Extra", "BindParams$Type", "BindView", "BindView$1", "NKeyModel", "NKeyValueFileModel", "NKeyValueModel" ],
   "pro.oncreate.easynet.processing" : [ "BaseTask", "BaseTask$CacheOptions", "BaseTask$NTaskListener", "JSONTask", "MultipartTask", "NBaseCallback", "NBaseCallback$1", "NBaseCallback$WaitHeaderCallback", "NCallback", "NCallbackGson", "NCallbackParse", "NTask", "NTask$NTaskListener", "RawTask", "TestTask", "TestTask$PreprocessorCallback", "UrlencodedTask" ],
