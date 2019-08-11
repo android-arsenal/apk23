@@ -1,67 +1,179 @@
-2018-09-14 11:35:25,970 INFO  DownloadService - Downloading "https://github.com/yash786agg/AnimatedLoadingIndicator/archive/master.zip", attempt 3
-2018-09-14 11:35:26,805 INFO  DownloadService - Downloaded https://github.com/yash786agg/AnimatedLoadingIndicator/archive/master.zip, attempt 3
-2018-09-14 11:35:26,805 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/master.zip": 277 KB
-2018-09-14 11:35:26,805 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2018-09-14 11:35:26,805 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/master.zip: true
-2018-09-14 11:35:26,805 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src'.
-2018-09-14 11:35:26,816 INFO  FullProcessService - Size of directory with sources: 292 KB
-2018-09-14 11:35:26,816 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src]
-2018-09-14 11:35:26,836 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src/.git/
+2019-08-11 20:47:47,287 INFO  DownloadService - Downloading "https://github.com/yash786agg/AnimatedLoadingIndicator/archive/master.zip", attempt 3
+2019-08-11 20:47:49,641 INFO  DownloadService - Downloaded https://github.com/yash786agg/AnimatedLoadingIndicator/archive/master.zip, attempt 3
+2019-08-11 20:47:49,642 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/master.zip": 256 KB
+2019-08-11 20:47:49,642 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-11 20:47:49,647 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/master.zip: true
+2019-08-11 20:47:49,647 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src'.
+2019-08-11 20:47:49,670 INFO  FullProcessService - Size of directory with sources: 317 KB
+2019-08-11 20:47:49,670 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src]
+2019-08-11 20:47:49,694 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/.git/
 
-2018-09-14 11:35:26,838 INFO  ProjectBuildService - Gradle wrapper(s): none
-2018-09-14 11:35:26,838 ERROR ProjectBuildService - Could not detect Gradle wrapper. Default Gradle installation will be used
-2018-09-14 11:35:26,839 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src/AnimatedLoadingIndicator-master/build.gradle
-2018-09-14 11:35:26,841 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src/AnimatedLoadingIndicator-master/build.gradle
-2018-09-14 11:35:26,842 INFO  ProjectBuildService - Remote scripts: none
-2018-09-14 11:35:26,842 INFO  ProjectFixService - Fixing project...
-2018-09-14 11:35:26,846 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src/AnimatedLoadingIndicator-master/local.properties
-2018-09-14 11:35:26,847 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src/AnimatedLoadingIndicator-master/build.gradle": [buildToolsVersion=25.0.2,compileSdkVersion=25,minSdkVersion=11,targetSdkVersion=25]
-2018-09-14 11:35:26,847 INFO  ProjectFixService - Project was maybe fixed
-2018-09-14 11:35:26,847 INFO  ProjectTaskService - Detecting possible tasks...
-2018-09-14 11:35:26,847 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src/AnimatedLoadingIndicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2018-09-14 11:35:26,852 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-2018-09-14 11:35:26,852 INFO  ProjectTaskService - Detected possible tasks: 0
-2018-09-14 11:35:26,852 INFO  ProjectTaskService - Excluded tasks (0): none
-2018-09-14 11:35:26,852 INFO  SysUtils - Execute command: [gradle, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1536899725966-0/src/AnimatedLoadingIndicator-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2018-09-14 11:35:26,857 ERROR SysUtils - Could not process external command
-java.io.IOException: Cannot run program "gradle" (in directory "."): error=2, No such file or directory
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1128)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1071)
-	at java.base/java.lang.Runtime.exec(Runtime.java:635)
-	at org.apache.commons.exec.launcher.Java13CommandLauncher.exec(Java13CommandLauncher.java:61)
-	at org.apache.commons.exec.DefaultExecutor.launch(DefaultExecutor.java:279)
-	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:336)
-	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
-	at com.github.vbauer.apkmaster.util.SysUtils.execute(SysUtils.java:67)
-	at com.github.vbauer.apkmaster.util.SysUtils.executeSimple(SysUtils.java:43)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:78)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:64)
-	at com.github.vbauer.apkmaster.service.assembly.ProjectBuildService.buildProject(ProjectBuildService.java:43)
-	at com.github.vbauer.apkmaster.service.FullProcessService.build(FullProcessService.java:84)
-	at com.github.vbauer.apkmaster.service.FullProcessService.process(FullProcessService.java:34)
-	at com.github.vbauer.apkmaster.app.MainApplication.process(MainApplication.java:38)
-	at com.github.vbauer.apkmaster.app.MainApplication.main(MainApplication.java:20)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-	at com.android.arsenal.util.ReflectionUtils.invoke(ReflectionUtils.java:52)
-	at com.android.arsenal.util.ApkMasterUtils.main(ApkMasterUtils.java:30)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.buildProject(BuildProcessorServiceImpl.java:196)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.build(BuildProcessorServiceImpl.java:130)
-	at com.android.arsenal.service.processor.impl.BuildProcessorServiceImpl.lambda$createTasks$1(BuildProcessorServiceImpl.java:113)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:514)
-	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1135)
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
-	at java.base/java.lang.Thread.run(Thread.java:844)
-Caused by: java.io.IOException: error=2, No such file or directory
-	at java.base/java.lang.ProcessImpl.forkAndExec(Native Method)
-	at java.base/java.lang.ProcessImpl.<init>(ProcessImpl.java:339)
-	at java.base/java.lang.ProcessImpl.start(ProcessImpl.java:270)
-	at java.base/java.lang.ProcessBuilder.start(ProcessBuilder.java:1107)
-	... 30 common frames omitted
-2018-09-14 11:35:26,857 INFO  SysUtils - 
-2018-09-14 11:35:26,859 ERROR FullProcessService - Project build has not produced APK file
-2018-09-14 11:35:26,860 ERROR FullProcessService - Could not find generated or existed APK file
+2019-08-11 20:47:49,699 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/gradlew
+2019-08-11 20:47:49,702 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/aimatedprogresslib/build.gradle
+2019-08-11 20:47:49,705 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/aimatedprogresslib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/settings.gradle
+2019-08-11 20:47:49,705 INFO  ProjectBuildService - Remote scripts: none
+2019-08-11 20:47:49,705 INFO  ProjectFixService - Fixing project...
+2019-08-11 20:47:49,712 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/app/local.properties
+2019-08-11 20:47:49,712 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/app/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-11 20:47:49,713 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/local.properties
+2019-08-11 20:47:49,713 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
+2019-08-11 20:47:49,714 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
+2019-08-11 20:47:49,714 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-11 20:47:49,715 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/aimatedprogresslib/local.properties
+2019-08-11 20:47:49,715 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/aimatedprogresslib/build.gradle": [buildToolsVersion=29.0.1,compileSdkVersion=29,minSdkVersion=15,targetSdkVersion=29]
+2019-08-11 20:47:49,715 INFO  ProjectFixService - Project was maybe fixed
+2019-08-11 20:47:49,715 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-11 20:47:49,715 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-11 20:47:58,987 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-11 20:47:58,987 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-11 20:47:58,987 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-11 20:48:50,195 INFO  SysUtils - Configuration on demand is an incubating feature.
+> Task :aimatedprogresslib:preBuild UP-TO-DATE
+> Task :aimatedprogresslib:preDebugBuild UP-TO-DATE
+> Task :aimatedprogresslib:checkDebugManifest
+> Task :aimatedprogresslib:generateDebugBuildConfig
+> Task :aimatedprogresslib:generateDebugResValues
+> Task :aimatedprogresslib:processDebugManifest
+> Task :aimatedprogresslib:prepareLintJar
+> Task :aimatedprogresslib:compileDebugAidl NO-SOURCE
+> Task :aimatedprogresslib:compileDebugRenderscript NO-SOURCE
+> Task :aimatedprogresslib:generateDebugResources
+> Task :aimatedprogresslib:packageDebugResources
+> Task :aimatedprogresslib:generateDebugRFile
+> Task :aimatedprogresslib:generateDebugSources
+> Task :aimatedprogresslib:javaPreCompileDebug
+
+> Task :aimatedprogresslib:compileDebugJavaWithJavac
+
+> Task :aimatedprogresslib:bundleLibCompileDebug
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+> Task :app:preBuild UP-TO-DATE
+> Task :aimatedprogresslib:packageDebugRenderscript NO-SOURCE
+> Task :app:preDebugBuild
+> Task :app:compileDebugAidl NO-SOURCE
+> Task :app:compileDebugRenderscript NO-SOURCE
+> Task :app:checkDebugManifest
+> Task :app:generateDebugBuildConfig
+> Task :app:mainApkListPersistenceDebug
+> Task :app:generateDebugResValues
+> Task :app:generateDebugResources
+> Task :app:createDebugCompatibleScreenManifests
+> Task :app:mergeDebugResources
+> Task :app:processDebugManifest
+> Task :app:processDebugResources
+> Task :app:compileDebugKotlin
+> Task :app:prepareLintJar
+> Task :app:generateDebugSources
+> Task :app:javaPreCompileDebug
+> Task :app:compileDebugJavaWithJavac
+> Task :app:compileDebugSources
+> Task :aimatedprogresslib:mergeDebugShaders
+> Task :aimatedprogresslib:compileDebugShaders
+> Task :aimatedprogresslib:generateDebugAssets
+> Task :aimatedprogresslib:packageDebugAssets
+> Task :app:mergeDebugShaders
+> Task :app:compileDebugShaders
+> Task :app:generateDebugAssets
+> Task :app:mergeDebugAssets
+> Task :aimatedprogresslib:processDebugJavaRes NO-SOURCE
+> Task :aimatedprogresslib:bundleLibResDebug
+> Task :aimatedprogresslib:bundleLibRuntimeDebug
+> Task :aimatedprogresslib:createFullJarDebug
+> Task :app:checkDebugDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForDebug
+> Task :app:validateSigningDebug
+> Task :app:signingConfigWriterDebug
+> Task :aimatedprogresslib:mergeDebugJniLibFolders
+> Task :aimatedprogresslib:transformNativeLibsWithMergeJniLibsForDebug
+> Task :aimatedprogresslib:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :aimatedprogresslib:transformNativeLibsWithIntermediateJniLibsForDebug
+> Task :app:mergeDebugJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForDebug
+> Task :app:transformNativeLibsWithStripDebugSymbolForDebug
+> Task :app:processDebugJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForDebug
+> Task :aimatedprogresslib:preReleaseBuild UP-TO-DATE
+> Task :aimatedprogresslib:compileReleaseAidl NO-SOURCE
+> Task :aimatedprogresslib:compileReleaseRenderscript NO-SOURCE
+> Task :aimatedprogresslib:checkReleaseManifest
+> Task :aimatedprogresslib:generateReleaseBuildConfig
+> Task :aimatedprogresslib:generateReleaseResValues
+> Task :aimatedprogresslib:generateReleaseResources
+> Task :aimatedprogresslib:packageReleaseResources
+> Task :aimatedprogresslib:processReleaseManifest
+> Task :aimatedprogresslib:generateReleaseRFile
+> Task :aimatedprogresslib:generateReleaseSources
+> Task :aimatedprogresslib:javaPreCompileRelease
+
+> Task :aimatedprogresslib:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :aimatedprogresslib:bundleLibCompileRelease
+> Task :app:preReleaseBuild
+> Task :app:compileReleaseAidl NO-SOURCE
+> Task :aimatedprogresslib:packageReleaseRenderscript NO-SOURCE
+> Task :app:compileReleaseRenderscript NO-SOURCE
+> Task :app:checkReleaseManifest
+> Task :app:generateReleaseBuildConfig
+> Task :app:mainApkListPersistenceRelease
+> Task :app:generateReleaseResValues
+> Task :app:generateReleaseResources
+> Task :app:mergeReleaseResources
+> Task :app:createReleaseCompatibleScreenManifests
+> Task :app:processReleaseManifest
+> Task :app:processReleaseResources
+> Task :app:compileReleaseKotlin
+> Task :app:generateReleaseSources
+> Task :app:javaPreCompileRelease
+> Task :app:compileReleaseJavaWithJavac
+> Task :app:compileReleaseSources
+> Task :aimatedprogresslib:prepareLintJarForPublish
+
+> Task :app:lintVitalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/c45f14a49fda039677feda45ede4b8fb/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :app:mergeExtDexDebug
+> Task :app:mergeDexDebug
+> Task :app:packageDebug
+> Task :app:assembleDebug
+> Task :aimatedprogresslib:processReleaseJavaRes NO-SOURCE
+> Task :aimatedprogresslib:bundleLibResRelease
+> Task :aimatedprogresslib:bundleLibRuntimeRelease
+> Task :aimatedprogresslib:createFullJarRelease
+> Task :app:checkReleaseDuplicateClasses
+> Task :app:transformClassesWithDexBuilderForRelease
+> Task :aimatedprogresslib:mergeReleaseShaders
+> Task :aimatedprogresslib:compileReleaseShaders
+> Task :aimatedprogresslib:generateReleaseAssets
+> Task :aimatedprogresslib:packageReleaseAssets
+> Task :app:mergeReleaseShaders
+> Task :app:compileReleaseShaders
+> Task :app:generateReleaseAssets
+> Task :app:mergeReleaseAssets
+> Task :app:signingConfigWriterRelease
+> Task :aimatedprogresslib:mergeReleaseJniLibFolders
+> Task :aimatedprogresslib:transformNativeLibsWithMergeJniLibsForRelease
+> Task :aimatedprogresslib:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :aimatedprogresslib:transformNativeLibsWithIntermediateJniLibsForRelease
+> Task :app:mergeReleaseJniLibFolders
+> Task :app:transformNativeLibsWithMergeJniLibsForRelease
+> Task :app:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :app:processReleaseJavaRes NO-SOURCE
+> Task :app:transformResourcesWithMergeJavaResForRelease
+> Task :app:mergeExtDexRelease
+> Task :app:mergeDexRelease
+> Task :app:packageRelease
+> Task :app:assembleRelease
+> Task :app:assemble
+> Task :app:build
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
+Use '--warning-mode all' to show the individual deprecation warnings.
+See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+
+BUILD SUCCESSFUL in 50s
+93 actionable tasks: 93 executed
+
+2019-08-11 20:48:50,315 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531267279-0/src/AnimatedLoadingIndicator-master/app/build/outputs/apk/debug/app-debug.apk
