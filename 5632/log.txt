@@ -1,33 +1,33 @@
-2019-07-22 15:10:48,469 INFO  DownloadService - Downloading "https://github.com/zhihu/Matisse/archive/master.zip", attempt 3
-2019-07-22 15:10:50,438 INFO  DownloadService - Downloaded https://github.com/zhihu/Matisse/archive/master.zip, attempt 3
-2019-07-22 15:10:50,438 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/master.zip": 1 MB
-2019-07-22 15:10:50,438 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-07-22 15:10:50,444 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/master.zip: true
-2019-07-22 15:10:50,445 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src'.
-2019-07-22 15:10:50,500 INFO  FullProcessService - Size of directory with sources: 1 MB
-2019-07-22 15:10:50,500 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src]
-2019-07-22 15:10:50,516 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/.git/
+2019-08-28 12:01:36,130 INFO  DownloadService - Downloading "https://github.com/zhihu/Matisse/archive/master.zip", attempt 3
+2019-08-28 12:01:39,762 INFO  DownloadService - Downloaded https://github.com/zhihu/Matisse/archive/master.zip, attempt 3
+2019-08-28 12:01:39,763 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/master.zip": 1 MB
+2019-08-28 12:01:39,763 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-08-28 12:01:39,763 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/master.zip: true
+2019-08-28 12:01:39,764 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src'.
+2019-08-28 12:01:39,817 INFO  FullProcessService - Size of directory with sources: 1 MB
+2019-08-28 12:01:39,817 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src]
+2019-08-28 12:01:39,832 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/.git/
 
-2019-07-22 15:10:50,523 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/gradlew
-2019-07-22 15:10:50,528 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/matisse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/build.gradle
-2019-07-22 15:10:50,532 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/matisse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/settings.gradle
-2019-07-22 15:10:50,532 INFO  ProjectBuildService - Remote scripts: none
-2019-07-22 15:10:50,533 INFO  ProjectFixService - Fixing project...
-2019-07-22 15:10:50,544 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/matisse/local.properties
-2019-07-22 15:10:50,544 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/matisse/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-22 15:10:50,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/sample/local.properties
-2019-07-22 15:10:50,545 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-22 15:10:50,546 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/local.properties
-2019-07-22 15:10:50,546 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-all.zip
-2019-07-22 15:10:50,546 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.1.1-bin.zip)
-2019-07-22 15:10:50,547 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
-2019-07-22 15:10:50,547 INFO  ProjectFixService - Project was maybe fixed
-2019-07-22 15:10:50,547 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:10:50,548 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/matisse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:10:59,210 INFO  ProjectTaskService - Detected possible tasks: 82
-2019-07-22 15:10:59,210 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-07-22 15:10:59,210 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/matisse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-07-22 15:11:15,115 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-28 12:01:39,836 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/gradlew
+2019-08-28 12:01:39,840 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/matisse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/build.gradle
+2019-08-28 12:01:39,844 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/matisse/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/settings.gradle
+2019-08-28 12:01:39,845 INFO  ProjectBuildService - Remote scripts: none
+2019-08-28 12:01:39,845 INFO  ProjectFixService - Fixing project...
+2019-08-28 12:01:39,854 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/matisse/local.properties
+2019-08-28 12:01:39,855 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/matisse/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 12:01:39,855 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/sample/local.properties
+2019-08-28 12:01:39,856 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/sample/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 12:01:39,856 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/local.properties
+2019-08-28 12:01:39,856 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.4.1-all.zip
+2019-08-28 12:01:39,857 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.4.1-bin.zip)
+2019-08-28 12:01:39,857 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=14,targetSdkVersion=28]
+2019-08-28 12:01:39,857 INFO  ProjectFixService - Project was maybe fixed
+2019-08-28 12:01:39,857 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-28 12:01:39,858 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/matisse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-28 12:01:48,613 INFO  ProjectTaskService - Detected possible tasks: 82
+2019-08-28 12:01:48,614 INFO  ProjectTaskService - Excluded tasks (16): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll checkstyle test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-08-28 12:01:48,614 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/matisse/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, checkstyle, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-08-28 12:02:10,116 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :matisse
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -44,92 +44,93 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 > Task :matisse:checkDebugManifest
 > Task :matisse:generateDebugBuildConfig
 > Task :matisse:generateDebugResValues
-> Task :matisse:processDebugManifest
-> Task :matisse:prepareLintJar
-> Task :matisse:mergeDebugConsumerProguardFiles
 > Task :matisse:mergeDebugShaders
 > Task :matisse:compileDebugShaders
 > Task :matisse:generateDebugAssets
 > Task :matisse:packageDebugAssets
+> Task :matisse:packageDebugRenderscript NO-SOURCE
+> Task :matisse:processDebugJavaRes NO-SOURCE
+> Task :matisse:mergeDebugJniLibFolders
+> Task :matisse:preReleaseBuild UP-TO-DATE
+> Task :matisse:checkReleaseManifest
+> Task :matisse:processDebugManifest
+> Task :matisse:prepareLintJarForPublish
+> Task :matisse:generateReleaseBuildConfig
+> Task :matisse:generateReleaseResValues
 > Task :matisse:compileDebugAidl NO-SOURCE
 > Task :matisse:compileDebugRenderscript NO-SOURCE
 > Task :matisse:generateDebugResources
 > Task :matisse:packageDebugResources
-> Task :matisse:generateDebugRFile
-> Task :matisse:generateDebugSources
-> Task :matisse:javaPreCompileDebug
-
-> Task :matisse:compileDebugJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :matisse:extractDebugAnnotations
-> Task :matisse:packageDebugRenderscript NO-SOURCE
-> Task :matisse:prepareLintJarForPublish
-> Task :matisse:processDebugJavaRes NO-SOURCE
-> Task :matisse:transformResourcesWithMergeJavaResForDebug
-> Task :matisse:transformClassesAndResourcesWithSyncLibJarsForDebug
-> Task :matisse:mergeDebugJniLibFolders
-> Task :matisse:transformNativeLibsWithMergeJniLibsForDebug
-> Task :matisse:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :matisse:transformNativeLibsWithSyncJniLibsForDebug
-> Task :matisse:bundleDebugAar
-> Task :matisse:compileDebugSources
-> Task :matisse:assembleDebug
-> Task :matisse:preReleaseBuild UP-TO-DATE
+> Task :matisse:processReleaseManifest
 > Task :matisse:compileReleaseAidl NO-SOURCE
 > Task :matisse:compileReleaseRenderscript NO-SOURCE
-> Task :matisse:checkReleaseManifest
-> Task :matisse:generateReleaseBuildConfig
-> Task :matisse:generateReleaseResValues
 > Task :matisse:generateReleaseResources
 > Task :matisse:packageReleaseResources
-> Task :matisse:processReleaseManifest
-> Task :matisse:generateReleaseRFile
-> Task :matisse:generateReleaseSources
-> Task :matisse:javaPreCompileRelease
-
-> Task :matisse:compileReleaseJavaWithJavac
-Note: Some input files use or override a deprecated API.
-Note: Recompile with -Xlint:deprecation for details.
-
-> Task :matisse:extractReleaseAnnotations
-> Task :matisse:mergeReleaseConsumerProguardFiles
+> Task :matisse:parseDebugLibraryResources
 > Task :matisse:mergeReleaseShaders
 > Task :matisse:compileReleaseShaders
 > Task :matisse:generateReleaseAssets
 > Task :matisse:packageReleaseAssets
 > Task :matisse:packageReleaseRenderscript NO-SOURCE
 > Task :matisse:processReleaseJavaRes NO-SOURCE
-> Task :matisse:transformResourcesWithMergeJavaResForRelease
-> Task :matisse:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :matisse:mergeReleaseJniLibFolders
-> Task :matisse:transformNativeLibsWithMergeJniLibsForRelease
-> Task :matisse:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :matisse:javaPreCompileRelease
+> Task :matisse:mergeDebugNativeLibs
+> Task :matisse:stripDebugDebugSymbols
+> Task :matisse:transformNativeLibsWithSyncJniLibsForDebug
+> Task :matisse:mergeReleaseNativeLibs
+> Task :matisse:stripReleaseDebugSymbols
 > Task :matisse:transformNativeLibsWithSyncJniLibsForRelease
-> Task :matisse:bundleReleaseAar
-> Task :matisse:compileReleaseSources
+> Task :matisse:parseReleaseLibraryResources
+> Task :matisse:javaPreCompileDebug
 > Task :matisse:mergeReleaseResources
+> Task :matisse:generateReleaseRFile
 warn: removing resource com.zhihu.matisse:plurals/error_over_count without required default value.
 
+
+> Task :matisse:compileReleaseJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :matisse:extractReleaseAnnotations
+> Task :matisse:mergeReleaseGeneratedProguardFiles
+> Task :matisse:mergeReleaseConsumerProguardFiles
+> Task :matisse:compileReleaseSources
 > Task :matisse:verifyReleaseResources
+> Task :matisse:generateDebugRFile
+
+> Task :matisse:compileDebugJavaWithJavac
+Note: Some input files use or override a deprecated API.
+Note: Recompile with -Xlint:deprecation for details.
+
+> Task :matisse:extractDebugAnnotations
+> Task :matisse:mergeDebugGeneratedProguardFiles
+> Task :matisse:mergeDebugConsumerProguardFiles
+> Task :matisse:compileDebugSources
+> Task :matisse:mergeReleaseJavaResource
+> Task :matisse:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :matisse:bundleReleaseAar
 > Task :matisse:assembleRelease
+> Task :matisse:mergeDebugJavaResource
+> Task :matisse:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :matisse:bundleDebugAar
+> Task :matisse:assembleDebug
 > Task :matisse:assemble
 > Task :matisse:build
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 15s
-44 actionable tasks: 44 executed
+BUILD SUCCESSFUL in 21s
+47 actionable tasks: 47 executed
 
-2019-07-22 15:11:15,157 INFO  ProjectTaskService - Detecting possible tasks...
-2019-07-22 15:11:15,157 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-07-22 15:11:21,208 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-07-22 15:11:21,208 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-07-22 15:11:21,208 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-07-22 15:11:56,201 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-08-28 12:02:10,151 INFO  ProjectTaskService - Detecting possible tasks...
+2019-08-28 12:02:10,151 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-08-28 12:02:15,559 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-08-28 12:02:15,559 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-08-28 12:02:15,559 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/sample/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-08-28 12:02:54,308 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :matisse
 WARNING: API 'variant.getJavaCompiler()' is obsolete and has been replaced with 'variant.getJavaCompileProvider()'.
@@ -143,42 +144,32 @@ To determine what is calling variantOutput.getPackageLibrary(), use -Pandroid.de
 
 > Task :matisse:preBuild UP-TO-DATE
 > Task :matisse:preDebugBuild UP-TO-DATE
-> Task :matisse:checkDebugManifest UP-TO-DATE
-> Task :matisse:generateDebugBuildConfig UP-TO-DATE
 > Task :matisse:compileDebugAidl NO-SOURCE
+> Task :matisse:checkDebugManifest UP-TO-DATE
 > Task :matisse:compileDebugRenderscript NO-SOURCE
+> Task :matisse:generateDebugBuildConfig UP-TO-DATE
 > Task :matisse:generateDebugResValues UP-TO-DATE
 > Task :matisse:generateDebugResources UP-TO-DATE
 > Task :matisse:packageDebugResources UP-TO-DATE
+> Task :matisse:parseDebugLibraryResources UP-TO-DATE
 > Task :matisse:processDebugManifest UP-TO-DATE
 > Task :matisse:generateDebugRFile UP-TO-DATE
-> Task :matisse:prepareLintJar UP-TO-DATE
-> Task :matisse:generateDebugSources UP-TO-DATE
 > Task :matisse:javaPreCompileDebug UP-TO-DATE
 > Task :matisse:compileDebugJavaWithJavac UP-TO-DATE
-> Task :matisse:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
+> Task :sample:preDebugBuild UP-TO-DATE
 > Task :matisse:packageDebugRenderscript NO-SOURCE
-> Task :sample:prepareLintJar
-> Task :matisse:mergeDebugShaders UP-TO-DATE
-> Task :matisse:compileDebugShaders UP-TO-DATE
-> Task :matisse:generateDebugAssets UP-TO-DATE
-> Task :matisse:packageDebugAssets UP-TO-DATE
-> Task :matisse:processDebugJavaRes NO-SOURCE
-> Task :matisse:bundleLibResDebug
-> Task :matisse:bundleLibRuntimeDebug
-> Task :sample:preDebugBuild
 > Task :sample:compileDebugAidl NO-SOURCE
-> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:checkDebugManifest
+> Task :sample:compileDebugRenderscript NO-SOURCE
 > Task :sample:generateDebugBuildConfig
-> Task :sample:generateDebugSources
 > Task :sample:mainApkListPersistenceDebug
+> Task :matisse:bundleLibCompileDebug
 > Task :sample:generateDebugResValues
 > Task :sample:generateDebugResources
 > Task :sample:mergeDebugResources
-> Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:javaPreCompileDebug
+> Task :sample:createDebugCompatibleScreenManifests
 > Task :sample:processDebugManifest
 warn: removing resource com.zhihu.matisse.sample:plurals/error_over_count without required default value.
 warn: removing resource com.zhihu.matisse.sample:string/error_original without required default value.
@@ -186,24 +177,29 @@ warn: removing resource com.zhihu.matisse.sample:string/error_original without r
 > Task :sample:processDebugResources
 > Task :sample:compileDebugJavaWithJavac
 > Task :sample:compileDebugSources
+> Task :matisse:mergeDebugShaders UP-TO-DATE
+> Task :matisse:compileDebugShaders UP-TO-DATE
+> Task :matisse:generateDebugAssets UP-TO-DATE
+> Task :matisse:packageDebugAssets UP-TO-DATE
 > Task :sample:mergeDebugShaders
 > Task :sample:compileDebugShaders
 > Task :sample:generateDebugAssets
 > Task :sample:mergeDebugAssets
+> Task :matisse:processDebugJavaRes NO-SOURCE
+> Task :sample:processDebugJavaRes NO-SOURCE
+> Task :matisse:bundleLibResDebug
+> Task :matisse:bundleLibRuntimeDebug
 > Task :matisse:createFullJarDebug
 > Task :sample:checkDebugDuplicateClasses
+> Task :sample:mergeDebugJavaResource
 > Task :sample:transformClassesWithDexBuilderForDebug
 > Task :sample:validateSigningDebug
 > Task :sample:signingConfigWriterDebug
 > Task :matisse:mergeDebugJniLibFolders UP-TO-DATE
-> Task :matisse:transformNativeLibsWithMergeJniLibsForDebug UP-TO-DATE
-> Task :matisse:transformNativeLibsWithStripDebugSymbolForDebug UP-TO-DATE
+> Task :matisse:mergeDebugNativeLibs UP-TO-DATE
+> Task :matisse:stripDebugDebugSymbols UP-TO-DATE
 > Task :matisse:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :sample:processDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForDebug
 > Task :matisse:preReleaseBuild UP-TO-DATE
 > Task :matisse:compileReleaseAidl NO-SOURCE
 > Task :matisse:compileReleaseRenderscript NO-SOURCE
@@ -212,26 +208,27 @@ warn: removing resource com.zhihu.matisse.sample:string/error_original without r
 > Task :matisse:generateReleaseResValues UP-TO-DATE
 > Task :matisse:generateReleaseResources UP-TO-DATE
 > Task :matisse:packageReleaseResources UP-TO-DATE
+> Task :matisse:parseReleaseLibraryResources UP-TO-DATE
 > Task :matisse:processReleaseManifest UP-TO-DATE
 > Task :matisse:generateReleaseRFile UP-TO-DATE
-> Task :matisse:generateReleaseSources UP-TO-DATE
 > Task :matisse:javaPreCompileRelease UP-TO-DATE
 > Task :matisse:compileReleaseJavaWithJavac UP-TO-DATE
 > Task :matisse:bundleLibCompileRelease
-> Task :sample:preReleaseBuild
+> Task :sample:preReleaseBuild UP-TO-DATE
 > Task :sample:compileReleaseAidl NO-SOURCE
 > Task :matisse:packageReleaseRenderscript NO-SOURCE
 > Task :sample:compileReleaseRenderscript NO-SOURCE
 > Task :sample:checkReleaseManifest
 > Task :sample:generateReleaseBuildConfig
-> Task :sample:generateReleaseSources
 > Task :sample:javaPreCompileRelease
 > Task :sample:mainApkListPersistenceRelease
 > Task :sample:generateReleaseResValues
 > Task :sample:generateReleaseResources
-> Task :sample:mergeReleaseResources
 > Task :sample:createReleaseCompatibleScreenManifests
 > Task :sample:processReleaseManifest
+> Task :sample:mergeDebugNativeLibs
+> Task :sample:stripDebugDebugSymbols
+> Task :sample:mergeReleaseResources
 warn: removing resource com.zhihu.matisse.sample:plurals/error_over_count without required default value.
 warn: removing resource com.zhihu.matisse.sample:string/error_original without required default value.
 
@@ -239,10 +236,12 @@ warn: removing resource com.zhihu.matisse.sample:string/error_original without r
 > Task :sample:compileReleaseJavaWithJavac
 > Task :sample:compileReleaseSources
 > Task :matisse:prepareLintJarForPublish UP-TO-DATE
+> Task :sample:prepareLintJar
+> Task :matisse:processReleaseJavaRes NO-SOURCE
 
 > Task :sample:lintVitalRelease
-Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/71ca4155ee4686bd9d38774dd338556b/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
-/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/sample/src/main/res/values-zh/strings.xml:20: Error: "error_original" is translated here but not found in default locale [ExtraTranslation]
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/36b007c87ae3eab0b8c8d2c201e53eaf/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-28/android.jar
+/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/sample/src/main/res/values-zh/strings.xml:20: Error: "error_original" is translated here but not found in default locale [ExtraTranslation]
     <string name="error_original">大小不超过 %1$sM。</string>
             ~~~~~~~~~~~~~~~~~~~~~
 
@@ -259,15 +258,10 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 1 errors, 0 warnings
 
-> Task :sample:mergeExtDexDebug
-> Task :sample:mergeDexDebug
-> Task :sample:packageDebug
-> Task :sample:assembleDebug
-> Task :matisse:processReleaseJavaRes NO-SOURCE
 > Task :matisse:bundleLibResRelease
+> Task :sample:checkReleaseDuplicateClasses
 > Task :matisse:bundleLibRuntimeRelease
 > Task :matisse:createFullJarRelease
-> Task :sample:checkReleaseDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForRelease
 > Task :matisse:mergeReleaseShaders UP-TO-DATE
 > Task :matisse:compileReleaseShaders UP-TO-DATE
@@ -277,16 +271,20 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 > Task :sample:compileReleaseShaders
 > Task :sample:generateReleaseAssets
 > Task :sample:mergeReleaseAssets
+> Task :sample:processReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterRelease
 > Task :matisse:mergeReleaseJniLibFolders UP-TO-DATE
-> Task :matisse:transformNativeLibsWithMergeJniLibsForRelease UP-TO-DATE
-> Task :matisse:transformNativeLibsWithStripDebugSymbolForRelease UP-TO-DATE
+> Task :matisse:mergeReleaseNativeLibs UP-TO-DATE
+> Task :matisse:stripReleaseDebugSymbols UP-TO-DATE
 > Task :matisse:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForRelease
-> Task :sample:processReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForRelease
+> Task :sample:mergeReleaseNativeLibs
+> Task :sample:stripReleaseDebugSymbols
+> Task :sample:mergeReleaseJavaResource
+> Task :sample:mergeExtDexDebug
+> Task :sample:mergeDexDebug
+> Task :sample:packageDebug
+> Task :sample:assembleDebug
 > Task :sample:mergeExtDexRelease
 > Task :sample:mergeDexRelease
 > Task :sample:packageRelease
@@ -296,9 +294,9 @@ Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/ca
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.4.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 34s
-91 actionable tasks: 61 executed, 30 up-to-date
+BUILD SUCCESSFUL in 38s
+90 actionable tasks: 59 executed, 31 up-to-date
 
-2019-07-22 15:11:56,300 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1563783048466-0/src/Matisse-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
+2019-08-28 12:02:54,401 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1566968496122-0/src/Matisse-master/sample/build/outputs/apk/release/sample-release-unsigned.apk
