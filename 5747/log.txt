@@ -1,49 +1,42 @@
-2019-08-11 20:45:37,447 INFO  DownloadService - Downloading "https://github.com/magnusja/libaums/archive/master.zip", attempt 3
-2019-08-11 20:45:38,139 INFO  DownloadService - Downloaded https://github.com/magnusja/libaums/archive/master.zip, attempt 3
-2019-08-11 20:45:38,139 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/master.zip": 252 KB
-2019-08-11 20:45:38,140 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
-2019-08-11 20:45:38,140 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/master.zip: true
-2019-08-11 20:45:38,140 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src'.
-2019-08-11 20:45:38,205 INFO  FullProcessService - Size of directory with sources: 494 KB
-2019-08-11 20:45:38,205 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src]
-2019-08-11 20:45:38,231 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/.git/
+2019-09-01 22:03:34,360 INFO  DownloadService - Downloading "https://github.com/magnusja/libaums/archive/master.zip", attempt 3
+2019-09-01 22:03:35,086 INFO  DownloadService - Downloaded https://github.com/magnusja/libaums/archive/master.zip, attempt 3
+2019-09-01 22:03:35,086 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/master.zip": 252 KB
+2019-09-01 22:03:35,086 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-01 22:03:35,092 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/master.zip: true
+2019-09-01 22:03:35,092 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src'.
+2019-09-01 22:03:35,133 INFO  FullProcessService - Size of directory with sources: 494 KB
+2019-09-01 22:03:35,133 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src]
+2019-09-01 22:03:35,150 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/.git/
 
-2019-08-11 20:45:38,240 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/gradlew
-2019-08-11 20:45:38,247 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/build.gradle
-2019-08-11 20:45:38,256 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/settings.gradle
-2019-08-11 20:45:38,256 INFO  ProjectBuildService - Remote scripts: none
-2019-08-11 20:45:38,256 INFO  ProjectFixService - Fixing project...
-2019-08-11 20:45:38,271 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/app/local.properties
-2019-08-11 20:45:38,271 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-11 20:45:38,272 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/httpserver/local.properties
-2019-08-11 20:45:38,273 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/httpserver/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-11 20:45:38,273 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/javafs/local.properties
-2019-08-11 20:45:38,274 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/javafs/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-11 20:45:38,275 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/local.properties
-2019-08-11 20:45:38,275 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-11 20:45:38,276 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/storageprovider/local.properties
-2019-08-11 20:45:38,277 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/storageprovider/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-11 20:45:38,277 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/local.properties
-2019-08-11 20:45:38,278 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
-2019-08-11 20:45:38,278 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
-2019-08-11 20:45:38,280 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
-2019-08-11 20:45:38,281 INFO  ProjectFixService - Project was maybe fixed
-2019-08-11 20:45:38,281 INFO  ProjectTaskService - Detecting possible tasks...
-2019-08-11 20:45:38,281 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-08-11 20:45:50,652 INFO  ProjectTaskService - Detected possible tasks: 66
-2019-08-11 20:45:50,652 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-08-11 20:45:50,653 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-08-11 20:47:28,716 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-01 22:03:35,154 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/gradlew
+2019-09-01 22:03:35,159 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/build.gradle
+2019-09-01 22:03:35,164 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/install.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/bintray.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/storageprovider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/httpserver/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/javafs/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/settings.gradle
+2019-09-01 22:03:35,165 INFO  ProjectBuildService - Remote scripts: none
+2019-09-01 22:03:35,165 INFO  ProjectFixService - Fixing project...
+2019-09-01 22:03:35,177 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/app/local.properties
+2019-09-01 22:03:35,177 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/app/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-01 22:03:35,178 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/httpserver/local.properties
+2019-09-01 22:03:35,178 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/httpserver/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-01 22:03:35,179 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/javafs/local.properties
+2019-09-01 22:03:35,179 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/javafs/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-01 22:03:35,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/local.properties
+2019-09-01 22:03:35,180 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-01 22:03:35,180 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/storageprovider/local.properties
+2019-09-01 22:03:35,181 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/storageprovider/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-01 22:03:35,181 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/local.properties
+2019-09-01 22:03:35,182 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.2.1-all.zip
+2019-09-01 22:03:35,182 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.2.1-bin.zip)
+2019-09-01 22:03:35,183 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/build.gradle": [buildToolsVersion=28.0.3,compileSdkVersion=28,minSdkVersion=16,targetSdkVersion=28]
+2019-09-01 22:03:35,184 INFO  ProjectFixService - Project was maybe fixed
+2019-09-01 22:03:35,184 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-01 22:03:35,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-01 22:03:43,228 INFO  ProjectTaskService - Detected possible tasks: 66
+2019-09-01 22:03:43,229 INFO  ProjectTaskService - Excluded tasks (18): lintDebug deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-01 22:03:43,229 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-01 22:04:55,073 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 > Configure project :libaums
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
-Checking the license for package CMake 3.6.4111459 in /Users/vbauer/Library/Android/sdk/licenses
-License for package CMake 3.6.4111459 accepted.
-Preparing "Install CMake 3.6.4111459 (revision: 3.6.4111459)".
-"Install CMake 3.6.4111459 (revision: 3.6.4111459)" ready.
-Installing CMake 3.6.4111459 in /Users/vbauer/Library/Android/sdk/cmake/3.6.4111459
-"Install CMake 3.6.4111459 (revision: 3.6.4111459)" complete.
-"Install CMake 3.6.4111459 (revision: 3.6.4111459)" finished.
 
 > Configure project :httpserver
 Kotlin plugin should be enabled before 'kotlin-android-extensions'
@@ -104,22 +97,23 @@ Kotlin plugin should be enabled before 'kotlin-android-extensions'
 > Task :storageprovider:generateDebugResources
 > Task :storageprovider:prepareLintJar
 > Task :storageprovider:generateDebugSources
+> Task :app:mainApkListPersistenceDebug
 > Task :httpserver:packageDebugResources
 > Task :libaums:packageDebugResources
 > Task :libaums:generateDebugRFile
 > Task :httpserver:generateDebugRFile
 
 > Task :libaums:compileDebugKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (24, 23): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (24, 41): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (64, 24): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (64, 42): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (206, 23): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (206, 40): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (228, 24): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (228, 41): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.kt: (39, 25): 'queue(ByteBuffer!, Int): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.kt: (61, 24): 'queue(ByteBuffer!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (24, 23): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (24, 41): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (64, 24): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (64, 42): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (206, 23): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (206, 40): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (228, 24): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (228, 41): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.kt: (39, 25): 'queue(ByteBuffer!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.kt: (61, 24): 'queue(ByteBuffer!, Int): Boolean' is deprecated. Deprecated in Java
 
 > Task :libaums:javaPreCompileDebug
 > Task :libaums:compileDebugJavaWithJavac
@@ -139,11 +133,10 @@ w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/
 > Task :storageprovider:compileDebugJavaWithJavac
 > Task :storageprovider:bundleLibCompileDebug
 > Task :app:javaPreCompileDebug
-> Task :app:mainApkListPersistenceDebug
 > Task :app:generateDebugResValues
 > Task :app:generateDebugResources
-> Task :app:mergeDebugResources
 > Task :app:createDebugCompatibleScreenManifests
+> Task :app:mergeDebugResources
 > Task :app:processDebugManifest
 > Task :app:processDebugResources
 
@@ -218,7 +211,7 @@ debug|armeabi-v7a :-- Detecting CXX compile features
 debug|armeabi-v7a :-- Detecting CXX compile features - done
 debug|armeabi-v7a :-- Configuring done
 debug|armeabi-v7a :-- Generating done
-debug|armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a
+debug|armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/.externalNativeBuild/cmake/debug/armeabi-v7a
 debug|arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 debug|arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 debug|arm64-v8a :-- Detecting C compiler ABI info
@@ -233,7 +226,7 @@ debug|arm64-v8a :-- Detecting CXX compile features
 debug|arm64-v8a :-- Detecting CXX compile features - done
 debug|arm64-v8a :-- Configuring done
 debug|arm64-v8a :-- Generating done
-debug|arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/.externalNativeBuild/cmake/debug/arm64-v8a
+debug|arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/.externalNativeBuild/cmake/debug/arm64-v8a
 debug|x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 debug|x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 debug|x86 :-- Detecting C compiler ABI info
@@ -248,7 +241,7 @@ debug|x86 :-- Detecting CXX compile features
 debug|x86 :-- Detecting CXX compile features - done
 debug|x86 :-- Configuring done
 debug|x86 :-- Generating done
-debug|x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/.externalNativeBuild/cmake/debug/x86
+debug|x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/.externalNativeBuild/cmake/debug/x86
 debug|x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 debug|x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 debug|x86_64 :-- Detecting C compiler ABI info
@@ -263,7 +256,7 @@ debug|x86_64 :-- Detecting CXX compile features
 debug|x86_64 :-- Detecting CXX compile features - done
 debug|x86_64 :-- Configuring done
 debug|x86_64 :-- Generating done
-debug|x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/.externalNativeBuild/cmake/debug/x86_64
+debug|x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/.externalNativeBuild/cmake/debug/x86_64
 
 > Task :app:mergeExtDexDebug
 > Task :app:mergeDexDebug
@@ -336,16 +329,16 @@ Build errno-lib armeabi-v7a
 > Task :libaums:generateReleaseBuildConfig
 
 > Task :libaums:compileReleaseKotlin
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (24, 23): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (24, 41): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (64, 24): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (64, 42): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (206, 23): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (206, 40): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (228, 24): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (228, 41): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.kt: (39, 25): 'queue(ByteBuffer!, Int): Boolean' is deprecated. Deprecated in Java
-w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.kt: (61, 24): 'queue(ByteBuffer!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (24, 23): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (24, 41): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (64, 24): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/ByteBlockDevice.kt: (64, 42): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (206, 23): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (206, 40): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (228, 24): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'deviceOffset'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/driver/scsi/ScsiBlockDevice.kt: (228, 41): The corresponding parameter in the supertype 'BlockDeviceDriver' is named 'buffer'. This may cause problems when calling this function with named arguments.
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.kt: (39, 25): 'queue(ByteBuffer!, Int): Boolean' is deprecated. Deprecated in Java
+w: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/src/main/java/com/github/mjdev/libaums/usb/UsbRequestCommunication.kt: (61, 24): 'queue(ByteBuffer!, Int): Boolean' is deprecated. Deprecated in Java
 
 > Task :libaums:generateReleaseSources
 > Task :libaums:javaPreCompileRelease
@@ -463,7 +456,7 @@ release|armeabi-v7a :-- Detecting CXX compile features
 release|armeabi-v7a :-- Detecting CXX compile features - done
 release|armeabi-v7a :-- Configuring done
 release|armeabi-v7a :-- Generating done
-release|armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/.externalNativeBuild/cmake/release/armeabi-v7a
+release|armeabi-v7a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/.externalNativeBuild/cmake/release/armeabi-v7a
 release|arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 release|arm64-v8a :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 release|arm64-v8a :-- Detecting C compiler ABI info
@@ -478,7 +471,7 @@ release|arm64-v8a :-- Detecting CXX compile features
 release|arm64-v8a :-- Detecting CXX compile features - done
 release|arm64-v8a :-- Configuring done
 release|arm64-v8a :-- Generating done
-release|arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/.externalNativeBuild/cmake/release/arm64-v8a
+release|arm64-v8a :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/.externalNativeBuild/cmake/release/arm64-v8a
 release|x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 release|x86 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 release|x86 :-- Detecting C compiler ABI info
@@ -493,7 +486,7 @@ release|x86 :-- Detecting CXX compile features
 release|x86 :-- Detecting CXX compile features - done
 release|x86 :-- Configuring done
 release|x86 :-- Generating done
-release|x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/.externalNativeBuild/cmake/release/x86
+release|x86 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/.externalNativeBuild/cmake/release/x86
 release|x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang
 release|x86_64 :-- Check for working C compiler: /Users/vbauer/Library/Android/sdk/ndk-bundle/toolchains/llvm/prebuilt/darwin-x86_64/bin/clang -- works
 release|x86_64 :-- Detecting C compiler ABI info
@@ -508,7 +501,7 @@ release|x86_64 :-- Detecting CXX compile features
 release|x86_64 :-- Detecting CXX compile features - done
 release|x86_64 :-- Configuring done
 release|x86_64 :-- Generating done
-release|x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/libaums/.externalNativeBuild/cmake/release/x86_64
+release|x86_64 :-- Build files have been written to: /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/libaums/.externalNativeBuild/cmake/release/x86_64
 
 > Task :app:mergeExtDexRelease
 > Task :app:mergeDexRelease
@@ -548,7 +541,7 @@ Deprecated Gradle features were used in this build, making it incompatible with 
 Use '--warning-mode all' to show the individual deprecation warnings.
 See https://docs.gradle.org/5.2.1/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 1m 37s
+BUILD SUCCESSFUL in 1m 11s
 220 actionable tasks: 220 executed
 
-2019-08-11 20:47:28,831 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1565531137441-0/src/libaums-master/app/build/outputs/apk/debug/app-debug.apk
+2019-09-01 22:04:55,186 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567350214356-0/src/libaums-master/app/build/outputs/apk/debug/app-debug.apk
