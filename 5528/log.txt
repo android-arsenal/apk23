@@ -1,42 +1,39 @@
-2019-03-18 12:38:28,081 INFO  DownloadService - Downloading "https://github.com/chdir/aidl2/archive/master.zip", attempt 3
-2019-03-18 12:39:28,674 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-03-18 12:39:29,698 INFO  GithubDownloadService - Default branch of this repository: master
-2019-03-18 12:39:29,698 INFO  DownloadService - Downloading "https://github.com/chdir/aidl2/archive/master.zip", attempt 3
-2019-03-18 12:40:31,327 DEBUG FullProcessService - Repository https://github.com/chdir/aidl2 available: true
-2019-03-18 12:40:31,333 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-03-18 12:40:31,333 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/chdir/aidl2, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src]
-2019-03-18 12:40:33,451 INFO  SysUtils - 
-2019-03-18 12:40:33,463 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/.git": true
-2019-03-18 12:40:33,476 INFO  FullProcessService - Size of directory with sources: 897 KB
-2019-03-18 12:40:33,476 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src]
-2019-03-18 12:40:33,495 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/.git/
+2019-09-05 11:08:19,336 INFO  DownloadService - Downloading "https://github.com/chdir/aidl2/archive/master.zip", attempt 3
+2019-09-05 11:08:20,480 INFO  DownloadService - Downloaded https://github.com/chdir/aidl2/archive/master.zip, attempt 3
+2019-09-05 11:08:20,480 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/master.zip": 446 KB
+2019-09-05 11:08:20,481 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-09-05 11:08:20,482 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/master.zip: true
+2019-09-05 11:08:20,482 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src'.
+2019-09-05 11:08:20,599 INFO  FullProcessService - Size of directory with sources: 897 KB
+2019-09-05 11:08:20,599 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src]
+2019-09-05 11:08:20,618 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/.git/
 
-2019-03-18 12:40:33,504 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew
-2019-03-18 12:40:33,517 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/lib/build.gradle
-2019-03-18 12:40:33,525 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/deployment.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/build.gradle
-2019-03-18 12:40:33,525 INFO  ProjectBuildService - Remote scripts: none
-2019-03-18 12:40:33,526 INFO  ProjectFixService - Fixing project...
-2019-03-18 12:40:33,545 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/local.properties
-2019-03-18 12:40:33,546 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=23]
-2019-03-18 12:40:33,546 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=23]
-2019-03-18 12:40:33,547 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/local.properties
-2019-03-18 12:40:33,548 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=24]
-2019-03-18 12:40:33,548 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=24]
-2019-03-18 12:40:33,548 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/local.properties
-2019-03-18 12:40:33,549 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
-2019-03-18 12:40:33,549 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
-2019-03-18 12:40:33,551 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=23]
-2019-03-18 12:40:33,551 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=23]
-2019-03-18 12:40:33,552 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/lib/local.properties
-2019-03-18 12:40:33,553 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/lib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=23]
-2019-03-18 12:40:33,553 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/lib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=28,minSdkVersion=18,targetSdkVersion=23]
-2019-03-18 12:40:33,554 INFO  ProjectFixService - Project was maybe fixed
-2019-03-18 12:40:33,554 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 12:40:33,554 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 12:40:42,343 INFO  ProjectTaskService - Detected possible tasks: 72
-2019-03-18 12:40:42,345 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-18 12:40:42,345 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-18 12:40:54,786 ERROR SysUtils - Could not process external command
+2019-09-05 11:08:20,625 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew
+2019-09-05 11:08:20,631 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/lib/build.gradle
+2019-09-05 11:08:20,638 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/deployment.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/lib/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/settings.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/build.gradle
+2019-09-05 11:08:20,638 INFO  ProjectBuildService - Remote scripts: none
+2019-09-05 11:08:20,638 INFO  ProjectFixService - Fixing project...
+2019-09-05 11:08:20,653 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/local.properties
+2019-09-05 11:08:20,654 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=23]
+2019-09-05 11:08:20,654 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=23]
+2019-09-05 11:08:20,654 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/local.properties
+2019-09-05 11:08:20,655 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=24]
+2019-09-05 11:08:20,655 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/build.gradle": [buildToolsVersion=25.0.0,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=24]
+2019-09-05 11:08:20,656 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/local.properties
+2019-09-05 11:08:20,656 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-4.6-all.zip
+2019-09-05 11:08:20,656 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-4.6-bin.zip)
+2019-09-05 11:08:20,658 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=23]
+2019-09-05 11:08:20,658 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=23]
+2019-09-05 11:08:20,658 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/lib/local.properties
+2019-09-05 11:08:20,660 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/lib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=<null>,minSdkVersion=18,targetSdkVersion=23]
+2019-09-05 11:08:20,660 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/lib/build.gradle": [buildToolsVersion=27.0.3,compileSdkVersion=29,minSdkVersion=18,targetSdkVersion=23]
+2019-09-05 11:08:20,660 INFO  ProjectFixService - Project was maybe fixed
+2019-09-05 11:08:20,660 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-05 11:08:20,660 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-05 11:08:37,595 INFO  ProjectTaskService - Detected possible tasks: 73
+2019-09-05 11:08:37,596 INFO  ProjectTaskService - Excluded tasks (19): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-05 11:08:37,596 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-05 11:08:50,561 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -63,7 +60,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-18 12:40:54,786 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-05 11:08:50,561 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild
 :app:compileDebugAidl
@@ -82,12 +79,13 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :app:generateDebugSources
 :lib:compileJava
 :lib:compileRetrolambdaMain
+Download https://jcenter.bintray.com/net/orfjackal/retrolambda/retrolambda/2.5.1/retrolambda-2.5.1.jar
 :lib:copyTestResources
 :lib:processResources NO-SOURCE
 :lib:classes
 :lib:jar
 :app:javaPreCompileDebug
-:app:compileDebugJavaWithJavacUnexpected runtime error: com/squareup/javapoet/TypeName; please report a bug at http://github.com/gprocessor/issues. Log file is at file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build/generated/source/apt/debug/aidl2.log
+:app:compileDebugJavaWithJavacUnexpected runtime error: com/squareup/javapoet/TypeName; please report a bug at http://github.com/gprocessor/issues. Log file is at file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build/generated/source/apt/debug/aidl2.log
 	at net.sf.aidl2.internal.AidlProcessor.process(AidlProcessor.java:93)
 	at com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:794)
 	at com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:705)
@@ -172,7 +170,7 @@ Caused by: java.lang.ClassNotFoundException: com.squareup.javapoet.TypeName
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	... 76 more
-error: AIDL2 says: Unexpected runtime error: com/squareup/javapoet/TypeName; please report a bug at http://github.com/gprocessor/issues. Log file is at file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build/generated/source/apt/debug/aidl2.log
+error: AIDL2 says: Unexpected runtime error: com/squareup/javapoet/TypeName; please report a bug at http://github.com/gprocessor/issues. Log file is at file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build/generated/source/apt/debug/aidl2.log
 Note: AIDL2 says: Called with pending errors — bailing out.
 1 error
  FAILED
@@ -256,13 +254,13 @@ See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:comman
 BUILD FAILED in 12s
 19 actionable tasks: 19 executed
 
-2019-03-18 12:40:54,807 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 12:40:54,807 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 12:40:56,863 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
-2019-03-18 12:40:56,863 INFO  ProjectTaskService - Detected possible tasks: 0
-2019-03-18 12:40:56,863 INFO  ProjectTaskService - Excluded tasks (0): none
-2019-03-18 12:40:56,863 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
-2019-03-18 12:40:58,697 ERROR SysUtils - Could not process external command
+2019-09-05 11:08:50,580 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-05 11:08:50,580 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-05 11:08:52,476 ERROR ProjectTaskService - Could not detect possible Gradle tasks: Process exited with an error: 1 (Exit value: 1)
+2019-09-05 11:08:52,476 INFO  ProjectTaskService - Detected possible tasks: 0
+2019-09-05 11:08:52,476 INFO  ProjectTaskService - Excluded tasks (0): none
+2019-09-05 11:08:52,477 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, build]
+2019-09-05 11:08:54,227 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -289,12 +287,12 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-18 12:40:58,697 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-05 11:08:54,227 INFO  SysUtils - Configuration on demand is an incubating feature.
 
 FAILURE: Build failed with an exception.
 
 * Where:
-Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/build.gradle' line: 3
+Build file '/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/build.gradle' line: 3
 
 * What went wrong:
 A problem occurred evaluating root project 'jackdemo'.
@@ -397,7 +395,7 @@ Caused by: org.gradle.api.UnknownProjectException: Project with path ':lib' coul
 	at org.gradle.groovy.scripts.BasicScript$ScriptDynamicObject.tryInvokeMethod(BasicScript.java:134)
 	at org.gradle.internal.metaobject.AbstractDynamicObject.invokeMethod(AbstractDynamicObject.java:160)
 	at org.gradle.groovy.scripts.BasicScript.invokeMethod(BasicScript.java:83)
-	at build_cjl3clkn63afsjrzatw23slgk.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/jackdemo/build.gradle:3)
+	at build_1jdli8dux63m8q83ug4ql0kqb.run(/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/jackdemo/build.gradle:3)
 	at org.gradle.groovy.scripts.internal.DefaultScriptRunnerFactory$ScriptRunnerImpl.run(DefaultScriptRunnerFactory.java:90)
 	... 81 more
 
@@ -409,12 +407,12 @@ See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:comman
 
 BUILD FAILED in 1s
 
-2019-03-18 12:40:58,717 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 12:40:58,717 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 12:41:05,270 INFO  ProjectTaskService - Detected possible tasks: 84
-2019-03-18 12:41:05,270 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
-2019-03-18 12:41:05,270 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
-2019-03-18 12:41:12,989 ERROR SysUtils - Could not process external command
+2019-09-05 11:08:54,242 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-05 11:08:54,242 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-05 11:09:00,646 INFO  ProjectTaskService - Detected possible tasks: 84
+2019-09-05 11:09:00,647 INFO  ProjectTaskService - Excluded tasks (20): lintDebug mockableAndroidJar deviceCheck lint testReleaseUnitTest javadoc uninstallRelease deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest installDebug lintRelease uninstallDebug
+2019-09-05 11:09:00,647 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, mockableAndroidJar, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, javadoc, -x, uninstallRelease, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, installDebug, -x, lintRelease, -x, uninstallDebug, build]
+2019-09-05 11:09:07,840 ERROR SysUtils - Could not process external command
 org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit value: 1)
 	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
 	at org.apache.commons.exec.DefaultExecutor.execute(DefaultExecutor.java:166)
@@ -441,7 +439,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
 	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
 	at java.lang.Thread.run(Thread.java:748)
-2019-03-18 12:41:12,989 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-05 11:09:07,840 INFO  SysUtils - Configuration on demand is an incubating feature.
 :app:preBuild UP-TO-DATE
 :app:preDebugBuild UP-TO-DATE
 :app:compileDebugAidl UP-TO-DATE
@@ -465,7 +463,7 @@ org.apache.commons.exec.ExecuteException: Process exited with an error: 1 (Exit 
 :lib:classes UP-TO-DATE
 :lib:jar UP-TO-DATE
 :app:javaPreCompileDebug UP-TO-DATE
-:app:compileDebugJavaWithJavacUnexpected runtime error: com/squareup/javapoet/TypeName; please report a bug at http://github.com/gprocessor/issues. Log file is at file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build/generated/source/apt/debug/aidl2.log
+:app:compileDebugJavaWithJavacUnexpected runtime error: com/squareup/javapoet/TypeName; please report a bug at http://github.com/gprocessor/issues. Log file is at file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build/generated/source/apt/debug/aidl2.log
 	at net.sf.aidl2.internal.AidlProcessor.process(AidlProcessor.java:93)
 	at com.sun.tools.javac.processing.JavacProcessingEnvironment.callProcessor(JavacProcessingEnvironment.java:794)
 	at com.sun.tools.javac.processing.JavacProcessingEnvironment.discoverAndRunProcs(JavacProcessingEnvironment.java:705)
@@ -550,7 +548,7 @@ Caused by: java.lang.ClassNotFoundException: com.squareup.javapoet.TypeName
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
 	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
 	... 76 more
-error: AIDL2 says: Unexpected runtime error: com/squareup/javapoet/TypeName; please report a bug at http://github.com/gprocessor/issues. Log file is at file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/app/build/generated/source/apt/debug/aidl2.log
+error: AIDL2 says: Unexpected runtime error: com/squareup/javapoet/TypeName; please report a bug at http://github.com/gprocessor/issues. Log file is at file:/private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/app/build/generated/source/apt/debug/aidl2.log
 Note: AIDL2 says: Called with pending errors — bailing out.
 1 error
  FAILED
@@ -631,15 +629,15 @@ Caused by: org.gradle.api.internal.tasks.compile.CompilationFailedException: Com
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 5.0.
 See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD FAILED in 7s
+BUILD FAILED in 6s
 19 actionable tasks: 1 executed, 18 up-to-date
 
-2019-03-18 12:41:13,095 INFO  ProjectTaskService - Detecting possible tasks...
-2019-03-18 12:41:13,096 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-03-18 12:41:17,098 INFO  ProjectTaskService - Detected possible tasks: 52
-2019-03-18 12:41:17,098 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
-2019-03-18 12:41:17,098 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1552887508078-0/src/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
-2019-03-18 12:41:21,353 INFO  SysUtils - Configuration on demand is an incubating feature.
+2019-09-05 11:09:07,859 INFO  ProjectTaskService - Detecting possible tasks...
+2019-09-05 11:09:07,859 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-09-05 11:09:11,873 INFO  ProjectTaskService - Detected possible tasks: 52
+2019-09-05 11:09:11,873 INFO  ProjectTaskService - Excluded tasks (3): javadoc test check
+2019-09-05 11:09:11,873 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1567656499327-0/src/aidl2-master/lib/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, javadoc, -x, test, -x, check, build]
+2019-09-05 11:09:16,222 INFO  SysUtils - Configuration on demand is an incubating feature.
 :lib:compileJava UP-TO-DATE
 :lib:compileRetrolambdaMain UP-TO-DATE
 :lib:copyTestResources UP-TO-DATE
@@ -655,5 +653,5 @@ See https://docs.gradle.org/4.6/userguide/command_line_interface.html#sec:comman
 BUILD SUCCESSFUL in 4s
 4 actionable tasks: 4 up-to-date
 
-2019-03-18 12:41:21,375 ERROR FullProcessService - Project build has not produced APK file
-2019-03-18 12:41:21,395 ERROR FullProcessService - Could not find generated or existed APK file
+2019-09-05 11:09:16,238 ERROR FullProcessService - Project build has not produced APK file
+2019-09-05 11:09:16,253 ERROR FullProcessService - Could not find generated or existed APK file
