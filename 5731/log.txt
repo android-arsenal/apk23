@@ -1,41 +1,39 @@
-2019-06-10 14:25:12,637 INFO  DownloadService - Downloading "https://github.com/Fondesa/RecyclerViewDivider/archive/master.zip", attempt 3
-2019-06-10 14:26:13,168 INFO  GithubDownloadService - Could not find ZIP archive for master branch
-2019-06-10 14:26:14,303 INFO  GithubDownloadService - Default branch of this repository: master
-2019-06-10 14:26:14,303 INFO  DownloadService - Downloading "https://github.com/Fondesa/RecyclerViewDivider/archive/master.zip", attempt 3
-2019-06-10 14:27:15,870 DEBUG FullProcessService - Repository https://github.com/Fondesa/RecyclerViewDivider available: true
-2019-06-10 14:27:15,871 INFO  FullProcessService - Could not download ZIP file from Github, lets clone it
-2019-06-10 14:27:15,871 INFO  SysUtils - Execute command: [git, clone, -q, --single-branch, --depth, 1, https://github.com/Fondesa/RecyclerViewDivider, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src]
-2019-06-10 14:27:17,999 INFO  SysUtils - 
-2019-06-10 14:27:18,006 INFO  GitService - Deleted "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/.git": true
-2019-06-10 14:27:18,009 INFO  FullProcessService - Size of directory with sources: 410 KB
-2019-06-10 14:27:18,009 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src]
-2019-06-10 14:27:18,027 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/.git/
+2019-10-04 14:59:18,336 INFO  DownloadService - Downloading "https://github.com/Fondesa/RecyclerViewDivider/archive/master.zip", attempt 3
+2019-10-04 14:59:19,187 INFO  DownloadService - Downloaded https://github.com/Fondesa/RecyclerViewDivider/archive/master.zip, attempt 3
+2019-10-04 14:59:19,187 INFO  DownloadService - Size of file "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/master.zip": 329 KB
+2019-10-04 14:59:19,187 INFO  ArchiveUtils - Checking entries [.gradle] in ZIP file...
+2019-10-04 14:59:19,192 INFO  ArchiveUtils - Has entries [.gradle] in ZIP file /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/master.zip: true
+2019-10-04 14:59:19,193 DEBUG ZipUtil - Extracting '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/master.zip' into '/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src'.
+2019-10-04 14:59:19,214 INFO  FullProcessService - Size of directory with sources: 411 KB
+2019-10-04 14:59:19,215 INFO  SysUtils - Execute command: [git, init, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src]
+2019-10-04 14:59:19,234 INFO  SysUtils - Initialized empty Git repository in /private/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/.git/
 
-2019-06-10 14:27:18,030 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/gradlew
-2019-06-10 14:27:18,034 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/recycler-view-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/sample/build.gradle
-2019-06-10 14:27:18,037 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/recycler-view-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/settings.gradle
-2019-06-10 14:27:18,038 INFO  ProjectBuildService - Remote scripts: none
-2019-06-10 14:27:18,038 INFO  ProjectFixService - Fixing project...
-2019-06-10 14:27:18,045 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/local.properties
-2019-06-10 14:27:18,045 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.1.1-bin.zip
-2019-06-10 14:27:18,047 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-10 14:27:18,047 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-10 14:27:18,048 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/buildSrc/local.properties
-2019-06-10 14:27:18,051 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-10 14:27:18,051 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-10 14:27:18,052 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/recycler-view-divider/local.properties
-2019-06-10 14:27:18,053 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/recycler-view-divider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-10 14:27:18,053 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/recycler-view-divider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-10 14:27:18,054 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/sample/local.properties
-2019-06-10 14:27:18,055 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
-2019-06-10 14:27:18,055 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=28,minSdkVersion=28,targetSdkVersion=28]
-2019-06-10 14:27:18,056 INFO  ProjectFixService - Project was maybe fixed
-2019-06-10 14:27:18,056 INFO  ProjectTaskService - Detecting possible tasks...
-2019-06-10 14:27:18,056 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
-2019-06-10 14:27:30,573 INFO  ProjectTaskService - Detected possible tasks: 121
-2019-06-10 14:27:30,574 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
-2019-06-10 14:27:30,574 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
-2019-06-10 14:28:28,888 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.1.1/userguide/gradle_daemon.html.
+2019-10-04 14:59:19,238 INFO  ProjectBuildService - Gradle wrapper(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/gradlew
+2019-10-04 14:59:19,241 INFO  ProjectBuildService - Build script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/sample/build.gradle
+2019-10-04 14:59:19,244 INFO  ProjectBuildService - All script(s): /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/buildSrc/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/sample/build.gradle /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/settings.gradle
+2019-10-04 14:59:19,244 INFO  ProjectBuildService - Remote scripts: none
+2019-10-04 14:59:19,244 INFO  ProjectFixService - Fixing project...
+2019-10-04 14:59:19,250 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/local.properties
+2019-10-04 14:59:19,250 INFO  WrapperPropertiesFixService - Gradle wrapper: https://services.gradle.org/distributions/gradle-5.6.2-all.zip
+2019-10-04 14:59:19,251 INFO  WrapperPropertiesFixService - Gradle wrapper was changed from "-all.zip" to "-bin.zip" (https://services.gradle.org/distributions/gradle-5.6.2-bin.zip)
+2019-10-04 14:59:19,252 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 14:59:19,252 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 14:59:19,253 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/buildSrc/local.properties
+2019-10-04 14:59:19,254 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/buildSrc/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 14:59:19,254 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/buildSrc/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 14:59:19,255 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/recycler-view-divider/local.properties
+2019-10-04 14:59:19,256 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 14:59:19,256 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/recycler-view-divider/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 14:59:19,257 INFO  LocalPropertiesFixService - Created fake /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/sample/local.properties
+2019-10-04 14:59:19,258 INFO  ProjectFixService - Build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/sample/build.gradle": [buildToolsVersion=<null>,compileSdkVersion=<null>,minSdkVersion=<null>,targetSdkVersion=<null>]
+2019-10-04 14:59:19,258 INFO  ProjectFixService - Fixed build info for "/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/sample/build.gradle": [buildToolsVersion=28.0.0-rc2,compileSdkVersion=29,minSdkVersion=29,targetSdkVersion=29]
+2019-10-04 14:59:19,259 INFO  ProjectFixService - Project was maybe fixed
+2019-10-04 14:59:19,259 INFO  ProjectTaskService - Detecting possible tasks...
+2019-10-04 14:59:19,259 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, tasks]
+2019-10-04 14:59:40,184 INFO  ProjectTaskService - Detected possible tasks: 118
+2019-10-04 14:59:40,184 INFO  ProjectTaskService - Excluded tasks (15): lintDebug deviceCheck lint testReleaseUnitTest deviceAndroidTest uninstallDebugAndroidTest installDebugAndroidTest connectedCheck connectedDebugAndroidTest uninstallAll test check testDebugUnitTest connectedAndroidTest lintRelease
+2019-10-04 14:59:40,184 INFO  SysUtils - Execute command: [/var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/gradlew, -b, /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/build.gradle, -Dorg.gradle.daemon=false, -Dorg.gradle.daemon.performance.enable-monitoring=false, -Dorg.gradle.configureondemand=true, --stacktrace, -x, lintDebug, -x, deviceCheck, -x, lint, -x, testReleaseUnitTest, -x, deviceAndroidTest, -x, uninstallDebugAndroidTest, -x, installDebugAndroidTest, -x, connectedCheck, -x, connectedDebugAndroidTest, -x, uninstallAll, -x, test, -x, check, -x, testDebugUnitTest, -x, connectedAndroidTest, -x, lintRelease, build]
+2019-10-04 15:00:57,952 INFO  SysUtils - To honour the JVM settings for this build a new JVM will be forked. Please consider using the daemon: https://docs.gradle.org/5.6.2/userguide/gradle_daemon.html.
 Daemon will be stopped at the end of the build stopping after processing
 > Task :buildSrc:compileJava NO-SOURCE
 > Task :buildSrc:compileGroovy UP-TO-DATE
@@ -51,47 +49,23 @@ Daemon will be stopped at the end of the build stopping after processing
 > Task :buildSrc:check UP-TO-DATE
 > Task :buildSrc:build UP-TO-DATE
 Configuration on demand is an incubating feature.
-
-> Configure project :recycler-view-divider
-WARNING: API 'variant.getPackageLibrary()' is obsolete and has been replaced with 'variant.getPackageLibraryProvider()'.
-It will be removed at the end of 2019.
-For more information, see https://d.android.com/r/tools/task-configuration-avoidance.
-To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.obsoleteApi=true on the command line to display more information.
-
 > Task :recycler-view-divider:preBuild UP-TO-DATE
 > Task :recycler-view-divider:preDebugBuild UP-TO-DATE
 > Task :recycler-view-divider:checkDebugManifest
-> Task :recycler-view-divider:compileDebugAidl NO-SOURCE
-> Task :recycler-view-divider:compileDebugRenderscript NO-SOURCE
 > Task :recycler-view-divider:generateDebugBuildConfig
 > Task :recycler-view-divider:generateDebugResValues
+> Task :recycler-view-divider:mergeDebugShaders
+> Task :recycler-view-divider:compileDebugAidl NO-SOURCE
+> Task :recycler-view-divider:compileDebugRenderscript NO-SOURCE
 > Task :recycler-view-divider:generateDebugResources
 > Task :recycler-view-divider:packageDebugResources
-> Task :recycler-view-divider:processDebugManifest
-> Task :recycler-view-divider:generateDebugRFile
-> Task :recycler-view-divider:compileDebugKotlin
-> Task :recycler-view-divider:prepareLintJar
-> Task :recycler-view-divider:generateDebugSources
-> Task :recycler-view-divider:javaPreCompileDebug
-> Task :recycler-view-divider:compileDebugJavaWithJavac
-> Task :recycler-view-divider:extractDebugAnnotations
-> Task :recycler-view-divider:mergeDebugConsumerProguardFiles
-> Task :recycler-view-divider:mergeDebugShaders
 > Task :recycler-view-divider:compileDebugShaders
 > Task :recycler-view-divider:generateDebugAssets
 > Task :recycler-view-divider:packageDebugAssets
 > Task :recycler-view-divider:packageDebugRenderscript NO-SOURCE
-> Task :recycler-view-divider:prepareLintJarForPublish
 > Task :recycler-view-divider:processDebugJavaRes NO-SOURCE
-> Task :recycler-view-divider:transformResourcesWithMergeJavaResForDebug
-> Task :recycler-view-divider:transformClassesAndResourcesWithSyncLibJarsForDebug
 > Task :recycler-view-divider:mergeDebugJniLibFolders
-> Task :recycler-view-divider:transformNativeLibsWithMergeJniLibsForDebug
-> Task :recycler-view-divider:transformNativeLibsWithStripDebugSymbolForDebug
-> Task :recycler-view-divider:transformNativeLibsWithSyncJniLibsForDebug
-> Task :recycler-view-divider:bundleDebugAar
-> Task :recycler-view-divider:compileDebugSources
-> Task :recycler-view-divider:assembleDebug
+> Task :recycler-view-divider:processDebugManifest
 > Task :recycler-view-divider:preReleaseBuild UP-TO-DATE
 > Task :recycler-view-divider:compileReleaseAidl NO-SOURCE
 > Task :recycler-view-divider:compileReleaseRenderscript NO-SOURCE
@@ -100,28 +74,40 @@ To determine what is calling variant.getPackageLibrary(), use -Pandroid.debug.ob
 > Task :recycler-view-divider:generateReleaseResValues
 > Task :recycler-view-divider:generateReleaseResources
 > Task :recycler-view-divider:packageReleaseResources
-> Task :recycler-view-divider:processReleaseManifest
-> Task :recycler-view-divider:generateReleaseRFile
-> Task :recycler-view-divider:compileReleaseKotlin
-> Task :recycler-view-divider:generateReleaseSources
-> Task :recycler-view-divider:javaPreCompileRelease
-> Task :recycler-view-divider:compileReleaseJavaWithJavac
-> Task :recycler-view-divider:extractReleaseAnnotations
-> Task :recycler-view-divider:mergeReleaseConsumerProguardFiles
 > Task :recycler-view-divider:mergeReleaseShaders
 > Task :recycler-view-divider:compileReleaseShaders
 > Task :recycler-view-divider:generateReleaseAssets
 > Task :recycler-view-divider:packageReleaseAssets
 > Task :recycler-view-divider:packageReleaseRenderscript NO-SOURCE
 > Task :recycler-view-divider:processReleaseJavaRes NO-SOURCE
-> Task :recycler-view-divider:transformResourcesWithMergeJavaResForRelease
-> Task :recycler-view-divider:transformClassesAndResourcesWithSyncLibJarsForRelease
 > Task :recycler-view-divider:mergeReleaseJniLibFolders
-> Task :recycler-view-divider:transformNativeLibsWithMergeJniLibsForRelease
-> Task :recycler-view-divider:transformNativeLibsWithStripDebugSymbolForRelease
+> Task :recycler-view-divider:processReleaseManifest
+> Task :recycler-view-divider:prepareLintJarForPublish
+> Task :recycler-view-divider:parseReleaseLibraryResources
+> Task :recycler-view-divider:mergeReleaseNativeLibs
+> Task :recycler-view-divider:stripReleaseDebugSymbols
 > Task :recycler-view-divider:transformNativeLibsWithSyncJniLibsForRelease
-> Task :recycler-view-divider:bundleReleaseAar
+> Task :recycler-view-divider:mergeDebugNativeLibs
+> Task :recycler-view-divider:stripDebugDebugSymbols
+> Task :recycler-view-divider:transformNativeLibsWithSyncJniLibsForDebug
+> Task :recycler-view-divider:parseDebugLibraryResources
+> Task :recycler-view-divider:mergeReleaseResources
+> Task :recycler-view-divider:generateReleaseRFile
+> Task :recycler-view-divider:compileReleaseKotlin
+> Task :recycler-view-divider:verifyReleaseResources
+> Task :recycler-view-divider:javaPreCompileRelease
+> Task :recycler-view-divider:compileReleaseJavaWithJavac
+> Task :recycler-view-divider:extractReleaseAnnotations
+> Task :recycler-view-divider:mergeReleaseGeneratedProguardFiles
+> Task :recycler-view-divider:mergeReleaseConsumerProguardFiles
 > Task :recycler-view-divider:compileReleaseSources
+> Task :recycler-view-divider:generateDebugRFile
+> Task :recycler-view-divider:compileDebugKotlin
+> Task :recycler-view-divider:mergeReleaseJavaResource
+> Task :recycler-view-divider:transformClassesAndResourcesWithSyncLibJarsForRelease
+> Task :recycler-view-divider:bundleReleaseAar
+> Task :recycler-view-divider:assembleRelease
+> Task :recycler-view-divider:sourcesJar
 
 > Task :recycler-view-divider:dokka
 No documentation for com.fondesa.recyclerviewdivider.RecyclerViewDivider$getItemOffsets(android.graphics.Rect, android.view.View, androidx.recyclerview.widget.RecyclerView, androidx.recyclerview.widget.RecyclerView.State) (RecyclerViewDivider.kt:99)
@@ -205,57 +191,52 @@ Can't find node by signature `android.graphics.drawable.Drawable`, referenced at
 Can't find node by signature `androidx.recyclerview.widget.RecyclerView$VERTICAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
 Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONTAL`, referenced at com.fondesa.recyclerviewdivider.manager.size.SizeManager$itemSize(android.graphics.drawable.Drawable, kotlin.Int, kotlin.Int, kotlin.Int) (SizeManager.kt:34)
 
-> Task :recycler-view-divider:mergeReleaseResources
-> Task :recycler-view-divider:verifyReleaseResources
-> Task :recycler-view-divider:assembleRelease
-> Task :recycler-view-divider:sourcesJar
 > Task :recycler-view-divider:javadocJar
+> Task :recycler-view-divider:javaPreCompileDebug
+> Task :recycler-view-divider:compileDebugJavaWithJavac
+> Task :recycler-view-divider:extractDebugAnnotations
+> Task :recycler-view-divider:mergeDebugGeneratedProguardFiles
+> Task :recycler-view-divider:mergeDebugConsumerProguardFiles
+> Task :recycler-view-divider:compileDebugSources
+> Task :recycler-view-divider:mergeDebugJavaResource
+> Task :recycler-view-divider:transformClassesAndResourcesWithSyncLibJarsForDebug
+> Task :recycler-view-divider:bundleDebugAar
+> Task :recycler-view-divider:assembleDebug
 > Task :recycler-view-divider:assemble
 > Task :recycler-view-divider:build
 > Task :recycler-view-divider:bundleLibCompileDebug
 > Task :sample:preBuild UP-TO-DATE
-> Task :sample:preLocalDebugBuild
+> Task :sample:preLocalDebugBuild UP-TO-DATE
 > Task :sample:compileLocalDebugAidl NO-SOURCE
-> Task :sample:compileLocalDebugRenderscript NO-SOURCE
 > Task :sample:checkLocalDebugManifest
+> Task :sample:compileLocalDebugRenderscript NO-SOURCE
 > Task :sample:generateLocalDebugBuildConfig
 > Task :sample:mainApkListPersistenceLocalDebug
 > Task :sample:generateLocalDebugResValues
 > Task :sample:generateLocalDebugResources
 > Task :sample:createLocalDebugCompatibleScreenManifests
-> Task :sample:mergeLocalDebugResources
 > Task :sample:processLocalDebugManifest
+> Task :sample:mergeLocalDebugResources
 > Task :sample:processLocalDebugResources
 > Task :sample:compileLocalDebugKotlin
-> Task :sample:prepareLintJar
-> Task :sample:generateLocalDebugSources
+> Task :recycler-view-divider:bundleLibResDebug
 > Task :sample:javaPreCompileLocalDebug
 > Task :sample:compileLocalDebugJavaWithJavac
 > Task :sample:compileLocalDebugSources
-> Task :recycler-view-divider:bundleLibResDebug
 > Task :recycler-view-divider:bundleLibRuntimeDebug
 > Task :recycler-view-divider:createFullJarDebug
 > Task :sample:checkLocalDebugDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForLocalDebug
-> Task :sample:mergeExtDexLocalDebug
-> Task :sample:mergeDexLocalDebug
 > Task :sample:mergeLocalDebugShaders
 > Task :sample:compileLocalDebugShaders
 > Task :sample:generateLocalDebugAssets
 > Task :sample:mergeLocalDebugAssets
+> Task :sample:processLocalDebugJavaRes NO-SOURCE
 > Task :sample:validateSigningLocalDebug
 > Task :sample:signingConfigWriterLocalDebug
 > Task :recycler-view-divider:transformNativeLibsWithIntermediateJniLibsForDebug
 > Task :sample:mergeLocalDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForLocalDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForLocalDebug
-> Task :sample:processLocalDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForLocalDebug
-> Task :sample:packageLocalDebug
-> Task :sample:assembleLocalDebug
-> Task :recycler-view-divider:bundleLibCompileRelease
-> Task :sample:preLocalReleaseBuild
-> Task :sample:preMavenDebugBuild
+> Task :sample:preMavenDebugBuild UP-TO-DATE
 > Task :sample:compileMavenDebugAidl NO-SOURCE
 > Task :sample:compileMavenDebugRenderscript NO-SOURCE
 > Task :sample:checkMavenDebugManifest
@@ -263,33 +244,28 @@ Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONT
 > Task :sample:mainApkListPersistenceMavenDebug
 > Task :sample:generateMavenDebugResValues
 > Task :sample:generateMavenDebugResources
-> Task :sample:mergeMavenDebugResources
+> Task :sample:mergeLocalDebugJavaResource
+> Task :sample:mergeLocalDebugNativeLibs
+> Task :sample:stripLocalDebugDebugSymbols
 > Task :sample:createMavenDebugCompatibleScreenManifests
 > Task :sample:processMavenDebugManifest
+> Task :sample:mergeMavenDebugResources
 > Task :sample:processMavenDebugResources
 > Task :sample:compileMavenDebugKotlin
-> Task :sample:generateMavenDebugSources
-> Task :sample:javaPreCompileMavenDebug
-> Task :sample:compileMavenDebugJavaWithJavac
-> Task :sample:compileMavenDebugSources
 > Task :sample:checkMavenDebugDuplicateClasses
-> Task :sample:transformClassesWithDexBuilderForMavenDebug
 > Task :sample:mergeMavenDebugShaders
-> Task :sample:mergeExtDexMavenDebug
-> Task :sample:mergeDexMavenDebug
 > Task :sample:compileMavenDebugShaders
 > Task :sample:generateMavenDebugAssets
 > Task :sample:mergeMavenDebugAssets
+> Task :sample:javaPreCompileMavenDebug
+> Task :sample:compileMavenDebugJavaWithJavac
+> Task :sample:compileMavenDebugSources
+> Task :sample:transformClassesWithDexBuilderForMavenDebug
+> Task :sample:processMavenDebugJavaRes NO-SOURCE
 > Task :sample:validateSigningMavenDebug
 > Task :sample:signingConfigWriterMavenDebug
 > Task :sample:mergeMavenDebugJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForMavenDebug
-> Task :sample:transformNativeLibsWithStripDebugSymbolForMavenDebug
-> Task :sample:processMavenDebugJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForMavenDebug
-> Task :sample:packageMavenDebug
-> Task :sample:assembleMavenDebug
-> Task :sample:assembleDebug
+> Task :sample:preLocalReleaseBuild UP-TO-DATE
 > Task :sample:compileLocalReleaseAidl NO-SOURCE
 > Task :sample:compileLocalReleaseRenderscript NO-SOURCE
 > Task :sample:checkLocalReleaseManifest
@@ -297,38 +273,44 @@ Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONT
 > Task :sample:mainApkListPersistenceLocalRelease
 > Task :sample:generateLocalReleaseResValues
 > Task :sample:generateLocalReleaseResources
-> Task :sample:mergeLocalReleaseResources
+> Task :recycler-view-divider:bundleLibCompileRelease
+> Task :sample:mergeMavenDebugNativeLibs
+> Task :sample:stripMavenDebugDebugSymbols
 > Task :sample:createLocalReleaseCompatibleScreenManifests
 > Task :sample:processLocalReleaseManifest
+> Task :sample:mergeMavenDebugJavaResource
+> Task :sample:mergeLocalReleaseResources
 > Task :sample:processLocalReleaseResources
 > Task :sample:compileLocalReleaseKotlin
-> Task :sample:generateLocalReleaseSources
+> Task :sample:mergeExtDexLocalDebug
 > Task :sample:javaPreCompileLocalRelease
 > Task :sample:compileLocalReleaseJavaWithJavac
 > Task :sample:compileLocalReleaseSources
-> Task :recycler-view-divider:bundleLibResRelease
+> Task :sample:prepareLintJar
+
 > Task :sample:lintVitalLocalRelease
+Calling mockable JAR artifact transform to create file: /Users/vbauer/.gradle/caches/transforms-2/files-2.1/475a52d49ee20de144264c179bfa6786/android.jar with input /Users/vbauer/Library/Android/sdk/platforms/android-29/android.jar
+
+> Task :sample:checkLocalReleaseDuplicateClasses
+> Task :sample:mergeDexLocalDebug
+> Task :sample:packageLocalDebug
+> Task :sample:assembleLocalDebug
+> Task :sample:mergeExtDexMavenDebug
+> Task :recycler-view-divider:bundleLibResRelease
 > Task :recycler-view-divider:bundleLibRuntimeRelease
 > Task :recycler-view-divider:createFullJarRelease
-> Task :sample:checkLocalReleaseDuplicateClasses
 > Task :sample:transformClassesWithDexBuilderForLocalRelease
-> Task :sample:mergeExtDexLocalRelease
-> Task :sample:mergeDexLocalRelease
 > Task :sample:mergeLocalReleaseShaders
 > Task :sample:compileLocalReleaseShaders
 > Task :sample:generateLocalReleaseAssets
 > Task :sample:mergeLocalReleaseAssets
+> Task :sample:processLocalReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterLocalRelease
 > Task :recycler-view-divider:transformNativeLibsWithIntermediateJniLibsForRelease
 > Task :sample:mergeLocalReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForLocalRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForLocalRelease
-> Task :sample:processLocalReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForLocalRelease
-> Task :sample:packageLocalRelease
-> Task :sample:assembleLocalRelease
-> Task :sample:assembleLocal
-> Task :sample:preMavenReleaseBuild
+> Task :sample:mergeLocalReleaseNativeLibs
+> Task :sample:stripLocalReleaseDebugSymbols
+> Task :sample:preMavenReleaseBuild UP-TO-DATE
 > Task :sample:compileMavenReleaseAidl NO-SOURCE
 > Task :sample:compileMavenReleaseRenderscript NO-SOURCE
 > Task :sample:checkMavenReleaseManifest
@@ -336,30 +318,39 @@ Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONT
 > Task :sample:mainApkListPersistenceMavenRelease
 > Task :sample:generateMavenReleaseResValues
 > Task :sample:generateMavenReleaseResources
-> Task :sample:mergeMavenReleaseResources
+> Task :sample:mergeDexMavenDebug
+> Task :sample:packageMavenDebug
+> Task :sample:assembleMavenDebug
+> Task :sample:assembleDebug
 > Task :sample:createMavenReleaseCompatibleScreenManifests
 > Task :sample:processMavenReleaseManifest
-> Task :sample:processMavenReleaseResources
-> Task :sample:compileMavenReleaseKotlin
-> Task :sample:generateMavenReleaseSources
-> Task :sample:javaPreCompileMavenRelease
-> Task :sample:compileMavenReleaseJavaWithJavac
-> Task :sample:compileMavenReleaseSources
 > Task :sample:checkMavenReleaseDuplicateClasses
-> Task :sample:lintVitalMavenRelease
-> Task :sample:transformClassesWithDexBuilderForMavenRelease
-> Task :sample:mergeExtDexMavenRelease
-> Task :sample:mergeDexMavenRelease
+> Task :sample:mergeLocalReleaseJavaResource
 > Task :sample:mergeMavenReleaseShaders
 > Task :sample:compileMavenReleaseShaders
 > Task :sample:generateMavenReleaseAssets
 > Task :sample:mergeMavenReleaseAssets
+> Task :sample:processMavenReleaseJavaRes NO-SOURCE
 > Task :sample:signingConfigWriterMavenRelease
 > Task :sample:mergeMavenReleaseJniLibFolders
-> Task :sample:transformNativeLibsWithMergeJniLibsForMavenRelease
-> Task :sample:transformNativeLibsWithStripDebugSymbolForMavenRelease
-> Task :sample:processMavenReleaseJavaRes NO-SOURCE
-> Task :sample:transformResourcesWithMergeJavaResForMavenRelease
+> Task :sample:mergeMavenReleaseResources
+> Task :sample:processMavenReleaseResources
+> Task :sample:compileMavenReleaseKotlin
+> Task :sample:mergeMavenReleaseNativeLibs
+> Task :sample:stripMavenReleaseDebugSymbols
+> Task :sample:javaPreCompileMavenRelease
+> Task :sample:compileMavenReleaseJavaWithJavac
+> Task :sample:compileMavenReleaseSources
+> Task :sample:lintVitalMavenRelease
+> Task :sample:transformClassesWithDexBuilderForMavenRelease
+> Task :sample:mergeExtDexLocalRelease
+> Task :sample:mergeMavenReleaseJavaResource
+> Task :sample:mergeExtDexMavenRelease
+> Task :sample:mergeDexLocalRelease
+> Task :sample:packageLocalRelease
+> Task :sample:assembleLocalRelease
+> Task :sample:assembleLocal
+> Task :sample:mergeDexMavenRelease
 > Task :sample:packageMavenRelease
 > Task :sample:assembleMavenRelease
 > Task :sample:assembleMaven
@@ -369,9 +360,9 @@ Can't find node by signature `androidx.recyclerview.widget.RecyclerView$HORIZONT
 
 Deprecated Gradle features were used in this build, making it incompatible with Gradle 6.0.
 Use '--warning-mode all' to show the individual deprecation warnings.
-See https://docs.gradle.org/5.1.1/userguide/command_line_interface.html#sec:command_line_warnings
+See https://docs.gradle.org/5.6.2/userguide/command_line_interface.html#sec:command_line_warnings
 
-BUILD SUCCESSFUL in 57s
-164 actionable tasks: 164 executed
+BUILD SUCCESSFUL in 1m 17s
+163 actionable tasks: 163 executed
 
-2019-06-10 14:28:29,033 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1560151512632-0/src/sample/build/outputs/apk/maven/release/sample-maven-release-unsigned.apk
+2019-10-04 15:00:58,107 INFO  FullProcessService - Found APK file: /var/folders/bq/vtzpc5ns5sg2cthy61lqpg3dfzgbys/T/1570175958334-0/src/RecyclerViewDivider-master/sample/build/outputs/apk/maven/release/sample-maven-release-unsigned.apk
